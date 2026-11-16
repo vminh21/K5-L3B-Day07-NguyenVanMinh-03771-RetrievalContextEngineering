@@ -413,6 +413,8 @@ Mẫu bảng (đưa thẳng vào báo cáo):
 
 ## BƯỚC 11 (TÙY CHỌN) — Thử thách nâng cao +15 điểm
 
+> ✅ **Đã làm (2026-11-16):** NASA FY 2024 AFR (127 trang), VLM trích bảng/hình + text layer → 608 chunk; agent `search(query, kind)` + `view_page` + `final_answer`, hybrid + rerank; benchmark `732d1b2` → chốt cấu hình `19003e0` → test 1 lần `dc3f48c`: **29/30 (96,67%)** chấm tay. Chi tiết: mục *Thử thách nâng cao* trong report.
+
 Chỉ làm khi phần cơ bản đã xong. **Không có điểm một phần** — hoặc đủ mọi điều kiện + ≥90% test, hoặc 0.
 
 - Tài liệu thật **≥100 trang** có text + bảng + ảnh + biểu đồ (vd. báo cáo thường niên World Bank/IMF, báo cáo thống kê có giấy phép mở). Ghi nguồn, phiên bản, số trang, quyền.
@@ -435,10 +437,10 @@ Chỉ làm khi phần cơ bản đã xong. **Không có điểm một phần** �
 
 ## Phụ lục B — Self-check trước khi nộp
 
-- [ ] Grep code agent: không có chuỗi `gold`, `expected_answer`, `evidence` trong luồng gọi model/retriever.
-- [ ] Commit "freeze benchmark" có trước commit "freeze selected config", và cả hai có trước mọi file `results/**/test/`.
-- [ ] Mọi bảng trong báo cáo dùng `n/N` + %, cùng N cho mọi cấu hình trên cùng split.
-- [ ] Mỗi con số trong báo cáo khớp `summary.json` tương ứng.
-- [ ] Ghi đầy đủ: model LLM, embedding, chiều vector, vector store, top-k, budget (đơn vị), max_searches, temperature.
-- [ ] Có ít nhất 1 kết quả không cải thiện được báo cáo trung thực.
-- [ ] `python3 -m unittest discover -s tests -v` pass.
+- [x] Grep code agent: không có chuỗi `gold`, `expected_answer`, `evidence` trong luồng gọi model/retriever.
+- [x] Commit "freeze benchmark" có trước commit "freeze selected config", và cả hai có trước mọi file `results/**/test/`.
+- [x] Mọi bảng trong báo cáo dùng `n/N` + %, cùng N cho mọi cấu hình trên cùng split.
+- [x] Mỗi con số trong báo cáo khớp `summary.json` tương ứng.
+- [x] Ghi đầy đủ: model LLM, embedding, chiều vector, vector store, top-k, budget (đơn vị), max_searches, temperature.
+- [x] Có ít nhất 1 kết quả không cải thiện được báo cáo trung thực.
+- [x] `python3 -m unittest discover -s tests -v` pass.
