@@ -144,6 +144,13 @@ RETRIEVAL_MODES = {
 PER_SEARCH_BUDGET, TOTAL_BUDGET = 4500, 9000
 
 
+def suggestion_buttons(prefix: str):
+    """Clickable suggested questions; a click queues the question for the agent."""
+    for i, sample in enumerate(SAMPLES[1:]):
+        if st.button(f"💬 {sample}", key=f"{prefix}{i}", width="stretch"):
+            st.session_state["pending_q"] = re.sub(r"\s+\(.*\)$", "", sample)
+
+
 def chunk_rows(r: dict) -> tuple[list[dict], list[dict]]:
     """(retrieved, neighbours): chunks the retriever returned (top-k per search) and extra neighbour chunks."""
     retrieved, neighbours, seen, cited = [], [], set(), set(r.get("citations", []))
@@ -198,7 +205,8 @@ with tab_ask:
                     st.markdown("Xin chào! Hãy hỏi tôi về *Manifesto of the Communist Party* (bằng tiếng Anh). "
                                 "Tôi chỉ trả lời từ tài liệu, có trích nguồn, và sẽ từ chối nếu tài liệu không có thông tin. "
                                 "Chọn cách retrieval ở bên phải.")
-                    st.caption("Gợi ý: " + " · ".join(f"*{re.sub(r'  .*$', '', s)}*" for s in SAMPLES[1:4]))
+                    st.markdown("**Bấm một câu gợi ý để hỏi thử:**")
+                    suggestion_buttons("welcome_")
             for i, msg in enumerate(chat):
                 if msg["role"] == "user":
                     with st.chat_message("user"):
@@ -216,7 +224,10 @@ with tab_ask:
                     st.caption(f"{STATUS[r['status']]} · {msg['mode']} · top-{msg.get('top_k', 3)}{' + neighbour' if msg.get('nb') else ''} · prompt {msg['prompt']} · "
                                f"{r.get('elapsed_ms', 0) / 1000:.1f} s · ${r.get('cost_usd', 0):.5f}")
 
-        q = st.chat_input("Hỏi về Manifesto (tiếng Anh)…")
+        if chat:
+            with st.popover("💡 Câu hỏi gợi ý"):
+                suggestion_buttons("pop_")
+        q = st.chat_input("Hỏi về Manifesto (tiếng Anh)…") or st.session_state.pop("pending_q", None)
         if q:
             from src.agent import Agent
             from src.llm import LLM
