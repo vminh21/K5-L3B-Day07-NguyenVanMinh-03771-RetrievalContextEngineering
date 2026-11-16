@@ -23,3 +23,10 @@ Ngày: 2026-11-16. Chỉnh trên **dev (25 câu) + dev_hard (10 câu)**; đánh 
 
 ## Test v3
 Chạy một lần: A0 (baseline), A2 (chọn vòng 1), cấu hình chọn vòng 3.
+
+## Phụ lục (viết sau khi đo vòng 3 lần 1, TRƯỚC khi đo lần 2) — 2026-11-16
+Kết quả lần 1: dev_hard A2 = A4 = A4r = 10/10; dev A2 25/25, A4 24/25 (q12 false abstention).
+- Chẩn đoán q12: bộ kiểm tra số **không kích hoạt**; replay cùng query cho context **giống hệt** khi bật/tắt dedup → nguyên nhân là query model tự chọn (dao động giữa các lần chạy), không phải thành phần A4.
+- A4r (rerank): retrieval dev CtxEv 22 → 19/22, dev_hard 8 → 6/8 → **loại** (giảm chỉ số dev).
+- Continuation-first: dev 22/22, dev_hard 8 → 7/8 (h04: evidence ở neighbour không bị cắt) → **loại**.
+- Vì khác biệt A2/A4 chỉ là 1 câu do dao động, **đo thêm 1 lần nữa trên dev cho cả A2 và A4** (cùng code, gồm bản sửa `exclude` cho neighbour đã hiển thị); báo cáo **cả hai lần**, quyết định theo **tổng pass 2 lần** (/50), hòa → tiêu chí cũ tiếp theo. Không chạy thêm lần nào nữa.
