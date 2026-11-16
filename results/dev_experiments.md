@@ -33,12 +33,12 @@
 - Filter chương (do người dùng cung cấp) gần như không đổi kết quả trên dev (chỉ dense +1 câu context).
 - Toàn bộ thử nghiệm agent dev (A0+A1+A2 + smoke) tốn $0.044 theo `results/cost_ledger.jsonl`.
 
-## Chọn cấu hình (theo `configs/selected_criteria.md`, commit a6d895f)
+## Chọn cấu hình (theo `configs/selected_criteria.md`, commit 5a097a5)
 1. Pass dev: A1 = A2 = 25/25 > A0 = 23/25 → loại A0.
 2. Context Evidence Rate: A2 (hybrid + neighbours, 4500) 21/22 > A1 (hybrid, 3000) 19/22 → **chọn A2**.
 Ràng buộc: false abstention 0/22 (không tăng); median 3.6 s ≤ 10 s; $0.00062/câu ≤ $0.002; 0 lỗi hệ thống.
 
-## Vòng 2 (sau khi test v1 bị dùng để chẩn đoán t06) — chỉ chỉnh trên dev, tiêu chí `configs/selected_criteria_v2.md` (commit b97e76a), đánh giá độc lập bằng test v2 (commit b62fa16)
+## Vòng 2 (sau khi test v1 bị dùng để chẩn đoán t06) — chỉ chỉnh trên dev, tiêu chí `configs/selected_criteria_v2.md` (commit 00b50c5), đánh giá độc lập bằng test v2 (commit 6fa2c93)
 
 ### Retrieval dev
 

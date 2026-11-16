@@ -2,8 +2,8 @@
   "selected": "A2_hybrid_v2_nb",
   "round": 3,
   "chosen_on": "dev (25) + dev_hard (10) only",
-  "criteria": "configs/selected_criteria_v3.md (commit e4ef2d6, addendum a7dfe33)",
-  "evaluated_on": "test v3 (data/day7/test_v3, commit df55fb3) — run once",
+  "criteria": "configs/selected_criteria_v3.md (commit b8fc17a, addendum 9a22c64)",
+  "evaluated_on": "test v3 (data/day7/test_v3, commit e6e0513) — run once",
   "decision": {
     "dev_hard_pass": {"A2": "10/10", "A4": "10/10", "A4r_rerank": "10/10"},
     "dev_pass_2_runs": {"A2": "25 + 25 = 50/50", "A4": "24 + 25 = 49/50"},

@@ -73,4 +73,4 @@ Dev khó: thay `$CS`/`$Q` bằng `data/day7/dev_hard/...` và `--split dev --out
 
 ## Kết quả
 - Dev: [`results/dev_experiments.md`](results/dev_experiments.md) · Test v1: [`results/test_results.md`](results/test_results.md) · Test v2: [`results/test_v2_results.md`](results/test_v2_results.md) · Test v3: [`results/test_v3_results.md`](results/test_v3_results.md)
-- Trình tự commit chứng minh không chỉnh trên test: `5327c54` (đóng băng benchmark) → `a6d895f` (tiêu chí) → `0a61773` (chốt vòng 1) → test v1 → `b62fa16` (test v2) → `b97e76a` (tiêu chí vòng 2) → `c6ce972` (chốt vòng 2) → `911af4c` (kết quả test v2) → `df55fb3` (test v3 + dev_hard) → `e4ef2d6` (tiêu chí vòng 3) → `a7dfe33` (phụ lục) → `89a611a` (chốt vòng 3) → `bb5df52` (kết quả test v3).
+- Trình tự commit chứng minh không chỉnh trên test: `e70e0a3` (đóng băng benchmark) → `5a097a5` (tiêu chí) → `2f28739` (chốt vòng 1) → test v1 → `6fa2c93` (test v2) → `00b50c5` (tiêu chí vòng 2) → `af9cdc7` (chốt vòng 2) → `b521b4a` (kết quả test v2) → `e6e0513` (test v3 + dev_hard) → `b8fc17a` (tiêu chí vòng 3) → `9a22c64` (phụ lục) → `7b8354e` (chốt vòng 3) → `83b6555` (kết quả test v3).

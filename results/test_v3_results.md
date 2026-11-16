@@ -1,6 +1,6 @@
 # Test v3 — kết quả (chạy một lần, 2026-11-16)
 
-Cấu hình chốt trước khi chạy: `configs/selected_v3.json` (commit 89a611a). Benchmark: `data/day7/test_v3` (commit df55fb3), 20 câu có đáp án + 6 câu thiếu evidence.
+Cấu hình chốt trước khi chạy: `configs/selected_v3.json` (commit 7b8354e). Benchmark: `data/day7/test_v3` (commit e6e0513), 20 câu có đáp án + 6 câu thiếu evidence.
 
 ## Retrieval (câu hỏi gốc, 20 câu có đáp án)
 | Cấu hình | Hit@1 | Evidence Hit@3 | Context Evidence Rate | Miss context |

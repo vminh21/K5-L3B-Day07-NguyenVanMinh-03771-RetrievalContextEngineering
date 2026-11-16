@@ -7,6 +7,7 @@
 | **Cách chạy** | [`RUN.md`](../../RUN.md) |
 | **Nguồn số liệu** | `results/**/summary.json`, `traces.json`, `reviews.json`, `agent_metrics.json`, `results/cost_ledger.jsonl` |
 | **Bảng chi tiết** | [`dev_experiments.md`](../../results/dev_experiments.md) · [`test_results.md`](../../results/test_results.md) (v1) · [`test_v2_results.md`](../../results/test_v2_results.md) · [`test_v3_results.md`](../../results/test_v3_results.md) |
+| **Commit hash** | Lịch sử đã được viết lại một lần để bỏ dòng co-author và hoàn nguyên `README.md` của ban tổ chức; nội dung, thứ tự và thời gian commit giữ nguyên, các hash trong báo cáo là hash mới |
 | **Sửa đổi sau khi chạy** | [`gold_correction.md`](../../results/gold_correction.md) (bổ sung gold t06/u06) · [`metric_bugfix.md`](../../results/metric_bugfix.md) (lỗi đo Context Evidence Rate) |
 
 ## Tóm tắt kết quả
@@ -54,11 +55,11 @@
 
 | Split | Có đáp án | Thiếu evidence | Commit | Vai trò |
 |---|---:|---:|---|---|
-| dev | 22 | 3 | `5327c54` | Chỉnh và chọn cấu hình (22 câu Day 6) |
-| dev_hard | 8 | 2 | `df55fb3` | Chỉnh vòng 3 (dev cũ đã bão hòa 22/22) |
-| test v1 | 6 | 2 | `5327c54` | Đánh giá vòng 1 — **không còn độc lập** (đã dùng để chẩn đoán t06) |
-| test v2 | 7 | 2 | `b62fa16` | Đánh giá vòng 2 |
-| **test v3** | **20** | **6** | `df55fb3` | Đánh giá vòng 3, chạy đúng 1 lần |
+| dev | 22 | 3 | `e70e0a3` | Chỉnh và chọn cấu hình (22 câu Day 6) |
+| dev_hard | 8 | 2 | `e6e0513` | Chỉnh vòng 3 (dev cũ đã bão hòa 22/22) |
+| test v1 | 6 | 2 | `e70e0a3` | Đánh giá vòng 1 — **không còn độc lập** (đã dùng để chẩn đoán t06) |
+| test v2 | 7 | 2 | `6fa2c93` | Đánh giá vòng 2 |
+| **test v3** | **20** | **6** | `e6e0513` | Đánh giá vòng 3, chạy đúng 1 lần |
 | **Tổng** | **63** | **15** | | |
 
 **Test v3 — loại câu** (0 chunk evidence trùng với các split khác; commit trước mọi thay đổi vòng 3)
@@ -160,9 +161,9 @@ Hybrid RRF vừa là phương pháp 3 vừa là cải thiện so với dense. Tr
 
 | Vòng | Tiêu chí | Ứng viên và kết quả | Chọn | Commit |
 |---|---|---|---|---|
-| 1 | [`selected_criteria.md`](../../configs/selected_criteria.md): pass dev → CtxEv → Hit@3 → citation → rẻ/nhanh | A1 = A2 = 25/25; CtxEv A2 cao hơn | **A2** | `0a61773` |
-| 2 | [`selected_criteria_v2.md`](../../configs/selected_criteria_v2.md) | A3b 25/25, CtxEv 22/22 (A3 prompt v3 bị loại: abstention 2/3) | A3b — **sai do lỗi đo**: A2 thực ra cũng 22/22 → lẽ ra chọn A2 (rẻ hơn) | `c6ce972` |
-| 3 | [`selected_criteria_v3.md`](../../configs/selected_criteria_v3.md): top-k giữ = 5; pass dev_hard → pass dev → CtxEv | dev_hard: A2 = A4 = A4r = 10/10. Dev 2 lần (theo phụ lục `a7dfe33`, viết trước lần đo 2): A2 **50/50**, A4 49/50. Rerank, continuation-first bị loại vì giảm CtxEv dev | **A2** (A4 = ablation khai báo trước) | `89a611a` |
+| 1 | [`selected_criteria.md`](../../configs/selected_criteria.md): pass dev → CtxEv → Hit@3 → citation → rẻ/nhanh | A1 = A2 = 25/25; CtxEv A2 cao hơn | **A2** | `2f28739` |
+| 2 | [`selected_criteria_v2.md`](../../configs/selected_criteria_v2.md) | A3b 25/25, CtxEv 22/22 (A3 prompt v3 bị loại: abstention 2/3) | A3b — **sai do lỗi đo**: A2 thực ra cũng 22/22 → lẽ ra chọn A2 (rẻ hơn) | `af9cdc7` |
+| 3 | [`selected_criteria_v3.md`](../../configs/selected_criteria_v3.md): top-k giữ = 5; pass dev_hard → pass dev → CtxEv | dev_hard: A2 = A4 = A4r = 10/10. Dev 2 lần (theo phụ lục `9a22c64`, viết trước lần đo 2): A2 **50/50**, A4 49/50. Rerank, continuation-first bị loại vì giảm CtxEv dev | **A2** (A4 = ablation khai báo trước) | `7b8354e` |
 
 ## Agent và đánh giá
 

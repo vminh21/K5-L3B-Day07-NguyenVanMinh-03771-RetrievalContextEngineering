@@ -1,6 +1,6 @@
 # Tiêu chí chọn cấu hình — vòng 2 (viết TRƯỚC khi đo các cải tiến mới)
 
-Ngày: 2026-11-16. Bối cảnh: test v1 đã bị dùng để chẩn đoán lỗi t06 → chỉ chỉnh trên **dev**; đánh giá độc lập bằng **test v2** (commit b62fa16), chạy một lần sau khi chốt.
+Ngày: 2026-11-16. Bối cảnh: test v1 đã bị dùng để chẩn đoán lỗi t06 → chỉ chỉnh trên **dev**; đánh giá độc lập bằng **test v2** (commit 6fa2c93), chạy một lần sau khi chốt.
 
 ## Cải tiến dự kiến (tổng quát, không nhắm riêng một câu)
 - **I1 — loại chunk trùng nội dung**: Day 6 có chunk giống hệt nhau chiếm chỗ trong top-k/context.

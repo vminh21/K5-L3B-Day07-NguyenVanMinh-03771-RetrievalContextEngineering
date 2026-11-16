@@ -1,4 +1,4 @@
-# Kết quả TEST (chạy 1 lần sau khi chốt cấu hình ở commit 0a61773) — 2026-11-16
+# Kết quả TEST (chạy 1 lần sau khi chốt cấu hình ở commit 2f28739) — 2026-11-16
 
 ## Retrieval (6 câu có đáp án)
 

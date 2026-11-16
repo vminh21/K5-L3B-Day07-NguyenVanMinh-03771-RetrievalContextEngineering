@@ -1,6 +1,6 @@
 # Tiêu chí chọn cấu hình — vòng 3 (viết TRƯỚC khi đo)
 
-Ngày: 2026-11-16. Chỉnh trên **dev (25 câu) + dev_hard (10 câu)**; đánh giá độc lập bằng **test v3** (commit df55fb3), chạy một lần sau khi chốt. Test v1 (t06) chỉ dùng làm **chẩn đoán** (đã bị dùng để chỉnh từ vòng 2), không dùng để chọn.
+Ngày: 2026-11-16. Chỉnh trên **dev (25 câu) + dev_hard (10 câu)**; đánh giá độc lập bằng **test v3** (commit e6e0513), chạy một lần sau khi chốt. Test v1 (t06) chỉ dùng làm **chẩn đoán** (đã bị dùng để chỉnh từ vòng 2), không dùng để chọn.
 
 ## Ràng buộc của người dùng
 - **Không sửa lỗi bằng cách lấy thêm chunk**: top-k = 5 như A2 (không dùng top-k 8 của vòng 2).

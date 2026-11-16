@@ -1,7 +1,7 @@
 {
   "selected": "A2_hybrid_v2_nb",
   "chosen_on": "dev only",
-  "criteria": "configs/selected_criteria.md (commit a6d895f)",
+  "criteria": "configs/selected_criteria.md (commit 5a097a5)",
   "retrieval": {
     "method": "hybrid_rrf",
     "components": [

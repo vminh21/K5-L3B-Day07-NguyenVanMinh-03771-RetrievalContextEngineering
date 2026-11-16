@@ -2,8 +2,8 @@
   "selected": "A3b_hybrid_v2_k8_nb_dd",
   "round": 2,
   "chosen_on": "dev only",
-  "criteria": "configs/selected_criteria_v2.md (commit b97e76a)",
-  "evaluated_on": "test v2 (data/day7/test_v2, commit b62fa16) — test v1 no longer independent for this config",
+  "criteria": "configs/selected_criteria_v2.md (commit 00b50c5)",
+  "evaluated_on": "test v2 (data/day7/test_v2, commit 6fa2c93) — test v1 no longer independent for this config",
   "retrieval": {
     "method": "hybrid_rrf",
     "components": [

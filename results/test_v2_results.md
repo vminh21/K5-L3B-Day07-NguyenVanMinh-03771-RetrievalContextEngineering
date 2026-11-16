@@ -1,6 +1,6 @@
 # Kết quả TEST v2 (đánh giá độc lập vòng 2) — 2026-11-16
 
-Test v2 viết và commit trước mọi thay đổi (b62fa16); cấu hình vòng 2 chốt trước khi chạy (c6ce972). Mỗi cấu hình chạy **một lần**. Test v1 không còn độc lập cho cấu hình vòng 2 (đã dùng để chẩn đoán t06) — kết quả test v1 xem `results/test_results.md`.
+Test v2 viết và commit trước mọi thay đổi (6fa2c93); cấu hình vòng 2 chốt trước khi chạy (af9cdc7). Mỗi cấu hình chạy **một lần**. Test v1 không còn độc lập cho cấu hình vòng 2 (đã dùng để chẩn đoán t06) — kết quả test v1 xem `results/test_results.md`.
 
 ## Retrieval (7 câu có đáp án)
 
