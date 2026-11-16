@@ -33,3 +33,17 @@
 {"ts": "2026-11-16T16:27:32", "tag": "mm_agent", "model": "gpt-5.6-luna", "tokens_in": 830, "tokens_out": 34, "reasoning_tokens": 0, "cost_usd": 0.00020679999999999999}
 {"ts": "2026-11-16T16:27:34", "tag": "mm_agent", "model": "gpt-5.6-luna", "tokens_in": 2124, "tokens_out": 83, "reasoning_tokens": 12, "cost_usd": 0.0005244000000000001}
 {"ts": "2026-11-16T16:27:53", "tag": "mm_view_page", "model": "gpt-5.6-luna", "tokens_in": 2620, "tokens_out": 129, "cost_usd": 0.0006788, "reasoning_tokens": 77}
+{"ts": "2026-11-16T16:35:01", "tag": "mm_agent", "model": "gpt-5.6-luna", "tokens_in": 819, "tokens_out": 29, "reasoning_tokens": 0, "cost_usd": 0.00019860000000000003}
+{"ts": "2026-11-16T16:35:09", "tag": "mm_agent", "model": "gpt-5.6-luna", "tokens_in": 2029, "tokens_out": 57, "reasoning_tokens": 26, "cost_usd": 0.0004742}
+{"ts": "2026-11-16T16:35:14", "tag": "mm_agent", "model": "gpt-5.6-luna", "tokens_in": 2593, "tokens_out": 68, "reasoning_tokens": 40, "cost_usd": 0.0006002000000000001}
+{"ts": "2026-11-16T16:35:25", "tag": "mm_agent", "model": "gpt-5.6-luna", "tokens_in": 837, "tokens_out": 35, "reasoning_tokens": 0, "cost_usd": 0.0002094}
+{"ts": "2026-11-16T16:35:33", "tag": "mm_agent", "model": "gpt-5.6-luna", "tokens_in": 2040, "tokens_out": 106, "reasoning_tokens": 50, "cost_usd": 0.0005352}
+{"ts": "2026-11-16T16:35:36", "tag": "agent", "model": "gpt-5.6-luna", "tokens_in": 465, "tokens_out": 24, "reasoning_tokens": 0, "cost_usd": 0.00012179999999999999}
+{"ts": "2026-11-16T16:35:40", "tag": "agent", "model": "gpt-5.6-luna", "tokens_in": 998, "tokens_out": 71, "reasoning_tokens": 12, "cost_usd": 0.00028480000000000004}
+{"ts": "2026-11-16T16:47:00", "tag": "mm_agent", "model": "gpt-5.6-luna", "tokens_in": 819, "tokens_out": 28, "reasoning_tokens": 0, "cost_usd": 0.00019740000000000003}
+{"ts": "2026-11-16T16:47:03", "tag": "mm_agent", "model": "gpt-5.6-luna", "tokens_in": 1655, "tokens_out": 59, "reasoning_tokens": 25, "cost_usd": 0.0004018}
+{"ts": "2026-11-16T16:47:05", "tag": "mm_agent", "model": "gpt-5.6-luna", "tokens_in": 2188, "tokens_out": 37, "reasoning_tokens": 9, "cost_usd": 0.000482}
+{"ts": "2026-11-16T16:47:38", "tag": "mm_agent", "model": "gpt-5.6-luna", "tokens_in": 834, "tokens_out": 36, "reasoning_tokens": 0, "cost_usd": 0.00021}
+{"ts": "2026-11-16T16:47:42", "tag": "mm_agent", "model": "gpt-5.6-luna", "tokens_in": 1985, "tokens_out": 158, "reasoning_tokens": 47, "cost_usd": 0.0005866000000000001}
+{"ts": "2026-11-16T16:52:39", "tag": "mm_agent", "model": "gpt-5.6-luna", "tokens_in": 818, "tokens_out": 28, "reasoning_tokens": 0, "cost_usd": 0.00019720000000000002}
+{"ts": "2026-11-16T16:52:42", "tag": "mm_agent", "model": "gpt-5.6-luna", "tokens_in": 1808, "tokens_out": 74, "reasoning_tokens": 13, "cost_usd": 0.0004504}

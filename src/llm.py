@@ -44,7 +44,7 @@ def cost_of(tokens_in: int, tokens_out: int) -> float:
 class LLM:
     def __init__(self, model: str = config.LLM_MODEL, effort: str = config.LLM_REASONING_EFFORT,
                  max_output_tokens: int = 1500, ledger: CostLedger | None = None):
-        self.client = OpenAI(timeout=60, max_retries=2)
+        self.client = OpenAI(timeout=60, max_retries=5)  # backoff over short network drops
         self.model, self.effort, self.max_out = model, effort, max_output_tokens
         self.ledger = ledger or CostLedger()
         self.params = {"provider": "openai (Responses API)", "model": model, "reasoning_effort": effort,
