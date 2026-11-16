@@ -206,7 +206,7 @@ Báo cáo này còn một số giới hạn cần nói rõ:
 
 | Tab | Chức năng | Cần gì | Chi phí |
 |---|---|---|---|
-| 💬 Chat với agent | Giao diện **chat**: mỗi câu trả lời kèm danh sách gọn các **tool agent đã gọi** (`search("…")` → số chunk, trang; `final_answer(citations=…)`) và dòng thông tin (retriever, top-k, prompt, thời gian, chi phí). Khung bên phải cho **chọn cách retrieval** (Hybrid + neighbour, Dense, BM25, Hybrid, Rerank), **số chunk top-k 3–5**, prompt, filter, kiểm tra số, và **hiện các chunk retriever đã chọn** (⭐ = được cite; hạng, score); chunk liền kề do neighbour thêm vào được gom riêng một dòng | Postgres Day 6, Ollama, `OPENAI_API_KEY` | ~$0.0005–0.002 / câu |
+| 💬 Chat với agent | Giao diện **chat**: mỗi câu trả lời kèm danh sách gọn các **tool agent đã gọi** (`search("…")` → số chunk, trang; `final_answer(citations=…)`) và dòng thông tin (retriever, top-k, prompt, thời gian, chi phí). Khung bên phải cho **chọn cách retrieval** (Hybrid + neighbour, Dense, BM25, Hybrid, Rerank), **số chunk top-k 3–5 (mặc định 3)**, prompt, filter, kiểm tra số, và **hiện các chunk retriever đã chọn** (⭐ = được cite; hạng, score); chunk liền kề do neighbour thêm vào được gom riêng một dòng | Postgres Day 6, Ollama, `OPENAI_API_KEY` | ~$0.0005–0.002 / câu |
 | 🔎 So sánh retrieval | Top-5 của dense, BM25 và hybrid đặt cạnh nhau; đánh dấu chunk cả ba cùng tìm thấy | Postgres Day 6, Ollama | $0 |
 | 📊 So sánh cấu hình trên benchmark | So sánh mọi cấu hình (A0–A4r) trên mọi bộ câu hỏi, kèm biểu đồ % đạt và chi phí; so sánh các phương pháp retrieval (Hit@1, Context Evidence Rate); bảng đối chiếu từng câu × từng cấu hình và tool call của từng câu | Không cần, đọc từ `results/` | $0 |
 

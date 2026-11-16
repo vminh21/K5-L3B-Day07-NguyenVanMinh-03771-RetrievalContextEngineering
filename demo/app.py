@@ -179,7 +179,7 @@ with tab_ask:
         mode = RETRIEVAL_MODES[mode_name]
         st.caption(f"{mode['desc']} · budget {mode['per_search_budget']} ký tự/lượt"
                    + (" · có neighbour" if mode["neighbors"] else ""))
-        top_k = st.select_slider("Số chunk lấy mỗi lần search (top-k)", options=[3, 4, 5], value=5)
+        top_k = st.select_slider("Số chunk lấy mỗi lần search (top-k)", options=[3, 4, 5], value=3)
         o1, o2 = st.columns(2)
         prompt_v = o1.selectbox("Prompt", ["v2", "v1"], help="v2: từ chối chặt khi thiếu evidence (đã chọn); v1: baseline")
         use_filter = o2.selectbox("Filter chương", ["(không)", "Chapter I", "Chapter II", "Chapter III", "Chapter IV",
@@ -216,7 +216,7 @@ with tab_ask:
                     else:
                         st.error(r.get("error"))
                     st.markdown("**Tool agent đã gọi:**  \n" + main_tools_md(r))
-                    st.caption(f"{STATUS[r['status']]} · {msg['mode']} · top-{msg.get('top_k', 5)} · prompt {msg['prompt']} · "
+                    st.caption(f"{STATUS[r['status']]} · {msg['mode']} · top-{msg.get('top_k', 3)} · prompt {msg['prompt']} · "
                                f"{r.get('elapsed_ms', 0) / 1000:.1f} s · ${r.get('cost_usd', 0):.5f}")
 
         q = st.chat_input("Hỏi về Manifesto (tiếng Anh)…")
@@ -246,7 +246,7 @@ with tab_ask:
                                format_func=lambda i: chat[i - 1]["content"][:70])
             r = chat[idx]["result"]
             rows, extra = chunk_rows(r)
-            st.caption(f"{len(rows)} chunk do retriever chọn ({chat[idx]['mode']}, top-{chat[idx].get('top_k', 5)} "
+            st.caption(f"{len(rows)} chunk do retriever chọn ({chat[idx]['mode']}, top-{chat[idx].get('top_k', 3)} "
                        "mỗi lần search) · ⭐ = được trích dẫn")
             for row in rows:
                 c = load_chunks()[row["id"]]
