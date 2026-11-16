@@ -8,6 +8,8 @@ Usage:
 - Hit definition (same as starter/baseline.py): chunk has the gold source_id and page and the
   evidence string is contained in its text. Any gold entry (alternatives) counts.
 - Hit@1 / Hit@3 / MRR@10 come from one ranked list of the ORIGINAL question (no rewrite).
+- Multi-hop questions (`gold_groups`): Hit@k = at least one required evidence in top-k;
+  Context Evidence Rate requires EVERY group in the context.
 - Context Evidence Rate: the evidence of a gold entry is inside the packed context (whitespace-
   normalised, to also cover truncated chunks) and a context chunk is on that gold page.
 - --use-filter applies the question's `filter` field, which represents a filter supplied by the user
@@ -36,8 +38,12 @@ def is_hit(chunk: dict, gold: list[dict]) -> bool:
                for g in gold)
 
 
+_PAGE = {c["id"]: c["page"] for c in json.loads(Path("data/day7/chunks.json").read_text(encoding="utf-8"))}
+
+
 def context_has_evidence(ctx: dict, hits: list[dict], gold: list[dict]) -> bool:
-    pages = {h["page"] for h in hits if h["id"] in ctx["context_ids"]}
+    # pages of EVERY chunk in the context (incl. neighbour chunks that are not in `hits`)
+    pages = {_PAGE[i] for i in ctx["context_ids"]}
     text = norm(ctx["context_text"])
     return any(g["page"] in pages and norm(g["evidence"]) in text for g in gold)
 
@@ -48,13 +54,14 @@ def pct(n: int, d: int) -> dict:
 
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--method", required=True, choices=["dense", "bm25", "hybrid"])
+    ap.add_argument("--method", required=True, choices=["dense", "bm25", "hybrid", "rerank"])
     ap.add_argument("--split", required=True, choices=["dev", "test"])
     ap.add_argument("--top-k", type=int, default=5, help="chunks retrieved for the context")
     ap.add_argument("--budget", type=int, default=3000, help="context budget in characters")
     ap.add_argument("--use-filter", action="store_true")
     ap.add_argument("--neighbors", action="store_true")
     ap.add_argument("--overflow", default="skip", choices=["skip", "truncate"])
+    ap.add_argument("--continuation-first", action="store_true")
     ap.add_argument("--dedup-text", action="store_true", help="hybrid only: merge identical-text chunks")
     ap.add_argument("--questions", type=Path, default=QUESTIONS)
     ap.add_argument("--config", help="results folder name (default derived from options)")
@@ -63,13 +70,14 @@ def main() -> int:
     questions = [q for q in json.loads(a.questions.read_text(encoding="utf-8")) if q["split"] == a.split]
     questions = [q for q in questions if q.get("gold")]  # answerable only
     name = a.config or f"{a.method}_k{a.top_k}_b{a.budget}" + ("_filter" if a.use_filter else "") + \
-        ("_nb" if a.neighbors else "") + ("_trunc" if a.overflow == "truncate" else "") + ("_dd" if a.dedup_text else "")
+        ("_nb" if a.neighbors else "") + ("_trunc" if a.overflow == "truncate" else "") + ("_dd" if a.dedup_text else "") + ("_cf" if a.continuation_first else "")
     out_dir = Path("results/retrieval") / name / a.split
 
     t0 = time.perf_counter()
-    retriever = build(a.method, **({"dedup_text": True} if a.dedup_text else {}))
+    retriever = build(a.method, **({"dedup_text": True} if a.dedup_text and a.method in ("hybrid", "rerank") else {}))
     init_s = time.perf_counter() - t0
-    packer = ContextPacker(budget_chars=a.budget, neighbors=a.neighbors, overflow=a.overflow)
+    packer = ContextPacker(budget_chars=a.budget, neighbors=a.neighbors, overflow=a.overflow,
+                           continuation_first=a.continuation_first)
     depth = max(10, a.top_k)  # rank list for Hit@1/3 and MRR@10
 
     traces, lat = [], []
@@ -93,7 +101,9 @@ def main() -> int:
         hits = [is_hit(c, q["gold"]) for c in ranked]
         first = next((i + 1 for i, h in enumerate(hits) if h), None)
         ctx = packer.pack([ranked[: a.top_k]])
-        c_ok = context_has_evidence(ctx, ranked[: a.top_k], q["gold"])
+        groups = q.get("gold_groups")  # multi-hop: every group must be in context
+        c_ok = all(context_has_evidence(ctx, ranked[: a.top_k], g) for g in groups) if groups \
+            else context_has_evidence(ctx, ranked[: a.top_k], q["gold"])
         h1 += bool(hits[:1] and hits[0]); h3 += any(hits[:3]); ctx_n += c_ok
         rr.append(1 / first if first else 0.0)
         rec.update(

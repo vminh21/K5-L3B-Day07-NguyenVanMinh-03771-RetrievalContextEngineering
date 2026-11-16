@@ -1,0 +1,49 @@
+{
+  "config": "bm25_k5_b3000_DEVHARD",
+  "split": "dev",
+  "method": "bm25",
+  "retriever_params": {
+    "k1": 1.5,
+    "b": 0.75,
+    "tokenizer": "lowercase alnum + English stopwords, no stemming",
+    "n_chunks": 167
+  },
+  "top_k_context": 5,
+  "context": {
+    "budget_chars": 3000,
+    "neighbors": false,
+    "overflow": "skip",
+    "order": "interleave by rank across searches",
+    "dedup": "chunk id"
+  },
+  "filter": null,
+  "query_mode": "original question, no rewrite",
+  "N_answerable": 8,
+  "hit@1": {
+    "n": 7,
+    "N": 8,
+    "pct": 87.5,
+    "str": "7/8"
+  },
+  "evidence_hit@3": {
+    "n": 7,
+    "N": 8,
+    "pct": 87.5,
+    "str": "7/8"
+  },
+  "context_evidence_rate": {
+    "n": 6,
+    "N": 8,
+    "pct": 75.0,
+    "str": "6/8"
+  },
+  "mrr@10": 0.893,
+  "errors": 0,
+  "median_latency_ms": 0.2,
+  "init_seconds": 0.06,
+  "bm25_index_seconds": 0.0053,
+  "cost_usd": 0.0,
+  "cost_note": "local only: Ollama embeddinggemma + Postgres; no API calls",
+  "questions_file": "data/day7/dev_hard/questions.json",
+  "timestamp": "2026-11-16T11:58:55"
+}

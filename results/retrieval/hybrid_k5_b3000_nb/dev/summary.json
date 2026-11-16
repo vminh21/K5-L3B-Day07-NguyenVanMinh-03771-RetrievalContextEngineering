@@ -8,7 +8,8 @@
     "components": [
       "dense",
       "bm25"
-    ]
+    ],
+    "dedup_text": false
   },
   "top_k_context": 5,
   "context": {
@@ -34,17 +35,18 @@
     "str": "19/22"
   },
   "context_evidence_rate": {
-    "n": 20,
+    "n": 21,
     "N": 22,
-    "pct": 90.9,
-    "str": "20/22"
+    "pct": 95.5,
+    "str": "21/22"
   },
   "mrr@10": 0.852,
   "errors": 0,
-  "median_latency_ms": 43.3,
-  "init_seconds": 0.27,
-  "bm25_index_seconds": 0.0062,
+  "median_latency_ms": 37.0,
+  "init_seconds": 0.23,
+  "bm25_index_seconds": 0.0057,
   "cost_usd": 0.0,
   "cost_note": "local only: Ollama embeddinggemma + Postgres; no API calls",
-  "timestamp": "2026-11-16T11:16:02"
+  "questions_file": "data/day7/questions.json",
+  "timestamp": "2026-11-16T11:58:32"
 }

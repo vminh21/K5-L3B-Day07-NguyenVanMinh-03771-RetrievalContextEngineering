@@ -8,7 +8,7 @@ from src.retrievers import RetrievalError, build
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("query")
-    ap.add_argument("--method", default="hybrid", choices=["dense", "bm25", "hybrid"])
+    ap.add_argument("--method", default="hybrid", choices=["dense", "bm25", "hybrid", "rerank"])
     ap.add_argument("--top-k", type=int, default=5)
     ap.add_argument("--chapter", help="metadata filter supplied by the user, e.g. 'Chapter II'")
     a = ap.parse_args()

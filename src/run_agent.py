@@ -29,7 +29,7 @@ def load_inputs(split: str, cases_path: Path = CASES) -> list[dict]:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--split", required=True, choices=["dev", "test"])
-    ap.add_argument("--method", default="hybrid", choices=["dense", "bm25", "hybrid"])
+    ap.add_argument("--method", default="hybrid", choices=["dense", "bm25", "hybrid", "rerank"])
     ap.add_argument("--ids", help="comma-separated subset of case ids")
     ap.add_argument("--config")
     ap.add_argument("--top-k", type=int, default=5)
@@ -39,6 +39,8 @@ def main() -> int:
     ap.add_argument("--neighbors", action="store_true")
     ap.add_argument("--prompt", default="v1", choices=["v1", "v2", "v3"])
     ap.add_argument("--dedup-text", action="store_true")
+    ap.add_argument("--continuation-first", action="store_true", help="neighbours: attach the continuation of cut chunks first")
+    ap.add_argument("--verify-numbers", action="store_true", help="I5: reject answers with numbers not in cited passages")
     ap.add_argument("--cases", type=Path, default=CASES)
     ap.add_argument("--out-split", help="results subfolder name (default = split), e.g. test_v2")
     ap.add_argument("--no-filter", action="store_true", help="ignore the user-supplied filter")
@@ -55,10 +57,11 @@ def main() -> int:
     ledger = CostLedger()
     print(f"spent so far ${ledger.spent():.4f} / cap ${ledger.cap:.2f}")
     try:
-        retriever = build(a.method, **({"dedup_text": True} if a.dedup_text else {}))
+        retriever = build(a.method, **({"dedup_text": True} if a.dedup_text and a.method in ("hybrid", "rerank") else {}))
         agent = Agent(retriever, LLM(ledger=ledger), top_k=a.top_k, max_searches=a.max_searches,
                       budget_chars=a.budget, per_search_budget=a.per_search_budget, neighbors=a.neighbors,
-                      prompt=a.prompt)
+                      prompt=a.prompt, verify_numbers=a.verify_numbers,
+                      continuation_first=a.continuation_first)
     except RetrievalError as e:
         agent, init_error = None, str(e)
 

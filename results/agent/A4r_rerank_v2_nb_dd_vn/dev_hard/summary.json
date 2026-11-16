@@ -1,0 +1,53 @@
+{
+  "config": "A4r_rerank_v2_nb_dd_vn",
+  "split": "dev",
+  "cases_file": "data/day7/dev_hard/cases.json",
+  "agent": {
+    "retriever": "hybrid_rerank",
+    "retriever_params": {
+      "rrf_k": 60,
+      "candidate_pool": 20,
+      "components": [
+        "dense",
+        "bm25"
+      ],
+      "dedup_text": true,
+      "reranker": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+      "rerank_pool": 20
+    },
+    "top_k": 5,
+    "max_searches": 3,
+    "budget_chars": 9000,
+    "per_search_budget_chars": 4500,
+    "neighbors": true,
+    "prompt": "v2",
+    "verify_numbers": true,
+    "llm": {
+      "provider": "openai (Responses API)",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "low",
+      "max_output_tokens": 1500,
+      "temperature": "not set (reasoning model)",
+      "price_per_1M": [
+        0.2,
+        1.2
+      ],
+      "max_cost_usd": 1.0
+    }
+  },
+  "n_cases": 10,
+  "status": {
+    "answered": 8,
+    "abstain": 2,
+    "error": 0
+  },
+  "tool_use": "10/10",
+  "avg_searches": 1.4,
+  "tokens_in": 27160,
+  "tokens_out": 1417,
+  "cost_usd": 0.00713,
+  "median_latency_ms": 4368.0,
+  "errors": [],
+  "note": "answer quality / citation support / abstention correctness are labelled manually in reviews.json",
+  "timestamp": "2026-11-16T12:02:05"
+}

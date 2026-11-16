@@ -1,0 +1,53 @@
+{
+  "config": "hybrid_k5_b4500_nb_dd_cf",
+  "split": "dev",
+  "method": "hybrid_rrf",
+  "retriever_params": {
+    "rrf_k": 60,
+    "candidate_pool": 20,
+    "components": [
+      "dense",
+      "bm25"
+    ],
+    "dedup_text": true
+  },
+  "top_k_context": 5,
+  "context": {
+    "budget_chars": 4500,
+    "neighbors": true,
+    "overflow": "skip",
+    "continuation_first": true,
+    "order": "interleave by rank across searches",
+    "dedup": "chunk id"
+  },
+  "filter": null,
+  "query_mode": "original question, no rewrite",
+  "N_answerable": 22,
+  "hit@1": {
+    "n": 18,
+    "N": 22,
+    "pct": 81.8,
+    "str": "18/22"
+  },
+  "evidence_hit@3": {
+    "n": 19,
+    "N": 22,
+    "pct": 86.4,
+    "str": "19/22"
+  },
+  "context_evidence_rate": {
+    "n": 22,
+    "N": 22,
+    "pct": 100.0,
+    "str": "22/22"
+  },
+  "mrr@10": 0.852,
+  "errors": 0,
+  "median_latency_ms": 37.9,
+  "init_seconds": 0.17,
+  "bm25_index_seconds": 0.0052,
+  "cost_usd": 0.0,
+  "cost_note": "local only: Ollama embeddinggemma + Postgres; no API calls",
+  "questions_file": "data/day7/questions.json",
+  "timestamp": "2026-11-16T12:05:31"
+}

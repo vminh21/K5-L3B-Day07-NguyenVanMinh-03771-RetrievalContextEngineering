@@ -1,0 +1,52 @@
+{
+  "config": "A2_hybrid_v2_nb",
+  "split": "dev",
+  "cases_file": "data/day7/cases.json",
+  "agent": {
+    "retriever": "hybrid_rrf",
+    "retriever_params": {
+      "rrf_k": 60,
+      "candidate_pool": 20,
+      "components": [
+        "dense",
+        "bm25"
+      ],
+      "dedup_text": false
+    },
+    "top_k": 5,
+    "max_searches": 3,
+    "budget_chars": 9000,
+    "per_search_budget_chars": 4500,
+    "neighbors": true,
+    "prompt": "v2",
+    "verify_numbers": false,
+    "continuation_first": false,
+    "llm": {
+      "provider": "openai (Responses API)",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "low",
+      "max_output_tokens": 1500,
+      "temperature": "not set (reasoning model)",
+      "price_per_1M": [
+        0.2,
+        1.2
+      ],
+      "max_cost_usd": 1.0
+    }
+  },
+  "n_cases": 25,
+  "status": {
+    "answered": 22,
+    "abstain": 3,
+    "error": 0
+  },
+  "tool_use": "25/25",
+  "avg_searches": 1.28,
+  "tokens_in": 59935,
+  "tokens_out": 3229,
+  "cost_usd": 0.01586,
+  "median_latency_ms": 4873,
+  "errors": [],
+  "note": "answer quality / citation support / abstention correctness are labelled manually in reviews.json",
+  "timestamp": "2026-11-16T12:09:32"
+}

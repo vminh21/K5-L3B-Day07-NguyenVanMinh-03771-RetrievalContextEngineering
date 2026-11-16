@@ -44,5 +44,26 @@ class TestContextPacker(unittest.TestCase):
         self.assertEqual(out["neighbor_ids"], ["c1"])
 
 
+
+class TestContinuationFirst(unittest.TestCase):
+    def setUp(self):
+        # reading order: c1 (cut, p21) -> c2 (its long continuation, p21) | c3 (p30) -> c4 (long, p30)
+        self.chunks = [dict(mk(1, 21, n=20), text="Nevertheless, the following will be applicable:"),
+                       mk(2, 21, n=900), mk(3, 30, n=600), mk(4, 30, n=900)]
+
+    def test_cut_hit_gets_its_continuation_before_other_neighbours(self):
+        hits = [dict(self.chunks[2], rank=1), dict(self.chunks[0], rank=2)]  # c3 rank 1, cut c1 rank 2
+        old = ContextPacker(budget_chars=1900, neighbors=True, chunks=self.chunks).pack([hits])
+        new = ContextPacker(budget_chars=1900, neighbors=True, chunks=self.chunks, continuation_first=True).pack([hits])
+        self.assertIn("c4", old["context_ids"])     # old: c3's neighbour c4 is added first ...
+        self.assertNotIn("c2", old["context_ids"])  # ... and the continuation of c1 no longer fits
+        self.assertIn("c2", new["context_ids"])     # new: continuation of the cut chunk is kept
+
+    def test_exclude_already_shown(self):
+        out = ContextPacker(budget_chars=10_000, neighbors=True, chunks=self.chunks).pack(
+            [[dict(self.chunks[0], rank=1)]], exclude={"c2"})
+        self.assertNotIn("c2", out["context_ids"])
+
+
 if __name__ == "__main__":
     unittest.main()

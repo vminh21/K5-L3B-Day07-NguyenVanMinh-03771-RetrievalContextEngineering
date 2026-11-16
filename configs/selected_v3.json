@@ -1,0 +1,26 @@
+{
+  "selected": "A2_hybrid_v2_nb",
+  "round": 3,
+  "chosen_on": "dev (25) + dev_hard (10) only",
+  "criteria": "configs/selected_criteria_v3.md (commit e4ef2d6, addendum a7dfe33)",
+  "evaluated_on": "test v3 (data/day7/test_v3, commit df55fb3) — run once",
+  "decision": {
+    "dev_hard_pass": {"A2": "10/10", "A4": "10/10", "A4r_rerank": "10/10"},
+    "dev_pass_2_runs": {"A2": "25 + 25 = 50/50", "A4": "24 + 25 = 49/50"},
+    "rejected": {
+      "A4r_rerank (cross-encoder ms-marco-MiniLM-L-6-v2, pool 20 -> 5)": "retrieval CtxEv dev 22 -> 19/22, dev_hard 8 -> 6/8",
+      "continuation_first neighbours": "retrieval CtxEv dev_hard 8 -> 7/8 (h04)",
+      "A4 (number check + dedup)": "dev 49/50 vs A2 50/50 by the pre-registered rule; difference is q12 run 1 (number check did not fire)"
+    }
+  },
+  "retrieval": {"method": "hybrid_rrf", "rrf_k": 60, "candidate_pool": 20, "top_k": 5, "dedup_text": false, "reranker": null},
+  "context": {"neighbors": true, "per_search_budget_chars": 4500, "total_budget_chars": 9000, "overflow": "skip"},
+  "agent": {"max_searches": 3, "prompt": "v2", "verify_numbers": false,
+            "llm": {"model": "gpt-5.6-luna", "api": "OpenAI Responses", "reasoning_effort": "low"}},
+  "test_v3_runs": {
+    "A0": "baseline (dense k5, 3000, prompt v1)",
+    "A2": "SELECTED",
+    "A4": "declared ablation, NOT selectable: A2 + number check + dedup — measures the t06-type fix on an independent set"
+  },
+  "note": "Code change after A4 dev run 1: agent no longer re-adds already-shown chunks as neighbours (exclude); both run-2 measurements use it."
+}

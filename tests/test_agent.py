@@ -81,5 +81,19 @@ class TestAgent(unittest.TestCase):
         self.assertIn("BudgetExceeded", r["error"])
 
 
+
+class TestNumberVerifier(unittest.TestCase):
+    def test_unsupported_number_gets_one_retry_then_abstain(self):
+        llm = FakeLLM([("search", {"query": "s"}), ans("Ended in 1873 [S1].", ["S1"]), ans("Ended in 1873 [S1].", ["S1"])])
+        r = Agent(FakeRetriever(), llm, verify_numbers=True).run("When?")
+        self.assertEqual((r["status"], r["stop"]), ("abstain", "unverified_numbers"))
+        self.assertEqual([e["retry"] for e in r["events"] if e["event"] == "number_check_failed"], [True, False])
+
+    def test_retry_can_fix_answer(self):
+        llm = FakeLLM([("search", {"query": "s"}), ans("Ended in 1873 [S1].", ["S1"]), ans("A spectre [S1].", ["S1"])])
+        r = Agent(FakeRetriever(), llm, verify_numbers=True).run("What?")
+        self.assertEqual(r["status"], "answered")
+
+
 if __name__ == "__main__":
     unittest.main()

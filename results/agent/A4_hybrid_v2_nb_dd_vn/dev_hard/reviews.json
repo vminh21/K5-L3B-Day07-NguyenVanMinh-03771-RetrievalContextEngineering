@@ -1,0 +1,79 @@
+[
+  {
+    "query_id": "h01",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct: 'roll back the wheel of history' (p11). Extra p9 …d1c1f0 (when cited) supports 'sinking into the proletariat'."
+  },
+  {
+    "query_id": "h02",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Exact p15 sentence."
+  },
+  {
+    "query_id": "h03",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "ten / 1887 — p41 …ba862b; numbers written in passage."
+  },
+  {
+    "query_id": "h04",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Both parts: p12 'its own grave-diggers' and p44 1893 preface 'raised … its own grave-diggers' — both groups cited."
+  },
+  {
+    "query_id": "h05",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "'The working men have no country' — p18."
+  },
+  {
+    "query_id": "h06",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Full list + 'purely Utopian character' — p29 …ab16a9."
+  },
+  {
+    "query_id": "h07",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "'nine-tenths of the population' — p15. Number check fired once: first draft said '90%' (computed from nine-tenths) -> rejected -> rewritten with 'nine-tenths'."
+  },
+  {
+    "query_id": "h08",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "ten-hours' bill — p10."
+  },
+  {
+    "query_id": "hn01",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Abstained; no weekly hours anywhere (did not compute 10×6)."
+  },
+  {
+    "query_id": "hn02",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Abstained; Darwin only as Engels' comparison."
+  }
+]

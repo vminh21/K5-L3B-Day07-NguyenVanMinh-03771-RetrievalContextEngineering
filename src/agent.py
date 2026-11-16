@@ -13,6 +13,7 @@ import re
 import time
 
 from src.context import ContextPacker, header
+from src.numcheck import unsupported_numbers
 from src.llm import LLM, BudgetExceeded
 from src.retrievers import RetrievalError
 
@@ -68,15 +69,18 @@ TOOLS = [
 class Agent:
     def __init__(self, retriever, llm: LLM | None = None, *, top_k: int = 5, max_searches: int = 3,
                  budget_chars: int = 6000, per_search_budget: int = 3000, neighbors: bool = False,
-                 prompt: str = "v1"):
+                 prompt: str = "v1", verify_numbers: bool = False, continuation_first: bool = False):
         self.retriever, self.llm = retriever, llm or LLM()
         self.top_k, self.max_searches = top_k, max_searches
         self.budget, self.per_search = budget_chars, per_search_budget
         self.neighbors = neighbors
         self.prompt_version, self.system = prompt, PROMPTS[prompt]
+        self.verify_numbers = verify_numbers
+        self.continuation_first = continuation_first
         self.params = {"retriever": retriever.name, "retriever_params": retriever.params, "top_k": top_k,
                        "max_searches": max_searches, "budget_chars": budget_chars,
                        "per_search_budget_chars": per_search_budget, "neighbors": neighbors, "prompt": prompt,
+                       "verify_numbers": verify_numbers, "continuation_first": continuation_first,
                        "llm": self.llm.params}
 
     def run(self, question: str, filters: dict | None = None) -> dict:
@@ -87,6 +91,7 @@ class Agent:
         events, usage = [], {"tokens_in": 0, "tokens_out": 0, "cost_usd": 0.0, "n_llm_calls": 0}
         inp: list = [{"role": "user", "content": f"Question: {question}"}]
         n_search = 0
+        num_retry_used = False
 
         def finish(status, answer, cits, error=None, extra=None):
             return {"status": status, "answer": answer, "citations": cits, "events": events,
@@ -94,7 +99,7 @@ class Agent:
                     "elapsed_ms": round((time.perf_counter() - t0) * 1000), **usage, **(extra or {})}
 
         try:
-            for turn in range(self.max_searches + 2):
+            for turn in range(self.max_searches + 3):
                 resp, u = self.llm.call(instructions=self.system, input=inp, tools=TOOLS, tag="agent")
                 usage["n_llm_calls"] += 1
                 for k in ("tokens_in", "tokens_out", "cost_usd"):
@@ -119,6 +124,19 @@ class Agent:
                         return finish("abstain", ABSTAIN_TEXT, [], extra={"stop": "invalid_citations",
                                                                          "model_answer": args["answer"]})
                     ids = list(dict.fromkeys(labels[c] for c in cited + sorted(in_text)))
+                    if self.verify_numbers:
+                        bad = unsupported_numbers(args["answer"], [shown[i]["text"] for i in ids], question)
+                        if bad:
+                            events.append({"event": "number_check_failed", "numbers": bad, "retry": not num_retry_used})
+                            if num_retry_used:
+                                return finish("abstain", ABSTAIN_TEXT, [], extra={"stop": "unverified_numbers",
+                                                                                 "model_answer": args["answer"]})
+                            num_retry_used = True
+                            inp.append({"type": "function_call_output", "call_id": call.call_id, "output":
+                                        f"REJECTED: the number(s) {bad} are not written in the passages you cited. "
+                                        "Use only numbers that appear verbatim in a cited passage (never compute them), "
+                                        "cite that passage, or set abstain=true if the evidence is missing."})
+                            continue
                     answer = re.sub(r"\[(S\d+)\]", lambda m: f"[{labels[m.group(1)]}]", args["answer"])
                     return finish("answered", answer, ids, extra={"stop": "final_answer"})
 
@@ -132,7 +150,8 @@ class Agent:
                     results = self.retriever.search(args["query"], filters=filters, top_k=self.top_k)
                     new = [r for r in results if r["id"] not in shown]
                     room = min(self.per_search, self.budget - sum(len(b) + 2 for b in blocks))
-                    packed = ContextPacker(budget_chars=max(room, 0), neighbors=self.neighbors).pack([new]) \
+                    packed = ContextPacker(budget_chars=max(room, 0), neighbors=self.neighbors,
+                                           continuation_first=self.continuation_first).pack([new], exclude=set(shown)) \
                         if room > 0 else {"context_ids": [], "dropped_ids": [r["id"] for r in new]}
                     lines = []
                     by_id = {r["id"]: r for r in new}
