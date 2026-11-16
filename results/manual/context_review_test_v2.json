@@ -1,0 +1,94 @@
+{
+  "scale": "0 = no evidence; 1 = evidence but missing condition or source; 2 = full evidence + source header",
+  "test": "test v2",
+  "baseline": {
+    "config": "dense_k5_b3000 (M1)",
+    "labels": [
+      {
+        "query_id": "u01",
+        "context_score": 2,
+        "reason": "Gold sentence in context (first hit rank 3), with [chunk | source | page | chapter] header."
+      },
+      {
+        "query_id": "u02",
+        "context_score": 2,
+        "reason": "Gold sentence in context (first hit rank 1), with [chunk | source | page | chapter] header."
+      },
+      {
+        "query_id": "u03",
+        "context_score": 2,
+        "reason": "Gold sentence in context (first hit rank 1), with [chunk | source | page | chapter] header."
+      },
+      {
+        "query_id": "u04",
+        "context_score": 2,
+        "reason": "Gold sentence in context (first hit rank 1), with [chunk | source | page | chapter] header."
+      },
+      {
+        "query_id": "u05",
+        "context_score": 2,
+        "reason": "Gold sentence in context (first hit rank 1), with [chunk | source | page | chapter] header."
+      },
+      {
+        "query_id": "u06",
+        "context_score": 2,
+        "reason": "Gold sentence in context (first hit rank 2), with [chunk | source | page | chapter] header."
+      },
+      {
+        "query_id": "u07",
+        "context_score": 2,
+        "reason": "Gold sentence in context (first hit rank 1), with [chunk | source | page | chapter] header."
+      }
+    ],
+    "counts": {
+      "0": 0,
+      "1": 0,
+      "2": 7
+    }
+  },
+  "selected_round2": {
+    "config": "hybrid_k8_b6000_nb_dd (A3b retriever)",
+    "labels": [
+      {
+        "query_id": "u01",
+        "context_score": 2,
+        "reason": "Gold sentence in context (first hit rank 1), with [chunk | source | page | chapter] header."
+      },
+      {
+        "query_id": "u02",
+        "context_score": 2,
+        "reason": "Gold sentence in context (first hit rank 1), with [chunk | source | page | chapter] header."
+      },
+      {
+        "query_id": "u03",
+        "context_score": 2,
+        "reason": "Gold sentence in context (first hit rank 1), with [chunk | source | page | chapter] header."
+      },
+      {
+        "query_id": "u04",
+        "context_score": 2,
+        "reason": "Gold sentence in context (first hit rank 1), with [chunk | source | page | chapter] header."
+      },
+      {
+        "query_id": "u05",
+        "context_score": 2,
+        "reason": "Gold sentence in context (first hit rank 1), with [chunk | source | page | chapter] header."
+      },
+      {
+        "query_id": "u06",
+        "context_score": 2,
+        "reason": "Gold sentence in context (first hit rank 2), with [chunk | source | page | chapter] header."
+      },
+      {
+        "query_id": "u07",
+        "context_score": 2,
+        "reason": "Gold sentence in context (first hit rank 1), with [chunk | source | page | chapter] header."
+      }
+    ],
+    "counts": {
+      "0": 0,
+      "1": 0,
+      "2": 7
+    }
+  }
+}

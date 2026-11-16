@@ -1,0 +1,1363 @@
+[
+  {
+    "query_id": "u01",
+    "config": "A3b_hybrid_v2_k8_nb_dd",
+    "model": "gpt-5.6-luna",
+    "question": "According to the Manifesto, whose ideas have always been the ruling ideas of each age?",
+    "filter": null,
+    "status": "answered",
+    "answer": "The ruling ideas of each age have been the ideas of its ruling class. [communist-manifesto-1848_p0019_B_0000_4530f7]",
+    "citations": [
+      "communist-manifesto-1848_p0019_B_0000_4530f7"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "hybrid_rrf",
+        "query": "ruling ideas of each age ideas ruling class",
+        "filter": null,
+        "results": [
+          {
+            "id": "communist-manifesto-1848_p0019_B_0001_ea9662",
+            "page": 19,
+            "rank": 1,
+            "score": 0.032
+          },
+          {
+            "id": "communist-manifesto-1848_p0019_B_0000_4530f7",
+            "page": 19,
+            "rank": 2,
+            "score": 0.03068
+          },
+          {
+            "id": "communist-manifesto-1848_p0010_B_0004_b32485",
+            "page": 10,
+            "rank": 3,
+            "score": 0.02947
+          },
+          {
+            "id": "communist-manifesto-1848_p0020_B_0000_160ea4",
+            "page": 20,
+            "rank": 4,
+            "score": 0.02879
+          },
+          {
+            "id": "communist-manifesto-1848_p0016_B_0002_0ecb32",
+            "page": 16,
+            "rank": 5,
+            "score": 0.02822
+          },
+          {
+            "id": "communist-manifesto-1848_p0012_B_0001_d27fec",
+            "page": 12,
+            "rank": 6,
+            "score": 0.02797
+          },
+          {
+            "id": "communist-manifesto-1848_p0038_B_0003_cbe94c",
+            "page": 38,
+            "rank": 7,
+            "score": 0.02778
+          },
+          {
+            "id": "communist-manifesto-1848_p0021_B_0003_05ea8c",
+            "page": 21,
+            "rank": 8,
+            "score": 0.02762
+          }
+        ],
+        "added_ids": [
+          "communist-manifesto-1848_p0019_B_0001_ea9662",
+          "communist-manifesto-1848_p0019_B_0000_4530f7",
+          "communist-manifesto-1848_p0019_B_0002_910cac",
+          "communist-manifesto-1848_p0010_B_0004_b32485",
+          "communist-manifesto-1848_p0010_B_0003_7990da",
+          "communist-manifesto-1848_p0011_B_0000_b7f9eb",
+          "communist-manifesto-1848_p0020_B_0000_160ea4"
+        ],
+        "dropped_ids": [
+          "communist-manifesto-1848_p0020_B_0001_bc0f5c",
+          "communist-manifesto-1848_p0016_B_0002_0ecb32",
+          "communist-manifesto-1848_p0016_B_0001_4ead5c",
+          "communist-manifesto-1848_p0017_B_0000_db0732",
+          "communist-manifesto-1848_p0012_B_0001_d27fec",
+          "communist-manifesto-1848_p0012_B_0000_57bbb6",
+          "communist-manifesto-1848_p0012_B_0002_131961",
+          "communist-manifesto-1848_p0038_B_0003_cbe94c",
+          "communist-manifesto-1848_p0038_B_0002_980433",
+          "communist-manifesto-1848_p0038_B_0004_4e016d",
+          "communist-manifesto-1848_p0021_B_0003_05ea8c",
+          "communist-manifesto-1848_p0021_B_0002_c95d51",
+          "communist-manifesto-1848_p0022_B_0000_23604d"
+        ],
+        "labels": {
+          "S1": "communist-manifesto-1848_p0019_B_0001_ea9662",
+          "S2": "communist-manifesto-1848_p0019_B_0000_4530f7",
+          "S3": "communist-manifesto-1848_p0019_B_0002_910cac",
+          "S4": "communist-manifesto-1848_p0010_B_0004_b32485",
+          "S5": "communist-manifesto-1848_p0010_B_0003_7990da",
+          "S6": "communist-manifesto-1848_p0011_B_0000_b7f9eb",
+          "S7": "communist-manifesto-1848_p0020_B_0000_160ea4"
+        },
+        "elapsed_ms": 83
+      },
+      {
+        "event": "answer",
+        "raw": {
+          "answer": "The ruling ideas of each age have been the ideas of its ruling class. [S2]",
+          "citations": [
+            "S2"
+          ],
+          "abstain": false
+        }
+      }
+    ],
+    "context": "[communist-manifesto-1848_p0019_B_0001_ea9662 | communist-manifesto-1848 | page 19 | Chapter II]\nWhen people speak of the ideas that revolutionise society, they do but express that fact that\nwithin the old society the elements of a new one have been created, and that the dissolution of\nthe old ideas keeps even pace with the dissolution of the old conditions of existence.\n\nWhen the ancient world was in its last throes, the ancient religions were overcome by\nChristianity. When Christian ideas succumbed in the 18th century to rationalist ideas, feudal\nsociety fought its death battle with the then revolutionary bourgeoisie. The ideas of religious\nliberty and freedom of conscience merely gave expression to the sway of free competition within\nthe domain of knowledge.\n\n“Undoubtedly,” it will be said, “religious, moral, philosophical, and juridical ideas have\nbeen modified in the course of historical development. But religion, morality, philosophy,\npolitical science, and law, constantly survived this change.”\n\n[communist-manifesto-1848_p0019_B_0000_4530f7 | communist-manifesto-1848 | page 19 | Chapter II]\nbetween classes within the nation vanishes, the hostility of one nation to another will come to an\nend.\n\nThe charges against Communism made from a religious, a philosophical and, generally,\nfrom an ideological standpoint, are not deserving of serious examination.\n\nDoes it require deep intuition to comprehend that man’s ideas, views, and conception, in\none word, man’s consciousness, changes with every change in the conditions of his material\nexistence, in his social relations and in his social life?\n\nWhat else does the history of ideas prove, than that intellectual production changes its\ncharacter in proportion as material production is changed? The ruling ideas of each age have ever\nbeen the ideas of its ruling class.\n\n[communist-manifesto-1848_p0019_B_0002_910cac | communist-manifesto-1848 | page 19 | Chapter II]\n“There are, besides, eternal truths, such as Freedom, Justice, etc., that are common to all\nstates of society. But Communism abolishes eternal truths, it abolishes all religion, and all\nmorality, instead of constituting them on a new basis; it therefore acts in contradiction to all past\nhistorical experience.”\n\nWhat does this accusation reduce itself to? The history of all past society has consisted in\nthe development of class antagonisms, antagonisms that assumed different forms at different\nepochs.\n\nBut whatever form they may have taken, one fact is common to all past ages, viz., the\nexploitation of one part of society by the other. No wonder, then, that the social consciousness of\npast ages, despite all the multiplicity and variety it displays, moves within certain common\n\n[communist-manifesto-1848_p0010_B_0004_b32485 | communist-manifesto-1848 | page 10 | Chapter I]\nFurther, as we have already seen, entire sections of the ruling class are, by the advance of\nindustry, precipitated into the proletariat, or are at least threatened in their conditions of\nexistence. These also supply the proletariat with fresh elements of enlightenment and progress.\n\nFinally, in times when the class struggle nears the decisive hour, the progress of dissolution\ngoing on within the ruling class, in fact within the whole range of old society, assumes such a\nviolent, glaring character, that a small section of the ruling class cuts itself adrift, and joins the\nrevolutionary class, the class that holds the future in its hands. Just as, therefore, at an earlier\n\n[communist-manifesto-1848_p0010_B_0003_7990da | communist-manifesto-1848 | page 10 | Chapter I]\nAltogether collisions between the classes of the old society further, in many ways, the course\nof development of the proletariat. The bourgeoisie finds itself involved in a constant battle. At\nfirst with the aristocracy; later on, with those portions of the bourgeoisie itself, whose interests\nhave become antagonistic to the progress of industry; at all time with the bourgeoisie of foreign\ncountries. In all these battles, it sees itself compelled to appeal to the proletariat, to ask for help,\nand thus, to drag it into the political arena. The bourgeoisie itself, therefore, supplies the\nproletariat with its own elements of political and general education, in other words, it furnishes\nthe proletariat with weapons for fighting the bourgeoisie.\n\n[communist-manifesto-1848_p0011_B_0000_b7f9eb | communist-manifesto-1848 | page 11 | Chapter I]\nperiod, a section of the nobility went over to the bourgeoisie, so now a portion of the bourgeoisie\ngoes over to the proletariat, and in particular, a portion of the bourgeois ideologists, who have\nraised themselves to the level of comprehending theoretically the historical movement as a\nwhole.\n\nOf all the classes that stand face to face with the bourgeoisie today, the proletariat alone is a\nreally revolutionary class. The other classes decay and finally disappear in the face of Modern\nIndustry; the proletariat is its special and essential product.\n\n[communist-manifesto-1848_p0020_B_0000_160ea4 | communist-manifesto-1848 | page 20 | Chapter II]\nforms, or general ideas, which cannot completely vanish except with the total disappearance of\nclass antagonisms.\n\nThe Communist revolution is the most radical rupture with traditional relations; no wonder\nthat its development involved the most radical rupture with traditional ideas.\n\nBut let us have done with the bourgeois objections to Communism.\n\nWe have seen above, that the first step in the revolution by the working class is to raise the\nproletariat to the position of ruling class to win the battle of democracy.\n\nThe proletariat will use its political supremacy to wrest, by degree, all capital from the\nbourgeoisie, to centralise all instruments of production in the hands of the State, i.e., of the\nproletariat organised as the ruling class; and to increase the total productive forces as rapidly as\npossible.",
+    "context_ids": [
+      "communist-manifesto-1848_p0019_B_0001_ea9662",
+      "communist-manifesto-1848_p0019_B_0000_4530f7",
+      "communist-manifesto-1848_p0019_B_0002_910cac",
+      "communist-manifesto-1848_p0010_B_0004_b32485",
+      "communist-manifesto-1848_p0010_B_0003_7990da",
+      "communist-manifesto-1848_p0011_B_0000_b7f9eb",
+      "communist-manifesto-1848_p0020_B_0000_160ea4"
+    ],
+    "error": null,
+    "elapsed_ms": 3124,
+    "tokens_in": 2068,
+    "tokens_out": 88,
+    "cost_usd": 0.0005192,
+    "n_llm_calls": 2,
+    "stop": "final_answer"
+  },
+  {
+    "query_id": "u02",
+    "config": "A3b_hybrid_v2_k8_nb_dd",
+    "model": "gpt-5.6-luna",
+    "question": "Which work by Proudhon is cited as an example of Conservative or Bourgeois Socialism?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Proudhon’s *Philosophy of Misery* (shown in the text as “*Philosophis de la Misère*”) is cited as an example of Conservative or Bourgeois Socialism. [communist-manifesto-1848_p0027_B_0000_412f25]",
+    "citations": [
+      "communist-manifesto-1848_p0027_B_0000_412f25"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "hybrid_rrf",
+        "query": "Proudhon work cited example Conservative or Bourgeois Socialism",
+        "filter": null,
+        "results": [
+          {
+            "id": "communist-manifesto-1848_p0027_B_0000_412f25",
+            "page": 27,
+            "rank": 1,
+            "score": 0.03279
+          },
+          {
+            "id": "communist-manifesto-1848_p0027_B_0003_5e26ae",
+            "page": 27,
+            "rank": 2,
+            "score": 0.02976
+          },
+          {
+            "id": "communist-manifesto-1848_p0028_B_0000_ddd281",
+            "page": 28,
+            "rank": 3,
+            "score": 0.02971
+          },
+          {
+            "id": "communist-manifesto-1848_p0043_B_0003_1f57ed",
+            "page": 43,
+            "rank": 4,
+            "score": 0.02822
+          },
+          {
+            "id": "communist-manifesto-1848_p0008_B_0001_513e27",
+            "page": 8,
+            "rank": 5,
+            "score": 0.02801
+          },
+          {
+            "id": "communist-manifesto-1848_p0041_B_0003_deebda",
+            "page": 41,
+            "rank": 6,
+            "score": 0.02711
+          },
+          {
+            "id": "communist-manifesto-1848_p0023_B_0000_d3ecc1",
+            "page": 23,
+            "rank": 7,
+            "score": 0.01613
+          },
+          {
+            "id": "communist-manifesto-1848_p0037_B_0000_aa77d3",
+            "page": 37,
+            "rank": 8,
+            "score": 0.01613
+          }
+        ],
+        "added_ids": [
+          "communist-manifesto-1848_p0027_B_0000_412f25",
+          "communist-manifesto-1848_p0026_B_0003_838e91",
+          "communist-manifesto-1848_p0027_B_0001_a9db78",
+          "communist-manifesto-1848_p0027_B_0003_5e26ae",
+          "communist-manifesto-1848_p0027_B_0002_26e785",
+          "communist-manifesto-1848_p0028_B_0000_ddd281",
+          "communist-manifesto-1848_p0043_B_0003_1f57ed",
+          "communist-manifesto-1848_p0043_B_0004_fdf32a",
+          "communist-manifesto-1848_p0037_B_0000_aa77d3"
+        ],
+        "dropped_ids": [
+          "communist-manifesto-1848_p0043_B_0002_1db5bf",
+          "communist-manifesto-1848_p0008_B_0001_513e27",
+          "communist-manifesto-1848_p0008_B_0000_62e71c",
+          "communist-manifesto-1848_p0008_B_0002_30cd30",
+          "communist-manifesto-1848_p0041_B_0003_deebda",
+          "communist-manifesto-1848_p0041_B_0002_a015d3",
+          "communist-manifesto-1848_p0041_B_0004_2d6d9b",
+          "communist-manifesto-1848_p0023_B_0000_d3ecc1",
+          "communist-manifesto-1848_p0022_B_0002_f0da15",
+          "communist-manifesto-1848_p0023_B_0001_24371a",
+          "communist-manifesto-1848_p0036_B_0004_610153",
+          "communist-manifesto-1848_p0037_B_0001_46eb1b"
+        ],
+        "labels": {
+          "S1": "communist-manifesto-1848_p0027_B_0000_412f25",
+          "S2": "communist-manifesto-1848_p0026_B_0003_838e91",
+          "S3": "communist-manifesto-1848_p0027_B_0001_a9db78",
+          "S4": "communist-manifesto-1848_p0027_B_0003_5e26ae",
+          "S5": "communist-manifesto-1848_p0027_B_0002_26e785",
+          "S6": "communist-manifesto-1848_p0028_B_0000_ddd281",
+          "S7": "communist-manifesto-1848_p0043_B_0003_1f57ed",
+          "S8": "communist-manifesto-1848_p0043_B_0004_fdf32a",
+          "S9": "communist-manifesto-1848_p0037_B_0000_aa77d3"
+        },
+        "elapsed_ms": 91
+      },
+      {
+        "event": "answer",
+        "raw": {
+          "answer": "Proudhon’s *Philosophy of Misery* (shown in the text as “*Philosophis de la Misère*”) is cited as an example of Conservative or Bourgeois Socialism. [S1]",
+          "citations": [
+            "S1"
+          ],
+          "abstain": false
+        }
+      }
+    ],
+    "context": "[communist-manifesto-1848_p0027_B_0000_412f25 | communist-manifesto-1848 | page 27 | Chapter III]\nSocialist and Communist publications that now (1847) circulate in Germany belong to the\ndomain of this foul and enervating literature.7\n\n2. Conservative or Bourgeois Socialism\n\nA part of the bourgeoisie is desirous of redressing social grievances in order to secure the\ncontinued existence of bourgeois society.\n\nTo this section belong economists, philanthropists, humanitarians, improvers of the condition\nof the working class, organisers of charity, members of societies for the prevention of cruelty to\nanimals, temperance fanatics, hole-and-corner reformers of every imaginable kind. This form of\nsocialism has, moreover, been worked out into complete systems.\n\nWe may cite Proudhon’s Philosophis de la Misère as an example of this form.\n\n[communist-manifesto-1848_p0026_B_0003_838e91 | communist-manifesto-1848 | page 26 | Chapter III]\nIt proclaimed the German nation to be the model nation, and the German petty Philistine to\nbe the typical man. To every villainous meanness of this model man, it gave a hidden, higher,\nSocialistic interpretation, the exact contrary of its real character. It went to the extreme length of\ndirectly opposing the “brutally destructive” tendency of Communism, and of proclaiming its\nsupreme and impartial contempt of all class struggles. With very few exceptions, all the so-called\n\n[communist-manifesto-1848_p0027_B_0001_a9db78 | communist-manifesto-1848 | page 27 | Chapter III]\nThe Socialistic bourgeois want all the advantages of modern social conditions without the\nstruggles and dangers necessarily resulting therefrom. They desire the existing state of society,\nminus its revolutionary and disintegrating elements. They wish for a bourgeoisie without a\nproletariat. The bourgeoisie naturally conceives the world in which it is supreme to be the best;\nand bourgeois Socialism develops this comfortable conception into various more or less\ncomplete systems. In requiring the proletariat to carry out such a system, and thereby to march\nstraightway into the social New Jerusalem, it but requires in reality, that the proletariat should\nremain within the bounds of existing society, but should cast away all its hateful ideas\nconcerning the bourgeoisie.\n\n[communist-manifesto-1848_p0027_B_0003_5e26ae | communist-manifesto-1848 | page 27 | Chapter III]\nBourgeois Socialism attains adequate expression when, and only when, it becomes a mere\nfigure of speech.\n7 The revolutionary storm of 1848 swept away this whole shabby tendency and cured its protagonists of the desire to dabble in\nsocialism. The chief representative and classical type of this tendency is Mr Karl Gruen. [Engels, 1888 German edition]\n\n[communist-manifesto-1848_p0027_B_0002_26e785 | communist-manifesto-1848 | page 27 | Chapter III]\nA second, and more practical, but less systematic, form of this Socialism sought to depreciate\nevery revolutionary movement in the eyes of the working class by showing that no mere political\nreform, but only a change in the material conditions of existence, in economical relations, could\nbe of any advantage to them. By changes in the material conditions of existence, this form of\nSocialism, however, by no means understands abolition of the bourgeois relations of production,\nan abolition that can be affected only by a revolution, but administrative reforms, based on the\ncontinued existence of these relations; reforms, therefore, that in no respect affect the relations\nbetween capital and labour, but, at the best, lessen the cost, and simplify the administrative work,\nof bourgeois government.\n\n[communist-manifesto-1848_p0028_B_0000_ddd281 | communist-manifesto-1848 | page 28 | Chapter III]\nFree trade: for the benefit of the working class. Protective duties: for the benefit of the\nworking class. Prison Reform: for the benefit of the working class. This is the last word and the\nonly seriously meant word of bourgeois socialism.\n\nIt is summed up in the phrase: the bourgeois is a bourgeois — for the benefit of the working\nclass.\n\n3. Critical-Utopian Socialism and Communism\n\nWe do not here refer to that literature which, in every great modern revolution, has always\ngiven voice to the demands of the proletariat, such as the writings of Babeuf and others.\n\n[communist-manifesto-1848_p0043_B_0003_1f57ed | communist-manifesto-1848 | page 43 | Appendix]\nEverywhere that revolution was the work of the working class; it was the latter that built the\nbarricades and paid with its lifeblood. Only the Paris workers, in overthrowing the government,\nhad the very definite intention of overthrowing the bourgeois regime. But conscious though they\nwere of the fatal antagonism existing between their own class and the bourgeoisie, still, neither\nthe economic progress of the country nor the intellectual development of the mass of French\nworkers had as yet reached the stage which would have made a social reconstruction possible. In\n\n[communist-manifesto-1848_p0043_B_0004_fdf32a | communist-manifesto-1848 | page 43 | Appendix]\nEverywhere that revolution was the work of the working class; it was the latter that built the\nbarricades and paid with its lifeblood. Only the Paris workers, in overthrowing the government,\nhad the very definite intention of overthrowing the bourgeois regime. But conscious though they\nwere of the fatal antagonism existing between their own class and the bourgeoisie, still, neither\nthe economic progress of the country nor the intellectual development of the mass of French\nworkers had as yet reached the stage which would have made a social reconstruction possible. In\n\n[communist-manifesto-1848_p0037_B_0000_aa77d3 | communist-manifesto-1848 | page 37 | Appendix]\nthe followers of Proudhon in France, Belgium, Italy, and Spain, and to the Lassalleans in\nGermany.11",
+    "context_ids": [
+      "communist-manifesto-1848_p0027_B_0000_412f25",
+      "communist-manifesto-1848_p0026_B_0003_838e91",
+      "communist-manifesto-1848_p0027_B_0001_a9db78",
+      "communist-manifesto-1848_p0027_B_0003_5e26ae",
+      "communist-manifesto-1848_p0027_B_0002_26e785",
+      "communist-manifesto-1848_p0028_B_0000_ddd281",
+      "communist-manifesto-1848_p0043_B_0003_1f57ed",
+      "communist-manifesto-1848_p0043_B_0004_fdf32a",
+      "communist-manifesto-1848_p0037_B_0000_aa77d3"
+    ],
+    "error": null,
+    "elapsed_ms": 9788,
+    "tokens_in": 2061,
+    "tokens_out": 137,
+    "cost_usd": 0.0005766,
+    "n_llm_calls": 2,
+    "stop": "final_answer"
+  },
+  {
+    "query_id": "u03",
+    "config": "A3b_hybrid_v2_k8_nb_dd",
+    "model": "gpt-5.6-luna",
+    "question": "How does the Manifesto characterise feudal Socialism in relation to the past and the future?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Feudal Socialism is characterised as both “an echo of the past” and a “menace of the future”: it laments the old feudal order while warning of catastrophe to come. Its criticism of bourgeois society could be incisive, but it remained ludicrous because it could not understand modern history’s development. [communist-manifesto-1848_p0022_B_0001_ebf95a][communist-manifesto-1848_p0022_B_0000_23604d]",
+    "citations": [
+      "communist-manifesto-1848_p0022_B_0001_ebf95a",
+      "communist-manifesto-1848_p0022_B_0000_23604d"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "hybrid_rrf",
+        "query": "feudal Socialism past future characterises reactionary lament past future development",
+        "filter": null,
+        "results": [
+          {
+            "id": "communist-manifesto-1848_p0022_B_0001_ebf95a",
+            "page": 22,
+            "rank": 1,
+            "score": 0.03279
+          },
+          {
+            "id": "communist-manifesto-1848_p0029_B_0001_bad78f",
+            "page": 29,
+            "rank": 2,
+            "score": 0.03008
+          },
+          {
+            "id": "communist-manifesto-1848_p0023_B_0000_d3ecc1",
+            "page": 23,
+            "rank": 3,
+            "score": 0.02996
+          },
+          {
+            "id": "communist-manifesto-1848_p0024_B_0002_29c65e",
+            "page": 24,
+            "rank": 4,
+            "score": 0.02946
+          },
+          {
+            "id": "communist-manifesto-1848_p0022_B_0000_23604d",
+            "page": 22,
+            "rank": 5,
+            "score": 0.02927
+          },
+          {
+            "id": "communist-manifesto-1848_p0029_B_0003_9eab33",
+            "page": 29,
+            "rank": 6,
+            "score": 0.0292
+          },
+          {
+            "id": "communist-manifesto-1848_p0007_B_0001_abc5cf",
+            "page": 7,
+            "rank": 7,
+            "score": 0.02808
+          },
+          {
+            "id": "communist-manifesto-1848_p0026_B_0001_35d084",
+            "page": 26,
+            "rank": 8,
+            "score": 0.02671
+          }
+        ],
+        "added_ids": [
+          "communist-manifesto-1848_p0022_B_0001_ebf95a",
+          "communist-manifesto-1848_p0022_B_0000_23604d",
+          "communist-manifesto-1848_p0022_B_0002_f0da15",
+          "communist-manifesto-1848_p0029_B_0001_bad78f",
+          "communist-manifesto-1848_p0029_B_0000_b0d907",
+          "communist-manifesto-1848_p0029_B_0002_ab16a9"
+        ],
+        "dropped_ids": [
+          "communist-manifesto-1848_p0023_B_0000_d3ecc1",
+          "communist-manifesto-1848_p0023_B_0001_24371a",
+          "communist-manifesto-1848_p0024_B_0002_29c65e",
+          "communist-manifesto-1848_p0024_B_0001_215d81",
+          "communist-manifesto-1848_p0024_B_0003_c1a1c7",
+          "communist-manifesto-1848_p0029_B_0003_9eab33",
+          "communist-manifesto-1848_p0030_B_0000_4719d3",
+          "communist-manifesto-1848_p0007_B_0001_abc5cf",
+          "communist-manifesto-1848_p0007_B_0000_cd7d51",
+          "communist-manifesto-1848_p0007_B_0002_328b38",
+          "communist-manifesto-1848_p0026_B_0001_35d084",
+          "communist-manifesto-1848_p0026_B_0000_705cf4",
+          "communist-manifesto-1848_p0026_B_0002_79ac89"
+        ],
+        "labels": {
+          "S1": "communist-manifesto-1848_p0022_B_0001_ebf95a",
+          "S2": "communist-manifesto-1848_p0022_B_0000_23604d",
+          "S3": "communist-manifesto-1848_p0022_B_0002_f0da15",
+          "S4": "communist-manifesto-1848_p0029_B_0001_bad78f",
+          "S5": "communist-manifesto-1848_p0029_B_0000_b0d907",
+          "S6": "communist-manifesto-1848_p0029_B_0002_ab16a9"
+        },
+        "elapsed_ms": 70
+      },
+      {
+        "event": "answer",
+        "raw": {
+          "answer": "Feudal Socialism is characterised as both “an echo of the past” and a “menace of the future”: it laments the old feudal order while warning of catastrophe to come. Its criticism of bourgeois society could be incisive, but it remained ludicrous because it could not understand modern history’s development. [S1][S2]",
+          "citations": [
+            "S1",
+            "S2"
+          ],
+          "abstain": false
+        }
+      }
+    ],
+    "context": "[communist-manifesto-1848_p0022_B_0001_ebf95a | communist-manifesto-1848 | page 22 | Chapter III]\nIn this way arose feudal Socialism: half lamentation, half lampoon; half an echo of the past,\nhalf menace of the future; at times, by its bitter, witty and incisive criticism, striking the\nbourgeoisie to the very heart’s core; but always ludicrous in its effect, through total incapacity to\ncomprehend the march of modern history.\n\nThe aristocracy, in order to rally the people to them, waved the proletarian alms-bag in front\nfor a banner. But the people, so often as it joined them, saw on their hindquarters the old feudal\ncoats of arms, and deserted with loud and irreverent laughter.\n\nOne section of the French Legitimists and “Young England” exhibited this spectacle.\n\n[communist-manifesto-1848_p0022_B_0000_23604d | communist-manifesto-1848 | page 22 | Chapter III]\nSocialist and Communist Literature\n\n1. Reactionary Socialism\n\nA. Feudal Socialism\n\nOwing to their historical position, it became the vocation of the aristocracies of France and\nEngland to write pamphlets against modern bourgeois society. In the French Revolution of July\n1830, and in the English reform agitation[A], these aristocracies again succumbed to the hateful\nupstart. Thenceforth, a serious political struggle was altogether out of the question. A literary\nbattle alone remained possible. But even in the domain of literature the old cries of the\nrestoration period had become impossible.5\n\nIn order to arouse sympathy, the aristocracy was obliged to lose sight, apparently, of its own\ninterests, and to formulate their indictment against the bourgeoisie in the interest of the exploited\nworking class alone. Thus, the aristocracy took their revenge by singing lampoons on their new\nmasters and whispering in his ears sinister prophesies of coming catastrophe.\n\n[communist-manifesto-1848_p0022_B_0002_f0da15 | communist-manifesto-1848 | page 22 | Chapter III]\nIn pointing out that their mode of exploitation was different to that of the bourgeoisie, the\nfeudalists forget that they exploited under circumstances and conditions that were quite different\nand that are now antiquated. In showing that, under their rule, the modern proletariat never\n[A] A reference to the movement for a reform of the electoral law which, under the pressure of the working class, was pased by\nthe British House of Commons in 1831 and finally endorsed by the House of Lords in June, 1832. The reform was directed\nagainst monopoly rule of the landed and finance aristrocracy and opened the way to Parliament for the representatives of the\nindustrial bourgeoisie. Neither workers nor the petty-bourgeois were allowed electoral rights, despite assurances they would.\n[Editor’s note] 5 Not the English Restoration (1660-1689), but the French Restoration (1814-1830). [Engels, 1888 German edition]\n\n[communist-manifesto-1848_p0029_B_0001_bad78f | communist-manifesto-1848 | page 29 | Chapter III]\nHence, they reject all political, and especially all revolutionary action; they wish to attain\ntheir ends by peaceful means, necessarily doomed to failure, and by the force of example, to\npave the way for the new social Gospel.\n\nSuch fantastic pictures of future society, painted at a time when the proletariat is still in a\nvery undeveloped state and has but a fantastic conception of its own position, correspond with\nthe first instinctive yearnings of that class for a general reconstruction of society.\n\n[communist-manifesto-1848_p0029_B_0000_b0d907 | communist-manifesto-1848 | page 29 | Chapter III]\nresolves itself, in their eyes, into the propaganda and the practical carrying out of their social\nplans.\n\nIn the formation of their plans, they are conscious of caring chiefly for the interests of the\nworking class, as being the most suffering class. Only from the point of view of being the most\nsuffering class does the proletariat exist for them.\n\nThe undeveloped state of the class struggle, as well as their own surroundings, causes\nSocialists of this kind to consider themselves far superior to all class antagonisms. They want to\nimprove the condition of every member of society, even that of the most favoured. Hence, they\nhabitually appeal to society at large, without the distinction of class; nay, by preference, to the\nruling class. For how can people, when once they understand their system, fail to see in it the\nbest possible plan of the best possible state of society?\n\n[communist-manifesto-1848_p0029_B_0002_ab16a9 | communist-manifesto-1848 | page 29 | Chapter III]\nBut these Socialist and Communist publications contain also a critical element. They attack\nevery principle of existing society. Hence, they are full of the most valuable materials for the\nenlightenment of the working class. The practical measures proposed in them — such as the\nabolition of the distinction between town and country, of the family, of the carrying on of\nindustries for the account of private individuals, and of the wage system, the proclamation of\nsocial harmony, the conversion of the function of the state into a more superintendence of\nproduction — all these proposals point solely to the disappearance of class antagonisms which\nwere, at that time, only just cropping up, and which, in these publications, are recognised in their\nearliest indistinct and undefined forms only. These proposals, therefore, are of a purely Utopian\ncharacter.",
+    "context_ids": [
+      "communist-manifesto-1848_p0022_B_0001_ebf95a",
+      "communist-manifesto-1848_p0022_B_0000_23604d",
+      "communist-manifesto-1848_p0022_B_0002_f0da15",
+      "communist-manifesto-1848_p0029_B_0001_bad78f",
+      "communist-manifesto-1848_p0029_B_0000_b0d907",
+      "communist-manifesto-1848_p0029_B_0002_ab16a9"
+    ],
+    "error": null,
+    "elapsed_ms": 3981,
+    "tokens_in": 2025,
+    "tokens_out": 149,
+    "cost_usd": 0.0005838,
+    "n_llm_calls": 2,
+    "stop": "final_answer"
+  },
+  {
+    "query_id": "u04",
+    "config": "A3b_hybrid_v2_k8_nb_dd",
+    "model": "gpt-5.6-luna",
+    "question": "In Switzerland, which party do the Communists support, and what do they keep in mind about that party?",
+    "filter": null,
+    "status": "answered",
+    "answer": "In Switzerland, the Communists support the Radicals. They keep in mind that the party contains antagonistic elements: partly Democratic Socialists and partly radical bourgeois. [communist-manifesto-1848_p0031_B_0000_4a547e]",
+    "citations": [
+      "communist-manifesto-1848_p0031_B_0000_4a547e"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "hybrid_rrf",
+        "query": "Switzerland Communists support which party keep in mind about that party",
+        "filter": null,
+        "results": [
+          {
+            "id": "communist-manifesto-1848_p0031_B_0000_4a547e",
+            "page": 31,
+            "rank": 1,
+            "score": 0.03279
+          },
+          {
+            "id": "communist-manifesto-1848_p0031_B_0001_4772e1",
+            "page": 31,
+            "rank": 2,
+            "score": 0.03175
+          },
+          {
+            "id": "communist-manifesto-1848_p0013_B_0000_283aa5",
+            "page": 13,
+            "rank": 3,
+            "score": 0.03102
+          },
+          {
+            "id": "communist-manifesto-1848_p0032_B_0000_7518d5",
+            "page": 32,
+            "rank": 4,
+            "score": 0.03062
+          },
+          {
+            "id": "communist-manifesto-1848_p0031_B_0002_57fa92",
+            "page": 31,
+            "rank": 5,
+            "score": 0.02996
+          },
+          {
+            "id": "communist-manifesto-1848_p0013_B_0001_1c1bb4",
+            "page": 13,
+            "rank": 6,
+            "score": 0.02804
+          },
+          {
+            "id": "communist-manifesto-1848_p0010_B_0002_ffa80e",
+            "page": 10,
+            "rank": 7,
+            "score": 0.02711
+          },
+          {
+            "id": "communist-manifesto-1848_p0031_B_0003_e638b9",
+            "page": 31,
+            "rank": 8,
+            "score": 0.01562
+          }
+        ],
+        "added_ids": [
+          "communist-manifesto-1848_p0031_B_0000_4a547e",
+          "communist-manifesto-1848_p0030_B_0001_4a991c",
+          "communist-manifesto-1848_p0031_B_0001_4772e1",
+          "communist-manifesto-1848_p0013_B_0000_283aa5",
+          "communist-manifesto-1848_p0012_B_0003_78cb9c",
+          "communist-manifesto-1848_p0013_B_0001_1c1bb4",
+          "communist-manifesto-1848_p0031_B_0003_e638b9",
+          "communist-manifesto-1848_p0033_B_0000_ec93f3"
+        ],
+        "dropped_ids": [
+          "communist-manifesto-1848_p0032_B_0000_7518d5",
+          "communist-manifesto-1848_p0031_B_0002_57fa92",
+          "communist-manifesto-1848_p0010_B_0002_ffa80e",
+          "communist-manifesto-1848_p0010_B_0001_b1c3dc",
+          "communist-manifesto-1848_p0010_B_0003_7990da"
+        ],
+        "labels": {
+          "S1": "communist-manifesto-1848_p0031_B_0000_4a547e",
+          "S2": "communist-manifesto-1848_p0030_B_0001_4a991c",
+          "S3": "communist-manifesto-1848_p0031_B_0001_4772e1",
+          "S4": "communist-manifesto-1848_p0013_B_0000_283aa5",
+          "S5": "communist-manifesto-1848_p0012_B_0003_78cb9c",
+          "S6": "communist-manifesto-1848_p0013_B_0001_1c1bb4",
+          "S7": "communist-manifesto-1848_p0031_B_0003_e638b9",
+          "S8": "communist-manifesto-1848_p0033_B_0000_ec93f3"
+        },
+        "elapsed_ms": 88
+      },
+      {
+        "event": "answer",
+        "raw": {
+          "answer": "In Switzerland, the Communists support the Radicals. They keep in mind that the party contains antagonistic elements: partly Democratic Socialists and partly radical bourgeois. [S1]",
+          "citations": [
+            "S1"
+          ],
+          "abstain": false
+        }
+      }
+    ],
+    "context": "[communist-manifesto-1848_p0031_B_0000_4a547e | communist-manifesto-1848 | page 31 | Chapter IV]\nPosition of the Communists in Relation to the Various\nExisting Opposition Parties\n\nSection II has made clear the relations of the Communists to the existing working-class\nparties, such as the Chartists in England and the Agrarian Reformers in America.\n\nThe Communists fight for the attainment of the immediate aims, for the enforcement of the\nmomentary interests of the working class; but in the movement of the present, they also represent\nand take care of the future of that movement. In France, the Communists ally with the Social-\nDemocrats9 against the conservative and radical bourgeoisie, reserving, however, the right to\ntake up a critical position in regard to phases and illusions traditionally handed down from the\ngreat Revolution.\n\nIn Switzerland, they support the Radicals, without losing sight of the fact that this party\nconsists of antagonistic elements, partly of Democratic Socialists, in the French sense, partly of\nradical bourgeois.\n\n[communist-manifesto-1848_p0030_B_0001_4a991c | communist-manifesto-1848 | page 30 | Chapter III]\n8 Phalanstéres were Socialist colonies on the plan of Charles Fourier; Icaria was the name given by Cabet to his Utopia and, later\non, to his American Communist colony. [Engels, 1888 English Edition]\n\n“Home Colonies” were what Owen called his Communist model societies. Phalanstéres was the name of the public palaces\nplanned by Fourier. Icaria was the name given to the Utopian land of fancy, whose Communist institutions Cabet portrayed.\n[Engels, 1890 German Edition]\n\n[communist-manifesto-1848_p0031_B_0001_4772e1 | communist-manifesto-1848 | page 31 | Chapter IV]\nIn Poland, they support the party that insists on an agrarian revolution as the prime condition\nfor national emancipation, that party which fomented the insurrection of Cracow in 1846.\n\nIn Germany, they fight with the bourgeoisie whenever it acts in a revolutionary way, against\nthe absolute monarchy, the feudal squirearchy, and the petty bourgeoisie.\n\nBut they never cease, for a single instant, to instill into the working class the clearest possible\nrecognition of the hostile antagonism between bourgeoisie and proletariat, in order that the\nGerman workers may straightway use, as so many weapons against the bourgeoisie, the social\nand political conditions that the bourgeoisie must necessarily introduce along with its supremacy,\nand in order that, after the fall of the reactionary classes in Germany, the fight against the\nbourgeoisie itself may immediately begin.\n\n[communist-manifesto-1848_p0013_B_0000_283aa5 | communist-manifesto-1848 | page 13 | Chapter II]\nProletarians and Communists\n\nIn what relation do the Communists stand to the proletarians as a whole? The Communists\ndo not form a separate party opposed to the other working-class parties.\n\nThey have no interests separate and apart from those of the proletariat as a whole.\n\nThey do not set up any sectarian principles of their own, by which to shape and mould the\nproletarian movement.\n\nThe Communists are distinguished from the other working-class parties by this only:\n\n(1) In the national struggles of the proletarians of the different countries, they point\nout and bring to the front the common interests of the entire proletariat, independently\nof all nationality.\n\n(2) In the various stages of development which the struggle of the working class\nagainst the bourgeoisie has to pass through, they always and everywhere represent the\ninterests of the movement as a whole.\n\n[communist-manifesto-1848_p0012_B_0003_78cb9c | communist-manifesto-1848 | page 12 | Chapter I]\nThe essential conditions for the existence and for the sway of the bourgeois class is the\nformation and augmentation of capital; the condition for capital is wage-labour. Wage-labour\nrests exclusively on competition between the labourers. The advance of industry, whose\ninvoluntary promoter is the bourgeoisie, replaces the isolation of the labourers, due to\ncompetition, by the revolutionary combination, due to association. The development of Modern\nIndustry, therefore, cuts from under its feet the very foundation on which the bourgeoisie\nproduces and appropriates products. What the bourgeoisie therefore produces, above all, are its\nown grave-diggers. Its fall and the victory of the proletariat are equally inevitable.\n\n[communist-manifesto-1848_p0013_B_0001_1c1bb4 | communist-manifesto-1848 | page 13 | Chapter II]\nThe Communists, therefore, are on the one hand, practically, the most advanced and\nresolute section of the working-class parties of every country, that section which pushes forward\nall others; on the other hand, theoretically, they have over the great mass of the proletariat the\nadvantage of clearly understanding the lines of march, the conditions, and the ultimate general\nresults of the proletarian movement.\n\nThe immediate aim of the Communists is the same as that of all other proletarian parties:\nformation of the proletariat into a class, overthrow of the bourgeois supremacy, conquest of\npolitical power by the proletariat.\n\nThe theoretical conclusions of the Communists are in no way based on ideas or principles\nthat have been invented, or discovered, by this or that would-be universal reformer.\n\n[communist-manifesto-1848_p0031_B_0003_e638b9 | communist-manifesto-1848 | page 31 | Chapter IV]\n9 The party then represented in Parliament by Ledru-Rollin, in literature by Louis Blanc, in the daily press by the Réforme. The\nname of Social-Democracy signifies, with these its inventors, a section of the Democratic or Republican Party more or less tinged\nwith socialism. [Engels, English Edition 1888]\n\n[communist-manifesto-1848_p0033_B_0000_ec93f3 | communist-manifesto-1848 | page 33 | Appendix]\nAppendix: Prefaces to various Language Editions\n\nThe 1872 German Edition",
+    "context_ids": [
+      "communist-manifesto-1848_p0031_B_0000_4a547e",
+      "communist-manifesto-1848_p0030_B_0001_4a991c",
+      "communist-manifesto-1848_p0031_B_0001_4772e1",
+      "communist-manifesto-1848_p0013_B_0000_283aa5",
+      "communist-manifesto-1848_p0012_B_0003_78cb9c",
+      "communist-manifesto-1848_p0013_B_0001_1c1bb4",
+      "communist-manifesto-1848_p0031_B_0003_e638b9",
+      "communist-manifesto-1848_p0033_B_0000_ec93f3"
+    ],
+    "error": null,
+    "elapsed_ms": 3073,
+    "tokens_in": 2093,
+    "tokens_out": 109,
+    "cost_usd": 0.0005494,
+    "n_llm_calls": 2,
+    "stop": "final_answer"
+  },
+  {
+    "query_id": "u05",
+    "config": "A3b_hybrid_v2_k8_nb_dd",
+    "model": "gpt-5.6-luna",
+    "question": "In Chapter II, on what foundation is the present, bourgeois family based?",
+    "filter": {
+      "chapter": "Chapter II"
+    },
+    "status": "answered",
+    "answer": "The present, bourgeois family is based on capital and private gain. [communist-manifesto-1848_p0017_B_0000_db0732]",
+    "citations": [
+      "communist-manifesto-1848_p0017_B_0000_db0732"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "hybrid_rrf",
+        "query": "Chapter II present bourgeois family based foundation capital private gain",
+        "filter": {
+          "chapter": "Chapter II"
+        },
+        "results": [
+          {
+            "id": "communist-manifesto-1848_p0017_B_0000_db0732",
+            "page": 17,
+            "rank": 1,
+            "score": 0.03279
+          },
+          {
+            "id": "communist-manifesto-1848_p0014_B_0001_f5b3ee",
+            "page": 14,
+            "rank": 2,
+            "score": 0.03226
+          },
+          {
+            "id": "communist-manifesto-1848_p0014_B_0000_ad8734",
+            "page": 14,
+            "rank": 3,
+            "score": 0.0315
+          },
+          {
+            "id": "communist-manifesto-1848_p0015_B_0001_b34728",
+            "page": 15,
+            "rank": 4,
+            "score": 0.03055
+          },
+          {
+            "id": "communist-manifesto-1848_p0017_B_0002_c064a3",
+            "page": 17,
+            "rank": 5,
+            "score": 0.03031
+          },
+          {
+            "id": "communist-manifesto-1848_p0017_B_0001_0a23b4",
+            "page": 17,
+            "rank": 6,
+            "score": 0.0303
+          },
+          {
+            "id": "communist-manifesto-1848_p0014_B_0002_ccba68",
+            "page": 14,
+            "rank": 7,
+            "score": 0.02976
+          },
+          {
+            "id": "communist-manifesto-1848_p0016_B_0000_aeeb50",
+            "page": 16,
+            "rank": 8,
+            "score": 0.02947
+          }
+        ],
+        "added_ids": [
+          "communist-manifesto-1848_p0017_B_0000_db0732",
+          "communist-manifesto-1848_p0016_B_0002_0ecb32",
+          "communist-manifesto-1848_p0017_B_0001_0a23b4",
+          "communist-manifesto-1848_p0014_B_0001_f5b3ee",
+          "communist-manifesto-1848_p0014_B_0000_ad8734",
+          "communist-manifesto-1848_p0014_B_0002_ccba68",
+          "communist-manifesto-1848_p0015_B_0001_b34728"
+        ],
+        "dropped_ids": [
+          "communist-manifesto-1848_p0015_B_0000_1b5359",
+          "communist-manifesto-1848_p0015_B_0002_913c67",
+          "communist-manifesto-1848_p0017_B_0002_c064a3",
+          "communist-manifesto-1848_p0018_B_0000_b83d8e",
+          "communist-manifesto-1848_p0016_B_0000_aeeb50",
+          "communist-manifesto-1848_p0016_B_0001_4ead5c"
+        ],
+        "labels": {
+          "S1": "communist-manifesto-1848_p0017_B_0000_db0732",
+          "S2": "communist-manifesto-1848_p0016_B_0002_0ecb32",
+          "S3": "communist-manifesto-1848_p0017_B_0001_0a23b4",
+          "S4": "communist-manifesto-1848_p0014_B_0001_f5b3ee",
+          "S5": "communist-manifesto-1848_p0014_B_0000_ad8734",
+          "S6": "communist-manifesto-1848_p0014_B_0002_ccba68",
+          "S7": "communist-manifesto-1848_p0015_B_0001_b34728"
+        },
+        "elapsed_ms": 88
+      },
+      {
+        "event": "answer",
+        "raw": {
+          "answer": "The present, bourgeois family is based on capital and private gain. [S1]",
+          "citations": [
+            "S1"
+          ],
+          "abstain": false
+        }
+      }
+    ],
+    "context": "[communist-manifesto-1848_p0017_B_0000_db0732 | communist-manifesto-1848 | page 17 | Chapter II]\nThe selfish misconception that induces you to transform into eternal laws of nature and of\nreason, the social forms springing from your present mode of production and form of property –\nhistorical relations that rise and disappear in the progress of production – this misconception you\nshare with every ruling class that has preceded you. What you see clearly in the case of ancient\nproperty, what you admit in the case of feudal property, you are of course forbidden to admit in\nthe case of your own bourgeois form of property.\n\nAbolition [Aufhebung] of the family! Even the most radical flare up at this infamous\nproposal of the Communists.\n\nOn what foundation is the present family, the bourgeois family, based? On capital, on\nprivate gain. In its completely developed form, this family exists only among the bourgeoisie.\nBut this state of things finds its complement in the practical absence of the family among the\nproletarians, and in public prostitution.\n\n[communist-manifesto-1848_p0016_B_0002_0ecb32 | communist-manifesto-1848 | page 16 | Chapter II]\nBut don’t wrangle with us so long as you apply, to our intended abolition of bourgeois\nproperty, the standard of your bourgeois notions of freedom, culture, law, &c. Your very ideas\nare but the outgrowth of the conditions of your bourgeois production and bourgeois property, just\nas your jurisprudence is but the will of your class made into a law for all, a will whose essential\ncharacter and direction are determined by the economical conditions of existence of your class.\n\n[communist-manifesto-1848_p0017_B_0001_0a23b4 | communist-manifesto-1848 | page 17 | Chapter II]\nThe bourgeois family will vanish as a matter of course when its complement vanishes, and\nboth will vanish with the vanishing of capital.\n\nDo you charge us with wanting to stop the exploitation of children by their parents? To\nthis crime we plead guilty.\n\nBut, you say, we destroy the most hallowed of relations, when we replace home education\nby social.\n\nAnd your education! Is not that also social, and determined by the social conditions under\nwhich you educate, by the intervention direct or indirect, of society, by means of schools, &c.?\nThe Communists have not invented the intervention of society in education; they do but seek to\nalter the character of that intervention, and to rescue education from the influence of the ruling\nclass.\n\n[communist-manifesto-1848_p0014_B_0001_f5b3ee | communist-manifesto-1848 | page 14 | Chapter II]\nHard-won, self-acquired, self-earned property! Do you mean the property of petty artisan\nand of the small peasant, a form of property that preceded the bourgeois form? There is no need\nto abolish that; the development of industry has to a great extent already destroyed it, and is still\ndestroying it daily.\n\nOr do you mean the modern bourgeois private property?\n\nBut does wage-labour create any property for the labourer? Not a bit. It creates capital, i.e.,\nthat kind of property which exploits wage-labour, and which cannot increase except upon\ncondition of begetting a new supply of wage-labour for fresh exploitation. Property, in its present\nform, is based on the antagonism of capital and wage labour. Let us examine both sides of this\nantagonism.\n\n[communist-manifesto-1848_p0014_B_0000_ad8734 | communist-manifesto-1848 | page 14 | Chapter II]\nThe French Revolution, for example, abolished feudal property in favour of bourgeois\nproperty.\n\nThe distinguishing feature of Communism is not the abolition of property generally, but\nthe abolition of bourgeois property. But modern bourgeois private property is the final and most\ncomplete expression of the system of producing and appropriating products, that is based on\nclass antagonisms, on the exploitation of the many by the few.\n\nIn this sense, the theory of the Communists may be summed up in the single sentence:\nAbolition of private property.\n\nWe Communists have been reproached with the desire of abolishing the right of personally\nacquiring property as the fruit of a man’s own labour, which property is alleged to be the\ngroundwork of all personal freedom, activity and independence.\n\n[communist-manifesto-1848_p0014_B_0002_ccba68 | communist-manifesto-1848 | page 14 | Chapter II]\nTo be a capitalist, is to have not only a purely personal, but a social status in production.\nCapital is a collective product, and only by the united action of many members, nay, in the last\nresort, only by the united action of all members of society, can it be set in motion.\n\nCapital is therefore not only personal; it is a social power.\n\nWhen, therefore, capital is converted into common property, into the property of all\nmembers of society, personal property is not thereby transformed into social property. It is only\nthe social character of the property that is changed. It loses its class character.\n\nLet us now take wage-labour.\n\n[communist-manifesto-1848_p0015_B_0001_b34728 | communist-manifesto-1848 | page 15 | Chapter II]\nIn bourgeois society, therefore, the past dominates the present; in Communist society, the\npresent dominates the past. In bourgeois society capital is independent and has individuality,\nwhile the living person is dependent and has no individuality.\n\nAnd the abolition of this state of things is called by the bourgeois, abolition of\nindividuality and freedom! And rightly so. The abolition of bourgeois individuality, bourgeois\nindependence, and bourgeois freedom is undoubtedly aimed at.\n\nBy freedom is meant, under the present bourgeois conditions of production, free trade, free\nselling and buying.",
+    "context_ids": [
+      "communist-manifesto-1848_p0017_B_0000_db0732",
+      "communist-manifesto-1848_p0016_B_0002_0ecb32",
+      "communist-manifesto-1848_p0017_B_0001_0a23b4",
+      "communist-manifesto-1848_p0014_B_0001_f5b3ee",
+      "communist-manifesto-1848_p0014_B_0000_ad8734",
+      "communist-manifesto-1848_p0014_B_0002_ccba68",
+      "communist-manifesto-1848_p0015_B_0001_b34728"
+    ],
+    "error": null,
+    "elapsed_ms": 3272,
+    "tokens_in": 2025,
+    "tokens_out": 87,
+    "cost_usd": 0.0005094,
+    "n_llm_calls": 2,
+    "stop": "final_answer"
+  },
+  {
+    "query_id": "u06",
+    "config": "A3b_hybrid_v2_k8_nb_dd",
+    "model": "gpt-5.6-luna",
+    "question": "According to the prefaces, what kind of movement was socialism in 1847, and what kind was communism?",
+    "filter": null,
+    "status": "answered",
+    "answer": "In 1847, socialism was a middle-class (or bourgeois) movement, while communism was a working-class movement. [communist-manifesto-1848_p0038_B_0000_b28471]",
+    "citations": [
+      "communist-manifesto-1848_p0038_B_0000_b28471"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "hybrid_rrf",
+        "query": "preface 1847 socialism was movement communism was movement working class",
+        "filter": null,
+        "results": [
+          {
+            "id": "communist-manifesto-1848_p0038_B_0000_b28471",
+            "page": 38,
+            "rank": 1,
+            "score": 0.03252
+          },
+          {
+            "id": "communist-manifesto-1848_p0041_B_0003_deebda",
+            "page": 41,
+            "rank": 2,
+            "score": 0.03252
+          },
+          {
+            "id": "communist-manifesto-1848_p0041_B_0002_a015d3",
+            "page": 41,
+            "rank": 3,
+            "score": 0.03175
+          },
+          {
+            "id": "communist-manifesto-1848_p0041_B_0001_ba862b",
+            "page": 41,
+            "rank": 4,
+            "score": 0.02988
+          },
+          {
+            "id": "communist-manifesto-1848_p0038_B_0001_292b2c",
+            "page": 38,
+            "rank": 5,
+            "score": 0.02986
+          },
+          {
+            "id": "communist-manifesto-1848_p0034_B_0001_efd4df",
+            "page": 34,
+            "rank": 6,
+            "score": 0.02742
+          },
+          {
+            "id": "communist-manifesto-1848_p0035_B_0003_95adf9",
+            "page": 35,
+            "rank": 7,
+            "score": 0.02658
+          },
+          {
+            "id": "communist-manifesto-1848_p0027_B_0000_412f25",
+            "page": 27,
+            "rank": 8,
+            "score": 0.02649
+          }
+        ],
+        "added_ids": [
+          "communist-manifesto-1848_p0038_B_0000_b28471",
+          "communist-manifesto-1848_p0037_B_0005_ac71c7",
+          "communist-manifesto-1848_p0038_B_0001_292b2c",
+          "communist-manifesto-1848_p0041_B_0003_deebda",
+          "communist-manifesto-1848_p0041_B_0002_a015d3",
+          "communist-manifesto-1848_p0041_B_0004_2d6d9b",
+          "communist-manifesto-1848_p0041_B_0001_ba862b",
+          "communist-manifesto-1848_p0035_B_0003_95adf9"
+        ],
+        "dropped_ids": [
+          "communist-manifesto-1848_p0041_B_0000_b1a3da",
+          "communist-manifesto-1848_p0034_B_0001_efd4df",
+          "communist-manifesto-1848_p0034_B_0000_077a89",
+          "communist-manifesto-1848_p0034_B_0002_6cb34d",
+          "communist-manifesto-1848_p0035_B_0002_e4cf4c",
+          "communist-manifesto-1848_p0036_B_0000_91a66d",
+          "communist-manifesto-1848_p0027_B_0000_412f25",
+          "communist-manifesto-1848_p0026_B_0003_838e91",
+          "communist-manifesto-1848_p0027_B_0001_a9db78"
+        ],
+        "labels": {
+          "S1": "communist-manifesto-1848_p0038_B_0000_b28471",
+          "S2": "communist-manifesto-1848_p0037_B_0005_ac71c7",
+          "S3": "communist-manifesto-1848_p0038_B_0001_292b2c",
+          "S4": "communist-manifesto-1848_p0041_B_0003_deebda",
+          "S5": "communist-manifesto-1848_p0041_B_0002_a015d3",
+          "S6": "communist-manifesto-1848_p0041_B_0004_2d6d9b",
+          "S7": "communist-manifesto-1848_p0041_B_0001_ba862b",
+          "S8": "communist-manifesto-1848_p0035_B_0003_95adf9"
+        },
+        "elapsed_ms": 73
+      },
+      {
+        "event": "answer",
+        "raw": {
+          "answer": "In 1847, socialism was a middle-class (or bourgeois) movement, while communism was a working-class movement. [S1]",
+          "citations": [
+            "S1"
+          ],
+          "abstain": false
+        }
+      }
+    ],
+    "context": "[communist-manifesto-1848_p0038_B_0000_b28471 | communist-manifesto-1848 | page 38 | Appendix]\nin England, Fourierists in France, both of them already reduced to the position of mere sects, and\ngradually dying out; on the other hand, the most multifarious social quacks who, by all manner\nof tinkering, professed to redress, without any danger to capital and profit, all sorts of social\ngrievances, in both cases men outside the working-class movement, and looking rather to the\n\"educated\" classes for support. Whatever portion of the working class had become convinced of\nthe insufficiency of mere political revolutions, and had proclaimed the necessity of total social\nchange, called itself Communist. It was a crude, rough-hewn, purely instinctive sort of\ncommunism; still, it touched the cardinal point and was powerful enough amongst the working\nclass to produce the Utopian communism of Cabet in France, and of Weitling in Germany. Thus,\nin 1847, socialism was a middle-class movement, communism a working-class movement.\n\n[communist-manifesto-1848_p0037_B_0005_ac71c7 | communist-manifesto-1848 | page 37 | Appendix]\nYet, when it was written, we could not have called it a socialist manifesto. By Socialists, in\n1847, were understood, on the one hand the adherents of the various Utopian systems: Owenites\n11\nLassalle personally, to us, always acknowledged himself to be a disciple of Marx, and, as such, stood on the ground of the\nManifesto. But in his first public agitation, 1862-1864, he did not go beyond demanding co-operative workshops supported by state\ncredit.\n\n[communist-manifesto-1848_p0038_B_0001_292b2c | communist-manifesto-1848 | page 38 | Appendix]\nSocialism was, on the Continent at least, \"respectable\"; communism was the very opposite. And\nas our notion, from the very beginning, was that \"the emancipation of the workers must be the\nact of the working class itself,\" there could be no doubt as to which of the two names we must\ntake. Moreover, we have, ever since, been far from repudiating it.\n\n[communist-manifesto-1848_p0041_B_0003_deebda | communist-manifesto-1848 | page 41 | Appendix]\nYet, it was powerful enough to bring into being two systems of utopian\ncommunism -- in France, the \"Icarian\" communists of Cabet, and in Germany that of Weitling. Socialism in 1847 signified a bourgeois movement, communism a working-class movement. Socialism was, on the Continent at least, quite respectable, whereas communism was the very\nopposite. And since we were very decidely of the opinion as early as then that \"the emancipation\nof the workers must be the task of the working class itself,\" we could have no hesitation as to\nwhich of the two names we should choose. Nor has it ever occured to us to repudiate it.\n\n[communist-manifesto-1848_p0041_B_0002_a015d3 | communist-manifesto-1848 | page 41 | Appendix]\nNevertheless, when it appeared, we could not have called it a socialist manifesto. In 1847,\ntwo kinds of people were considered socialists. On the one hand were the adherents of the\nvarious utopian systems, notably the Owenites in England and the Fourierists in France, both of\nwhom, at that date, had already dwindled to mere sects gradually dying out. On the other, the\nmanifold types of social quacks who wanted to eliminate social abuses through their various\nuniversal panaceas and all kinds of patch-work, without hurting capital and profit in the least. In\nboth cases, people who stood outside the labor movement and who looked for support rather to\nthe \"educated\" classes. The section of the working class, however, which demanded a radical\nreconstruction of society, convinced that mere political revolutions were not enough, then called\nitself Communist. It was still a rough-hewn, only instinctive and frequently somewhat crude\ncommunism.\n\n[communist-manifesto-1848_p0041_B_0004_2d6d9b | communist-manifesto-1848 | page 41 | Appendix]\n\"Working men of all countries, unite!\" But few voices responded when we proclaimed these\nwords to the world 42 years ago, on the eve of the first Paris Revolution in which the proletariat\ncame out with the demands of its own. On September 28, 1864, however, the proletarians of\nmost of the Western European countries joined hands in the International Working Men's\nAssociation of glorious memory. True, the International itself lived only nine years. But that the\neternal union of the proletarians of all countries created by it is still alive and lives stronger than\n\n[communist-manifesto-1848_p0041_B_0001_ba862b | communist-manifesto-1848 | page 41 | Appendix]\nProudhonism in the Latin countries, and the specific Lassalleanism in Germany, were dying out;\nand even the ten arch-conservative English trade unions were gradually approaching the point\nwhere, in 1887, the chairman of their Swansea Congress could say in their name: \"Continental\nsocialism has lost its terror for us.\" Yet by 1887 continental socialism was almost exclusively the\ntheory heralded in the Manifesto. Thus, to a certain extent, the history of the Manifesto reflects\nthe history of the modern working-class movement since 1848. At present, it is doubtless the\nmost widely circulated, the most international product of all socialist literature, the common\nprogramme of many millions of workers of all countries from Siberia to California.\n\n[communist-manifesto-1848_p0035_B_0003_95adf9 | communist-manifesto-1848 | page 35 | Appendix]\n10\n\"This proposition\", I wrote in the preface to the English translation, \"which, in my opinion, is destined to do for history what\nDarwin's theory has done for biology, we both of us, had been gradually approaching for some years before 1845. How far I had\nindependently progressed towards it is best shown by my Conditions of the Working Class in England. But when I again met Marx at\nBrussels, in spring 1845, he had it already worked out and put it before me in terms almost as clear as those in which I have stated\nit here.\"]",
+    "context_ids": [
+      "communist-manifesto-1848_p0038_B_0000_b28471",
+      "communist-manifesto-1848_p0037_B_0005_ac71c7",
+      "communist-manifesto-1848_p0038_B_0001_292b2c",
+      "communist-manifesto-1848_p0041_B_0003_deebda",
+      "communist-manifesto-1848_p0041_B_0002_a015d3",
+      "communist-manifesto-1848_p0041_B_0004_2d6d9b",
+      "communist-manifesto-1848_p0041_B_0001_ba862b",
+      "communist-manifesto-1848_p0035_B_0003_95adf9"
+    ],
+    "error": null,
+    "elapsed_ms": 3677,
+    "tokens_in": 2182,
+    "tokens_out": 103,
+    "cost_usd": 0.00056,
+    "n_llm_calls": 2,
+    "stop": "final_answer"
+  },
+  {
+    "query_id": "u07",
+    "config": "A3b_hybrid_v2_k8_nb_dd",
+    "model": "gpt-5.6-luna",
+    "question": "According to the 1892 Polish preface, in which year did Poland succumb to Russia, and how much greater was the Russian force?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Poland succumbed to Russia in 1863, to a Russian force ten times greater. [communist-manifesto-1848_p0043_B_0000_019b45]",
+    "citations": [
+      "communist-manifesto-1848_p0043_B_0000_019b45"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "hybrid_rrf",
+        "query": "1892 Polish preface year Poland succumbed to Russia Russian force greater",
+        "filter": null,
+        "results": [
+          {
+            "id": "communist-manifesto-1848_p0043_B_0000_019b45",
+            "page": 43,
+            "rank": 1,
+            "score": 0.03279
+          },
+          {
+            "id": "communist-manifesto-1848_p0042_B_0002_485e3d",
+            "page": 42,
+            "rank": 2,
+            "score": 0.03226
+          },
+          {
+            "id": "communist-manifesto-1848_p0043_B_0001_0801d2",
+            "page": 43,
+            "rank": 3,
+            "score": 0.03126
+          },
+          {
+            "id": "communist-manifesto-1848_p0042_B_0003_965112",
+            "page": 42,
+            "rank": 4,
+            "score": 0.03125
+          },
+          {
+            "id": "communist-manifesto-1848_p0039_B_0002_1a05c3",
+            "page": 39,
+            "rank": 5,
+            "score": 0.0308
+          },
+          {
+            "id": "communist-manifesto-1848_p0034_B_0003_a9eb27",
+            "page": 34,
+            "rank": 6,
+            "score": 0.0303
+          },
+          {
+            "id": "communist-manifesto-1848_p0042_B_0000_f0cd81",
+            "page": 42,
+            "rank": 7,
+            "score": 0.03009
+          },
+          {
+            "id": "communist-manifesto-1848_p0033_B_0002_fb0b1a",
+            "page": 33,
+            "rank": 8,
+            "score": 0.02844
+          }
+        ],
+        "added_ids": [
+          "communist-manifesto-1848_p0043_B_0000_019b45",
+          "communist-manifesto-1848_p0042_B_0003_965112",
+          "communist-manifesto-1848_p0043_B_0001_0801d2",
+          "communist-manifesto-1848_p0042_B_0002_485e3d",
+          "communist-manifesto-1848_p0042_B_0001_956d62",
+          "communist-manifesto-1848_p0039_B_0002_1a05c3",
+          "communist-manifesto-1848_p0039_B_0001_e1e704",
+          "communist-manifesto-1848_p0039_B_0003_fdc738"
+        ],
+        "dropped_ids": [
+          "communist-manifesto-1848_p0034_B_0003_a9eb27",
+          "communist-manifesto-1848_p0034_B_0002_6cb34d",
+          "communist-manifesto-1848_p0035_B_0000_b0725d",
+          "communist-manifesto-1848_p0042_B_0000_f0cd81",
+          "communist-manifesto-1848_p0041_B_0005_4c2ec7",
+          "communist-manifesto-1848_p0033_B_0002_fb0b1a",
+          "communist-manifesto-1848_p0033_B_0001_3e3472",
+          "communist-manifesto-1848_p0033_B_0003_ff447b"
+        ],
+        "labels": {
+          "S1": "communist-manifesto-1848_p0043_B_0000_019b45",
+          "S2": "communist-manifesto-1848_p0042_B_0003_965112",
+          "S3": "communist-manifesto-1848_p0043_B_0001_0801d2",
+          "S4": "communist-manifesto-1848_p0042_B_0002_485e3d",
+          "S5": "communist-manifesto-1848_p0042_B_0001_956d62",
+          "S6": "communist-manifesto-1848_p0039_B_0002_1a05c3",
+          "S7": "communist-manifesto-1848_p0039_B_0001_e1e704",
+          "S8": "communist-manifesto-1848_p0039_B_0003_fdc738"
+        },
+        "elapsed_ms": 95
+      },
+      {
+        "event": "answer",
+        "raw": {
+          "answer": "Poland succumbed to Russia in 1863, to a Russian force ten times greater. [S1]",
+          "citations": [
+            "S1"
+          ],
+          "abstain": false
+        }
+      }
+    ],
+    "context": "[communist-manifesto-1848_p0043_B_0000_019b45 | communist-manifesto-1848 | page 43 | Appendix]\nBut the rapid development of Polish industry, outstripping that of Russia, is in its turn a new\nproof of the inexhaustible vitality of the Polish people and a new guarantee of its impending\nnational restoration. And the restoration of an independent and strong Poland is a matter which\nconcerns not only the Poles but all of us. A sincere international collaboration of the European\nnations is possible only if each of these nations is fully autonomous in its own house. The\nRevolution of 1848, which under the banner of the proletariat, after all, merely let the proletarian\nfighters do the work of the bourgeoisie, also secured the independence of Italy, Germany and\nHungary through its testamentary executors, Louis Bonaparte and Bismarck; but Poland, which\nsince 1792 had done more for the Revolution than all these three together, was left to its own\nresources when it succumbed in 1863 to a tenfold greater Russian force.\n\n[communist-manifesto-1848_p0042_B_0003_965112 | communist-manifesto-1848 | page 42 | Appendix]\nThe disadvantages – for the Polish manufacturers and the Russian government –\nare manifest in the rapid spread of socialist ideas among the Polish workers and in the growing\ndemand for the Manifesto.\n\n[communist-manifesto-1848_p0043_B_0001_0801d2 | communist-manifesto-1848 | page 43 | Appendix]\nThe nobility could\nneither maintain nor regain Polish independence; today, to the bourgeoisie, this independence is,\nto say the last, immaterial. Nevertheless, it is a necessity for the harmonious collaboration of the\nEuropean nations. It can be gained only by the young Polish proletariat, and in its hands it is\nsecure. For the workers of all the rest of Europe need the independence of Poland just as much as\nthe Polish workers themselves.\n\n[communist-manifesto-1848_p0042_B_0002_485e3d | communist-manifesto-1848 | page 42 | Appendix]\nAccordingly, the new Polish edition indicates a decided progress of Polish industry. And\nthere can be no doubt whatever that this progress since the previous edition published ten years\nago has actually taken place. Russian Poland, Congress Poland, has become the big industrial\nregion of the Russian Empire. Whereas Russian large-scale industry is scattered sporadically – a\npart round the Gulf of Finland, another in the center (Moscow and Vladimir), a third along the\ncoasts of the Black and Azov seas, and still others elsewhere – Polish industry has been packed\ninto a relatively small area and enjoys both the advantages and disadvantages arising from such\nconcentration. The competing Russian manufacturers acknowledged the advantages when they\ndemanded protective tariffs against Poland, in spit of their ardent desire to transform the Poles\ninto Russians.\n\n[communist-manifesto-1848_p0042_B_0001_956d62 | communist-manifesto-1848 | page 42 | Appendix]\nFirst of all, it is noteworthy that of late the Manifesto has become an index, as it were, of the\ndevelopment of large-scale industry on the European continent. In proportion as large-scale\nindustry expands in a given country, the demand grows among the workers of that country for\nenlightenment regarding their position as the working class in relation to the possessing classes,\nthe socialist movement spreads among them and the demand for the Manifesto increases. Thus,\nnot only the state of the labour movement but also the degree of development of large-scale\nindustry can be measured with fair accuracy in every country by the number of copies of the\nManifesto circulated in the language of that country.\n\n[communist-manifesto-1848_p0039_B_0002_1a05c3 | communist-manifesto-1848 | page 39 | Appendix]\n\"But then, the Manifesto has become a historical document which we have no longer any right to alter.\"\n\nThe present translation is by Mr Samuel Moore, the translator of the greater portion of\nMarx's Capital. We have revised it in common, and I have added a few notes explanatory of\nhistorical allusions.\n\nFredrick Engels\nJanuary 30, 1888, London\n\nThe 1890 German Edition\n\nSince [The 1883 German edition preface] was written, a new German edition of the\nManifesto has again become necessary, and much has also happened to the Manifesto which\nshould be recorded here.\n\nA second Russian translation -- by Vera Zasulich -- appeared in Geneva in 1882; the preface\nto that edition was written by Marx and myself. Unfortunately, the original German manuscript\nhas gone astray; I must therefore retranslate from the Russian which will in no way improve the\ntext. It reads:\n\n[ Reprint of the 1882 Russian Edition ]\n\nAt about the same date, a new Polish version appeared in Geneva: Manifest\nKommunistyczny.\n\n[communist-manifesto-1848_p0039_B_0001_e1e704 | communist-manifesto-1848 | page 39 | Appendix]\nOne\nthing especially was proved by the Commune, viz., that \"the working class cannot simply lay hold of ready-\nmade state machinery, and wield it for its own purposes.\" (See The Civil War in France: Address of the General\nCouncil of the International Working Men's Assocation 1871, where this point is further developed.) Further, it\nis self-evident that the criticism of socialist literature is deficient in relation to the present time, because it comes\ndown only to 1847; also that the remarks on the relation of the Communists to the various opposition parties\n(Section IV), although, in principle still correct, yet in practice are antiquated, because the political situation has\nbeen entirely changed, and the progress of history has swept from off the Earth the greater portion of the political\nparties there enumerated.\n\n[communist-manifesto-1848_p0039_B_0003_fdc738 | communist-manifesto-1848 | page 39 | Appendix]\nFurthermore, a new Danish translation has appeared in the Socialdemokratisk Bibliothek,\nCopenhagen, 1885. Unfortunately, it is not quite complete; certain essential passages, which",
+    "context_ids": [
+      "communist-manifesto-1848_p0043_B_0000_019b45",
+      "communist-manifesto-1848_p0042_B_0003_965112",
+      "communist-manifesto-1848_p0043_B_0001_0801d2",
+      "communist-manifesto-1848_p0042_B_0002_485e3d",
+      "communist-manifesto-1848_p0042_B_0001_956d62",
+      "communist-manifesto-1848_p0039_B_0002_1a05c3",
+      "communist-manifesto-1848_p0039_B_0001_e1e704",
+      "communist-manifesto-1848_p0039_B_0003_fdc738"
+    ],
+    "error": null,
+    "elapsed_ms": 3009,
+    "tokens_in": 2098,
+    "tokens_out": 97,
+    "cost_usd": 0.000536,
+    "n_llm_calls": 2,
+    "stop": "final_answer"
+  },
+  {
+    "query_id": "un01",
+    "config": "A3b_hybrid_v2_k8_nb_dd",
+    "model": "gpt-5.6-luna",
+    "question": "In what year was Karl Marx born, according to the Manifesto and its prefaces?",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Not enough evidence in the document to answer this question.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "hybrid_rrf",
+        "query": "Karl Marx born year birth date biography preface",
+        "filter": null,
+        "results": [
+          {
+            "id": "communist-manifesto-1848_p0035_B_0001_faf207",
+            "page": 35,
+            "rank": 1,
+            "score": 0.03227
+          },
+          {
+            "id": "communist-manifesto-1848_p0035_B_0003_95adf9",
+            "page": 35,
+            "rank": 2,
+            "score": 0.03125
+          },
+          {
+            "id": "communist-manifesto-1848_p0038_B_0004_4e016d",
+            "page": 38,
+            "rank": 3,
+            "score": 0.03083
+          },
+          {
+            "id": "communist-manifesto-1848_p0039_B_0002_1a05c3",
+            "page": 39,
+            "rank": 4,
+            "score": 0.03083
+          },
+          {
+            "id": "communist-manifesto-1848_p0040_B_0000_c3fb15",
+            "page": 40,
+            "rank": 5,
+            "score": 0.03068
+          },
+          {
+            "id": "communist-manifesto-1848_p0040_B_0001_c2f350",
+            "page": 40,
+            "rank": 6,
+            "score": 0.02988
+          },
+          {
+            "id": "communist-manifesto-1848_p0043_B_0002_1db5bf",
+            "page": 43,
+            "rank": 7,
+            "score": 0.02944
+          },
+          {
+            "id": "communist-manifesto-1848_p0034_B_0000_077a89",
+            "page": 34,
+            "rank": 8,
+            "score": 0.02924
+          }
+        ],
+        "added_ids": [
+          "communist-manifesto-1848_p0035_B_0001_faf207",
+          "communist-manifesto-1848_p0035_B_0000_b0725d",
+          "communist-manifesto-1848_p0035_B_0002_e4cf4c",
+          "communist-manifesto-1848_p0035_B_0003_95adf9",
+          "communist-manifesto-1848_p0036_B_0000_91a66d",
+          "communist-manifesto-1848_p0038_B_0004_4e016d",
+          "communist-manifesto-1848_p0039_B_0003_fdc738",
+          "communist-manifesto-1848_p0039_B_0004_58117e"
+        ],
+        "dropped_ids": [
+          "communist-manifesto-1848_p0038_B_0003_cbe94c",
+          "communist-manifesto-1848_p0038_B_0005_745803",
+          "communist-manifesto-1848_p0039_B_0002_1a05c3",
+          "communist-manifesto-1848_p0039_B_0001_e1e704",
+          "communist-manifesto-1848_p0040_B_0000_c3fb15",
+          "communist-manifesto-1848_p0040_B_0001_c2f350",
+          "communist-manifesto-1848_p0043_B_0002_1db5bf",
+          "communist-manifesto-1848_p0043_B_0001_0801d2",
+          "communist-manifesto-1848_p0043_B_0003_1f57ed",
+          "communist-manifesto-1848_p0034_B_0000_077a89",
+          "communist-manifesto-1848_p0033_B_0004_09afad",
+          "communist-manifesto-1848_p0034_B_0001_efd4df"
+        ],
+        "labels": {
+          "S1": "communist-manifesto-1848_p0035_B_0001_faf207",
+          "S2": "communist-manifesto-1848_p0035_B_0000_b0725d",
+          "S3": "communist-manifesto-1848_p0035_B_0002_e4cf4c",
+          "S4": "communist-manifesto-1848_p0035_B_0003_95adf9",
+          "S5": "communist-manifesto-1848_p0036_B_0000_91a66d",
+          "S6": "communist-manifesto-1848_p0038_B_0004_4e016d",
+          "S7": "communist-manifesto-1848_p0039_B_0003_fdc738",
+          "S8": "communist-manifesto-1848_p0039_B_0004_58117e"
+        },
+        "elapsed_ms": 81
+      },
+      {
+        "event": "search",
+        "tool": "hybrid_rrf",
+        "query": "Marx born 1818 birth Trier biography Karl Marx 1818",
+        "filter": null,
+        "results": [
+          {
+            "id": "communist-manifesto-1848_p0003_B_0003_3ec85e",
+            "page": 3,
+            "rank": 1,
+            "score": 0.03068
+          },
+          {
+            "id": "communist-manifesto-1848_p0040_B_0001_c2f350",
+            "page": 40,
+            "rank": 2,
+            "score": 0.03062
+          },
+          {
+            "id": "communist-manifesto-1848_p0037_B_0001_46eb1b",
+            "page": 37,
+            "rank": 3,
+            "score": 0.03058
+          },
+          {
+            "id": "communist-manifesto-1848_p0041_B_0000_b1a3da",
+            "page": 41,
+            "rank": 4,
+            "score": 0.03055
+          },
+          {
+            "id": "communist-manifesto-1848_p0043_B_0002_1db5bf",
+            "page": 43,
+            "rank": 5,
+            "score": 0.03054
+          },
+          {
+            "id": "communist-manifesto-1848_p0035_B_0001_faf207",
+            "page": 35,
+            "rank": 6,
+            "score": 0.03021
+          },
+          {
+            "id": "communist-manifesto-1848_p0038_B_0004_4e016d",
+            "page": 38,
+            "rank": 7,
+            "score": 0.02921
+          },
+          {
+            "id": "communist-manifesto-1848_p0035_B_0003_95adf9",
+            "page": 35,
+            "rank": 8,
+            "score": 0.02881
+          }
+        ],
+        "added_ids": [
+          "communist-manifesto-1848_p0003_B_0003_3ec85e",
+          "communist-manifesto-1848_p0003_B_0002_357a4f",
+          "communist-manifesto-1848_p0003_B_0004_582cc8",
+          "communist-manifesto-1848_p0040_B_0001_c2f350",
+          "communist-manifesto-1848_p0040_B_0000_c3fb15",
+          "communist-manifesto-1848_p0040_B_0002_c71724",
+          "communist-manifesto-1848_p0037_B_0001_46eb1b",
+          "communist-manifesto-1848_p0037_B_0000_aa77d3",
+          "communist-manifesto-1848_p0043_B_0001_0801d2"
+        ],
+        "dropped_ids": [
+          "communist-manifesto-1848_p0037_B_0002_b9bd5a",
+          "communist-manifesto-1848_p0041_B_0000_b1a3da",
+          "communist-manifesto-1848_p0040_B_0003_e3e463",
+          "communist-manifesto-1848_p0041_B_0001_ba862b",
+          "communist-manifesto-1848_p0043_B_0002_1db5bf",
+          "communist-manifesto-1848_p0043_B_0003_1f57ed"
+        ],
+        "labels": {
+          "S9": "communist-manifesto-1848_p0003_B_0003_3ec85e",
+          "S10": "communist-manifesto-1848_p0003_B_0002_357a4f",
+          "S11": "communist-manifesto-1848_p0003_B_0004_582cc8",
+          "S12": "communist-manifesto-1848_p0040_B_0001_c2f350",
+          "S13": "communist-manifesto-1848_p0040_B_0000_c3fb15",
+          "S14": "communist-manifesto-1848_p0040_B_0002_c71724",
+          "S15": "communist-manifesto-1848_p0037_B_0001_46eb1b",
+          "S16": "communist-manifesto-1848_p0037_B_0000_aa77d3",
+          "S17": "communist-manifesto-1848_p0043_B_0001_0801d2"
+        },
+        "elapsed_ms": 90
+      },
+      {
+        "event": "answer",
+        "raw": {
+          "answer": "",
+          "citations": [],
+          "abstain": true
+        }
+      }
+    ],
+    "context": "[communist-manifesto-1848_p0035_B_0001_faf207 | communist-manifesto-1848 | page 35 | Appendix]\nThe 1883 German Edition\n\nThe preface to the present edition I must, alas, sign alone. Marx, the man to whom the whole\nworking class class of Europe and America owes more than to any one else -- rests at Highgate\nCemetary and over his grave the first grass is already growing. Since his death [March 13, 1883],\nthere can be even less thought of revising or supplementing the Manifesto. But I consider it all\nthe more necessary again to state the following expressly:\n\n[communist-manifesto-1848_p0035_B_0000_b0725d | communist-manifesto-1848 | page 35 | Appendix]\nThe Communist Manifesto had, as its object, the proclamation of the inevitable impending\ndissolution of modern bourgeois property. But in Russia we find, face-to-face with the rapidly\nflowering capitalist swindle and bourgeois property, just beginning to develop, more than half\nthe land owned in common by the peasants. Now the question is: can the Russian obshchina,\nthough greatly undermined, yet a form of primeval common ownership of land, pass directly to\nthe higher form of Communist common ownership? Or, on the contrary, must it first pass\nthrough the same process of dissolution such as constitutes the historical evolution of the West?\n\nThe only answer to that possible today is this: If the Russian Revolution becomes the signal\nfor a proletarian revolution in the West, so that both complement each other, the present Russian\ncommon ownership of land may serve as the starting point for a communist development.\n\nKarl Marx & Fredrick Engels\nJanuary 21, 1882, London\n\n[communist-manifesto-1848_p0035_B_0002_e4cf4c | communist-manifesto-1848 | page 35 | Appendix]\nThe basic thought running through the Manifesto -- that economic production, and the\nstructure of society of every historical epoch necessarily arising therefrom, constitute the\nfoundation for the political and intellectual history of that epoch; that consequently (ever since\nthe dissolution of the primaeval communal ownership of land) all history has been a history of\nclass struggles, of struggles between exploited and exploiting, between dominated and\ndominating classes at various stages of social evolution; that this struggle, however, has now\nreached a stage where the exploited and oppressed class (the proletariat) can no longer\nemancipate itself from the class which exploits and oppresses it (the bourgeoisie), without at the\nsame time forever freeing the whole of society from exploitation, oppression, class struggles --\nthis basic thought belongs soley and exclusively to Marx.10\n\n[communist-manifesto-1848_p0035_B_0003_95adf9 | communist-manifesto-1848 | page 35 | Appendix]\n10\n\"This proposition\", I wrote in the preface to the English translation, \"which, in my opinion, is destined to do for history what\nDarwin's theory has done for biology, we both of us, had been gradually approaching for some years before 1845. How far I had\nindependently progressed towards it is best shown by my Conditions of the Working Class in England. But when I again met Marx at\nBrussels, in spring 1845, he had it already worked out and put it before me in terms almost as clear as those in which I have stated\nit here.\"]\n\n[communist-manifesto-1848_p0036_B_0000_91a66d | communist-manifesto-1848 | page 36 | Appendix]\nI have already stated this many times; but precisely now is it necessary that it also stand in\nfront of the Manifesto itself.\n\nFredrick Engels\nJune 28, 1883, London\n\nThe 1888 English Edition\n\nThe Manifesto was published as the platform of the Communist League, a working men's\nassociation, first exclusively German, later on international, and under the political conditions of\nthe Continent before 1848, unavoidably a secret society. At a Congress of the League, held in\nNovember 1847, Marx and Engels were commissioned to prepare a complete theoretical and\npractical party programme. Drawn up in German, in January 1848, the manuscript was sent to\nthe printer in London a few weeks before the French Revolution of February 24. A French\ntranslation was brought out in Paris shortly before the insurrection of June 1848. The first\nEnglish translation, by Miss Helen Macfarlane, appeared in George Julian Harney's Red\nRepublican, London, 1850. A Danish and a Polish edition had also been published.\n\n[communist-manifesto-1848_p0038_B_0004_4e016d | communist-manifesto-1848 | page 38 | Appendix]\nThis proposition, which, in my opinion, is destined to do for history what Darwin's theory\nhas done for biology, we both of us, had been gradually approaching for some years before 1845.\nHow far I had independently progressed towards it is best shown by my Conditions of the\nWorking Class in England. But when I again met Marx at Brussels, in spring 1845, he had it\nalready worked out and put it before me in terms almost as clear as those in which I have stated it\nhere.\n\nFrom our joint preface to the German edition of 1872, I quote the following:\n\n\"However much that state of things may have altered during the last twenty-five years, the general principles laid\ndown in the Manifesto are, on the whole, as correct today as ever. Here and there, some detail might be\nimproved. The practical application of the principles will depend, as the Manifesto itself states, everywhere and\n\n[communist-manifesto-1848_p0039_B_0003_fdc738 | communist-manifesto-1848 | page 39 | Appendix]\nFurthermore, a new Danish translation has appeared in the Socialdemokratisk Bibliothek,\nCopenhagen, 1885. Unfortunately, it is not quite complete; certain essential passages, which\n\n[communist-manifesto-1848_p0039_B_0004_58117e | communist-manifesto-1848 | page 39 | Appendix]\nFurthermore, a new Danish translation has appeared in the Socialdemokratisk Bibliothek,\nCopenhagen, 1885. Unfortunately, it is not quite complete; certain essential passages, which\n\n[communist-manifesto-1848_p0003_B_0003_3ec85e | communist-manifesto-1848 | page 3 | Chapter I]\nSince then, August von Haxthausen (1792-1866) discovered common ownership of land in\nRussia, Georg Ludwig von Maurer proved it to be the social foundation from which all Teutonic races started in\nhistory, and, by and by, village communities were found to be, or to have been, the primitive form of society\neverywhere from India to Ireland. The inner organisation of this primitive communistic society was laid bare, in its\ntypical form, by Lewis Henry Morgan's (1818-1861) crowning discovery of the true nature of the gens and its relation\nto the tribe. With the dissolution of the primeval communities, society begins to be differentiated into separate and\nfinally antagonistic classes. I have attempted to retrace this dissolution in The Origin of the Family, Private Property,\nand the State, second edition, Stuttgart, 1886.\n\n[communist-manifesto-1848_p0003_B_0002_357a4f | communist-manifesto-1848 | page 3 | Chapter I]\nThe discovery of America, the rounding of the Cape, opened up fresh ground for the rising\nbourgeoisie. The East-Indian and Chinese markets, the colonisation of America, trade with the\ncolonies, the increase in the means of exchange and in commodities generally, gave to\n1 By bourgeoisie is meant the class of modern capitalists, owners of the means of social production and employers of\nwage labour. By proletariat, the class of modern wage labourers who, having no means of production of their own,\nare reduced to selling their labour power in order to live. [Engels, 1888 English edition]\n2 That is, all written history. In 1847, the pre-history of society, the social organisation existing previous to recorded\nhistory, all but unknown.\n\n[communist-manifesto-1848_p0003_B_0004_582cc8 | communist-manifesto-1848 | page 3 | Chapter I]\n[Engels, 1888 English Edition and 1890 German Edition (with the last\nsentence omitted)]\n3 Guild-master, that is, a full member of a guild, a master within, not a head of a guild. [Engels, 1888 English Edition]\n\n[communist-manifesto-1848_p0040_B_0001_c2f350 | communist-manifesto-1848 | page 40 | Appendix]\nAfter one, and then another, of the more or less inaccurate American translations had been\nrepeatedly reprinted in England, an authentic version at last appeared in 1888. This was my\nfriend Samuel Moore, and we went through it together once more before it went to press. It is\nentitled: Manifesto of the Communist Party, by Karl Marx and Frederick Engels. Authorized\nEnglish translation, edited and annotated by Frederick Engels, 1888, London, William Reeves,\n185 Fleet Street, E.C. I have added some of the notes of that edition to the present one.\n\n[communist-manifesto-1848_p0040_B_0000_c3fb15 | communist-manifesto-1848 | page 40 | Appendix]\nseem to have presented difficulties to the translator, have been omitted, and, in addition, there are\nsigns of carelessness here and there, which are all the more unpleasantly conspicuous since the\ntranslation indicates that had the translator taken a little more pains, he would have done an\nexcellent piece of work.\n\nA new French version appeared in 1886, in Le Socialiste of Paris; it is the best published to\ndate.\n\nFrom this latter, a Spanish version was published the same year in El Socialista of Madrid,\nand then reissued in pamphlet form: Manifesto del Partido Communista por Carlos Marx y F.\nEngels, Madrid, Administracion de El Socialista, Hernan Cortes.\n\nAs a matter of curiosity, I may mention that in 1887 the manuscript of an Armenian\ntranslation was offered to a publisher in Constantinople. But the good man did not have the\ncourage to publish something bearing the name of Marx and suggested that the translator set\ndown his own name as author, which the latter however declined.\n\n[communist-manifesto-1848_p0040_B_0002_c71724 | communist-manifesto-1848 | page 40 | Appendix]\nThe Manifesto has had a history of its own. Greeted with enthusiasm, at the time of its\nappearance, by the not at all numerous vanguard of scientific socialism (as is proved by the\ntranslations mentioned in the first place), it was soon forced into the background by the reaction\nthat began with the defeat of the Paris workers in June 1848, and was finally excommunicated\n\"by law\" in the conviction of the Cologne Communists in November 1852. With the\ndisappearance from the public scene of the workers' movement that had begun with the February\nRevolution, the Manifesto too passed into the background.\n\n[communist-manifesto-1848_p0037_B_0001_46eb1b | communist-manifesto-1848 | page 37 | Appendix]\nMarx, who drew up this programme to the satisfaction of all parties, entirely trusted to the\nintellectual development of the working class, which was sure to result from combined action\nand mutual discussion. The very events and vicissitudes in the struggle against capital, the\ndefeats even more than the victories, could not help bringing home to men's minds the\ninsufficiency of their various favorite nostrums, and preparing the way for a more complete\ninsight into the true conditions for working-class emancipation. And Marx was right. The\nInternational, on its breaking in 1874, left the workers quite different men from what it found\nthem in 1864.\n\n[communist-manifesto-1848_p0037_B_0000_aa77d3 | communist-manifesto-1848 | page 37 | Appendix]\nthe followers of Proudhon in France, Belgium, Italy, and Spain, and to the Lassalleans in\nGermany.11\n\n[communist-manifesto-1848_p0043_B_0001_0801d2 | communist-manifesto-1848 | page 43 | Appendix]\nThe nobility could\nneither maintain nor regain Polish independence; today, to the bourgeoisie, this independence is,\nto say the last, immaterial. Nevertheless, it is a necessity for the harmonious collaboration of the\nEuropean nations. It can be gained only by the young Polish proletariat, and in its hands it is\nsecure. For the workers of all the rest of Europe need the independence of Poland just as much as\nthe Polish workers themselves.",
+    "context_ids": [
+      "communist-manifesto-1848_p0035_B_0001_faf207",
+      "communist-manifesto-1848_p0035_B_0000_b0725d",
+      "communist-manifesto-1848_p0035_B_0002_e4cf4c",
+      "communist-manifesto-1848_p0035_B_0003_95adf9",
+      "communist-manifesto-1848_p0036_B_0000_91a66d",
+      "communist-manifesto-1848_p0038_B_0004_4e016d",
+      "communist-manifesto-1848_p0039_B_0003_fdc738",
+      "communist-manifesto-1848_p0039_B_0004_58117e",
+      "communist-manifesto-1848_p0003_B_0003_3ec85e",
+      "communist-manifesto-1848_p0003_B_0002_357a4f",
+      "communist-manifesto-1848_p0003_B_0004_582cc8",
+      "communist-manifesto-1848_p0040_B_0001_c2f350",
+      "communist-manifesto-1848_p0040_B_0000_c3fb15",
+      "communist-manifesto-1848_p0040_B_0002_c71724",
+      "communist-manifesto-1848_p0037_B_0001_46eb1b",
+      "communist-manifesto-1848_p0037_B_0000_aa77d3",
+      "communist-manifesto-1848_p0043_B_0001_0801d2"
+    ],
+    "error": null,
+    "elapsed_ms": 9979,
+    "tokens_in": 4989,
+    "tokens_out": 122,
+    "cost_usd": 0.0011442000000000002,
+    "n_llm_calls": 3,
+    "stop": "model_abstained",
+    "model_answer": ""
+  },
+  {
+    "query_id": "un02",
+    "config": "A3b_hybrid_v2_k8_nb_dd",
+    "model": "gpt-5.6-luna",
+    "question": "What does the Manifesto say about Abraham Lincoln and the abolition of slavery in the American Civil War?",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Not enough evidence in the document to answer this question.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "hybrid_rrf",
+        "query": "Abraham Lincoln American Civil War abolition slavery",
+        "filter": null,
+        "results": [
+          {
+            "id": "communist-manifesto-1848_p0021_B_0001_e40031",
+            "page": 21,
+            "rank": 1,
+            "score": 0.03062
+          },
+          {
+            "id": "communist-manifesto-1848_p0014_B_0000_ad8734",
+            "page": 14,
+            "rank": 2,
+            "score": 0.03054
+          },
+          {
+            "id": "communist-manifesto-1848_p0015_B_0001_b34728",
+            "page": 15,
+            "rank": 3,
+            "score": 0.02872
+          },
+          {
+            "id": "communist-manifesto-1848_p0016_B_0002_0ecb32",
+            "page": 16,
+            "rank": 4,
+            "score": 0.02845
+          },
+          {
+            "id": "communist-manifesto-1848_p0021_B_0002_c95d51",
+            "page": 21,
+            "rank": 5,
+            "score": 0.02837
+          },
+          {
+            "id": "communist-manifesto-1848_p0013_B_0002_384648",
+            "page": 13,
+            "rank": 6,
+            "score": 0.02686
+          },
+          {
+            "id": "communist-manifesto-1848_p0018_B_0001_535416",
+            "page": 18,
+            "rank": 7,
+            "score": 0.02636
+          },
+          {
+            "id": "communist-manifesto-1848_p0012_B_0000_57bbb6",
+            "page": 12,
+            "rank": 8,
+            "score": 0.01639
+          }
+        ],
+        "added_ids": [
+          "communist-manifesto-1848_p0021_B_0001_e40031",
+          "communist-manifesto-1848_p0021_B_0000_52fa29",
+          "communist-manifesto-1848_p0021_B_0002_c95d51",
+          "communist-manifesto-1848_p0014_B_0000_ad8734",
+          "communist-manifesto-1848_p0013_B_0002_384648",
+          "communist-manifesto-1848_p0014_B_0001_f5b3ee",
+          "communist-manifesto-1848_p0015_B_0001_b34728",
+          "communist-manifesto-1848_p0015_B_0000_1b5359"
+        ],
+        "dropped_ids": [
+          "communist-manifesto-1848_p0015_B_0002_913c67",
+          "communist-manifesto-1848_p0016_B_0002_0ecb32",
+          "communist-manifesto-1848_p0016_B_0001_4ead5c",
+          "communist-manifesto-1848_p0017_B_0000_db0732",
+          "communist-manifesto-1848_p0018_B_0001_535416",
+          "communist-manifesto-1848_p0018_B_0000_b83d8e",
+          "communist-manifesto-1848_p0018_B_0002_4a89c3",
+          "communist-manifesto-1848_p0012_B_0000_57bbb6",
+          "communist-manifesto-1848_p0011_B_0003_ee7de0",
+          "communist-manifesto-1848_p0012_B_0001_d27fec"
+        ],
+        "labels": {
+          "S1": "communist-manifesto-1848_p0021_B_0001_e40031",
+          "S2": "communist-manifesto-1848_p0021_B_0000_52fa29",
+          "S3": "communist-manifesto-1848_p0021_B_0002_c95d51",
+          "S4": "communist-manifesto-1848_p0014_B_0000_ad8734",
+          "S5": "communist-manifesto-1848_p0013_B_0002_384648",
+          "S6": "communist-manifesto-1848_p0014_B_0001_f5b3ee",
+          "S7": "communist-manifesto-1848_p0015_B_0001_b34728",
+          "S8": "communist-manifesto-1848_p0015_B_0000_1b5359"
+        },
+        "elapsed_ms": 75
+      },
+      {
+        "event": "search",
+        "tool": "hybrid_rrf",
+        "query": "Lincoln slavery Civil War United States America preface",
+        "filter": null,
+        "results": [
+          {
+            "id": "communist-manifesto-1848_p0035_B_0001_faf207",
+            "page": 35,
+            "rank": 1,
+            "score": 0.03101
+          },
+          {
+            "id": "communist-manifesto-1848_p0038_B_0004_4e016d",
+            "page": 38,
+            "rank": 2,
+            "score": 0.03083
+          },
+          {
+            "id": "communist-manifesto-1848_p0034_B_0002_6cb34d",
+            "page": 34,
+            "rank": 3,
+            "score": 0.0308
+          },
+          {
+            "id": "communist-manifesto-1848_p0003_B_0002_357a4f",
+            "page": 3,
+            "rank": 4,
+            "score": 0.03009
+          },
+          {
+            "id": "communist-manifesto-1848_p0035_B_0003_95adf9",
+            "page": 35,
+            "rank": 5,
+            "score": 0.02976
+          },
+          {
+            "id": "communist-manifesto-1848_p0034_B_0001_efd4df",
+            "page": 34,
+            "rank": 6,
+            "score": 0.02955
+          },
+          {
+            "id": "communist-manifesto-1848_p0012_B_0000_57bbb6",
+            "page": 12,
+            "rank": 7,
+            "score": 0.02946
+          },
+          {
+            "id": "communist-manifesto-1848_p0033_B_0001_3e3472",
+            "page": 33,
+            "rank": 8,
+            "score": 0.02769
+          }
+        ],
+        "added_ids": [
+          "communist-manifesto-1848_p0035_B_0001_faf207",
+          "communist-manifesto-1848_p0035_B_0000_b0725d",
+          "communist-manifesto-1848_p0035_B_0002_e4cf4c",
+          "communist-manifesto-1848_p0038_B_0004_4e016d",
+          "communist-manifesto-1848_p0038_B_0003_cbe94c",
+          "communist-manifesto-1848_p0038_B_0005_745803",
+          "communist-manifesto-1848_p0033_B_0000_ec93f3"
+        ],
+        "dropped_ids": [
+          "communist-manifesto-1848_p0034_B_0002_6cb34d",
+          "communist-manifesto-1848_p0034_B_0001_efd4df",
+          "communist-manifesto-1848_p0034_B_0003_a9eb27",
+          "communist-manifesto-1848_p0003_B_0002_357a4f",
+          "communist-manifesto-1848_p0003_B_0001_05fc27",
+          "communist-manifesto-1848_p0003_B_0003_3ec85e",
+          "communist-manifesto-1848_p0035_B_0003_95adf9",
+          "communist-manifesto-1848_p0036_B_0000_91a66d",
+          "communist-manifesto-1848_p0012_B_0000_57bbb6",
+          "communist-manifesto-1848_p0011_B_0003_ee7de0",
+          "communist-manifesto-1848_p0012_B_0001_d27fec",
+          "communist-manifesto-1848_p0033_B_0001_3e3472",
+          "communist-manifesto-1848_p0033_B_0002_fb0b1a"
+        ],
+        "labels": {
+          "S9": "communist-manifesto-1848_p0035_B_0001_faf207",
+          "S10": "communist-manifesto-1848_p0035_B_0000_b0725d",
+          "S11": "communist-manifesto-1848_p0035_B_0002_e4cf4c",
+          "S12": "communist-manifesto-1848_p0038_B_0004_4e016d",
+          "S13": "communist-manifesto-1848_p0038_B_0003_cbe94c",
+          "S14": "communist-manifesto-1848_p0038_B_0005_745803",
+          "S15": "communist-manifesto-1848_p0033_B_0000_ec93f3"
+        },
+        "elapsed_ms": 77
+      },
+      {
+        "event": "answer",
+        "raw": {
+          "answer": "",
+          "citations": [],
+          "abstain": true
+        }
+      }
+    ],
+    "context": "[communist-manifesto-1848_p0021_B_0001_e40031 | communist-manifesto-1848 | page 21 | Chapter II]\n1. Abolition of property in land and application of all rents of land to\npublic purposes. 2. A heavy progressive or graduated income tax. 3. Abolition of all rights of inheritance. 4. Confiscation of the property of all emigrants and rebels. 5. Centralisation of credit in the banks of the state, by means of a national\nbank with State capital and an exclusive monopoly. 6. Centralisation of the means of communication and transport in the hands\nof the State. 7. Extension of factories and instruments of production owned by the\nState; the bringing into cultivation of waste-lands, and the improvement of the\nsoil generally in accordance with a common plan. 8. Equal liability of all to work. Establishment of industrial armies,\nespecially for agriculture. 9. Combination of agriculture with manufacturing industries; gradual\nabolition of all the distinction between town and country by a more equable\ndistribution of the populace over the country. 10.\n\n[communist-manifesto-1848_p0021_B_0000_52fa29 | communist-manifesto-1848 | page 21 | Chapter II]\nNevertheless, in most advanced countries, the following will be pretty generally\napplicable:\n\n[communist-manifesto-1848_p0021_B_0002_c95d51 | communist-manifesto-1848 | page 21 | Chapter II]\nFree education for all children in public schools. Abolition of\nchildren’s factory labour in its present form. Combination of education with\nindustrial production, &c, &c.\n\n[communist-manifesto-1848_p0014_B_0000_ad8734 | communist-manifesto-1848 | page 14 | Chapter II]\nThe French Revolution, for example, abolished feudal property in favour of bourgeois\nproperty.\n\nThe distinguishing feature of Communism is not the abolition of property generally, but\nthe abolition of bourgeois property. But modern bourgeois private property is the final and most\ncomplete expression of the system of producing and appropriating products, that is based on\nclass antagonisms, on the exploitation of the many by the few.\n\nIn this sense, the theory of the Communists may be summed up in the single sentence:\nAbolition of private property.\n\nWe Communists have been reproached with the desire of abolishing the right of personally\nacquiring property as the fruit of a man’s own labour, which property is alleged to be the\ngroundwork of all personal freedom, activity and independence.\n\n[communist-manifesto-1848_p0013_B_0002_384648 | communist-manifesto-1848 | page 13 | Chapter II]\nThey merely express, in general terms, actual relations springing from an existing class\nstruggle, from a historical movement going on under our very eyes. The abolition of existing\nproperty relations is not at all a distinctive feature of communism.\n\nAll property relations in the past have continually been subject to historical change\nconsequent upon the change in historical conditions.\n\n[communist-manifesto-1848_p0014_B_0001_f5b3ee | communist-manifesto-1848 | page 14 | Chapter II]\nHard-won, self-acquired, self-earned property! Do you mean the property of petty artisan\nand of the small peasant, a form of property that preceded the bourgeois form? There is no need\nto abolish that; the development of industry has to a great extent already destroyed it, and is still\ndestroying it daily.\n\nOr do you mean the modern bourgeois private property?\n\nBut does wage-labour create any property for the labourer? Not a bit. It creates capital, i.e.,\nthat kind of property which exploits wage-labour, and which cannot increase except upon\ncondition of begetting a new supply of wage-labour for fresh exploitation. Property, in its present\nform, is based on the antagonism of capital and wage labour. Let us examine both sides of this\nantagonism.\n\n[communist-manifesto-1848_p0015_B_0001_b34728 | communist-manifesto-1848 | page 15 | Chapter II]\nIn bourgeois society, therefore, the past dominates the present; in Communist society, the\npresent dominates the past. In bourgeois society capital is independent and has individuality,\nwhile the living person is dependent and has no individuality.\n\nAnd the abolition of this state of things is called by the bourgeois, abolition of\nindividuality and freedom! And rightly so. The abolition of bourgeois individuality, bourgeois\nindependence, and bourgeois freedom is undoubtedly aimed at.\n\nBy freedom is meant, under the present bourgeois conditions of production, free trade, free\nselling and buying.\n\n[communist-manifesto-1848_p0015_B_0000_1b5359 | communist-manifesto-1848 | page 15 | Chapter II]\nThe average price of wage-labour is the minimum wage, i.e., that quantum of the means of\nsubsistence which is absolutely requisite to keep the labourer in bare existence as a labourer.\nWhat, therefore, the wage-labourer appropriates by means of his labour, merely suffices to\nprolong and reproduce a bare existence. We by no means intend to abolish this personal\nappropriation of the products of labour, an appropriation that is made for the maintenance and\nreproduction of human life, and that leaves no surplus wherewith to command the labour of\nothers. All that we want to do away with is the miserable character of this appropriation, under\nwhich the labourer lives merely to increase capital, and is allowed to live only in so far as the\ninterest of the ruling class requires it.\n\nIn bourgeois society, living labour is but a means to increase accumulated labour. In\nCommunist society, accumulated labour is but a means to widen, to enrich, to promote the\nexistence of the labourer.\n\n[communist-manifesto-1848_p0035_B_0001_faf207 | communist-manifesto-1848 | page 35 | Appendix]\nThe 1883 German Edition\n\nThe preface to the present edition I must, alas, sign alone. Marx, the man to whom the whole\nworking class class of Europe and America owes more than to any one else -- rests at Highgate\nCemetary and over his grave the first grass is already growing. Since his death [March 13, 1883],\nthere can be even less thought of revising or supplementing the Manifesto. But I consider it all\nthe more necessary again to state the following expressly:\n\n[communist-manifesto-1848_p0035_B_0000_b0725d | communist-manifesto-1848 | page 35 | Appendix]\nThe Communist Manifesto had, as its object, the proclamation of the inevitable impending\ndissolution of modern bourgeois property. But in Russia we find, face-to-face with the rapidly\nflowering capitalist swindle and bourgeois property, just beginning to develop, more than half\nthe land owned in common by the peasants. Now the question is: can the Russian obshchina,\nthough greatly undermined, yet a form of primeval common ownership of land, pass directly to\nthe higher form of Communist common ownership? Or, on the contrary, must it first pass\nthrough the same process of dissolution such as constitutes the historical evolution of the West?\n\nThe only answer to that possible today is this: If the Russian Revolution becomes the signal\nfor a proletarian revolution in the West, so that both complement each other, the present Russian\ncommon ownership of land may serve as the starting point for a communist development.\n\nKarl Marx & Fredrick Engels\nJanuary 21, 1882, London\n\n[communist-manifesto-1848_p0035_B_0002_e4cf4c | communist-manifesto-1848 | page 35 | Appendix]\nThe basic thought running through the Manifesto -- that economic production, and the\nstructure of society of every historical epoch necessarily arising therefrom, constitute the\nfoundation for the political and intellectual history of that epoch; that consequently (ever since\nthe dissolution of the primaeval communal ownership of land) all history has been a history of\nclass struggles, of struggles between exploited and exploiting, between dominated and\ndominating classes at various stages of social evolution; that this struggle, however, has now\nreached a stage where the exploited and oppressed class (the proletariat) can no longer\nemancipate itself from the class which exploits and oppresses it (the bourgeoisie), without at the\nsame time forever freeing the whole of society from exploitation, oppression, class struggles --\nthis basic thought belongs soley and exclusively to Marx.10\n\n[communist-manifesto-1848_p0038_B_0004_4e016d | communist-manifesto-1848 | page 38 | Appendix]\nThis proposition, which, in my opinion, is destined to do for history what Darwin's theory\nhas done for biology, we both of us, had been gradually approaching for some years before 1845.\nHow far I had independently progressed towards it is best shown by my Conditions of the\nWorking Class in England. But when I again met Marx at Brussels, in spring 1845, he had it\nalready worked out and put it before me in terms almost as clear as those in which I have stated it\nhere.\n\nFrom our joint preface to the German edition of 1872, I quote the following:\n\n\"However much that state of things may have altered during the last twenty-five years, the general principles laid\ndown in the Manifesto are, on the whole, as correct today as ever. Here and there, some detail might be\nimproved. The practical application of the principles will depend, as the Manifesto itself states, everywhere and\n\n[communist-manifesto-1848_p0038_B_0003_cbe94c | communist-manifesto-1848 | page 38 | Appendix]\nThat proposition is: That in\nevery historical epoch, the prevailing mode of economic production and exchange, and the social\norganization necessarily following from it, form the basis upon which it is built up, and from that\nwhich alone can be explained the political and intellectual history of that epoch; that\nconsequently the whole history of mankind (since the dissolution of primitive tribal society,\nholding land in common ownership) has been a history of class struggles, contests between\nexploiting and exploited, ruling and oppressed classes; That the history of these class struggles\nforms a series of evolutions in which, nowadays, a stage has been reached where the exploited\nand oppressed class -- the proletariat -- cannot attain its emancipation from the sway of the\nexploiting and ruling class -- the bourgeoisie -- without, at the same time, and once and for all,\nemancipating society at large from all exploitation, oppression, class distinction, and class\nstruggles.\n\n[communist-manifesto-1848_p0038_B_0005_745803 | communist-manifesto-1848 | page 38 | Appendix]\nThis proposition, which, in my opinion, is destined to do for history what Darwin's theory\nhas done for biology, we both of us, had been gradually approaching for some years before 1845.\nHow far I had independently progressed towards it is best shown by my Conditions of the\nWorking Class in England. But when I again met Marx at Brussels, in spring 1845, he had it\nalready worked out and put it before me in terms almost as clear as those in which I have stated it\nhere.\n\nFrom our joint preface to the German edition of 1872, I quote the following:\n\n\"However much that state of things may have altered during the last twenty-five years, the general principles laid\ndown in the Manifesto are, on the whole, as correct today as ever. Here and there, some detail might be\nimproved. The practical application of the principles will depend, as the Manifesto itself states, everywhere and\n\n[communist-manifesto-1848_p0033_B_0000_ec93f3 | communist-manifesto-1848 | page 33 | Appendix]\nAppendix: Prefaces to various Language Editions\n\nThe 1872 German Edition",
+    "context_ids": [
+      "communist-manifesto-1848_p0021_B_0001_e40031",
+      "communist-manifesto-1848_p0021_B_0000_52fa29",
+      "communist-manifesto-1848_p0021_B_0002_c95d51",
+      "communist-manifesto-1848_p0014_B_0000_ad8734",
+      "communist-manifesto-1848_p0013_B_0002_384648",
+      "communist-manifesto-1848_p0014_B_0001_f5b3ee",
+      "communist-manifesto-1848_p0015_B_0001_b34728",
+      "communist-manifesto-1848_p0015_B_0000_1b5359",
+      "communist-manifesto-1848_p0035_B_0001_faf207",
+      "communist-manifesto-1848_p0035_B_0000_b0725d",
+      "communist-manifesto-1848_p0035_B_0002_e4cf4c",
+      "communist-manifesto-1848_p0038_B_0004_4e016d",
+      "communist-manifesto-1848_p0038_B_0003_cbe94c",
+      "communist-manifesto-1848_p0038_B_0005_745803",
+      "communist-manifesto-1848_p0033_B_0000_ec93f3"
+    ],
+    "error": null,
+    "elapsed_ms": 4576,
+    "tokens_in": 4688,
+    "tokens_out": 112,
+    "cost_usd": 0.001072,
+    "n_llm_calls": 3,
+    "stop": "model_abstained",
+    "model_answer": ""
+  }
+]

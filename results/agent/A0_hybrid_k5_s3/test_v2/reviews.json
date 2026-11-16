@@ -1,0 +1,72 @@
+[
+  {
+    "query_id": "u01",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Matches p19 sentence exactly."
+  },
+  {
+    "query_id": "u02",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Names Proudhon's 'Philosophis de la Misère' (edition spelling) — p27."
+  },
+  {
+    "query_id": "u03",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Echo of past / menace of future + lamentation & lampoon + ludicrous/modern history — all in p22 …ebf95a."
+  },
+  {
+    "query_id": "u04",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Radicals; antagonistic elements: Democratic Socialists (French sense) + radical bourgeois — p31."
+  },
+  {
+    "query_id": "u05",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "'capital and private gain' — p17."
+  },
+  {
+    "query_id": "u06",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true,
+      true
+    ],
+    "reason": "Correct (p38 gold). p41 …deebda (1890 preface: 'Socialism in 1847 signified a bourgeois movement, communism a working-class movement') and …a015d3 (two kinds of socialists, educated classes, reconstruction) support the extra details."
+  },
+  {
+    "query_id": "u07",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "1863, tenfold (ten times) greater — p43; numbers written in passage, not computed."
+  },
+  {
+    "query_id": "un01",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Abstained. '1818' in corpus is only Lewis Henry Morgan's dates (p3); no Marx birth date."
+  },
+  {
+    "query_id": "un02",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Abstained. No Lincoln / US abolition anywhere (absence_reason)."
+  }
+]
