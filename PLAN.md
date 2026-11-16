@@ -55,7 +55,7 @@
 ```text
 .
 ├── PLAN.md                         # file này
-├── README.md                       # thêm mục "Cách chạy" của bạn ở cuối
+├── RUN.md                          # cách chạy của bài làm (README của ban tổ chức giữ nguyên)
 ├── configs/
 │   ├── experiments.yaml|json       # mọi cấu hình đã thử trên dev
 │   └── selected.json               # cấu hình CHỐT (commit trước khi chạy test)
@@ -384,7 +384,7 @@ Mẫu bảng (đưa thẳng vào báo cáo):
 
 ---
 
-## BƯỚC 10 — Báo cáo, README, nộp bài (≈ 3:50–4:00+)
+## BƯỚC 10 — Báo cáo, RUN.md, nộp bài (≈ 3:50–4:00+)
 
 **Việc cần làm**
 1. `cp report/individual/MSSV_HoTen.md report/individual/2A202603771_NguyenVanMinh.md` và điền đủ mọi mục:
@@ -394,7 +394,7 @@ Mẫu bảng (đưa thẳng vào báo cáo):
    - Bảng agent (tool use, lượt gọi, grounded, citation, abstention, từ chối nhầm).
    - Bảng ví dụ từng câu: Query ID | loại | tool call | câu trả lời + citation | nhãn + lý do.
    - Đường dẫn trace/nhãn, **lệnh chạy**, thời gian, chi phí; đánh đổi; **giới hạn** (corpus nhỏ, test 7 câu → phương sai lớn, model local yếu…).
-2. README: thêm mục "Cách chạy Day 7" (setup → export → eval dev → agent → test → metrics).
+2. `RUN.md`: cách chạy Day 7 (setup → export → eval dev → agent → test → metrics). Không sửa README của ban tổ chức.
 3. Kết quả: `starter/results/` bị gitignore → dùng thư mục `results/` riêng hoặc `git add -f` (Manifesto là public domain nên chia sẻ được).
 4. Chuẩn bị trình bày: **1 câu trả lời có bằng chứng, 1 câu thiếu bằng chứng, 1 lỗi**.
 5. Tạo repo cá nhân theo `SUBMISSION.md` (remote `upstream` = repo đề, `origin` = repo cá nhân), push, cấp quyền xem cho người chấm.
