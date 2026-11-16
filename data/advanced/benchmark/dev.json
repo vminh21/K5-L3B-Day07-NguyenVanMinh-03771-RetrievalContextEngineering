@@ -301,6 +301,174 @@
     "split": "dev"
   },
   {
+    "id": "D2-IM1",
+    "group": "image",
+    "question": "In the graphic defining Assets, Liabilities and Net Position on the balance-sheet page, which symbol accompanies each term, and what relationship do they express?",
+    "expected_answer": "Assets has a plus (+) symbol, Liabilities a minus (−) symbol and Net Position an equals (=) symbol: Assets − Liabilities = Net Position.",
+    "evidence": [
+      {
+        "page": 29,
+        "printed_page": 28,
+        "kind": "diagram",
+        "locator": "three definition panels above the Balance Sheet Components chart, circled +, −, = icons",
+        "quote": null,
+        "visual_only": true
+      }
+    ],
+    "reason": "Ký hiệu chỉ có trong hình.",
+    "scoring": "Đạt khi đúng và đủ mọi phần, đúng đơn vị; citation đúng trang chứa evidence.",
+    "split": "dev"
+  },
+  {
+    "id": "D2-IM2",
+    "group": "image",
+    "question": "In the Performance Goal rating definitions graphic, what colour is the 'Below Target' rating, and what does a grey 'Unrated' rating mean?",
+    "expected_answer": "Below Target is yellow; Unrated (grey) means the information needed to evaluate performance was not available in time for AFR publication, and a final rating will be provided in the FY 2026 VIPer.",
+    "evidence": [
+      {
+        "page": 21,
+        "printed_page": 20,
+        "kind": "infographic",
+        "locator": "four coloured rating cards",
+        "quote": "Information needed to evaluate performance was not available",
+        "visual_only": false
+      }
+    ],
+    "reason": "Gắn màu với nhãn.",
+    "scoring": "Đạt khi đúng và đủ mọi phần, đúng đơn vị; citation đúng trang chứa evidence.",
+    "split": "dev"
+  },
+  {
+    "id": "D2-CH1",
+    "group": "chart",
+    "question": "In the FY 2024 Performance Assessment chart, how many Strategic Goal 4 performance goals were rated 'Significantly Below Target/At Risk' in FY 2024, and how many were unrated?",
+    "expected_answer": "1 Significantly Below Target/At Risk and 1 Unrated.",
+    "evidence": [
+      {
+        "page": 22,
+        "printed_page": 21,
+        "kind": "chart",
+        "locator": "Strategic Goal 4, FY 2024 bar, red and grey segments",
+        "quote": null,
+        "visual_only": true
+      }
+    ],
+    "reason": "Đọc đúng màu đỏ/xám của cột FY 2024.",
+    "scoring": "Đạt khi đúng và đủ mọi phần, đúng đơn vị; citation đúng trang chứa evidence.",
+    "split": "dev"
+  },
+  {
+    "id": "D2-CH2",
+    "group": "chart",
+    "question": "In the 'Liabilities by Type FY 2024' donut chart, which category has the largest share, and what share and amount is it?",
+    "expected_answer": "Environmental and Disposal Liabilities: 31%, $2,353 million.",
+    "evidence": [
+      {
+        "page": 31,
+        "printed_page": 30,
+        "kind": "chart",
+        "locator": "Liabilities by Type FY 2024 donut",
+        "quote": "31%",
+        "visual_only": false
+      }
+    ],
+    "reason": "So sánh các phần của donut.",
+    "scoring": "Đạt khi đúng và đủ mọi phần, đúng đơn vị; citation đúng trang chứa evidence.",
+    "split": "dev"
+  },
+  {
+    "id": "D2-MH1",
+    "group": "multihop",
+    "question": "Which NASA center manages the Neil A. Armstrong Test Facility, and how many civil service employees does that center have?",
+    "expected_answer": "Glenn Research Center (GRC); 1,471 employees (8% of the civil service workforce).",
+    "evidence": [
+      {
+        "page": 12,
+        "printed_page": 11,
+        "kind": "map",
+        "locator": "map (raster image) label 'Neil A. Armstrong Test Facility (managed by GRC)' in Ohio",
+        "quote": null,
+        "visual_only": true
+      },
+      {
+        "page": 13,
+        "printed_page": 12,
+        "kind": "infographic",
+        "locator": "civil service workforce by center",
+        "quote": "1,471",
+        "visual_only": false
+      }
+    ],
+    "reason": "Bản đồ raster → infographic.",
+    "scoring": "Đạt khi đúng và đủ mọi phần, đúng đơn vị; citation đúng trang chứa evidence.",
+    "split": "dev"
+  },
+  {
+    "id": "D2-MH2",
+    "group": "multihop",
+    "question": "Which Strategic Goal had the smallest net cost of operations in FY 2024, and what was that goal's FY 2024 gross cost of operations?",
+    "expected_answer": "Strategic Goal 4 — net cost $2,847 million (12%); its FY 2024 gross cost was $3,042 million.",
+    "evidence": [
+      {
+        "page": 32,
+        "printed_page": 31,
+        "kind": "chart",
+        "locator": "Net cost donut, Goal 4",
+        "quote": "$2,847",
+        "visual_only": false
+      },
+      {
+        "page": 33,
+        "printed_page": 32,
+        "kind": "chart",
+        "locator": "Gross cost chart, Goal 4 FY 2024 total",
+        "quote": "$3,042",
+        "visual_only": false
+      }
+    ],
+    "reason": "Hai biểu đồ, hai trang; net khác gross.",
+    "scoring": "Đạt khi đúng và đủ mọi phần, đúng đơn vị; citation đúng trang chứa evidence.",
+    "split": "dev"
+  },
+  {
+    "id": "D2-TX1",
+    "group": "text",
+    "question": "How many Performance Goals remained unrated at the time of the FY 2024 AFR's publication, and how many of them were awaiting ratings from the Science Advisory Committees?",
+    "expected_answer": "Twelve were unrated; ten of them were awaiting ratings from the Science Advisory Committees.",
+    "evidence": [
+      {
+        "page": 22,
+        "printed_page": 21,
+        "kind": "text",
+        "locator": "FY 2024 Performance Assessment text",
+        "quote": "Twelve Performance Goals supporting Strategic Goals remained unrated",
+        "visual_only": false
+      }
+    ],
+    "reason": "Hai số có điều kiện.",
+    "scoring": "Đạt khi đúng và đủ mọi phần, đúng đơn vị; citation đúng trang chứa evidence.",
+    "split": "dev"
+  },
+  {
+    "id": "D2-TX2",
+    "group": "text",
+    "question": "Why was Performance Goal 4.2.8 unrated in the FY 2024 AFR?",
+    "expected_answer": "Because of a lag in data availability immediately after the quarter (the goal concerns facility reliability through preventive maintenance).",
+    "evidence": [
+      {
+        "page": 22,
+        "printed_page": 21,
+        "kind": "text",
+        "locator": "FY 2024 Performance Assessment text",
+        "quote": "unrated due to a lag of data availability immediately after the quarter",
+        "visual_only": false
+      }
+    ],
+    "reason": "Lý do.",
+    "scoring": "Đạt khi đúng và đủ mọi phần, đúng đơn vị; citation đúng trang chứa evidence.",
+    "split": "dev"
+  },
+  {
     "id": "D-NE1",
     "group": "no_evidence",
     "question": "How many patent licenses did NASA grant in FY 2024?",
@@ -331,6 +499,29 @@
     "absence_reason": "GISS chỉ có trên bản đồ p12; infographic p13 chỉ có GSFC.",
     "grep_checked": [
       "Goddard Institute.{0,80}employ"
+    ],
+    "split": "dev"
+  },
+  {
+    "id": "D2-NE1",
+    "group": "no_evidence",
+    "question": "What was NASA's net cost of operations for Strategic Goal 2 in FY 2022?",
+    "expected_behavior": "abstain",
+    "absence_reason": "Net cost theo goal chỉ có FY 2024 (p32) và FY 2023/2024 (p51); không có FY 2022.",
+    "grep_checked": [
+      "net cost.{0,60}2022",
+      "2022.{0,60}net cost"
+    ],
+    "split": "dev"
+  },
+  {
+    "id": "D2-NE2",
+    "group": "no_evidence",
+    "question": "How many civil service employees work at Stennis Space Center?",
+    "expected_behavior": "abstain",
+    "absence_reason": "Infographic p13 không liệt kê SSC riêng (gộp trong 'Other'); không có số nào khác.",
+    "grep_checked": [
+      "Stennis.{0,80}\\d[\\d,]{2,} (employees|staff|people)"
     ],
     "split": "dev"
   }

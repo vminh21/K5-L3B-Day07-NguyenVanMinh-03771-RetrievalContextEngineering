@@ -199,6 +199,51 @@ DEV_NO = [
 ]
 
 
+# dev v2 — added after dev v1 was saturated (18/18 for every config), BEFORE any test run. Harder shapes like
+# the test (visual-only cues, map -> infographic hops, chart -> chart hops) but on different elements/answers.
+DEV2 = [
+    Q("D2-IM1", "image", "In the graphic defining Assets, Liabilities and Net Position on the balance-sheet page, which symbol accompanies each term, and what relationship do they express?",
+      "Assets has a plus (+) symbol, Liabilities a minus (−) symbol and Net Position an equals (=) symbol: Assets − Liabilities = Net Position.",
+      [ev(29, "diagram", "three definition panels above the Balance Sheet Components chart, circled +, −, = icons", visual_only=True)],
+      "Ký hiệu chỉ có trong hình."),
+    Q("D2-IM2", "image", "In the Performance Goal rating definitions graphic, what colour is the 'Below Target' rating, and what does a grey 'Unrated' rating mean?",
+      "Below Target is yellow; Unrated (grey) means the information needed to evaluate performance was not available in time for AFR publication, and a final rating will be provided in the FY 2026 VIPer.",
+      [ev(21, "infographic", "four coloured rating cards", "Information needed to evaluate performance was not available")],
+      "Gắn màu với nhãn."),
+    Q("D2-CH1", "chart", "In the FY 2024 Performance Assessment chart, how many Strategic Goal 4 performance goals were rated 'Significantly Below Target/At Risk' in FY 2024, and how many were unrated?",
+      "1 Significantly Below Target/At Risk and 1 Unrated.",
+      [ev(22, "chart", "Strategic Goal 4, FY 2024 bar, red and grey segments", visual_only=True)],
+      "Đọc đúng màu đỏ/xám của cột FY 2024."),
+    Q("D2-CH2", "chart", "In the 'Liabilities by Type FY 2024' donut chart, which category has the largest share, and what share and amount is it?",
+      "Environmental and Disposal Liabilities: 31%, $2,353 million.",
+      [ev(31, "chart", "Liabilities by Type FY 2024 donut", "31%")],
+      "So sánh các phần của donut."),
+    Q("D2-MH1", "multihop", "Which NASA center manages the Neil A. Armstrong Test Facility, and how many civil service employees does that center have?",
+      "Glenn Research Center (GRC); 1,471 employees (8% of the civil service workforce).",
+      [ev(12, "map", "map (raster image) label 'Neil A. Armstrong Test Facility (managed by GRC)' in Ohio", visual_only=True),
+       ev(13, "infographic", "civil service workforce by center", "1,471")],
+      "Bản đồ raster → infographic."),
+    Q("D2-MH2", "multihop", "Which Strategic Goal had the smallest net cost of operations in FY 2024, and what was that goal's FY 2024 gross cost of operations?",
+      "Strategic Goal 4 — net cost $2,847 million (12%); its FY 2024 gross cost was $3,042 million.",
+      [ev(32, "chart", "Net cost donut, Goal 4", "$2,847"), ev(33, "chart", "Gross cost chart, Goal 4 FY 2024 total", "$3,042")],
+      "Hai biểu đồ, hai trang; net khác gross."),
+    Q("D2-TX1", "text", "How many Performance Goals remained unrated at the time of the FY 2024 AFR's publication, and how many of them were awaiting ratings from the Science Advisory Committees?",
+      "Twelve were unrated; ten of them were awaiting ratings from the Science Advisory Committees.",
+      [ev(22, "text", "FY 2024 Performance Assessment text", "Twelve Performance Goals supporting Strategic Goals remained unrated")],
+      "Hai số có điều kiện."),
+    Q("D2-TX2", "text", "Why was Performance Goal 4.2.8 unrated in the FY 2024 AFR?",
+      "Because of a lag in data availability immediately after the quarter (the goal concerns facility reliability through preventive maintenance).",
+      [ev(22, "text", "FY 2024 Performance Assessment text", "unrated due to a lag of data availability immediately after the quarter")],
+      "Lý do."),
+]
+DEV2_NO = [
+    N("D2-NE1", "What was NASA's net cost of operations for Strategic Goal 2 in FY 2022?",
+      "Net cost theo goal chỉ có FY 2024 (p32) và FY 2023/2024 (p51); không có FY 2022.", [r"net cost.{0,60}2022", r"2022.{0,60}net cost"]),
+    N("D2-NE2", "How many civil service employees work at Stennis Space Center?",
+      "Infographic p13 không liệt kê SSC riêng (gộp trong 'Other'); không có số nào khác.", [r"Stennis.{0,80}\d[\d,]{2,} (employees|staff|people)"]),
+]
+
+
 def norm(s: str) -> str:
     return re.sub(r"\s+", " ", s.replace("’", "'").replace("‘", "'")).strip().lower()
 
@@ -207,7 +252,7 @@ def main():
     import pymupdf
     doc = pymupdf.open(PDF)
     pages = {i + 1: norm(p.get_text()) for i, p in enumerate(doc)}
-    for split, items, none in (("test", TEST, TEST_NO), ("dev", DEV, DEV_NO)):
+    for split, items, none in (("test", TEST, TEST_NO), ("dev", DEV + DEV2, DEV_NO + DEV2_NO)):
         for q in items:
             assert q["group"] in GROUPS, q["id"]
             for e in q["evidence"]:
@@ -227,7 +272,7 @@ def main():
         counts = {g: sum(q["group"] == g for q in items) for g in GROUPS}
         print(f"{split}: {len(items)} answerable {counts} + {len(none)} no-evidence = {len(recs)}")
     # dev/test must not share a question
-    t, d = {q["question"] for q in TEST}, {q["question"] for q in DEV}
+    t, d = {q["question"] for q in TEST}, {q["question"] for q in DEV + DEV2}
     assert not (t & d)
 
 

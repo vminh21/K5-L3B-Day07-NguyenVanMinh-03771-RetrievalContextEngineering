@@ -7,8 +7,12 @@
 | Split | Bảng | Ảnh/sơ đồ | Biểu đồ | Multi-hop | Text | Thiếu evidence | Tổng |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | test | 6 | 5 | 5 | 4 | 4 | 6 | **30** |
-| dev | 3 | 3 | 4 | 2 | 3 | 3 | **18** |
+| dev v1 | 3 | 3 | 4 | 2 | 3 | 3 | 18 |
+| dev v2 (thêm) | 0 | 2 | 2 | 2 | 2 | 2 | 10 |
+| **dev tổng** | 3 | 5 | 6 | 4 | 5 | 5 | **28** |
 
 Chấm test: mỗi câu **đạt / không đạt** theo ADVANCED.md §3 (đúng và đủ, đúng đơn vị; citation đúng trang chứa evidence; câu thiếu evidence phải từ chối). Lỗi hệ thống = không đạt. Ngưỡng: ≥ 27/30.
 
 Sinh lại: `python -m src.mm.build_benchmark`.
+
+**Dev v2** (`D2-*`) được thêm sau khi dev v1 bão hòa (18/18 với mọi cấu hình, xem `results/advanced/*/dev`), **trước** mọi lần chạy test; dùng phần tử/đáp án khác test nhưng cùng dạng khó (chỉ có trong hình, bản đồ raster → infographic, biểu đồ → biểu đồ). Test không đổi (`git diff` của `test.json` rỗng).
