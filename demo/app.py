@@ -27,17 +27,6 @@ from src.llm import CostLedger  # noqa: E402
 DEMO_LEDGER = ROOT / "demo" / "demo_cost_ledger.jsonl"
 
 # --------------------------------------------------------------------------- configurations
-# Live configurations (same LLM; they differ in retriever, prompt and context policy).
-CONFIGS = {
-    "A0 · baseline": dict(method="dense", prompt="v1", neighbors=False, per_search_budget=3000, budget_chars=6000,
-                          desc="Dense pgvector, prompt v1, không neighbour"),
-    "A2 · đã chọn": dict(method="hybrid", prompt="v2", neighbors=True, per_search_budget=4500, budget_chars=9000,
-                         desc="Hybrid RRF (dense + BM25), prompt v2, neighbour ±1"),
-    "A4 · ablation": dict(method="hybrid", prompt="v2", neighbors=True, per_search_budget=4500, budget_chars=9000,
-                          dedup=True, verify_numbers=True,
-                          desc="A2 + gộp chunk trùng + kiểm tra số"),
-}
-
 # Stored agent runs: folder -> (short name, description)
 AGENT_RUNS = {
     "A0_hybrid_k5_s3": ("A0 (hybrid, v1)", "Hybrid top-5, prompt v1 — baseline vòng 1"),
@@ -162,112 +151,125 @@ st.title("📜 Agentic RAG — *Manifesto of the Communist Party*")
 st.caption("Day 7 · 2A202603771 Nguyễn Văn Minh · pgvector Day 6 (embeddinggemma 768-d) + BM25 · "
            f"LLM `{config.LLM_MODEL}` (OpenAI Responses API)")
 
-tab_ask, tab_ret, tab_res = st.tabs(["💬 Hỏi agent", "🔎 So sánh retrieval", "📊 So sánh cấu hình trên benchmark"])
+tab_ask, tab_ret, tab_res = st.tabs(["💬 Chat với agent", "🔎 So sánh retrieval", "📊 So sánh cấu hình trên benchmark"])
 
-# =========================================================================== 1. live agent
+# =========================================================================== 1. live agent (chat)
+RETRIEVAL_MODES = {
+    "Hybrid + neighbour (A2 ★ đã chọn)": dict(method="hybrid", neighbors=True, per_search_budget=4500, budget_chars=9000,
+                                              desc="Dense + BM25 gộp bằng RRF, thêm chunk liền kề"),
+    "Dense (pgvector Day 6)": dict(method="dense", neighbors=False, per_search_budget=3000, budget_chars=6000,
+                                   desc="Embedding embeddinggemma, cosine"),
+    "BM25 (từ khóa)": dict(method="bm25", neighbors=False, per_search_budget=3000, budget_chars=6000,
+                          desc="Okapi BM25 k1=1.5 b=0.75"),
+    "Hybrid RRF": dict(method="hybrid", neighbors=False, per_search_budget=3000, budget_chars=6000,
+                       desc="Dense + BM25 gộp bằng RRF k=60"),
+    "Rerank cross-encoder": dict(method="rerank", neighbors=True, dedup=True, per_search_budget=4500, budget_chars=9000,
+                                 desc="Hybrid lấy 20 ứng viên → cross-encoder xếp lại → top-5"),
+}
+
+
+def chunk_rows(r: dict) -> list[dict]:
+    """Every chunk the agent showed the model, in order, with how it got there and whether it was cited."""
+    rows, cited = [], set(r.get("citations", []))
+    for n, e in enumerate([e for e in r.get("events", []) if e["event"] == "search"], 1):
+        ranks = {x["id"]: x for x in e.get("results", [])}
+        labels = {v: k for k, v in e.get("labels", {}).items()}
+        for cid in e.get("added_ids", []):
+            hit = ranks.get(cid)
+            rows.append({"id": cid, "label": labels.get(cid, ""), "search": n, "query": e["query"],
+                         "how": f"hạng {hit['rank']} · score {hit['score']}" if hit else "neighbour (chunk liền kề)",
+                         "cited": cid in cited})
+    return sorted(rows, key=lambda x: not x["cited"])
+
+
 with tab_ask:
-    with st.expander("🧰 Agent có những tool nào và các cấu hình khác nhau ra sao?"):
-        from src.agent import TOOLS
-        st.markdown("Agent tự quyết định gọi tool nào. Định nghĩa tool lấy trực tiếp từ `src/agent.py`:")
-        st.dataframe(pd.DataFrame([{
-            "Tool": t["name"], "Mô tả": t["description"],
-            "Tham số": ", ".join(f"{k}: {v['type']}" for k, v in t["parameters"]["properties"].items())}
-            for t in TOOLS]), hide_index=True, width="stretch")
-        st.markdown(f"Cả ba cấu hình dùng **cùng LLM** `{config.LLM_MODEL}`; chúng khác nhau ở retriever, "
-                    "prompt và cách đưa context vào model:")
-        st.dataframe(pd.DataFrame([{
-            "Cấu hình": n, "Mô tả": c["desc"], "Retriever": c["method"], "Top-k": 5, "Prompt": c["prompt"],
-            "Neighbour": "có" if c["neighbors"] else "không",
-            "Budget (ký tự/lượt · tổng)": f"{c['per_search_budget']} · {c['budget_chars']}",
-            "Gộp trùng": "có" if c.get("dedup") else "không",
-            "Kiểm tra số": "có" if c.get("verify_numbers") else "không"} for n, c in CONFIGS.items()]),
-            hide_index=True, width="stretch")
+    chat_col, side_col = st.columns([3, 2], gap="large")
 
-    left, right = st.columns([2, 1])
-    with right:
-        mode = st.radio("Chế độ", ["So sánh nhiều cấu hình", "Một cấu hình"], horizontal=True)
-        if mode == "Một cấu hình":
-            chosen = [st.selectbox("Cấu hình", list(CONFIGS), index=1)]
-        else:
-            chosen = st.multiselect("Cấu hình cần so sánh", list(CONFIGS), default=["A0 · baseline", "A2 · đã chọn"])
-        use_filter = st.selectbox("Filter chương (tùy chọn)",
-                                  ["(không)", "Chapter I", "Chapter II", "Chapter III", "Chapter IV", "Appendix"])
+    with side_col:
+        st.markdown("#### ⚙️ Cách retrieval")
+        mode_name = st.selectbox("Retriever cho câu hỏi tiếp theo", list(RETRIEVAL_MODES), label_visibility="collapsed")
+        mode = RETRIEVAL_MODES[mode_name]
+        st.caption(f"{mode['desc']} · top-5 · budget {mode['per_search_budget']} ký tự/lượt"
+                   + (" · có neighbour" if mode["neighbors"] else ""))
+        o1, o2 = st.columns(2)
+        prompt_v = o1.selectbox("Prompt", ["v2", "v1"], help="v2: từ chối chặt khi thiếu evidence (đã chọn); v1: baseline")
+        use_filter = o2.selectbox("Filter chương", ["(không)", "Chapter I", "Chapter II", "Chapter III", "Chapter IV",
+                                                    "Appendix"])
+        verify = st.checkbox("Kiểm tra số liệu (A4)", help="Mọi con số trong câu trả lời phải có trong đoạn được cite")
         ledger = DemoLedger()
-        st.metric("Đã chi (benchmark + demo)", f"${ledger.spent():.4f}", help=f"Trần MAX_COST_USD = ${ledger.cap:.2f}")
-        st.caption(f"Mỗi cấu hình ~ $0.0005–0.002 và 2–10 giây cho một câu → lần này tối đa ~${0.002 * len(chosen):.3f}.")
-    with left:
-        sample = st.selectbox("Câu hỏi mẫu", SAMPLES, format_func=lambda s: s or "— chọn hoặc tự gõ bên dưới —")
-        question = st.text_area("Câu hỏi (tiếng Anh)", value=re.sub(r"\s+\(.*\)$", "", sample), height=80)
-        go = st.button("Hỏi agent", type="primary", disabled=not question.strip() or not chosen)
+        st.caption(f"Đã chi (benchmark + demo): ${ledger.spent():.4f} / trần ${ledger.cap:.2f} · mỗi câu ~$0.0005–0.002")
+        if st.button("🗑️ Xóa cuộc trò chuyện"):
+            st.session_state["chat"] = []
+            st.rerun()
 
-    if go:
-        from src.agent import Agent
-        from src.llm import LLM
-        runs = []
-        for name in chosen:
-            cfg = CONFIGS[name]
+    chat = st.session_state.setdefault("chat", [])
+
+    with chat_col:
+        box = st.container(height=560)
+        with box:
+            if not chat:
+                with st.chat_message("assistant"):
+                    st.markdown("Xin chào! Hãy hỏi tôi về *Manifesto of the Communist Party* (bằng tiếng Anh). "
+                                "Tôi chỉ trả lời từ tài liệu, có trích nguồn, và sẽ từ chối nếu tài liệu không có thông tin. "
+                                "Chọn cách retrieval ở bên phải.")
+                    st.caption("Gợi ý: " + " · ".join(f"*{re.sub(r'  .*$', '', s)}*" for s in SAMPLES[1:4]))
+            for i, msg in enumerate(chat):
+                if msg["role"] == "user":
+                    with st.chat_message("user"):
+                        st.markdown(msg["content"])
+                    continue
+                r = msg["result"]
+                with st.chat_message("assistant"):
+                    if r["status"] == "answered":
+                        st.markdown(pretty_answer(r["answer"]))
+                    elif r["status"] == "abstain":
+                        st.warning(r["answer"])
+                    else:
+                        st.error(r.get("error"))
+                    n_search = sum(e["event"] == "search" for e in r.get("events", []))
+                    st.caption(f"{STATUS[r['status']]} · 🔎 {msg['mode']} · prompt {msg['prompt']} · {n_search} search · "
+                               f"{r.get('n_llm_calls', 0)} lượt LLM · {r.get('elapsed_ms', 0) / 1000:.1f} s · "
+                               f"${r.get('cost_usd', 0):.5f}")
+                    with st.expander("🧰 Tool đã dùng", expanded=(i == len(chat) - 1)):
+                        tc = tool_calls(r)
+                        st.dataframe(tc, width="stretch") if len(tc) else st.caption("Không có tool call.")
+
+        q = st.chat_input("Hỏi về Manifesto (tiếng Anh)…")
+        if q:
+            from src.agent import Agent
+            from src.llm import LLM
+            chat.append({"role": "user", "content": q})
             try:
-                retriever = get_retriever(cfg["method"], cfg.get("dedup", False))
+                retriever = get_retriever(mode["method"], mode.get("dedup", False))
                 agent = Agent(retriever, LLM(ledger=ledger), top_k=5, max_searches=3,
-                              budget_chars=cfg["budget_chars"], per_search_budget=cfg["per_search_budget"],
-                              neighbors=cfg["neighbors"], prompt=cfg["prompt"],
-                              verify_numbers=cfg.get("verify_numbers", False))
-                with st.spinner(f"{name}: agent đang tìm bằng chứng…"):
-                    r = agent.run(question.strip(), filters=None if use_filter == "(không)" else {"chapter": use_filter})
+                              budget_chars=mode["budget_chars"], per_search_budget=mode["per_search_budget"],
+                              neighbors=mode["neighbors"], prompt=prompt_v, verify_numbers=verify)
+                with box, st.chat_message("assistant"), st.spinner("Đang tìm bằng chứng trong tài liệu…"):
+                    r = agent.run(q, filters=None if use_filter == "(không)" else {"chapter": use_filter})
             except Exception as e:  # DB / Ollama down, missing API key, network ...
                 r = {"status": "error", "error": f"{type(e).__name__}: {e}", "events": [], "citations": []}
-            runs.append((name, r))
-        st.session_state["runs"] = (question.strip(), runs)
+            chat.append({"role": "assistant", "result": r, "mode": mode_name, "prompt": prompt_v})
+            st.rerun()
 
-    if "runs" in st.session_state:
-        q, runs = st.session_state["runs"]
-        st.divider()
-        st.markdown(f"**Câu hỏi:** {q}")
-
-        if len(runs) > 1:
-            st.subheader("So sánh nhanh")
-            st.dataframe(pd.DataFrame([{
-                "Cấu hình": n, "Kết quả": STATUS[r["status"]],
-                "Tool đã gọi": " → ".join(("search" if e["event"] == "search" else "final_answer")
-                                          for e in r["events"] if e["event"] in ("search", "answer")),
-                "Số search": sum(e["event"] == "search" for e in r["events"]),
-                "Lượt gọi LLM": r.get("n_llm_calls", 0),
-                "Trang được cite": ", ".join(str(load_chunks()[c]["page"]) for c in r["citations"]) or "—",
-                "Token in / out": f"{r.get('tokens_in', 0)} / {r.get('tokens_out', 0)}",
-                "Thời gian (s)": round(r.get("elapsed_ms", 0) / 1000, 1),
-                "Chi phí ($)": round(r.get("cost_usd", 0), 5)} for n, r in runs]),
-                hide_index=True, width="stretch")
-
-        cols = st.columns(len(runs))
-        for col, (name, r) in zip(cols, runs):
-            with col:
-                st.subheader(name)
-                st.caption(CONFIGS[name]["desc"])
-                m1, m2, m3 = st.columns(3)
-                m1.metric("Kết quả", STATUS[r["status"]])
-                m2.metric("Thời gian", f"{r.get('elapsed_ms', 0) / 1000:.1f} s")
-                m3.metric("Chi phí", f"${r.get('cost_usd', 0):.5f}")
-                if r["status"] == "error":
-                    st.error(r.get("error"))
-                elif r["status"] == "abstain":
-                    st.warning(r["answer"] + (f"  \n(lý do: `{r['stop']}`)" if r.get("stop") else ""))
-                else:
-                    st.success(pretty_answer(r["answer"]))
-
-                st.markdown("**Tool đã dùng (theo thứ tự)**")
-                tc = tool_calls(r)
-                if len(tc):
-                    st.dataframe(tc, width="stretch")
-                else:
-                    st.caption("Không có tool call.")
-
-                for cid in r.get("citations", []):
-                    c = load_chunks()[cid]
-                    with st.expander(f"📄 Citation: trang {c['page']} · {c['metadata'].get('chapter', '')}"):
-                        st.write(chunk_text(cid))
-                with st.expander(f"Context gửi model ({len(r.get('context', '') or '')} ký tự, "
-                                 f"{len(r.get('context_ids', []))} chunk)"):
-                    st.text(r.get("context", ""))
+    with side_col:
+        st.markdown("#### 📄 Các chunk agent đã đọc")
+        answers = [(i, m) for i, m in enumerate(chat) if m["role"] == "assistant"]
+        if not answers:
+            st.caption("Chưa có câu trả lời nào.")
+        else:
+            idx = st.selectbox("Của câu hỏi", [i for i, _ in answers][::-1],
+                               format_func=lambda i: chat[i - 1]["content"][:70])
+            r = chat[idx]["result"]
+            rows = chunk_rows(r)
+            st.caption(f"{len(rows)} chunk được đưa vào context · ⭐ = được cite trong câu trả lời · "
+                       f"retriever: {chat[idx]['mode']}")
+            for row in rows:
+                c = load_chunks()[row["id"]]
+                head = (f"{'⭐ ' if row['cited'] else ''}{row['label']} · trang {c['page']} · "
+                        f"{c['metadata'].get('chapter', '')} · {row['how']}")
+                with st.expander(head, expanded=row["cited"]):
+                    st.write(chunk_text(row["id"]))
+                    st.caption(f"search #{row['search']}: \"{row['query']}\" · `{row['id']}`")
 
 # =========================================================================== 2. retrieval comparison ($0)
 with tab_ret:

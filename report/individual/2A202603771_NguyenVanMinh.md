@@ -206,13 +206,13 @@ Báo cáo này còn một số giới hạn cần nói rõ:
 
 | Tab | Chức năng | Cần gì | Chi phí |
 |---|---|---|---|
-| 💬 Hỏi agent | Chạy **agent thật** trên một hoặc nhiều cấu hình (A0, A2, A4) **cạnh nhau** cho cùng câu hỏi. Mỗi cấu hình có bảng **tool đã dùng** theo thứ tự (tool, tham số, kết quả, thời gian), câu trả lời, citation (bấm để đọc đoạn gốc) và context gửi model. Có bảng so sánh nhanh: chuỗi tool, số search, lượt gọi LLM, token, thời gian, chi phí | Postgres Day 6, Ollama, `OPENAI_API_KEY` | ~$0.0005–0.002 / câu / cấu hình |
+| 💬 Chat với agent | Giao diện **chat**: hỏi liên tiếp, mỗi câu trả lời kèm phần **tool đã dùng** (tool, tham số, kết quả, thời gian) và dòng thông tin (retriever, prompt, số search, thời gian, chi phí). Khung bên phải cho **chọn cách retrieval** (Hybrid + neighbour, Dense, BM25, Hybrid, Rerank), prompt, filter, kiểm tra số, và **hiện các chunk** agent đã đọc cho từng câu (⭐ = được cite; hạng, score hoặc neighbour; query đã dùng) | Postgres Day 6, Ollama, `OPENAI_API_KEY` | ~$0.0005–0.002 / câu |
 | 🔎 So sánh retrieval | Top-5 của dense, BM25 và hybrid đặt cạnh nhau; đánh dấu chunk cả ba cùng tìm thấy | Postgres Day 6, Ollama | $0 |
 | 📊 So sánh cấu hình trên benchmark | So sánh mọi cấu hình (A0–A4r) trên mọi bộ câu hỏi, kèm biểu đồ % đạt và chi phí; so sánh các phương pháp retrieval (Hit@1, Context Evidence Rate); bảng đối chiếu từng câu × từng cấu hình và tool call của từng câu | Không cần, đọc từ `results/` | $0 |
 
-Phần đầu tab "Hỏi agent" liệt kê các tool của agent (lấy trực tiếp từ schema trong `src/agent.py`) và bảng khác biệt giữa các cấu hình. Cả ba cấu hình dùng **cùng LLM** `gpt-5.6-luna`; chúng chỉ khác nhau ở retriever, prompt và cách đưa context vào model. Vì vậy demo so sánh **cấu hình**, không so sánh các LLM khác nhau.
+Mọi lựa chọn trong demo dùng **cùng LLM** `gpt-5.6-luna`; chúng chỉ khác nhau ở retriever, prompt và cách đưa context vào model. Vì vậy demo so sánh **cấu hình**, không so sánh các LLM khác nhau. Mỗi câu hỏi được agent xử lý độc lập (không dùng lịch sử chat làm ngữ cảnh), giống cách chạy benchmark.
 
-Chi phí của demo được ghi vào sổ riêng `demo/demo_cost_ledger.jsonl`, để không làm sai số liệu benchmark. Tuy vậy, trần `MAX_COST_USD` vẫn tính trên tổng chi phí benchmark cộng demo. Tôi đã kiểm tra demo bằng công cụ test của Streamlit (AppTest): mọi tab và mọi bộ câu hỏi đều chạy không lỗi. Khi so sánh A0 và A2 trên câu "Who made the first English translation…", cả hai đều gọi `search → final_answer` một lần và trả lời đúng, citation trang 36. A0 mất 12.6 s và $0.00043; A2 mất 3.9 s và $0.00050, vì neighbour đưa nhiều chunk hơn vào context (7 so với 3).
+Chi phí của demo được ghi vào sổ riêng `demo/demo_cost_ledger.jsonl`, để không làm sai số liệu benchmark. Tuy vậy, trần `MAX_COST_USD` vẫn tính trên tổng chi phí benchmark cộng demo. Tôi đã kiểm tra demo bằng công cụ test của Streamlit (AppTest): mọi tab và mọi bộ câu hỏi đều chạy không lỗi. Khi thử chat, câu "What does Chapter I say the bourgeoisie produces above all?" với Hybrid + neighbour được trả lời đúng ("its own grave-diggers", trang 12, 4.2 s, $0.00046). Sau khi đổi sang BM25, câu bẫy về án tù của Marx được từ chối đúng, và khung chunk hiện 4 đoạn BM25 tìm được (trang 36, 40, 34, 35).
 
 ## Cách chạy
 
