@@ -1,0 +1,46 @@
+{
+  "selected": "A2_hybrid_v2_nb",
+  "chosen_on": "dev only",
+  "criteria": "configs/selected_criteria.md (commit a6d895f)",
+  "retrieval": {
+    "method": "hybrid_rrf",
+    "components": [
+      "dense pgvector Day 6 (strategy B, embeddinggemma 768-d, cosine)",
+      "bm25 (k1=1.5,b=0.75)"
+    ],
+    "rrf_k": 60,
+    "candidate_pool": 20,
+    "top_k": 5,
+    "filter": "user-supplied question filter if present",
+    "reranker": null,
+    "query_rewrite": "none (agent writes its own search queries)"
+  },
+  "context": {
+    "neighbors": true,
+    "per_search_budget_chars": 4500,
+    "total_budget_chars": 9000,
+    "dedup": "chunk id",
+    "overflow": "skip"
+  },
+  "agent": {
+    "max_searches": 3,
+    "prompt": "v2",
+    "llm": {
+      "provider": "openai (Responses API)",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "low",
+      "max_output_tokens": 1500,
+      "temperature": "not set (reasoning model)",
+      "price_per_1M": [
+        0.2,
+        1.2
+      ],
+      "max_cost_usd": 1.0
+    }
+  },
+  "run_command": "python -m src.run_agent --split test --method hybrid --prompt v2 --neighbors --per-search-budget 4500 --budget 9000 --config A2_hybrid_v2_nb",
+  "baseline_for_test": {
+    "config": "A0_hybrid_k5_s3",
+    "run_command": "python -m src.run_agent --split test --method hybrid --config A0_hybrid_k5_s3"
+  }
+}

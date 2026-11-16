@@ -1,0 +1,58 @@
+{
+  "retrieval": [
+    {
+      "id": "dense_k5_b3000",
+      "summary": "results/retrieval/dense_k5_b3000/dev/summary.json"
+    },
+    {
+      "id": "bm25_k5_b3000",
+      "summary": "results/retrieval/bm25_k5_b3000/dev/summary.json"
+    },
+    {
+      "id": "hybrid_k5_b3000",
+      "summary": "results/retrieval/hybrid_k5_b3000/dev/summary.json"
+    },
+    {
+      "id": "dense_k5_b3000_filter",
+      "summary": "results/retrieval/dense_k5_b3000_filter/dev/summary.json"
+    },
+    {
+      "id": "bm25_k5_b3000_filter",
+      "summary": "results/retrieval/bm25_k5_b3000_filter/dev/summary.json"
+    },
+    {
+      "id": "hybrid_k5_b3000_filter",
+      "summary": "results/retrieval/hybrid_k5_b3000_filter/dev/summary.json"
+    },
+    {
+      "id": "hybrid_k5_b4500",
+      "summary": "results/retrieval/hybrid_k5_b4500/dev/summary.json"
+    },
+    {
+      "id": "hybrid_k5_b3000_nb",
+      "summary": "results/retrieval/hybrid_k5_b3000_nb/dev/summary.json"
+    },
+    {
+      "id": "hybrid_k5_b4500_nb",
+      "summary": "results/retrieval/hybrid_k5_b4500_nb/dev/summary.json"
+    },
+    {
+      "id": "tfidf_starter",
+      "summary": "results/retrieval/tfidf_starter/dev/summary.json"
+    }
+  ],
+  "agent": [
+    {
+      "id": "A0_hybrid_k5_s3",
+      "hypothesis": "baseline: hybrid RRF top-5, ≤3 searches, prompt v1, per-search budget 3000 / total 6000 chars"
+    },
+    {
+      "id": "A1_hybrid_v2",
+      "hypothesis": "E1: stricter abstention rule (prompt v2) turns 'the document does not say X…' answers into real abstentions without adding false abstentions"
+    },
+    {
+      "id": "A2_hybrid_v2_nb",
+      "hypothesis": "E2: adding neighbour chunks puts list items that Strategy B split from their intro sentence into context -> fewer searches, higher context evidence rate"
+    }
+  ]
+}

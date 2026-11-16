@@ -1,0 +1,47 @@
+{
+  "config": "A0_hybrid_k5_s3",
+  "split": "dev",
+  "agent": {
+    "retriever": "hybrid_rrf",
+    "retriever_params": {
+      "rrf_k": 60,
+      "candidate_pool": 20,
+      "components": [
+        "dense",
+        "bm25"
+      ]
+    },
+    "top_k": 5,
+    "max_searches": 3,
+    "budget_chars": 6000,
+    "per_search_budget_chars": 3000,
+    "neighbors": false,
+    "llm": {
+      "provider": "openai (Responses API)",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "low",
+      "max_output_tokens": 1500,
+      "temperature": "not set (reasoning model)",
+      "price_per_1M": [
+        0.2,
+        1.2
+      ],
+      "max_cost_usd": 1.0
+    }
+  },
+  "n_cases": 25,
+  "status": {
+    "answered": 24,
+    "abstain": 1,
+    "error": 0
+  },
+  "tool_use": "25/25",
+  "avg_searches": 1.36,
+  "tokens_in": 48727,
+  "tokens_out": 3535,
+  "cost_usd": 0.01399,
+  "median_latency_ms": 3855,
+  "errors": [],
+  "note": "answer quality / citation support / abstention correctness are labelled manually in reviews.json",
+  "timestamp": "2026-11-16T11:14:46"
+}

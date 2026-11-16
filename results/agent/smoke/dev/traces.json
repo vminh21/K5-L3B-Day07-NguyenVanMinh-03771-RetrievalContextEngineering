@@ -1,0 +1,179 @@
+[
+  {
+    "query_id": "q01",
+    "config": "smoke",
+    "model": "gpt-5.6-luna",
+    "question": "What does the opening sentence of the Manifesto declare is haunting Europe?",
+    "filter": null,
+    "status": "answered",
+    "answer": "The opening sentence declares that “a spectre” is haunting Europe—specifically, “the spectre of communism.” [communist-manifesto-1848_p0002_B_0000_c3e682]",
+    "citations": [
+      "communist-manifesto-1848_p0002_B_0000_c3e682"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "hybrid_rrf",
+        "query": "opening sentence haunting Europe spectre",
+        "filter": null,
+        "results": [
+          {
+            "id": "communist-manifesto-1848_p0002_B_0000_c3e682",
+            "page": 2,
+            "rank": 1,
+            "score": 0.03279
+          },
+          {
+            "id": "communist-manifesto-1848_p0034_B_0003_a9eb27",
+            "page": 34,
+            "rank": 2,
+            "score": 0.0308
+          },
+          {
+            "id": "communist-manifesto-1848_p0044_B_0002_6b0085",
+            "page": 44,
+            "rank": 3,
+            "score": 0.02991
+          },
+          {
+            "id": "communist-manifesto-1848_p0034_B_0002_6cb34d",
+            "page": 34,
+            "rank": 4,
+            "score": 0.02932
+          },
+          {
+            "id": "communist-manifesto-1848_p0034_B_0001_efd4df",
+            "page": 34,
+            "rank": 5,
+            "score": 0.02821
+          }
+        ],
+        "added_ids": [
+          "communist-manifesto-1848_p0002_B_0000_c3e682",
+          "communist-manifesto-1848_p0034_B_0003_a9eb27",
+          "communist-manifesto-1848_p0044_B_0002_6b0085"
+        ],
+        "dropped_ids": [
+          "communist-manifesto-1848_p0034_B_0002_6cb34d",
+          "communist-manifesto-1848_p0034_B_0001_efd4df"
+        ],
+        "labels": {
+          "S1": "communist-manifesto-1848_p0002_B_0000_c3e682",
+          "S2": "communist-manifesto-1848_p0034_B_0003_a9eb27",
+          "S3": "communist-manifesto-1848_p0044_B_0002_6b0085"
+        },
+        "elapsed_ms": 99
+      },
+      {
+        "event": "answer",
+        "raw": {
+          "answer": "The opening sentence declares that “a spectre” is haunting Europe—specifically, “the spectre of communism.” [S1]",
+          "citations": [
+            "S1"
+          ],
+          "abstain": false
+        }
+      }
+    ],
+    "context": "[communist-manifesto-1848_p0002_B_0000_c3e682 | communist-manifesto-1848 | page 2 | Preamble]\nA spectre is haunting Europe — the spectre of communism. All the powers of old Europe\nhave entered into a holy alliance to exorcise this spectre: Pope and Tsar, Metternich and Guizot,\nFrench Radicals and German police-spies.\n\nWhere is the party in opposition that has not been decried as communistic by its opponents\nin power? Where is the opposition that has not hurled back the branding reproach of\ncommunism, against the more advanced opposition parties, as well as against its reactionary\nadversaries?\n\nTwo things result from this fact:\n\nI. Communism is already acknowledged by all European powers to be itself a power.\nII. It is high time that Communists should openly, in the face of the whole world, publish\ntheir views, their aims, their tendencies, and meet this nursery tale of the Spectre of\nCommunism with a manifesto of the party itself.\n\n[communist-manifesto-1848_p0034_B_0003_a9eb27 | communist-manifesto-1848 | page 34 | Appendix]\nAnd now Russia! During the Revolution of 1848-9, not only the European princes, but the\nEuropean bourgeois as well, found their only salvation from the proletariat just beginning to\nawaken in Russian intervention. The Tsar was proclaimed the chief of European reaction. Today,\nhe is a prisoner of war of the revolution in Gatchina, and Russia forms the vanguard of\nrevolutionary action in Europe.\n\n[communist-manifesto-1848_p0044_B_0002_6b0085 | communist-manifesto-1848 | page 44 | Appendix]\nThe battles fought in 1848 were thus not fought in vain. Nor have the forty-five years\nseparating us from that revolutionary epoch passed to no purpose. The fruits are ripening, and all\nI wish is that the publication of this Italian translation may augur as well for the victory of the\nItalian proletariat as the publication of the original did for the international revolution.\n\nThe Manifesto does full justice to the revolutionary part played by capitalism in the past. The\nfirst capitalist nation was Italy. The close of the feudal Middle Ages, and the opening of the\nmodern capitalist era are marked by a colossal figured: an Italian, Dante, both the last poet of the\nMiddle Ages and the first poet of modern times. Today, as in 1300, a new historical era is\napproaching. Will Italy give us the new Dante, who will mark the hour of birth of this new,\nproletarian era?\n\nFredrick Engels\nLondon, February 1, 1893",
+    "context_ids": [
+      "communist-manifesto-1848_p0002_B_0000_c3e682",
+      "communist-manifesto-1848_p0034_B_0003_a9eb27",
+      "communist-manifesto-1848_p0044_B_0002_6b0085"
+    ],
+    "error": null,
+    "elapsed_ms": 11699,
+    "tokens_in": 1377,
+    "tokens_out": 81,
+    "cost_usd": 0.0003726,
+    "n_llm_calls": 2,
+    "stop": "final_answer"
+  },
+  {
+    "query_id": "qn01",
+    "config": "smoke",
+    "model": "gpt-5.6-luna",
+    "question": "What does the Manifesto say about the outcome of the Russian Revolution of 1917?",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Not enough evidence in the document to answer this question.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "hybrid_rrf",
+        "query": "Russian Revolution of 1917 outcome Manifesto preface Russia revolution",
+        "filter": null,
+        "results": [
+          {
+            "id": "communist-manifesto-1848_p0034_B_0003_a9eb27",
+            "page": 34,
+            "rank": 1,
+            "score": 0.03279
+          },
+          {
+            "id": "communist-manifesto-1848_p0035_B_0000_b0725d",
+            "page": 35,
+            "rank": 2,
+            "score": 0.03226
+          },
+          {
+            "id": "communist-manifesto-1848_p0044_B_0001_99a5c1",
+            "page": 44,
+            "rank": 3,
+            "score": 0.03126
+          },
+          {
+            "id": "communist-manifesto-1848_p0039_B_0002_1a05c3",
+            "page": 39,
+            "rank": 4,
+            "score": 0.02996
+          },
+          {
+            "id": "communist-manifesto-1848_p0034_B_0000_077a89",
+            "page": 34,
+            "rank": 5,
+            "score": 0.02986
+          }
+        ],
+        "added_ids": [
+          "communist-manifesto-1848_p0034_B_0003_a9eb27",
+          "communist-manifesto-1848_p0035_B_0000_b0725d",
+          "communist-manifesto-1848_p0044_B_0001_99a5c1"
+        ],
+        "dropped_ids": [
+          "communist-manifesto-1848_p0039_B_0002_1a05c3",
+          "communist-manifesto-1848_p0034_B_0000_077a89"
+        ],
+        "labels": {
+          "S1": "communist-manifesto-1848_p0034_B_0003_a9eb27",
+          "S2": "communist-manifesto-1848_p0035_B_0000_b0725d",
+          "S3": "communist-manifesto-1848_p0044_B_0001_99a5c1"
+        },
+        "elapsed_ms": 65
+      },
+      {
+        "event": "answer",
+        "raw": {
+          "answer": "",
+          "citations": [],
+          "abstain": true
+        }
+      }
+    ],
+    "context": "[communist-manifesto-1848_p0034_B_0003_a9eb27 | communist-manifesto-1848 | page 34 | Appendix]\nAnd now Russia! During the Revolution of 1848-9, not only the European princes, but the\nEuropean bourgeois as well, found their only salvation from the proletariat just beginning to\nawaken in Russian intervention. The Tsar was proclaimed the chief of European reaction. Today,\nhe is a prisoner of war of the revolution in Gatchina, and Russia forms the vanguard of\nrevolutionary action in Europe.\n\n[communist-manifesto-1848_p0035_B_0000_b0725d | communist-manifesto-1848 | page 35 | Appendix]\nThe Communist Manifesto had, as its object, the proclamation of the inevitable impending\ndissolution of modern bourgeois property. But in Russia we find, face-to-face with the rapidly\nflowering capitalist swindle and bourgeois property, just beginning to develop, more than half\nthe land owned in common by the peasants. Now the question is: can the Russian obshchina,\nthough greatly undermined, yet a form of primeval common ownership of land, pass directly to\nthe higher form of Communist common ownership? Or, on the contrary, must it first pass\nthrough the same process of dissolution such as constitutes the historical evolution of the West?\n\nThe only answer to that possible today is this: If the Russian Revolution becomes the signal\nfor a proletarian revolution in the West, so that both complement each other, the present Russian\ncommon ownership of land may serve as the starting point for a communist development.\n\nKarl Marx & Fredrick Engels\nJanuary 21, 1882, London\n\n[communist-manifesto-1848_p0044_B_0001_99a5c1 | communist-manifesto-1848 | page 44 | Appendix]\nThus, if the Revolution of 1848 was not a socialist revolution, it paved the way, prepared the\nground for the latter. Through the impetus given to large-scaled industry in all countries, the\nbourgeois regime during the last forty-five years has everywhere created a numerous,\nconcentrated and powerful proletariat. It has thus raised, to use the language of the Manifesto, its\nown grave-diggers. Without restoring autonomy and unity to each nation, it will be impossible to\nachieve the international union of the proletariat, or the peaceful and intelligent co-operation of\nthese nations toward common aims. Just imagine joint international action by the Italian,\nHungarian, German, Polish and Russian workers under the political conditions preceding 1848!",
+    "context_ids": [
+      "communist-manifesto-1848_p0034_B_0003_a9eb27",
+      "communist-manifesto-1848_p0035_B_0000_b0725d",
+      "communist-manifesto-1848_p0044_B_0001_99a5c1"
+    ],
+    "error": null,
+    "elapsed_ms": 3136,
+    "tokens_in": 1347,
+    "tokens_out": 111,
+    "cost_usd": 0.00040260000000000003,
+    "n_llm_calls": 2,
+    "stop": "model_abstained",
+    "model_answer": ""
+  }
+]

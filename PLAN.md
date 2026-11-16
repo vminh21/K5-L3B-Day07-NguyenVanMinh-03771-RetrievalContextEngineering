@@ -258,8 +258,8 @@ Mẫu bảng (đưa thẳng vào báo cáo):
 | M1 Dense | top-3, no filter, 2000 chars | dev | n/15 (x%) | n/15 (x%) | n/15 (x%) | ms / $ |
 
 **Checkpoint 6 — xong khi:**
-- [ ] Có `summary.json` cho ≥3 phương pháp trên dev, cùng N.
-- [ ] Ghi filter và cách tạo query (query gốc vs rewrite) cho từng cấu hình.
+- [x] Có `summary.json` cho ≥3 phương pháp trên dev, cùng N. (N=22; bảng: `results/retrieval/dev_comparison.md`)
+- [x] Ghi filter và cách tạo query (query gốc vs rewrite) cho từng cấu hình. (`filter`, `query_mode` trong summary/traces)
 
 **Rules / lưu ý**
 - ❌ Chỉ chạy `--split dev`. Script phải **lọc split trước khi đọc** câu hỏi (như `baseline.py`).
@@ -293,9 +293,9 @@ Mẫu bảng (đưa thẳng vào báo cáo):
    Nếu dùng nhiều tool → mỗi lượt retrieval vẫn ghi `event: "search"`, tên tool đặt ở trường `tool`.
 
 **Checkpoint 7 — xong khi:**
-- [ ] Chạy 1 câu dev có đáp án → agent gọi search ≥1 lần, trả lời có citation đúng ID trong context.
-- [ ] Chạy 1 câu thiếu evidence → agent search rồi abstain.
-- [ ] Ngắt Ollama/DB giả lập → trace ghi `status: "error"`, không crash cả batch, không bịa câu trả lời.
+- [x] Chạy 1 câu dev có đáp án → agent gọi search ≥1 lần, trả lời có citation đúng ID trong context. (q01, `results/agent/smoke/dev`)
+- [x] Chạy 1 câu thiếu evidence → agent search rồi abstain. (qn01 — Russia 1917)
+- [x] Ngắt Ollama/DB giả lập → trace ghi `status: "error"`, không crash cả batch, không bịa câu trả lời. (DB down: q02,q03 error, batch chạy tiếp; thêm trần chi phí `MAX_COST_USD`)
 
 **Rules / lưu ý**
 - ❌ `run_agent.py` chỉ nhận `id`, `question`, `filter` (do người dùng cung cấp). **Tuyệt đối không truyền** `gold` / `expected_answer`.
@@ -328,9 +328,9 @@ Mẫu bảng (đưa thẳng vào báo cáo):
 5. **Chốt**: ghi `configs/selected.json` (phương pháp, top-k, candidate, reranker, budget, max_searches, model, prompt version) → **commit** (`git commit -m "freeze selected config before test"`). Hash commit này là bằng chứng.
 
 **Checkpoint 8 — xong khi:**
-- [ ] Bảng dev đầy đủ: ≥3 phương pháp + ≥2 cải thiện, mỗi dòng có `n/N`, %, thời gian, chi phí.
-- [ ] ≥2 lỗi dev có trước/sau.
-- [ ] `selected.json` + tiêu chí đã commit **trước** khi chạy test.
+- [x] Bảng dev đầy đủ: ≥3 phương pháp + ≥2 cải thiện, mỗi dòng có `n/N`, %, thời gian, chi phí. (`results/dev_experiments.md`)
+- [x] ≥2 lỗi dev có trước/sau. (E1 soft abstention qn01/qn03; E2 chunk boundary q11/q12; E3 q06 còn lại)
+- [x] `selected.json` + tiêu chí đã commit **trước** khi chạy test. (A2_hybrid_v2_nb)
 
 **Rules / lưu ý**
 - ❌ Không "chỉnh nhẹ" sau khi xem test. Nếu đã xem → tạo test mới, ghi rõ.

@@ -1,0 +1,202 @@
+[
+  {
+    "query_id": "q01",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "q02",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "q03",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true,
+      true
+    ],
+    "reason": "Correct; extra p4/p6 cites support world-market/communication claims (same chunks verified in A0)."
+  },
+  {
+    "query_id": "q04",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "q05",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "q06",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "q07",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Correct; p7 supports 'burst asunder' claim."
+  },
+  {
+    "query_id": "q08",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct; 2nd p13 chunk supports 'immediate aim' claim."
+  },
+  {
+    "query_id": "q09",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "q10",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "q11",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "q12",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "q13",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "q14",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "q15",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "q16",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "q17",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Correct; p36 1888 preface also names the Communist League."
+  },
+  {
+    "query_id": "q18",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Correct; p33 supports Paris Commune/antiquated claim."
+  },
+  {
+    "query_id": "q19",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "q20",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Correct; p36 shows Engels' 1883 signature."
+  },
+  {
+    "query_id": "q21",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "q22",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "qn01",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Abstained (abstain=true) after searching; no evidence exists (see cases.json absence_reason)."
+  },
+  {
+    "query_id": "qn02",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Abstained (abstain=true) after searching; no evidence exists (see cases.json absence_reason)."
+  },
+  {
+    "query_id": "qn03",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Abstained (abstain=true) after searching; no evidence exists (see cases.json absence_reason)."
+  }
+]

@@ -1,0 +1,210 @@
+[
+  {
+    "query_id": "q01",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "q02",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "q03",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "reason": "Correct; extra cites p4/p6 support world-market, navigation, cheap-prices claims (checked text)."
+  },
+  {
+    "query_id": "q04",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "q05",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "q06",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "q07",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Correct; p7 cite supports 'burst asunder' / free competition."
+  },
+  {
+    "query_id": "q08",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Correct. 2nd p13 chunk (…1c1bb4) states 'The immediate aim of the Communists is the same as that of all other proletarian parties' -> supports the 'immediate aims' claim. (Initial label 'unsupported' was a reviewer error, corrected after re-reading the chunk.)"
+  },
+  {
+    "query_id": "q09",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "q10",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "q11",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "q12",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "q13",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "q14",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "q15",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "q16",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "q17",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Correct; p36 (1888 preface) also states the Manifesto was the platform of the Communist League."
+  },
+  {
+    "query_id": "q18",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Correct; p33 supports the extra Paris Commune / antiquated-details claim."
+  },
+  {
+    "query_id": "q19",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "q20",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Correct; p36 shows Engels' signature 'Fredrick Engels June 28, 1883, London'."
+  },
+  {
+    "query_id": "q21",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "q22",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "qn01",
+    "citation_support": [
+      true
+    ],
+    "abstention_correct": false,
+    "reason": "NOT an abstention: status=answered. Text says the Manifesto does not state the 1917 outcome but still answers with the 1882 preface speculation [p35]. Citation itself supports that side claim."
+  },
+  {
+    "query_id": "qn02",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Correct abstention after 3 searches."
+  },
+  {
+    "query_id": "qn03",
+    "citation_support": [
+      true,
+      true,
+      true
+    ],
+    "abstention_correct": false,
+    "reason": "NOT an abstention: status=answered. Says no formula exists, then gives a 'qualitative account' from p8/p14/p15 (wage = subsistence). Citations support those side claims, but the expected behaviour was to abstain."
+  }
+]
