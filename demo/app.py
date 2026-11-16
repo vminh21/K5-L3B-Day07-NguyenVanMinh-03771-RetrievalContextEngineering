@@ -136,17 +136,12 @@ tab_ask, tab_ret, tab_res = st.tabs(["💬 Chat với agent", "🔎 So sánh ret
 
 # =========================================================================== 1. live agent (chat)
 RETRIEVAL_MODES = {
-    "Hybrid + neighbour (A2 ★ đã chọn)": dict(method="hybrid", neighbors=True, per_search_budget=4500, budget_chars=9000,
-                                              desc="Dense + BM25 gộp bằng RRF, thêm chunk liền kề"),
-    "Dense (pgvector Day 6)": dict(method="dense", neighbors=False, per_search_budget=3000, budget_chars=6000,
-                                   desc="Embedding embeddinggemma, cosine"),
-    "BM25 (từ khóa)": dict(method="bm25", neighbors=False, per_search_budget=3000, budget_chars=6000,
-                          desc="Okapi BM25 k1=1.5 b=0.75"),
-    "Hybrid RRF": dict(method="hybrid", neighbors=False, per_search_budget=3000, budget_chars=6000,
-                       desc="Dense + BM25 gộp bằng RRF k=60"),
-    "Rerank cross-encoder": dict(method="rerank", neighbors=True, dedup=True, per_search_budget=4500, budget_chars=9000,
-                                 desc="Hybrid lấy 20 ứng viên → cross-encoder xếp lại → top-5"),
+    "Hybrid RRF (retriever của A2 ★)": dict(method="hybrid", desc="Dense + BM25 gộp bằng RRF k=60"),
+    "Dense (pgvector Day 6)": dict(method="dense", desc="Embedding embeddinggemma, cosine"),
+    "BM25 (từ khóa)": dict(method="bm25", desc="Okapi BM25 k1=1.5 b=0.75"),
+    "Rerank cross-encoder": dict(method="rerank", dedup=True, desc="Hybrid lấy 20 ứng viên → cross-encoder xếp lại"),
 }
+PER_SEARCH_BUDGET, TOTAL_BUDGET = 4500, 9000
 
 
 def chunk_rows(r: dict) -> tuple[list[dict], list[dict]]:
@@ -177,9 +172,11 @@ with tab_ask:
         st.markdown("#### ⚙️ Cách retrieval")
         mode_name = st.selectbox("Retriever cho câu hỏi tiếp theo", list(RETRIEVAL_MODES), label_visibility="collapsed")
         mode = RETRIEVAL_MODES[mode_name]
-        st.caption(f"{mode['desc']} · budget {mode['per_search_budget']} ký tự/lượt"
-                   + (" · có neighbour" if mode["neighbors"] else ""))
+        st.caption(mode["desc"])
         top_k = st.select_slider("Số chunk lấy mỗi lần search (top-k)", options=[3, 4, 5], value=3)
+        use_nb = st.checkbox("Thêm chunk liền kề (neighbour, như A2)", value=False,
+                             help="Đưa thêm chunk ngay trước/sau mỗi kết quả vào context — giúp khi câu bị chunk cắt đôi, "
+                                  "nhưng làm context dài hơn")
         o1, o2 = st.columns(2)
         prompt_v = o1.selectbox("Prompt", ["v2", "v1"], help="v2: từ chối chặt khi thiếu evidence (đã chọn); v1: baseline")
         use_filter = o2.selectbox("Filter chương", ["(không)", "Chapter I", "Chapter II", "Chapter III", "Chapter IV",
@@ -216,7 +213,7 @@ with tab_ask:
                     else:
                         st.error(r.get("error"))
                     st.markdown("**Tool agent đã gọi:**  \n" + main_tools_md(r))
-                    st.caption(f"{STATUS[r['status']]} · {msg['mode']} · top-{msg.get('top_k', 3)} · prompt {msg['prompt']} · "
+                    st.caption(f"{STATUS[r['status']]} · {msg['mode']} · top-{msg.get('top_k', 3)}{' + neighbour' if msg.get('nb') else ''} · prompt {msg['prompt']} · "
                                f"{r.get('elapsed_ms', 0) / 1000:.1f} s · ${r.get('cost_usd', 0):.5f}")
 
         q = st.chat_input("Hỏi về Manifesto (tiếng Anh)…")
@@ -227,13 +224,13 @@ with tab_ask:
             try:
                 retriever = get_retriever(mode["method"], mode.get("dedup", False))
                 agent = Agent(retriever, LLM(ledger=ledger), top_k=top_k, max_searches=3,
-                              budget_chars=mode["budget_chars"], per_search_budget=mode["per_search_budget"],
-                              neighbors=mode["neighbors"], prompt=prompt_v, verify_numbers=verify)
+                              budget_chars=TOTAL_BUDGET, per_search_budget=PER_SEARCH_BUDGET,
+                              neighbors=use_nb, prompt=prompt_v, verify_numbers=verify)
                 with box, st.chat_message("assistant"), st.spinner("Đang tìm bằng chứng trong tài liệu…"):
                     r = agent.run(q, filters=None if use_filter == "(không)" else {"chapter": use_filter})
             except Exception as e:  # DB / Ollama down, missing API key, network ...
                 r = {"status": "error", "error": f"{type(e).__name__}: {e}", "events": [], "citations": []}
-            chat.append({"role": "assistant", "result": r, "mode": mode_name, "prompt": prompt_v, "top_k": top_k})
+            chat.append({"role": "assistant", "result": r, "mode": mode_name, "prompt": prompt_v, "top_k": top_k, "nb": use_nb})
             st.rerun()
 
     with side_col:
