@@ -1,0 +1,470 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "type": "direct",
+    "question": "What does the opening sentence of the Manifesto declare is haunting Europe?",
+    "expected_answer": "A spectre — the spectre of communism.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 2,
+        "evidence": "A spectre is haunting Europe — the spectre of communism."
+      }
+    ],
+    "filter": null,
+    "origin": "day6-dev"
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "type": "direct",
+    "question": "According to Chapter I, what is the history of all hitherto existing society?",
+    "expected_answer": "The history of all hitherto existing society is the history of class struggles.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 3,
+        "evidence": "The history of all hitherto existing society2 is the history of class struggles."
+      }
+    ],
+    "filter": null,
+    "origin": "day6-dev"
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "In what ways does the bourgeoisie expand its market presence across the globe?",
+    "expected_answer": "The need of a constantly expanding market chases the bourgeoisie over the entire surface of the globe, compelling it to nestle, settle, and establish connections everywhere.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 6,
+        "evidence": "The need of a constantly expanding market for its products chases the bourgeoisie over the\nentire surface of the globe. It must nestle everywhere, settle everywhere, establish connexions\neverywhere."
+      }
+    ],
+    "filter": null,
+    "origin": "day6-dev"
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "type": "conditional",
+    "question": "How does the bourgeoisie overcome commercial economic crises?",
+    "expected_answer": "By enforced destruction of a mass of productive forces, by the conquest of new markets, and by the more thorough exploitation of old ones.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 8,
+        "evidence": "On the one hand by enforced destruction of a mass of\nproductive forces; on the other, by the conquest of new markets, and by the more thorough\nexploitation of the old ones."
+      }
+    ],
+    "filter": null,
+    "origin": "day6-dev"
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "type": "direct",
+    "question": "What organizations do workers initially form when resisting individual bourgeois employers?",
+    "expected_answer": "Combinations (Trades' Unions) against the bourgeois in order to keep up the rate of wages.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 10,
+        "evidence": "Thereupon, the workers begin to form combinations (Trades’ Unions) against the bourgeois; they\nclub together in order to keep up the rate of wages"
+      }
+    ],
+    "filter": null,
+    "origin": "day6-dev"
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "Which group of intellectuals joins the proletariat when the class struggle nears the decisive hour?",
+    "expected_answer": "A portion of bourgeois ideologists who have comprehended theoretically the historical movement as a whole.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 11,
+        "evidence": "in particular, a portion of the bourgeois ideologists, who have\nraised themselves to the level of comprehending theoretically the historical movement as a\nwhole."
+      }
+    ],
+    "filter": null,
+    "origin": "day6-dev"
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "In Chapter I, what has been the historical role played by the bourgeoisie regarding feudal ties?",
+    "expected_answer": "The bourgeoisie has historically played a most revolutionary part and put an end to all feudal, patriarchal, idyllic relations.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 5,
+        "evidence": "The bourgeoisie, historically, has played a most revolutionary part.\n\nThe bourgeoisie, wherever it has got the upper hand, has put an end to all feudal, patriarchal,\nidyllic relations."
+      }
+    ],
+    "filter": {
+      "chapter": "Chapter I"
+    },
+    "origin": "day6-dev"
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "type": "direct",
+    "question": "Do Communists form a separate party opposed to other working-class parties?",
+    "expected_answer": "No, Communists do not form a separate party opposed to other working-class parties and have no interests separate from the proletariat as a whole.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 13,
+        "evidence": "The Communists\ndo not form a separate party opposed to the other working-class parties.\n\nThey have no interests separate and apart from those of the proletariat as a whole."
+      }
+    ],
+    "filter": null,
+    "origin": "day6-dev"
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "type": "conditional",
+    "question": "What is the distinguishing feature of Communism regarding property abolition?",
+    "expected_answer": "Not the abolition of property generally, but the abolition of bourgeois private property.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 14,
+        "evidence": "The distinguishing feature of Communism is not the abolition of property generally, but\nthe abolition of bourgeois property."
+      }
+    ],
+    "filter": null,
+    "origin": "day6-dev"
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "type": "direct",
+    "question": "How does the bourgeois traditionally view his wife according to the Manifesto?",
+    "expected_answer": "The bourgeois sees his wife as a mere instrument of production.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 18,
+        "evidence": "The bourgeois sees his wife a mere instrument of production."
+      }
+    ],
+    "filter": null,
+    "origin": "day6-dev"
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "In Chapter II, what is the first measure listed as generally applicable in the most advanced countries?",
+    "expected_answer": "Abolition of property in land and application of all rents of land to public purposes.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 21,
+        "evidence": "1. Abolition of property in land and application of all rents of land to\npublic purposes."
+      }
+    ],
+    "filter": {
+      "chapter": "Chapter II"
+    },
+    "origin": "day6-dev"
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "type": "conditional",
+    "question": "What are the second and third measures proposed for advanced countries in Chapter II?",
+    "expected_answer": "A heavy progressive or graduated income tax, and abolition of all rights of inheritance.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 21,
+        "evidence": "2. A heavy progressive or graduated income tax. 3. Abolition of all rights of inheritance."
+      }
+    ],
+    "filter": null,
+    "origin": "day6-dev"
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "type": "direct",
+    "question": "What is the phrase that sums up the essence of Conservative or Bourgeois Socialism?",
+    "expected_answer": "The bourgeois is a bourgeois — for the benefit of the working class.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 28,
+        "evidence": "It is summed up in the phrase: the bourgeois is a bourgeois — for the benefit of the working\nclass."
+      }
+    ],
+    "filter": null,
+    "origin": "day6-dev"
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "In Chapter III under socialist literature, what social experiments did the Utopian socialists dream of founding?",
+    "expected_answer": "Isolated phalansteres, Home Colonies, or setting up a Little Icaria.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 30,
+        "evidence": "They still dream of\nexperimental realisation of their social Utopias, of founding isolated “phalansteres”, of\nestablishing “Home Colonies”, or setting up a “Little Icaria”8"
+      }
+    ],
+    "filter": {
+      "chapter": "Chapter III"
+    },
+    "origin": "day6-dev"
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "What leading question do Communists bring to the front in every revolutionary movement?",
+    "expected_answer": "The property question, no matter what its degree of development at the time.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 32,
+        "evidence": "In all these movements, they bring to the front, as the leading question in each, the property\nquestion, no matter what its degree of development at the time."
+      }
+    ],
+    "filter": null,
+    "origin": "day6-dev"
+  },
+  {
+    "id": "q16",
+    "split": "dev",
+    "type": "direct",
+    "question": "What famous concluding slogan ends Chapter IV of the Manifesto?",
+    "expected_answer": "Working Men of All Countries, Unite!",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 32,
+        "evidence": "WORKING MEN OF ALL COUNTRIES, UNITE!"
+      }
+    ],
+    "filter": null,
+    "origin": "day6-dev"
+  },
+  {
+    "id": "q17",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "Who commissioned Marx and Engels in London to draw up the Manifesto in November 1847?",
+    "expected_answer": "The Communist League, an international association of workers.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 33,
+        "evidence": "The Communist League, an international association of workers, which could of course be\nonly a secret one, under conditions obtaining at the time, commissioned us, the undersigned, at\nthe Congress held in London in November 1847"
+      }
+    ],
+    "filter": null,
+    "origin": "day6-dev"
+  },
+  {
+    "id": "q18",
+    "split": "dev",
+    "type": "direct",
+    "question": "Why did Marx and Engels decline to alter the Manifesto in the 1872 German Preface?",
+    "expected_answer": "Because the Manifesto had become an unalterable historical document.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 34,
+        "evidence": "the Manifesto has become a historical document which we have no longer any right\nto alter."
+      },
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 39,
+        "evidence": "the Manifesto has become a historical document which we have no longer any right to alter."
+      }
+    ],
+    "filter": null,
+    "origin": "day6-test"
+  },
+  {
+    "id": "q19",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "In the Appendix prefaces, what did the 1882 Russian Edition preface observe about peasant land ownership in Russia?",
+    "expected_answer": "More than half of the land was owned in common by the peasants.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 35,
+        "evidence": "in Russia we find, face-to-face with the rapidly\nflowering capitalist swindle and bourgeois property, just beginning to develop, more than half\nthe land owned in common by the peasants."
+      }
+    ],
+    "filter": {
+      "chapter": "Appendix"
+    },
+    "origin": "day6-test"
+  },
+  {
+    "id": "q20",
+    "split": "dev",
+    "type": "conditional",
+    "question": "Who signed the preface to the 1883 German edition alone after Karl Marx passed away?",
+    "expected_answer": "Frederick Engels signed it alone.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 35,
+        "evidence": "The preface to the present edition I must, alas, sign alone. Marx, the man to whom the whole\nworking class class of Europe and America owes more than to any one else"
+      }
+    ],
+    "filter": null,
+    "origin": "day6-test"
+  },
+  {
+    "id": "q21",
+    "split": "dev",
+    "type": "direct",
+    "question": "What single immediate aim was the proletariat reviewing fighting forces for on May Day in the 1890 Preface?",
+    "expected_answer": "The standard eight-hour working day established by legal enactment.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 42,
+        "evidence": "under one flag, for one immediate aim: the standard eight-hour working day to be\nestablished by legal enactment, as proclaimed by the Geneva Congress of the International in\n1866"
+      }
+    ],
+    "filter": null,
+    "origin": "day6-test"
+  },
+  {
+    "id": "q22",
+    "split": "dev",
+    "type": "conditional",
+    "question": "According to the 1893 Italian edition preface, what condition is necessary for the rule of the bourgeoisie in any country?",
+    "expected_answer": "National independence.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 44,
+        "evidence": "But in any country the rule of the bourgeoisie is impossible\nwithout national independence Therefore, the Revolution of 1848 had to bring in its train the\nunity and autonomy of the nations"
+      }
+    ],
+    "filter": null,
+    "origin": "day6-test"
+  },
+  {
+    "id": "t01",
+    "split": "test",
+    "type": "direct",
+    "question": "According to the prefaces of the Manifesto, for how long did the proletariat hold political power in the Paris Commune?",
+    "expected_answer": "For two whole months (the first time the proletariat held political power).",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 33,
+        "evidence": "where the proletariat for the first time held political power for two whole months"
+      },
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 39,
+        "evidence": "where the proletariat for the\nfirst time held political power for two whole months"
+      }
+    ],
+    "filter": null,
+    "origin": "day7-new"
+  },
+  {
+    "id": "t02",
+    "split": "test",
+    "type": "direct",
+    "question": "Who does the Manifesto name as the head of the school of petty-bourgeois Socialism?",
+    "expected_answer": "Sismondi, head of this school not only in France but also in England.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 24,
+        "evidence": "Sismondi was the head of this school, not only in France but\nalso in England."
+      }
+    ],
+    "filter": null,
+    "origin": "day7-new"
+  },
+  {
+    "id": "t03",
+    "split": "test",
+    "type": "paraphrase",
+    "question": "What power does Communism leave to people, and what power does it take away from them?",
+    "expected_answer": "It leaves everyone the power to appropriate the products of society; it only removes the power to subjugate the labour of others by means of such appropriation.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 16,
+        "evidence": "Communism deprives no man of the power to appropriate the products of society; all that\nit does is to deprive him of the power to subjugate the labour of others by means of such\nappropriations."
+      }
+    ],
+    "filter": null,
+    "origin": "day7-new"
+  },
+  {
+    "id": "t04",
+    "split": "test",
+    "type": "conditional",
+    "question": "When an Armenian translation of the Manifesto was offered to a publisher, in what year and city did this happen, and why was it not published under Marx's name?",
+    "expected_answer": "In 1887 in Constantinople; the publisher lacked the courage to publish something bearing Marx's name and suggested the translator put his own name as author, which the translator declined.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 40,
+        "evidence": "in 1887 the manuscript of an Armenian\ntranslation was offered to a publisher in Constantinople. But the good man did not have the\ncourage to publish something bearing the name of Marx and suggested that the translator set\ndown his own name as author, which the latter however declined."
+      }
+    ],
+    "filter": null,
+    "origin": "day7-new"
+  },
+  {
+    "id": "t05",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "In Chapter III, how is Christian Socialism described?",
+    "expected_answer": "As 'but the holy water with which the priest consecrates the heart-burnings of the aristocrat'.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 23,
+        "evidence": "Christian Socialism is but the holy water with which the priest consecrates the\nheart-burnings of the aristocrat."
+      }
+    ],
+    "filter": {
+      "chapter": "Chapter III"
+    },
+    "origin": "day7-new"
+  },
+  {
+    "id": "t06",
+    "split": "test",
+    "type": "paraphrase",
+    "question": "How had the International changed the workers by the time it broke up, compared with when it started, and in which years were those two points?",
+    "expected_answer": "When it broke up in 1874 it left the workers quite different men from what it had found them in 1864.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 37,
+        "evidence": "The\nInternational, on its breaking in 1874, left the workers quite different men from what it found\nthem in 1864."
+      }
+    ],
+    "filter": null,
+    "origin": "day7-new"
+  }
+]

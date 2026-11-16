@@ -1,0 +1,253 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "What does the opening sentence of the Manifesto declare is haunting Europe?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "According to Chapter I, what is the history of all hitherto existing society?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "In what ways does the bourgeoisie expand its market presence across the globe?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "How does the bourgeoisie overcome commercial economic crises?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "What organizations do workers initially form when resisting individual bourgeois employers?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Which group of intellectuals joins the proletariat when the class struggle nears the decisive hour?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "In Chapter I, what has been the historical role played by the bourgeoisie regarding feudal ties?",
+    "answerable": true,
+    "filter": {
+      "chapter": "Chapter I"
+    }
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "Do Communists form a separate party opposed to other working-class parties?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "What is the distinguishing feature of Communism regarding property abolition?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "How does the bourgeois traditionally view his wife according to the Manifesto?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "In Chapter II, what is the first measure listed as generally applicable in the most advanced countries?",
+    "answerable": true,
+    "filter": {
+      "chapter": "Chapter II"
+    }
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "What are the second and third measures proposed for advanced countries in Chapter II?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "What is the phrase that sums up the essence of Conservative or Bourgeois Socialism?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "In Chapter III under socialist literature, what social experiments did the Utopian socialists dream of founding?",
+    "answerable": true,
+    "filter": {
+      "chapter": "Chapter III"
+    }
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "What leading question do Communists bring to the front in every revolutionary movement?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "q16",
+    "split": "dev",
+    "question": "What famous concluding slogan ends Chapter IV of the Manifesto?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "q17",
+    "split": "dev",
+    "question": "Who commissioned Marx and Engels in London to draw up the Manifesto in November 1847?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "q18",
+    "split": "dev",
+    "question": "Why did Marx and Engels decline to alter the Manifesto in the 1872 German Preface?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "q19",
+    "split": "dev",
+    "question": "In the Appendix prefaces, what did the 1882 Russian Edition preface observe about peasant land ownership in Russia?",
+    "answerable": true,
+    "filter": {
+      "chapter": "Appendix"
+    }
+  },
+  {
+    "id": "q20",
+    "split": "dev",
+    "question": "Who signed the preface to the 1883 German edition alone after Karl Marx passed away?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "q21",
+    "split": "dev",
+    "question": "What single immediate aim was the proletariat reviewing fighting forces for on May Day in the 1890 Preface?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "q22",
+    "split": "dev",
+    "question": "According to the 1893 Italian edition preface, what condition is necessary for the rule of the bourgeoisie in any country?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "t01",
+    "split": "test",
+    "question": "According to the prefaces of the Manifesto, for how long did the proletariat hold political power in the Paris Commune?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "t02",
+    "split": "test",
+    "question": "Who does the Manifesto name as the head of the school of petty-bourgeois Socialism?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "t03",
+    "split": "test",
+    "question": "What power does Communism leave to people, and what power does it take away from them?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "t04",
+    "split": "test",
+    "question": "When an Armenian translation of the Manifesto was offered to a publisher, in what year and city did this happen, and why was it not published under Marx's name?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "t05",
+    "split": "test",
+    "question": "In Chapter III, how is Christian Socialism described?",
+    "answerable": true,
+    "filter": {
+      "chapter": "Chapter III"
+    }
+  },
+  {
+    "id": "t06",
+    "split": "test",
+    "question": "How had the International changed the workers by the time it broke up, compared with when it started, and in which years were those two points?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "qn01",
+    "split": "dev",
+    "question": "What does the Manifesto say about the outcome of the Russian Revolution of 1917?",
+    "absence_reason": "Grep over all 167 chunks (pages 2-44): '1917', 'Lenin', 'Bolshevik' = 0 hits. The 1882 Russian preface (p.35) only speculates about a future 'Russian Revolution' as a possible signal for revolution in the West; the documents predate 1917, so nothing on its outcome.",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "filter": null
+  },
+  {
+    "id": "qn02",
+    "split": "dev",
+    "question": "How many members did the Communist League have when the Manifesto was written?",
+    "absence_reason": "Grep 'members', 'membership', 'Communist League' over all chunks: the League is described as an international, secret workers' association (p.33, p.36) but no membership count appears anywhere ('membership' only on p.12, about serfs in the commune).",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "filter": null
+  },
+  {
+    "id": "qn03",
+    "split": "dev",
+    "question": "What formula for surplus value or the labour theory of value does the Manifesto give?",
+    "absence_reason": "Grep 'surplus value', 'surplus-value', 'labour theory', 'Capital, Volume', 'Das Kapital' = 0 hits in all chunks. These concepts belong to Marx's later Capital, not the Manifesto.",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "filter": null
+  },
+  {
+    "id": "tn01",
+    "split": "test",
+    "question": "What position does the Manifesto take on giving women the right to vote?",
+    "absence_reason": "Grep 'suffrage', 'vote', 'franchise' = 0 hits in all chunks. Chapter II discusses the bourgeois family and 'community of women', but nothing about women's voting rights.",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "filter": null
+  },
+  {
+    "id": "tn02",
+    "split": "test",
+    "question": "How many copies of the first 1848 German edition of the Manifesto were printed?",
+    "absence_reason": "Grep 'copies', 'printed', 'print run', '1848 edition': the only 'copies' hit (p.42) says industrial progress can be measured by copies circulated in each language; no figure for the first edition's print run anywhere in pages 2-44.",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "filter": null
+  }
+]
