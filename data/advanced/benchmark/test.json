@@ -1,0 +1,583 @@
+[
+  {
+    "id": "T-TB1",
+    "group": "table",
+    "question": "In the FY 2024 budget table by Strategic Objective, what were the requested FY 2024 amount and the Operating Plan (OP) FY 2024 amount for Objective 2.1 'Explore the surface of the Moon and deep space', and how much lower was the OP?",
+    "expected_answer": "Requested $7,971 million; OP $7,648 million; the OP was $323 million lower.",
+    "evidence": [
+      {
+        "page": 17,
+        "printed_page": 16,
+        "kind": "table",
+        "locator": "Strategic Goals and Objectives table, row 2.1, columns Requested FY 2024 / OP FY 2024 (millions)",
+        "quote": "7,971",
+        "visual_only": false
+      }
+    ],
+    "reason": "Tra đúng hàng 2.1 và hai cột, tính hiệu 7,971 − 7,648 = 323 (đơn vị triệu USD).",
+    "scoring": "Đạt khi đúng và đủ mọi phần, đúng đơn vị; citation đúng trang chứa evidence.",
+    "split": "test"
+  },
+  {
+    "id": "T-TB2",
+    "group": "table",
+    "question": "Which Strategic Objective has the smallest Operating Plan (OP) amount for FY 2024 in the budget table, and what are its requested and OP amounts?",
+    "expected_answer": "Objective 4.1 'Attract and develop a talented and diverse workforce': requested $112 million, OP $102 million.",
+    "evidence": [
+      {
+        "page": 17,
+        "printed_page": 16,
+        "kind": "table",
+        "locator": "Strategic Goals and Objectives table, row 4.1",
+        "quote": "Attract and develop a talented and diverse workforce.",
+        "visual_only": false
+      }
+    ],
+    "reason": "So sánh cả cột OP FY 2024 để tìm giá trị nhỏ nhất (102).",
+    "scoring": "Đạt khi đúng và đủ mọi phần, đúng đơn vị; citation đúng trang chứa evidence.",
+    "split": "test"
+  },
+  {
+    "id": "T-TB3",
+    "group": "table",
+    "question": "In the heritage assets table (in physical units), how many 'NASA Locations' were there in 2023 and in 2024, and what was the change in Total Heritage Assets?",
+    "expected_answer": "NASA Locations went from 9 (2023) to 8 (2024) after 1 withdrawal; Total Heritage Assets went from 12 to 11.",
+    "evidence": [
+      {
+        "page": 63,
+        "printed_page": 62,
+        "kind": "table",
+        "locator": "Heritage Assets (in physical units) table, row NASA Locations and Total row",
+        "quote": "NASA Locations",
+        "visual_only": false
+      }
+    ],
+    "reason": "Đọc hàng Non-Collection-type / NASA Locations và hàng tổng (2023, Withdrawals, 2024).",
+    "scoring": "Đạt khi đúng và đủ mọi phần, đúng đơn vị; citation đúng trang chứa evidence.",
+    "split": "test"
+  },
+  {
+    "id": "T-TB4",
+    "group": "table",
+    "question": "According to the land acreage table as of September 30, 2024, how many acres were in the Conservation and Preservation category, and what was the total estimated acreage at the end of the current year?",
+    "expected_answer": "101,198 acres in Conservation and Preservation; total estimated acreage 135,315 acres.",
+    "evidence": [
+      {
+        "page": 83,
+        "printed_page": 82,
+        "kind": "table",
+        "locator": "Land acreage table (in acres), row End of Current Year, columns Conservation and Preservation / Total Estimated Acreage",
+        "quote": "101,198",
+        "visual_only": false
+      }
+    ],
+    "reason": "Đúng hàng End of Current Year, đúng đơn vị acre.",
+    "scoring": "Đạt khi đúng và đủ mọi phần, đúng đơn vị; citation đúng trang chứa evidence.",
+    "split": "test"
+  },
+  {
+    "id": "T-TB5",
+    "group": "table",
+    "question": "In the table of contract/instrument types by percentage of total obligations, which instrument type has the largest share, and what share does Cost-Plus-Award-Fee have?",
+    "expected_answer": "Firm-Fixed-Price is largest at 31%; Cost-Plus-Award-Fee is 28%.",
+    "evidence": [
+      {
+        "page": 110,
+        "printed_page": 109,
+        "kind": "table",
+        "locator": "Instrument Type / Percentage of Total Obligations table",
+        "quote": "Firm-Fixed-Price",
+        "visual_only": false
+      }
+    ],
+    "reason": "So sánh cột phần trăm; hai giá trị cần đúng.",
+    "scoring": "Đạt khi đúng và đủ mọi phần, đúng đơn vị; citation đúng trang chứa evidence.",
+    "split": "test"
+  },
+  {
+    "id": "T-TB6",
+    "group": "table",
+    "question": "For expired grants with undisbursed balances, how many grants and what total undisbursed amount were reported for fiscal year 2024, compared with 2023?",
+    "expected_answer": "2024: 975 grants with $12,936 thousand undisbursed; 2023: 663 grants with $8,126 thousand.",
+    "evidence": [
+      {
+        "page": 114,
+        "printed_page": 113,
+        "kind": "table",
+        "locator": "Undisbursed Balances in Expired Grant Accounts table, rows 2024 and 2023",
+        "quote": "12,936",
+        "visual_only": false
+      }
+    ],
+    "reason": "Hai hàng × hai cột; đơn vị nghìn USD.",
+    "scoring": "Đạt khi đúng và đủ mọi phần, đúng đơn vị; citation đúng trang chứa evidence.",
+    "split": "test"
+  },
+  {
+    "id": "T-CH1",
+    "group": "chart",
+    "question": "In the FY 2024 Performance Assessment chart, how many Strategic Goal 3 performance goals were rated 'Complete or On Target to Complete' in FY 2023 and in FY 2024?",
+    "expected_answer": "7 in FY 2023 and 10 in FY 2024.",
+    "evidence": [
+      {
+        "page": 22,
+        "printed_page": 21,
+        "kind": "chart",
+        "locator": "Stacked 100% bar chart, Strategic Goal 3, green segments of FY 2023 and FY 2024 bars",
+        "quote": null,
+        "visual_only": true
+      }
+    ],
+    "reason": "Đọc nhãn số trên phần màu xanh lá của hai cột Goal 3 theo chú giải.",
+    "scoring": "Đạt khi đúng và đủ mọi phần, đúng đơn vị; citation đúng trang chứa evidence.",
+    "split": "test"
+  },
+  {
+    "id": "T-CH2",
+    "group": "chart",
+    "question": "According to the 'Assets by Type Comparison' chart, what was the value of the 'Other' asset category in FY 2023 and in FY 2024?",
+    "expected_answer": "$106 million in FY 2023 and $987 million in FY 2024.",
+    "evidence": [
+      {
+        "page": 30,
+        "printed_page": 29,
+        "kind": "chart",
+        "locator": "Assets by Type Comparison stacked bars, purple 'Other' segment",
+        "quote": "$106",
+        "visual_only": false
+      }
+    ],
+    "reason": "Giá trị FY 2023 chỉ có trong biểu đồ; cần đúng màu/chú giải 'Other'.",
+    "scoring": "Đạt khi đúng và đủ mọi phần, đúng đơn vị; citation đúng trang chứa evidence.",
+    "split": "test"
+  },
+  {
+    "id": "T-CH3",
+    "group": "chart",
+    "question": "In the 'Liabilities by Type Comparison' chart, what were Federal Employee Salary, Leave and Benefits Payable in FY 2023 and FY 2024?",
+    "expected_answer": "$288 million in FY 2023 and $348 million in FY 2024.",
+    "evidence": [
+      {
+        "page": 31,
+        "printed_page": 30,
+        "kind": "chart",
+        "locator": "Liabilities by Type Comparison stacked bars, orange segment",
+        "quote": "$288",
+        "visual_only": false
+      }
+    ],
+    "reason": "Ghép đúng màu cam với chú giải; giá trị FY 2023 không có trong text.",
+    "scoring": "Đạt khi đúng và đủ mọi phần, đúng đơn vị; citation đúng trang chứa evidence.",
+    "split": "test"
+  },
+  {
+    "id": "T-CH4",
+    "group": "chart",
+    "question": "In the Comparative Gross Cost of Operations chart, what was the gross cost of the Human Landing System in FY 2024 and FY 2023, and did it increase or decrease?",
+    "expected_answer": "$1,144 million in FY 2024 vs $1,463 million in FY 2023 — a decrease of $319 million.",
+    "evidence": [
+      {
+        "page": 33,
+        "printed_page": 32,
+        "kind": "chart",
+        "locator": "Horizontal bar chart, Strategic Goal 2, Human Landing System (orange = 2024, purple = 2023)",
+        "quote": "Human Landing System",
+        "visual_only": false
+      }
+    ],
+    "reason": "Phải gán đúng năm theo chú giải màu (text layer liệt kê 2023 trước 2024).",
+    "scoring": "Đạt khi đúng và đủ mọi phần, đúng đơn vị; citation đúng trang chứa evidence.",
+    "split": "test"
+  },
+  {
+    "id": "T-CH5",
+    "group": "chart",
+    "question": "According to the Sources of Funding Comparison chart, how much Spending Authority from Offsetting Collections did NASA have in FY 2023, and how much in FY 2024?",
+    "expected_answer": "$2,108 million in FY 2023 and $1,840 million in FY 2024.",
+    "evidence": [
+      {
+        "page": 34,
+        "printed_page": 33,
+        "kind": "chart",
+        "locator": "Sources of Funding Comparison stacked bars, purple top segment",
+        "quote": "$2,108",
+        "visual_only": false
+      }
+    ],
+    "reason": "Giá trị FY 2023 chỉ có trong biểu đồ.",
+    "scoring": "Đạt khi đúng và đủ mọi phần, đúng đơn vị; citation đúng trang chứa evidence.",
+    "split": "test"
+  },
+  {
+    "id": "T-IM1",
+    "group": "image",
+    "question": "In NASA's organizational structure chart, which organizations are connected to the Administrator's office by dotted lines, and what do the dotted lines indicate?",
+    "expected_answer": "The Advisory Groups (NASA Advisory Council and Aerospace Safety Advisory Panel) and the Inspector General; dotted lines indicate independent advisory or oversight organizations.",
+    "evidence": [
+      {
+        "page": 11,
+        "printed_page": 10,
+        "kind": "diagram",
+        "locator": "Organizational Structure chart, top-left boxes with dashed connectors + legend",
+        "quote": "Dotted lines indicate independent advisory or oversight organizations",
+        "visual_only": false
+      },
+      {
+        "page": 11,
+        "printed_page": 10,
+        "kind": "diagram",
+        "locator": "dashed connectors to 'Advisory Groups—NAC & ASAP' and 'Inspector General'",
+        "quote": null,
+        "visual_only": true
+      }
+    ],
+    "reason": "Phải nhận ra đường nét đứt trong sơ đồ (không có trong text) và đọc chú giải.",
+    "scoring": "Đạt khi đúng và đủ mọi phần, đúng đơn vị; citation đúng trang chứa evidence.",
+    "split": "test"
+  },
+  {
+    "id": "T-IM2",
+    "group": "image",
+    "question": "On the NASA Centers and Facilities map, which NASA center manages the Wallops Flight Facility, and which other facilities on the map are managed by that same center?",
+    "expected_answer": "Goddard Space Flight Center (GSFC); it also manages the Katherine Johnson Verification and Validation Facility and the Goddard Institute for Space Studies.",
+    "evidence": [
+      {
+        "page": 12,
+        "printed_page": 11,
+        "kind": "map",
+        "locator": "US map (raster image), label 'Wallops Flight Facility (managed by GSFC)' at the Virginia coast",
+        "quote": null,
+        "visual_only": true
+      }
+    ],
+    "reason": "Đọc nhãn '(managed by GSFC)' trên bản đồ.",
+    "scoring": "Đạt khi đúng và đủ mọi phần, đúng đơn vị; citation đúng trang chứa evidence.",
+    "split": "test"
+  },
+  {
+    "id": "T-IM3",
+    "group": "image",
+    "question": "In the Strategic Plan Framework diagram, what time horizon is shown for Performance Goals and for Priority Questions, and which framework in the legend do Priority Questions belong to?",
+    "expected_answer": "Performance Goals: 2-5 years; Priority Questions: 4 years; Priority Questions belong to the Evidence Act (blue).",
+    "evidence": [
+      {
+        "page": 15,
+        "printed_page": 14,
+        "kind": "diagram",
+        "locator": "Strategic Plan Framework flow diagram, boxes and colour legend (GPRAMA / Evidence Act / PMA Priorities)",
+        "quote": "Priority Questions",
+        "visual_only": false
+      },
+      {
+        "page": 15,
+        "printed_page": 14,
+        "kind": "diagram",
+        "locator": "blue colour of Priority Questions box = Evidence Act in legend",
+        "quote": null,
+        "visual_only": true
+      }
+    ],
+    "reason": "Liên kết màu ô với chú giải là thông tin chỉ có trong hình.",
+    "scoring": "Đạt khi đúng và đủ mọi phần, đúng đơn vị; citation đúng trang chứa evidence.",
+    "split": "test"
+  },
+  {
+    "id": "T-IM4",
+    "group": "image",
+    "question": "In Figure 2 (NASA's UNICORN enterprise risk management framework), which five risk categories are shown?",
+    "expected_answer": "Political and Reputational Risk, Programmatic Risk, Financial Risk, Strategic Risk, Operational Risk.",
+    "evidence": [
+      {
+        "page": 39,
+        "printed_page": 38,
+        "kind": "diagram",
+        "locator": "Figure 2 NASA's UNICORN, coloured risk bar in lower half",
+        "quote": null,
+        "visual_only": true
+      }
+    ],
+    "reason": "Năm nhãn rủi ro nằm trong ảnh raster của hình, không có trong text layer.",
+    "scoring": "Đạt khi đúng và đủ mọi phần, đúng đơn vị; citation đúng trang chứa evidence.",
+    "split": "test"
+  },
+  {
+    "id": "T-IM5",
+    "group": "image",
+    "question": "In Figure 3 (ERM Sources), which source circle is associated with 'GAO, OIG, Audit Reports, Fraud Risk Assessments'?",
+    "expected_answer": "Audits and Assessments.",
+    "evidence": [
+      {
+        "page": 40,
+        "printed_page": 39,
+        "kind": "diagram",
+        "locator": "Figure 3 ERM Sources (raster image), upper-left circle 'Audits and Assessments' with outer label",
+        "quote": null,
+        "visual_only": true
+      }
+    ],
+    "reason": "Ghép nhãn bên ngoài với vòng tròn tương ứng trong sơ đồ.",
+    "scoring": "Đạt khi đúng và đủ mọi phần, đúng đơn vị; citation đúng trang chứa evidence.",
+    "split": "test"
+  },
+  {
+    "id": "T-MH1",
+    "group": "multihop",
+    "question": "Which Strategic Goal had the largest net cost of operations in FY 2024, how much was it, and how many of that goal's performance goals were rated 'Complete or On Target to Complete' in FY 2024?",
+    "expected_answer": "Strategic Goal 2 — $10,920 million (44% of net cost); 8 of its performance goals were rated complete or on target in FY 2024.",
+    "evidence": [
+      {
+        "page": 32,
+        "printed_page": 31,
+        "kind": "chart",
+        "locator": "Net Cost of Operations by Strategic Goal donut",
+        "quote": "$10,920",
+        "visual_only": false
+      },
+      {
+        "page": 22,
+        "printed_page": 21,
+        "kind": "chart",
+        "locator": "Performance Assessment chart, Strategic Goal 2 FY 2024 green segment",
+        "quote": null,
+        "visual_only": true
+      }
+    ],
+    "reason": "Cần hai biểu đồ ở hai trang khác nhau.",
+    "scoring": "Đạt khi đúng cả goal, số tiền và số 8.",
+    "split": "test"
+  },
+  {
+    "id": "T-MH2",
+    "group": "multihop",
+    "question": "How many civil service employees does Johnson Space Center have, and which NASA supporting facility in New Mexico does Johnson manage?",
+    "expected_answer": "3,229 employees (18% of the workforce); it manages the White Sands Test Facility.",
+    "evidence": [
+      {
+        "page": 13,
+        "printed_page": 12,
+        "kind": "infographic",
+        "locator": "NASA by the Numbers, civil service workforce by center",
+        "quote": "3,229",
+        "visual_only": false
+      },
+      {
+        "page": 12,
+        "printed_page": 11,
+        "kind": "map",
+        "locator": "map (raster image) label 'White Sands Test Facility (managed by JSC)' in New Mexico",
+        "quote": null,
+        "visual_only": true
+      }
+    ],
+    "reason": "Infographic trang 13 + bản đồ trang 12.",
+    "scoring": "Đạt khi đúng và đủ mọi phần, đúng đơn vị; citation đúng trang chứa evidence.",
+    "split": "test"
+  },
+  {
+    "id": "T-MH3",
+    "group": "multihop",
+    "question": "The report shows technicians lifting a Liquid Oxygen Tank for SLS at a facility in New Orleans. Which NASA center manages that facility, and what was the Space Launch System's gross cost in FY 2024?",
+    "expected_answer": "Michoud Assembly Facility, managed by Marshall Space Flight Center (MSFC); SLS gross cost was $2,719 million in FY 2024.",
+    "evidence": [
+      {
+        "page": 12,
+        "printed_page": 11,
+        "kind": "photo+map",
+        "locator": "photo caption about Michoud + map label 'Michoud Assembly Facility (managed by MSFC)'",
+        "quote": "Michoud Assembly Facility",
+        "visual_only": false
+      },
+      {
+        "page": 33,
+        "printed_page": 32,
+        "kind": "chart",
+        "locator": "Gross Cost chart, Strategic Goal 2, Space Launch System 2024 bar",
+        "quote": "Space Launch System",
+        "visual_only": false
+      }
+    ],
+    "reason": "Ba bước: chú thích ảnh → bản đồ → biểu đồ chi phí.",
+    "scoring": "Đạt khi đúng và đủ mọi phần, đúng đơn vị; citation đúng trang chứa evidence.",
+    "split": "test"
+  },
+  {
+    "id": "T-MH4",
+    "group": "multihop",
+    "question": "Strategic Objective 4.1 is 'Attract and develop a talented and diverse workforce'. What was its FY 2024 Operating Plan amount, and how did the related FEVS DEIA index result for Performance Goal 4.1.2 compare with the target?",
+    "expected_answer": "OP FY 2024 was $102 million (requested $112 million); the FEVS DEIA index was 84.1 percent versus a target of 88 percent or above, so the goal was rated Red.",
+    "evidence": [
+      {
+        "page": 17,
+        "printed_page": 16,
+        "kind": "table",
+        "locator": "budget table row 4.1",
+        "quote": "Attract and develop a talented and diverse workforce.",
+        "visual_only": false
+      },
+      {
+        "page": 23,
+        "printed_page": 22,
+        "kind": "text",
+        "locator": "Performance Goal 4.1.2 paragraph",
+        "quote": "84.1 percent",
+        "visual_only": false
+      }
+    ],
+    "reason": "Bảng trang 17 + text trang 23.",
+    "scoring": "Đạt khi đúng và đủ mọi phần, đúng đơn vị; citation đúng trang chứa evidence.",
+    "split": "test"
+  },
+  {
+    "id": "T-TX1",
+    "group": "text",
+    "question": "For how many consecutive years has NASA received an unmodified ('clean') audit opinion as of FY 2024, and what weakness did the independent auditors identify?",
+    "expected_answer": "14th consecutive year; one material weakness in internal control related to financial reporting oversight (financial controls designed appropriately but not operating effectively).",
+    "evidence": [
+      {
+        "page": 6,
+        "printed_page": 5,
+        "kind": "text",
+        "locator": "Message from the Administrator",
+        "quote": "14th consecutive year",
+        "visual_only": false
+      },
+      {
+        "page": 85,
+        "printed_page": 84,
+        "kind": "text",
+        "locator": "OIG transmittal of the audit",
+        "quote": "one material weakness in internal control related to financial reporting oversight",
+        "visual_only": false
+      }
+    ],
+    "reason": "Tổng hợp hai ý.",
+    "scoring": "Đạt khi đúng và đủ mọi phần, đúng đơn vị; citation đúng trang chứa evidence.",
+    "split": "test"
+  },
+  {
+    "id": "T-TX2",
+    "group": "text",
+    "question": "Of the funds available to NASA in FY 2024, how much did the Agency obligate, and what can happen to the remainder?",
+    "expected_answer": "NASA obligated $27 billion of the $30 billion available; the remaining $3 billion may be obligated until the funds' periods of availability expire.",
+    "evidence": [
+      {
+        "page": 34,
+        "printed_page": 33,
+        "kind": "text",
+        "locator": "Sources of Funding text",
+        "quote": "The remaining $3 billion may be obligated until the funds’ periods of availability expire",
+        "visual_only": false
+      }
+    ],
+    "reason": "Điều kiện về thời hạn khả dụng của quỹ.",
+    "scoring": "Đạt khi đúng và đủ mọi phần, đúng đơn vị; citation đúng trang chứa evidence.",
+    "split": "test"
+  },
+  {
+    "id": "T-TX3",
+    "group": "text",
+    "question": "Which Artemis II milestones does the report say were reached in FY 2024 regarding the SLS booster segments and the Crew Module/Service Module testing?",
+    "expected_answer": "The Artemis II SLS Booster Segments were delivered to Kennedy Space Center, and the Artemis II Crew Module/Service Module Vacuum Performance Testing was completed in July 2024.",
+    "evidence": [
+      {
+        "page": 25,
+        "printed_page": 24,
+        "kind": "text",
+        "locator": "Strategic Goal 2 overview",
+        "quote": "Vacuum Performance Testing completed in July 2024",
+        "visual_only": false
+      }
+    ],
+    "reason": "Hai mốc.",
+    "scoring": "Đạt khi đúng và đủ mọi phần, đúng đơn vị; citation đúng trang chứa evidence.",
+    "split": "test"
+  },
+  {
+    "id": "T-TX4",
+    "group": "text",
+    "question": "Why did NASA's 'Other Liabilities' increase in FY 2024, and by how much?",
+    "expected_answer": "They rose by $744 million (to about $1 billion), primarily due to implementing SFFAS 54 (leases) in FY 2024, which requires additional financial reporting for leases.",
+    "evidence": [
+      {
+        "page": 31,
+        "printed_page": 30,
+        "kind": "text",
+        "locator": "Total Liabilities text",
+        "quote": "an increase of $744 million",
+        "visual_only": false
+      }
+    ],
+    "reason": "Nguyên nhân + số tiền.",
+    "scoring": "Đạt khi đúng và đủ mọi phần, đúng đơn vị; citation đúng trang chứa evidence.",
+    "split": "test"
+  },
+  {
+    "id": "T-NE1",
+    "group": "no_evidence",
+    "question": "How much did NASA spend on the Mars Sample Return mission in FY 2024?",
+    "expected_behavior": "abstain",
+    "absence_reason": "Mars Sample Return chỉ được nhắc tên (p102 OIG challenges, p124 acronym); không có số chi tiêu.",
+    "grep_checked": [
+      "Mars Sample Return.{0,120}\\$",
+      "\\$.{0,60}Mars Sample Return"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "T-NE2",
+    "group": "no_evidence",
+    "question": "What is NASA's enacted FY 2025 appropriation?",
+    "expected_behavior": "abstain",
+    "absence_reason": "Không có số ngân sách FY 2025 nào (grep 'FY 2025 … $' = 0).",
+    "grep_checked": [
+      "FY 2025.{0,60}\\$"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "T-NE3",
+    "group": "no_evidence",
+    "question": "How many people work at the Jet Propulsion Laboratory?",
+    "expected_behavior": "abstain",
+    "absence_reason": "JPL là FFRDC do Caltech quản lý; p73 chỉ nói nhân sự JPL là nhân viên Caltech và nhà thầu, không có số; infographic p13 không có JPL.",
+    "grep_checked": [
+      "JPL.{0,80}\\d[\\d,]{2,} (employees|staff|people)",
+      "\\d[\\d,]{2,} (employees|staff|people).{0,60}JPL"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "T-NE4",
+    "group": "no_evidence",
+    "question": "What was the net cost of operations of the Human Landing System program in FY 2024?",
+    "expected_behavior": "abstain",
+    "absence_reason": "Chỉ có gross cost theo chương trình (p33); net cost chỉ theo strategic goal (p32). Bẫy: dễ lấy 1,144 (gross).",
+    "grep_checked": [
+      "Human Landing System.{0,80}net cost"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "T-NE5",
+    "group": "no_evidence",
+    "question": "How many acres of land does Kennedy Space Center occupy?",
+    "expected_behavior": "abstain",
+    "absence_reason": "Bảng diện tích (p83) chỉ theo loại sử dụng, không theo trung tâm.",
+    "grep_checked": [
+      "Kennedy.{0,60}acre",
+      "acre.{0,60}Kennedy"
+    ],
+    "split": "test"
+  },
+  {
+    "id": "T-NE6",
+    "group": "no_evidence",
+    "question": "On what date is the Artemis II mission scheduled to launch?",
+    "expected_behavior": "abstain",
+    "absence_reason": "Artemis II được nhắc nhiều lần (p2, p6, p19, p25, p44) nhưng không có ngày phóng.",
+    "grep_checked": [
+      "Artemis II.{0,80}(launch date|scheduled)"
+    ],
+    "split": "test"
+  }
+]

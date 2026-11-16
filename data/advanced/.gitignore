@@ -1,0 +1,4 @@
+# raw PDFs (download with the command in SOURCE.md), page renders and crops are regenerated locally
+raw/
+pages/
+crops/

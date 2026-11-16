@@ -1,0 +1,337 @@
+[
+  {
+    "id": "D-TB1",
+    "group": "table",
+    "question": "In the FY 2024 budget table, what were the requested and OP FY 2024 amounts for Objective 1.2 'Understand the Sun, solar system, and universe'?",
+    "expected_answer": "Requested $5,788 million; OP $5,138 million.",
+    "evidence": [
+      {
+        "page": 17,
+        "printed_page": 16,
+        "kind": "table",
+        "locator": "row 1.2",
+        "quote": "5,788",
+        "visual_only": false
+      }
+    ],
+    "reason": "Tra hàng.",
+    "scoring": "Đạt khi đúng và đủ mọi phần, đúng đơn vị; citation đúng trang chứa evidence.",
+    "split": "dev"
+  },
+  {
+    "id": "D-TB2",
+    "group": "table",
+    "question": "For grants/cooperative agreements that expired 2-3 years ago, how many had undisbursed balances and what was the total undisbursed amount?",
+    "expected_answer": "2 grants/cooperative agreements, $183 thousand.",
+    "evidence": [
+      {
+        "page": 115,
+        "printed_page": 114,
+        "kind": "table",
+        "locator": "Grants Programs Information table, column 2-3 years",
+        "quote": "$ 183",
+        "visual_only": false
+      }
+    ],
+    "reason": "Đúng cột 2-3 years.",
+    "scoring": "Đạt khi đúng và đủ mọi phần, đúng đơn vị; citation đúng trang chứa evidence.",
+    "split": "dev"
+  },
+  {
+    "id": "D-TB3",
+    "group": "table",
+    "question": "In the land acreage table, how many Operational acres were there at the start of the prior year and at the end of the current year?",
+    "expected_answer": "29,898 acres at the start of the prior year and 29,900 acres at the end of the current year.",
+    "evidence": [
+      {
+        "page": 83,
+        "printed_page": 82,
+        "kind": "table",
+        "locator": "Operational column",
+        "quote": "29,898",
+        "visual_only": false
+      }
+    ],
+    "reason": "Hai hàng.",
+    "scoring": "Đạt khi đúng và đủ mọi phần, đúng đơn vị; citation đúng trang chứa evidence.",
+    "split": "dev"
+  },
+  {
+    "id": "D-CH1",
+    "group": "chart",
+    "question": "According to the Balance Sheet Components chart, what was NASA's net position in FY 2023?",
+    "expected_answer": "$19,416 million.",
+    "evidence": [
+      {
+        "page": 29,
+        "printed_page": 28,
+        "kind": "chart",
+        "locator": "Balance Sheet Components, FY 2023 dark segment",
+        "quote": "$19,416",
+        "visual_only": false
+      }
+    ],
+    "reason": "Đúng màu Net Position.",
+    "scoring": "Đạt khi đúng và đủ mọi phần, đúng đơn vị; citation đúng trang chứa evidence.",
+    "split": "dev"
+  },
+  {
+    "id": "D-CH2",
+    "group": "chart",
+    "question": "In the Net Cost of Operations by Strategic Goal donut for FY 2024, what were Strategic Goal 1's net cost and share?",
+    "expected_answer": "$8,038 million, 32%.",
+    "evidence": [
+      {
+        "page": 32,
+        "printed_page": 31,
+        "kind": "chart",
+        "locator": "donut, Goal 1 segment",
+        "quote": "$8,038",
+        "visual_only": false
+      }
+    ],
+    "reason": "Đọc nhãn.",
+    "scoring": "Đạt khi đúng và đủ mọi phần, đúng đơn vị; citation đúng trang chứa evidence.",
+    "split": "dev"
+  },
+  {
+    "id": "D-CH3",
+    "group": "chart",
+    "question": "In the 'Liabilities by Type FY 2024' donut, what share and amount do Accounts Payable represent?",
+    "expected_answer": "23%, $1,775 million.",
+    "evidence": [
+      {
+        "page": 31,
+        "printed_page": 30,
+        "kind": "chart",
+        "locator": "donut, Accounts Payable label",
+        "quote": "$1,775",
+        "visual_only": false
+      }
+    ],
+    "reason": "Đọc nhãn.",
+    "scoring": "Đạt khi đúng và đủ mọi phần, đúng đơn vị; citation đúng trang chứa evidence.",
+    "split": "dev"
+  },
+  {
+    "id": "D-CH4",
+    "group": "chart",
+    "question": "In the gross cost chart, what was the Space Launch System's gross cost in FY 2023?",
+    "expected_answer": "$2,555 million.",
+    "evidence": [
+      {
+        "page": 33,
+        "printed_page": 32,
+        "kind": "chart",
+        "locator": "Strategic Goal 2, SLS purple bar",
+        "quote": "$2,555",
+        "visual_only": false
+      }
+    ],
+    "reason": "Đúng năm theo màu.",
+    "scoring": "Đạt khi đúng và đủ mọi phần, đúng đơn vị; citation đúng trang chứa evidence.",
+    "split": "dev"
+  },
+  {
+    "id": "D-IM1",
+    "group": "image",
+    "question": "In the organizational structure chart, which Mission Directorates are shown?",
+    "expected_answer": "Aeronautics Research, Exploration Systems Development, Science, Space Operations, Space Technology, and Mission Support Directorate.",
+    "evidence": [
+      {
+        "page": 11,
+        "printed_page": 10,
+        "kind": "diagram",
+        "locator": "middle column of directorate boxes",
+        "quote": "Aeronautics Research",
+        "visual_only": false
+      }
+    ],
+    "reason": "Đủ 6 mục.",
+    "scoring": "Đạt khi đúng và đủ mọi phần, đúng đơn vị; citation đúng trang chứa evidence.",
+    "split": "dev"
+  },
+  {
+    "id": "D-IM2",
+    "group": "image",
+    "question": "In Figure 1 (NASA FMFIA Annual Statement of Assurance Process), what are the levels of the pyramid from bottom to top, up to the Administrator?",
+    "expected_answer": "Annual assessment of internal controls over programs, operations, financial reporting & systems → NASA Officials-in-Charge/Center Directors/CFO assurance statements → Management System Working Group → Senior Assessment Team → Mission Support Council → Administrator.",
+    "evidence": [
+      {
+        "page": 38,
+        "printed_page": 37,
+        "kind": "diagram",
+        "locator": "Figure 1 pyramid",
+        "quote": "SENIOR",
+        "visual_only": false
+      }
+    ],
+    "reason": "Đúng thứ tự.",
+    "scoring": "Đạt khi đúng và đủ mọi phần, đúng đơn vị; citation đúng trang chứa evidence.",
+    "split": "dev"
+  },
+  {
+    "id": "D-IM3",
+    "group": "image",
+    "question": "According to the Strategic Plan Framework breakdown, how many Strategic Goals, Strategic Objectives and Performance Goals does NASA have?",
+    "expected_answer": "4 Strategic Goals, 12 Strategic Objectives, 50 Performance Goals.",
+    "evidence": [
+      {
+        "page": 15,
+        "printed_page": 14,
+        "kind": "infographic",
+        "locator": "framework breakdown strip",
+        "quote": "Strategic",
+        "visual_only": false
+      }
+    ],
+    "reason": "Ba số.",
+    "scoring": "Đạt khi đúng và đủ mọi phần, đúng đơn vị; citation đúng trang chứa evidence.",
+    "split": "dev"
+  },
+  {
+    "id": "D-MH1",
+    "group": "multihop",
+    "question": "What was the OP FY 2024 for Objective 1.1 'Understand the Earth system and its climate', and what was the FY 2024 gross cost of Earth Science Research?",
+    "expected_answer": "OP $1,740 million; Earth Science Research gross cost $578 million.",
+    "evidence": [
+      {
+        "page": 17,
+        "printed_page": 16,
+        "kind": "table",
+        "locator": "row 1.1",
+        "quote": "1,740",
+        "visual_only": false
+      },
+      {
+        "page": 33,
+        "printed_page": 32,
+        "kind": "chart",
+        "locator": "Goal 1, Earth Science Research 2024",
+        "quote": "Earth Science Research",
+        "visual_only": false
+      }
+    ],
+    "reason": "Bảng + biểu đồ.",
+    "scoring": "Đạt khi đúng và đủ mọi phần, đúng đơn vị; citation đúng trang chứa evidence.",
+    "split": "dev"
+  },
+  {
+    "id": "D-MH2",
+    "group": "multihop",
+    "question": "What were NASA's FY 2024 Congressional Appropriations in the Sources of Funding chart, and what share of the FY 2024 budget went to Research, Engineering, & Development?",
+    "expected_answer": "Congressional Appropriations $24,876 million (83% of total funding); Research, Engineering, & Development $13.3B (54% of the $24.9B budget).",
+    "evidence": [
+      {
+        "page": 34,
+        "printed_page": 33,
+        "kind": "chart",
+        "locator": "Sources of Funding donut",
+        "quote": "$24,876",
+        "visual_only": false
+      },
+      {
+        "page": 13,
+        "printed_page": 12,
+        "kind": "infographic",
+        "locator": "FY 2024 budget panel",
+        "quote": "$13.3B",
+        "visual_only": false
+      }
+    ],
+    "reason": "Hai trang.",
+    "scoring": "Đạt khi đúng và đủ mọi phần, đúng đơn vị; citation đúng trang chứa evidence.",
+    "split": "dev"
+  },
+  {
+    "id": "D-TX1",
+    "group": "text",
+    "question": "How many astronauts will Artemis II send around the Moon, and where will Artemis III land?",
+    "expected_answer": "Four astronauts; Artemis III will land in the lunar South Pole region.",
+    "evidence": [
+      {
+        "page": 6,
+        "printed_page": 5,
+        "kind": "text",
+        "locator": "Message from the Administrator",
+        "quote": "send four astronauts around the Moon",
+        "visual_only": false
+      }
+    ],
+    "reason": "Hai ý.",
+    "scoring": "Đạt khi đúng và đủ mọi phần, đúng đơn vị; citation đúng trang chứa evidence.",
+    "split": "dev"
+  },
+  {
+    "id": "D-TX2",
+    "group": "text",
+    "question": "How close did the Juno spacecraft come to Io's surface, and on what date?",
+    "expected_answer": "About 930 miles (1,500 kilometers), on Dec. 30, 2023.",
+    "evidence": [
+      {
+        "page": 38,
+        "printed_page": 37,
+        "kind": "text",
+        "locator": "Did You Know box",
+        "quote": "930 miles (1,500 kilometers)",
+        "visual_only": false
+      }
+    ],
+    "reason": "Hai đơn vị.",
+    "scoring": "Đạt khi đúng và đủ mọi phần, đúng đơn vị; citation đúng trang chứa evidence.",
+    "split": "dev"
+  },
+  {
+    "id": "D-TX3",
+    "group": "text",
+    "question": "When was the Artemis II core stage delivered to Kennedy Space Center?",
+    "expected_answer": "July 24, 2024.",
+    "evidence": [
+      {
+        "page": 19,
+        "printed_page": 18,
+        "kind": "text",
+        "locator": "Agency Priority Goals – Artemis",
+        "quote": "delivered to Kennedy Space Center on July 24, 2024",
+        "visual_only": false
+      }
+    ],
+    "reason": "Ngày.",
+    "scoring": "Đạt khi đúng và đủ mọi phần, đúng đơn vị; citation đúng trang chứa evidence.",
+    "split": "dev"
+  },
+  {
+    "id": "D-NE1",
+    "group": "no_evidence",
+    "question": "How many patent licenses did NASA grant in FY 2024?",
+    "expected_behavior": "abstain",
+    "absence_reason": "p26 chỉ nhắc 'patent licenses' chung, không có số.",
+    "grep_checked": [
+      "patent licens.{0,60}\\d",
+      "\\d[\\d,]* patent"
+    ],
+    "split": "dev"
+  },
+  {
+    "id": "D-NE2",
+    "group": "no_evidence",
+    "question": "What was the total cost of the PACE mission?",
+    "expected_behavior": "abstain",
+    "absence_reason": "PACE chỉ nhắc mục tiêu phóng (p21, p24), không có chi phí.",
+    "grep_checked": [
+      "\\bPACE\\b.{0,100}\\$"
+    ],
+    "split": "dev"
+  },
+  {
+    "id": "D-NE3",
+    "group": "no_evidence",
+    "question": "How many employees work at the Goddard Institute for Space Studies?",
+    "expected_behavior": "abstain",
+    "absence_reason": "GISS chỉ có trên bản đồ p12; infographic p13 chỉ có GSFC.",
+    "grep_checked": [
+      "Goddard Institute.{0,80}employ"
+    ],
+    "split": "dev"
+  }
+]
