@@ -4,7 +4,7 @@
 |---|---|
 | **MSSV** | 2A202603771 |
 | **Họ tên** | Nguyễn Văn Minh |
-| **Cách chạy** | [`RUN.md`](../../RUN.md) |
+| **Cách chạy** | Mục [Cách chạy](#cách-chạy) cuối báo cáo · demo: `streamlit run demo/app.py` |
 | **Nguồn số liệu** | `results/**/summary.json`, `traces.json`, `reviews.json`, `agent_metrics.json`, `results/cost_ledger.jsonl` |
 | **Bảng chi tiết** | [`dev_experiments.md`](../../results/dev_experiments.md) · [`test_results.md`](../../results/test_results.md) (v1) · [`test_v2_results.md`](../../results/test_v2_results.md) · [`test_v3_results.md`](../../results/test_v3_results.md) |
 | **Commit hash** | Lịch sử đã được viết lại một lần để bỏ dòng co-author và hoàn nguyên `README.md` của ban tổ chức; nội dung, thứ tự và thời gian commit giữ nguyên, các hash trong báo cáo là hash mới |
@@ -51,7 +51,7 @@
 | Model | API **`gpt-5.6-luna`** (OpenAI Responses API), `reasoning.effort=low` |
 | Giá tính chi phí | $0.20 / $1.20 mỗi 1M token input / output (nguồn bên thứ ba) |
 | Kiểm soát chi phí | Trần cứng `MAX_COST_USD=1.0`; mọi lần gọi ghi vào `results/cost_ledger.jsonl` |
-| Cách chạy | [`RUN.md`](../../RUN.md) |
+| Cách chạy | Mục [Cách chạy](#cách-chạy) cuối báo cáo |
 
 | Split | Có đáp án | Thiếu evidence | Commit | Vai trò |
 |---|---:|---:|---|---|
@@ -225,7 +225,7 @@ Lỗi hệ thống: 0 ở mọi lần chạy trong bảng. Lần chạy A2 test 
 | Trace retrieval | `results/retrieval/<config>/<split>/` (thư mục `*_TESTV2`, `*_TESTV3`, `*_DEVHARD`) |
 | Trace, nhãn, metric agent | `results/agent/<config>/<split>/{traces,reviews,summary,agent_metrics}.json` |
 | Context chấm tay | `results/manual/context_review_test*.json` |
-| Lệnh chạy | [`RUN.md`](../../RUN.md); cấu hình chốt [`configs/selected_v3.json`](../../configs/selected_v3.json) |
+| Lệnh chạy | Mục [Cách chạy](#cách-chạy); cấu hình chốt [`configs/selected_v3.json`](../../configs/selected_v3.json) |
 
 | Chạy | Chi phí | Median latency | Token input |
 |---|---|---|---|
@@ -235,7 +235,8 @@ Lỗi hệ thống: 0 ở mọi lần chạy trong bảng. Lần chạy A2 test 
 | A2 / test v3 | $0.0150 | 3.6 s/câu | 57k |
 | A4 / test v3 | $0.0188 | 3.9 s/câu | 74k |
 | Retrieval dense / hybrid / BM25 / rerank | $0 | 40–50 / 37–48 / 0.1 / 107–118 ms | — |
-| **Toàn dự án** | **$0.2226** (816 lần gọi; 839 999 in + 45 493 out) | | |
+| **Toàn dự án (benchmark)** | **$0.2226** (816 lần gọi; 839 999 in + 45 493 out) | | |
+| Demo (kiểm tra app) | $0.00049 (1 câu, ledger riêng `demo/demo_cost_ledger.jsonl`) | 5.6 s | — |
 
 **Kết quả trước/sau, đánh đổi và giới hạn**
 
@@ -265,6 +266,36 @@ Lỗi hệ thống: 0 ở mọi lần chạy trong bảng. Lần chạy A2 test 
 | 5 | Kết quả dao động giữa các lần chạy (không có seed); 1 câu test v3 = 5 điểm %, chênh 1 câu không có ý nghĩa thống kê |
 | 6 | Gold bổ sung sau khi chạy (t06, u06; v09 của A0 dùng evidence thay thế ở p34) — không đổi nhãn agent |
 | 7 | Corpus nhỏ, tiếng Anh, chỉ text; giá token từ nguồn bên thứ ba; Day 6 có 7 chunk trùng; nhãn do một người chấm |
+
+## Demo (Streamlit)
+
+`streamlit run demo/app.py` — mở http://localhost:8501.
+
+| Tab | Chức năng | Cần gì | Chi phí |
+|---|---|---|---|
+| 💬 Hỏi agent | Chạy **agent thật** với cấu hình A2 (đã chọn), A0 hoặc A4; hiện trạng thái, câu trả lời, citation (bấm để đọc đoạn gốc), từng lượt search (hạng, score, chunk vào context / bị bỏ do hết budget), lần kiểm tra số, context gửi model | Postgres Day 6, Ollama, `OPENAI_API_KEY` | ~$0.0005–0.002 / câu |
+| 🔎 So sánh retrieval | Top-5 của dense, BM25, hybrid cạnh nhau cho cùng câu hỏi | Postgres Day 6, Ollama | $0 |
+| 📊 Kết quả benchmark | Bảng metric agent/retrieval và từng câu (đáp án chuẩn, câu trả lời, query, nhãn chấm tay) của dev, dev_hard, test v3 | Không cần (đọc `results/`) | $0 |
+
+- Chi phí demo ghi vào `demo/demo_cost_ledger.jsonl` (không ghi vào ledger benchmark), nhưng trần `MAX_COST_USD` tính trên **tổng** benchmark + demo.
+- Đã kiểm tra bằng `streamlit.testing` (AppTest): 3 tab không lỗi; 1 câu hỏi thật (v12-style, Chapter II) → trả lời đúng, citation p21, 1 search, 5.6 s, $0.00049.
+
+## Cách chạy
+
+| Bước | Lệnh |
+|---|---|
+| Hạ tầng Day 6 | `cd ../K5-L3B-Day06-NguyenVanMinh-2A202603771-DataIngestion/starter && docker compose -p day6_student_starter up -d --wait`; `ollama list` (cần `embeddinggemma`) |
+| Môi trường | `python3.12 -m venv .venv && .venv/bin/pip install -r requirements.txt`; tạo `.env` (mật khẩu DB, `OPENAI_API_KEY`, `MAX_COST_USD`) — **không commit** |
+| Kiểm tra | `.venv/bin/python -m unittest discover -s tests -v` · `python -m src.smoke_test` · `python -m src.check_llm` |
+| Dữ liệu, benchmark | `python -m src.export_day6 --strategy B` · `python -m src.build_benchmark` · `--test-v2` · `--round3` |
+| Retrieval | `python -m src.eval_retrieval --method {dense,bm25,hybrid,rerank} --split dev [--budget 4500 --neighbors] [--questions data/day7/test_v3/questions.json --split test]` |
+| Agent (A2 đã chọn) | `python -m src.run_agent --split test --cases data/day7/test_v3/cases.json --out-split test_v3 --method hybrid --prompt v2 --neighbors --per-search-budget 4500 --budget 9000 --config A2_hybrid_v2_nb` |
+| Baseline A0 | `python -m src.run_agent … --method dense --prompt v1 --per-search-budget 3000 --budget 6000 --config A0_dense_baseline` |
+| Tổng hợp nhãn | `python starter/agent_metrics.py --cases <cases.json> --traces <traces.json> --reviews <reviews.json> --split test --output <agent_metrics.json>` |
+| Chấm lại retrieval từ trace | `python -m src.rescore_retrieval results/retrieval/<cfg>/<split> <questions.json>` |
+| Demo | `.venv/bin/streamlit run demo/app.py` |
+
+Tham số đầy đủ của từng cấu hình: `configs/selected.json`, `selected_v2.json`, `selected_v3.json`.
 
 ## Thử thách nâng cao (nếu thực hiện)
 

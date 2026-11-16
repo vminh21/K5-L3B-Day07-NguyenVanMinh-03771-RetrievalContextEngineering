@@ -3,3 +3,4 @@ python-dotenv
 rank-bm25
 openai
 sentence-transformers  # chỉ cần cho --method rerank (thử nghiệm đã loại)
+streamlit  # demo/app.py

@@ -1,0 +1,2 @@
+{"ts": "2026-11-16T12:44:07", "tag": "agent", "model": "gpt-5.6-luna", "tokens_in": 469, "tokens_out": 33, "reasoning_tokens": 0, "cost_usd": 0.00013340000000000002}
+{"ts": "2026-11-16T12:44:09", "tag": "agent", "model": "gpt-5.6-luna", "tokens_in": 1326, "tokens_out": 80, "reasoning_tokens": 12, "cost_usd": 0.0003612}
