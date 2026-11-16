@@ -462,9 +462,15 @@
         "source_id": "communist-manifesto-1848",
         "page": 37,
         "evidence": "The\nInternational, on its breaking in 1874, left the workers quite different men from what it found\nthem in 1864."
+      },
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 41,
+        "evidence": "The working class of 1874, at\nthe dissolution of the International, was altogether different from that of 1864, at its foundation."
       }
     ],
     "filter": null,
-    "origin": "day7-new"
+    "origin": "day7-new",
+    "gold_note": "alternative evidence added after the test run (gold completion, round 3)"
   }
 ]

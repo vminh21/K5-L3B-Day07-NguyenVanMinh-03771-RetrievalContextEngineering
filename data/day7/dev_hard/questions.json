@@ -1,0 +1,153 @@
+[
+  {
+    "id": "h01",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "Why does the Manifesto call the lower middle class not only conservative but reactionary?",
+    "expected_answer": "Because they try to roll back the wheel of history.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 11,
+        "evidence": "Nay more, they are\nreactionary, for they try to roll back the wheel of history."
+      }
+    ],
+    "filter": null,
+    "origin": "day7-dev-hard"
+  },
+  {
+    "id": "h02",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "In bourgeois society versus Communist society, which dominates which — the past or the present?",
+    "expected_answer": "In bourgeois society the past dominates the present; in Communist society the present dominates the past.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 15,
+        "evidence": "In bourgeois society, therefore, the past dominates the present; in Communist society, the\npresent dominates the past."
+      }
+    ],
+    "filter": null,
+    "origin": "day7-dev-hard"
+  },
+  {
+    "id": "h03",
+    "split": "dev",
+    "type": "numeric",
+    "question": "How many arch-conservative English trade unions does the 1890 preface mention, and in what year did their Swansea Congress chairman speak?",
+    "expected_answer": "Ten arch-conservative English trade unions; 1887.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 41,
+        "evidence": "even the ten arch-conservative English trade unions were gradually approaching the point\nwhere, in 1887, the chairman of their Swansea Congress could say in their name"
+      }
+    ],
+    "filter": null,
+    "origin": "day7-dev-hard"
+  },
+  {
+    "id": "h04",
+    "split": "dev",
+    "type": "multi_hop",
+    "question": "What does Chapter I say the bourgeoisie produces above all, and how does the 1893 Italian preface reuse that phrase?",
+    "expected_answer": "Its own grave-diggers; the 1893 preface says the bourgeois regime has created a powerful proletariat and thus raised, in the language of the Manifesto, its own grave-diggers.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 12,
+        "evidence": "What the bourgeoisie therefore produces, above all, are its\nown grave-diggers."
+      },
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 44,
+        "evidence": "It has thus raised, to use the language of the Manifesto, its\nown grave-diggers."
+      }
+    ],
+    "filter": null,
+    "origin": "day7-dev-hard",
+    "gold_groups": [
+      [
+        {
+          "source_id": "communist-manifesto-1848",
+          "page": 12,
+          "evidence": "What the bourgeoisie therefore produces, above all, are its\nown grave-diggers."
+        }
+      ],
+      [
+        {
+          "source_id": "communist-manifesto-1848",
+          "page": 44,
+          "evidence": "It has thus raised, to use the language of the Manifesto, its\nown grave-diggers."
+        }
+      ]
+    ]
+  },
+  {
+    "id": "h05",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "Does the Manifesto say that working men have a country?",
+    "expected_answer": "No — the working men have no country; one cannot take from them what they have not got.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 18,
+        "evidence": "The working men have no country. We cannot take from them what they have not got."
+      }
+    ],
+    "filter": null,
+    "origin": "day7-dev-hard"
+  },
+  {
+    "id": "h06",
+    "split": "dev",
+    "type": "conditional",
+    "question": "Which practical measures proposed in the Critical-Utopian publications does the Manifesto list, and what character does it give them?",
+    "expected_answer": "Abolition of the distinction between town and country, of the family, of industries carried on for private individuals and of the wage system; proclamation of social harmony; turning the state into a superintendence of production — proposals of a purely Utopian character.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 29,
+        "evidence": "These proposals, therefore, are of a purely Utopian\ncharacter."
+      }
+    ],
+    "filter": null,
+    "origin": "day7-dev-hard"
+  },
+  {
+    "id": "h07",
+    "split": "dev",
+    "type": "numeric",
+    "question": "For what share of the population does the Manifesto say private property is already done away with in existing society?",
+    "expected_answer": "For nine-tenths of the population.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 15,
+        "evidence": "private property is already done away with for nine-tenths of the population"
+      }
+    ],
+    "filter": null,
+    "origin": "day7-dev-hard"
+  },
+  {
+    "id": "h08",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "In Chapter I, which English law was carried by taking advantage of divisions among the bourgeoisie?",
+    "expected_answer": "The ten-hours' bill.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 10,
+        "evidence": "Thus, the ten-\nhours’ bill in England was carried."
+      }
+    ],
+    "filter": {
+      "chapter": "Chapter I"
+    },
+    "origin": "day7-dev-hard"
+  }
+]

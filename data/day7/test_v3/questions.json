@@ -1,0 +1,397 @@
+[
+  {
+    "id": "v01",
+    "split": "test",
+    "type": "paraphrase",
+    "question": "Which works of the bourgeoisie does Chapter I say surpass famous ancient and medieval monuments, and which monuments are named?",
+    "expected_answer": "It has accomplished wonders far surpassing Egyptian pyramids, Roman aqueducts and Gothic cathedrals (and conducted expeditions that put in the shade all former Exoduses of nations and crusades).",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 5,
+        "evidence": "It has\naccomplished wonders far surpassing Egyptian pyramids, Roman aqueducts, and Gothic\ncathedrals"
+      }
+    ],
+    "filter": null,
+    "origin": "day7-test-v3"
+  },
+  {
+    "id": "v02",
+    "split": "test",
+    "type": "paraphrase",
+    "question": "To what figure does the Manifesto compare modern bourgeois society that can no longer control the forces it has created?",
+    "expected_answer": "To the sorcerer who is no longer able to control the powers of the nether world whom he has called up by his spells.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 7,
+        "evidence": "is like the sorcerer who is no longer able to control the\npowers of the nether world whom he has called up by his spells"
+      }
+    ],
+    "filter": null,
+    "origin": "day7-test-v3"
+  },
+  {
+    "id": "v03",
+    "split": "test",
+    "type": "paraphrase",
+    "question": "What epidemic, which earlier epochs would have found absurd, breaks out during commercial crises?",
+    "expected_answer": "The epidemic of over-production.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 7,
+        "evidence": "In these crises, there breaks out\nan epidemic that, in all earlier epochs, would have seemed an absurdity — the epidemic of over-\nproduction."
+      }
+    ],
+    "filter": null,
+    "origin": "day7-test-v3"
+  },
+  {
+    "id": "v04",
+    "split": "test",
+    "type": "conditional",
+    "question": "In Germany, under what condition do the Communists fight together with the bourgeoisie, and against whom?",
+    "expected_answer": "Whenever the bourgeoisie acts in a revolutionary way — against the absolute monarchy, the feudal squirearchy, and the petty bourgeoisie.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 31,
+        "evidence": "In Germany, they fight with the bourgeoisie whenever it acts in a revolutionary way, against\nthe absolute monarchy, the feudal squirearchy, and the petty bourgeoisie."
+      }
+    ],
+    "filter": null,
+    "origin": "day7-test-v3"
+  },
+  {
+    "id": "v05",
+    "split": "test",
+    "type": "numeric",
+    "question": "How long did the Cologne Communist Trial last, and what sentences did seven of the prisoners receive?",
+    "expected_answer": "From October 4 till November 12; seven prisoners were sentenced to imprisonment in a fortress for three to six years.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 36,
+        "evidence": "lasted from October 4 till November 12;\nseven of the prisoners were sentenced to terms of imprisonment in a fortress, varying from three\nto six years."
+      }
+    ],
+    "filter": null,
+    "origin": "day7-test-v3"
+  },
+  {
+    "id": "v06",
+    "split": "test",
+    "type": "multi_hop",
+    "question": "Where was the Central Board of the Communist League located when the Prussian police hunted it out, and what happened to the League immediately after the sentence in the trial that followed?",
+    "expected_answer": "It was in Cologne; immediately after the sentence the League was formally dissolved by its remaining members.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 36,
+        "evidence": "Thus the Prussian\npolice hunted out the Central Board of the Communist League, then located in Cologne."
+      },
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 36,
+        "evidence": "Immediately after the sentence, the League was formlly dissolved by the remaining\nmembers."
+      }
+    ],
+    "filter": null,
+    "origin": "day7-test-v3",
+    "gold_groups": [
+      [
+        {
+          "source_id": "communist-manifesto-1848",
+          "page": 36,
+          "evidence": "Thus the Prussian\npolice hunted out the Central Board of the Communist League, then located in Cologne."
+        }
+      ],
+      [
+        {
+          "source_id": "communist-manifesto-1848",
+          "page": 36,
+          "evidence": "Immediately after the sentence, the League was formlly dissolved by the remaining\nmembers."
+        }
+      ]
+    ]
+  },
+  {
+    "id": "v07",
+    "split": "test",
+    "type": "numeric",
+    "question": "According to the 1888 preface, at least how many German reprints of the Manifesto had there been?",
+    "expected_answer": "Twelve altogether at the least.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 37,
+        "evidence": "The\nGerman reprints are not to be counted; there have been twelve altogether at the least."
+      }
+    ],
+    "filter": null,
+    "origin": "day7-test-v3"
+  },
+  {
+    "id": "v08",
+    "split": "test",
+    "type": "conditional",
+    "question": "Who made the first English translation of the Manifesto, where did it appear, and in what year?",
+    "expected_answer": "Miss Helen Macfarlane; in George Julian Harney's Red Republican, London, 1850.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 36,
+        "evidence": "The first\nEnglish translation, by Miss Helen Macfarlane, appeared in George Julian Harney's Red\nRepublican, London, 1850."
+      }
+    ],
+    "filter": null,
+    "origin": "day7-test-v3"
+  },
+  {
+    "id": "v09",
+    "split": "test",
+    "type": "numeric",
+    "question": "Who made the first and the second Russian translations of the Manifesto, and when and where was each published?",
+    "expected_answer": "First by Bakunin, published at Herzen's Kolokol office in Geneva about 1863; second by Vera Zasulich, also in Geneva, in 1882.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 37,
+        "evidence": "The first Russian translation, made by Bakunin,\nwas published at Herzen's Kolokol office in Geneva, about 1863; a second one, by the heroic\nVera Zasulich, also in Geneva, in 1882."
+      }
+    ],
+    "filter": null,
+    "origin": "day7-test-v3"
+  },
+  {
+    "id": "v10",
+    "split": "test",
+    "type": "multi_hop",
+    "question": "To whom does Engels attribute the fundamental proposition of the Manifesto, and to which scientific theory does he compare its importance?",
+    "expected_answer": "To Marx; he says it is destined to do for history what Darwin's theory has done for biology.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 38,
+        "evidence": "I consider myself bound to state that the\nfundamental proposition which forms the nucleus belongs to Marx."
+      },
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 35,
+        "evidence": "is destined to do for history what\nDarwin's theory has done for biology"
+      },
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 38,
+        "evidence": "is destined to do for history what Darwin's theory\nhas done for biology"
+      }
+    ],
+    "filter": null,
+    "origin": "day7-test-v3",
+    "gold_groups": [
+      [
+        {
+          "source_id": "communist-manifesto-1848",
+          "page": 38,
+          "evidence": "I consider myself bound to state that the\nfundamental proposition which forms the nucleus belongs to Marx."
+        }
+      ],
+      [
+        {
+          "source_id": "communist-manifesto-1848",
+          "page": 35,
+          "evidence": "is destined to do for history what\nDarwin's theory has done for biology"
+        },
+        {
+          "source_id": "communist-manifesto-1848",
+          "page": 38,
+          "evidence": "is destined to do for history what Darwin's theory\nhas done for biology"
+        }
+      ]
+    ]
+  },
+  {
+    "id": "v11",
+    "split": "test",
+    "type": "conditional",
+    "question": "Which party do the Communists support in Poland, and which insurrection had that party fomented?",
+    "expected_answer": "The party that insists on an agrarian revolution as the prime condition for national emancipation — the party that fomented the insurrection of Cracow in 1846.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 31,
+        "evidence": "In Poland, they support the party that insists on an agrarian revolution as the prime condition\nfor national emancipation, that party which fomented the insurrection of Cracow in 1846."
+      }
+    ],
+    "filter": null,
+    "origin": "day7-test-v3"
+  },
+  {
+    "id": "v12",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "In Chapter II, which education-related measures appear in the list of measures for the most advanced countries?",
+    "expected_answer": "Free education for all children in public schools; abolition of children's factory labour in its present form; combination of education with industrial production.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 21,
+        "evidence": "Free education for all children in public schools. Abolition of\nchildren’s factory labour in its present form. Combination of education with\nindustrial production"
+      }
+    ],
+    "filter": {
+      "chapter": "Chapter II"
+    },
+    "origin": "day7-test-v3"
+  },
+  {
+    "id": "v13",
+    "split": "test",
+    "type": "paraphrase",
+    "question": "What does the Manifesto say will take the place of the old bourgeois society with its classes and class antagonisms?",
+    "expected_answer": "An association, in which the free development of each is the condition for the free development of all.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 21,
+        "evidence": "we shall have\nan association, in which the free development of each is the condition for the free development\nof all."
+      }
+    ],
+    "filter": null,
+    "origin": "day7-test-v3"
+  },
+  {
+    "id": "v14",
+    "split": "test",
+    "type": "direct",
+    "question": "According to an editorial note, who was the chief representative and classical type of the 'True' Socialist tendency?",
+    "expected_answer": "Mr Karl Gruen.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 27,
+        "evidence": "The chief representative and classical type of this tendency is Mr Karl Gruen."
+      }
+    ],
+    "filter": null,
+    "origin": "day7-test-v3"
+  },
+  {
+    "id": "v15",
+    "split": "test",
+    "type": "numeric",
+    "question": "In the discussion of feudal Socialism, which Restoration period is meant according to Engels' note, and what are its dates?",
+    "expected_answer": "The French Restoration (1814-1830), not the English Restoration (1660-1689).",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 22,
+        "evidence": "Not the English Restoration (1660-1689), but the French Restoration (1814-1830)."
+      }
+    ],
+    "filter": null,
+    "origin": "day7-test-v3"
+  },
+  {
+    "id": "v16",
+    "split": "test",
+    "type": "multi_hop",
+    "question": "Which founders of the Socialist and Communist systems does Chapter III name, and what did Owen call his Communist model societies?",
+    "expected_answer": "Saint-Simon, Fourier, Owen (and others); Owen called his model societies 'Home Colonies'.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 28,
+        "evidence": "The Socialist and Communist systems, properly so called, those of Saint-Simon, Fourier,\nOwen, and others"
+      },
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 30,
+        "evidence": "“Home Colonies” were what Owen called his Communist model societies."
+      }
+    ],
+    "filter": null,
+    "origin": "day7-test-v3",
+    "gold_groups": [
+      [
+        {
+          "source_id": "communist-manifesto-1848",
+          "page": 28,
+          "evidence": "The Socialist and Communist systems, properly so called, those of Saint-Simon, Fourier,\nOwen, and others"
+        }
+      ],
+      [
+        {
+          "source_id": "communist-manifesto-1848",
+          "page": 30,
+          "evidence": "“Home Colonies” were what Owen called his Communist model societies."
+        }
+      ]
+    ]
+  },
+  {
+    "id": "v17",
+    "split": "test",
+    "type": "paraphrase",
+    "question": "How radical a break with tradition does the Manifesto say the Communist revolution is?",
+    "expected_answer": "It is the most radical rupture with traditional relations, and its development involves the most radical rupture with traditional ideas.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 20,
+        "evidence": "The Communist revolution is the most radical rupture with traditional relations; no wonder\nthat its development involved the most radical rupture with traditional ideas."
+      }
+    ],
+    "filter": null,
+    "origin": "day7-test-v3"
+  },
+  {
+    "id": "v18",
+    "split": "test",
+    "type": "numeric",
+    "question": "During how long a rule does the Manifesto say the bourgeoisie created more massive productive forces than all preceding generations together?",
+    "expected_answer": "During its rule of scarce one hundred years.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 7,
+        "evidence": "The bourgeoisie, during its rule of scarce one hundred years, has created more massive and\nmore colossal productive forces than have all preceding generations together."
+      }
+    ],
+    "filter": null,
+    "origin": "day7-test-v3"
+  },
+  {
+    "id": "v19",
+    "split": "test",
+    "type": "conditional",
+    "question": "According to the 1893 Italian preface, with which date and which revolutions did the publication of the Manifesto coincide?",
+    "expected_answer": "With March 18, 1848, the day of the revolution in Milan and Berlin.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 43,
+        "evidence": "coincided, one may say, with March 18,\n1848, the day of the revolution in Milan and Berlin"
+      }
+    ],
+    "filter": null,
+    "origin": "day7-test-v3"
+  },
+  {
+    "id": "v20",
+    "split": "test",
+    "type": "numeric",
+    "question": "According to the 1893 Italian preface, how many years separated it from the revolutionary epoch of 1848?",
+    "expected_answer": "Forty-five years.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 44,
+        "evidence": "Nor have the forty-five years\nseparating us from that revolutionary epoch passed to no purpose."
+      }
+    ],
+    "filter": null,
+    "origin": "day7-test-v3"
+  }
+]

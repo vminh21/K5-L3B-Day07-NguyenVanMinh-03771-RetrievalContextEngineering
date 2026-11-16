@@ -92,10 +92,16 @@
         "source_id": "communist-manifesto-1848",
         "page": 38,
         "evidence": "Thus,\nin 1847, socialism was a middle-class movement, communism a working-class movement."
+      },
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 41,
+        "evidence": "Socialism in 1847 signified a bourgeois movement, communism a working-class movement."
       }
     ],
     "filter": null,
-    "origin": "day7-test-v2"
+    "origin": "day7-test-v2",
+    "gold_note": "alternative evidence added after the test run (gold completion, round 3)"
   },
   {
     "id": "u07",

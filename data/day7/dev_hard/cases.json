@@ -1,0 +1,78 @@
+[
+  {
+    "id": "h01",
+    "split": "dev",
+    "question": "Why does the Manifesto call the lower middle class not only conservative but reactionary?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "h02",
+    "split": "dev",
+    "question": "In bourgeois society versus Communist society, which dominates which — the past or the present?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "h03",
+    "split": "dev",
+    "question": "How many arch-conservative English trade unions does the 1890 preface mention, and in what year did their Swansea Congress chairman speak?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "h04",
+    "split": "dev",
+    "question": "What does Chapter I say the bourgeoisie produces above all, and how does the 1893 Italian preface reuse that phrase?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "h05",
+    "split": "dev",
+    "question": "Does the Manifesto say that working men have a country?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "h06",
+    "split": "dev",
+    "question": "Which practical measures proposed in the Critical-Utopian publications does the Manifesto list, and what character does it give them?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "h07",
+    "split": "dev",
+    "question": "For what share of the population does the Manifesto say private property is already done away with in existing society?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "h08",
+    "split": "dev",
+    "question": "In Chapter I, which English law was carried by taking advantage of divisions among the bourgeoisie?",
+    "answerable": true,
+    "filter": {
+      "chapter": "Chapter I"
+    }
+  },
+  {
+    "id": "hn01",
+    "question": "Under the ten-hours' bill, how many hours per week did English factory workers work?",
+    "absence_reason": "Only 'the ten- hours’ bill in England was carried' (p.10); grep 'per week|weekly' only hits 'Claflin's Weekly' (p.37). No weekly hours (trap: tempts computing 10 × 6).",
+    "split": "dev",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "filter": null
+  },
+  {
+    "id": "hn02",
+    "question": "What did Charles Darwin himself say about the Manifesto?",
+    "absence_reason": "Darwin appears only as Engels' comparison ('what Darwin's theory has done for biology', p.35, p.38); nothing Darwin said.",
+    "split": "dev",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "filter": null
+  }
+]

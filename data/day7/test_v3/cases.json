@@ -1,0 +1,198 @@
+[
+  {
+    "id": "v01",
+    "split": "test",
+    "question": "Which works of the bourgeoisie does Chapter I say surpass famous ancient and medieval monuments, and which monuments are named?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "v02",
+    "split": "test",
+    "question": "To what figure does the Manifesto compare modern bourgeois society that can no longer control the forces it has created?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "v03",
+    "split": "test",
+    "question": "What epidemic, which earlier epochs would have found absurd, breaks out during commercial crises?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "v04",
+    "split": "test",
+    "question": "In Germany, under what condition do the Communists fight together with the bourgeoisie, and against whom?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "v05",
+    "split": "test",
+    "question": "How long did the Cologne Communist Trial last, and what sentences did seven of the prisoners receive?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "v06",
+    "split": "test",
+    "question": "Where was the Central Board of the Communist League located when the Prussian police hunted it out, and what happened to the League immediately after the sentence in the trial that followed?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "v07",
+    "split": "test",
+    "question": "According to the 1888 preface, at least how many German reprints of the Manifesto had there been?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "v08",
+    "split": "test",
+    "question": "Who made the first English translation of the Manifesto, where did it appear, and in what year?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "v09",
+    "split": "test",
+    "question": "Who made the first and the second Russian translations of the Manifesto, and when and where was each published?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "v10",
+    "split": "test",
+    "question": "To whom does Engels attribute the fundamental proposition of the Manifesto, and to which scientific theory does he compare its importance?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "v11",
+    "split": "test",
+    "question": "Which party do the Communists support in Poland, and which insurrection had that party fomented?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "v12",
+    "split": "test",
+    "question": "In Chapter II, which education-related measures appear in the list of measures for the most advanced countries?",
+    "answerable": true,
+    "filter": {
+      "chapter": "Chapter II"
+    }
+  },
+  {
+    "id": "v13",
+    "split": "test",
+    "question": "What does the Manifesto say will take the place of the old bourgeois society with its classes and class antagonisms?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "v14",
+    "split": "test",
+    "question": "According to an editorial note, who was the chief representative and classical type of the 'True' Socialist tendency?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "v15",
+    "split": "test",
+    "question": "In the discussion of feudal Socialism, which Restoration period is meant according to Engels' note, and what are its dates?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "v16",
+    "split": "test",
+    "question": "Which founders of the Socialist and Communist systems does Chapter III name, and what did Owen call his Communist model societies?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "v17",
+    "split": "test",
+    "question": "How radical a break with tradition does the Manifesto say the Communist revolution is?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "v18",
+    "split": "test",
+    "question": "During how long a rule does the Manifesto say the bourgeoisie created more massive productive forces than all preceding generations together?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "v19",
+    "split": "test",
+    "question": "According to the 1893 Italian preface, with which date and which revolutions did the publication of the Manifesto coincide?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "v20",
+    "split": "test",
+    "question": "According to the 1893 Italian preface, how many years separated it from the revolutionary epoch of 1848?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "w01",
+    "question": "How many copies of the 1888 English edition translated by Samuel Moore were printed?",
+    "absence_reason": "Grep 'cop(y|ies)': only p.42 (copies circulated as an index of industry); the 1888 edition (p.40) is described by title, translator and publisher only — no print run.",
+    "split": "test",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "filter": null
+  },
+  {
+    "id": "w02",
+    "question": "What was the sale price of the 1888 English edition published by William Reeves?",
+    "absence_reason": "Grep 'price': only 'cheap prices of commodities' (p.6), 'price of a commodity' (p.8), 'average price of wage-labour' (p.15); 'shilling|penny|pence' = 0. '185 Fleet Street' (p.40) is an address, not a price.",
+    "split": "test",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "filter": null
+  },
+  {
+    "id": "w03",
+    "question": "How many members did the International Working Men's Association have at its peak?",
+    "absence_reason": "Grep 'members', 'membership': no membership figure for the International anywhere (hits are about society, the commune, the League).",
+    "split": "test",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "filter": null
+  },
+  {
+    "id": "w04",
+    "question": "What did Lenin write about the Manifesto in his preface to a Russian edition?",
+    "absence_reason": "Grep 'Lenin' = 0. Russian editions discussed (Bakunin, Zasulich, 1882 preface) have no Lenin preface.",
+    "split": "test",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "filter": null
+  },
+  {
+    "id": "w05",
+    "question": "How many workers were killed in the Paris insurrection of June 1848?",
+    "absence_reason": "The June 1848 defeat is mentioned (p.36, p.40) but grep 'killed|casualt|dead|slain' = 0; no casualty figure.",
+    "split": "test",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "filter": null
+  },
+  {
+    "id": "w06",
+    "question": "What prison sentence did Karl Marx himself receive at the Cologne Communist Trial?",
+    "absence_reason": "p.36 says seven prisoners got three to six years in a fortress, but no defendant is named and grep 'Marx … prison|sentenced|trial' = 0; Marx's own sentence is not stated (trap: the 3-6 years figure exists).",
+    "split": "test",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "filter": null
+  }
+]
