@@ -48,7 +48,18 @@ _RULE7_V3 = ("7. Numbers, years and dates in your answer must be written in a ci
              "8. If the passages answer only part of the question, search again with different wording "
              "(other key phrases, names, synonyms). If after searching any part is still not supported, abstain.")
 SYSTEM_V3 = SYSTEM_V2 + "\n" + _RULE7_V3
-PROMPTS = {"v1": SYSTEM, "v2": SYSTEM_V2, "v3": SYSTEM_V3}
+# mm (advanced challenge): same rules as v2, different document; passages can be transcriptions of
+# tables / charts / diagrams made from page images, so units and legend colours matter.
+SYSTEM_MM = SYSTEM_V2.replace(
+    'ONE document: "Manifesto of the Communist Party" (Marx & Engels, English edition with its prefaces).',
+    "ONE document: NASA's Fiscal Year 2024 Agency Financial Report (127 pages).").replace(
+    "your own knowledge of Marx, history, or this text", "your own knowledge of NASA or of this report") + """
+7. Passages marked [TABLE], [CHART], [DIAGRAM], [MAP], [INFOGRAPHIC] or [PHOTO] are transcriptions of the \
+visual elements on that page. Use the exact row/column, legend colour, year and unit (millions, thousands, \
+acres, percent) they give; FY 2023 and FY 2024 values are easy to swap, so check which is which.
+8. If the question asks for a difference, change or comparison, you may compute it from cited numbers; \
+state the numbers you used. Answer every part of a multi-part question, searching again for missing parts."""
+PROMPTS = {"v1": SYSTEM, "v2": SYSTEM_V2, "v3": SYSTEM_V3, "mm": SYSTEM_MM}
 assert SYSTEM_V2 != SYSTEM and "abstain=true is the only correct" in SYSTEM_V2
 
 TOOLS = [

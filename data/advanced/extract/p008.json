@@ -1,0 +1,29 @@
+{
+ "page": 8,
+ "printed_page": 7,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "photo",
+   "title": "3D-printed NASA insignia made using GRX-810 superalloy",
+   "bbox": [
+    97,
+    245,
+    902,
+    664
+   ],
+   "content": "Photo shows a close-up, green-tinted view of the NASA insignia being 3D printed in GRX-810 superalloy, with a bright laser point visible on the surface.\n\nCaption: NASA’s investment in a breakthrough superalloy developed for the extreme temperatures and harsh conditions of air and spaceflight is on the threshold of paying commercial dividends. The agency is licensing its invention, dubbed “GRX-810,” to four American companies, a practice that benefits the United States economy as a return on investment of taxpayer dollars.\n\nGRX-810 is a 3D-printable high-temperature material that will lead to stronger, more durable airplane and spacecraft parts that can withstand more punishment before reaching their breaking point. In this image, the NASA insignia is 3D printed using the GRX-810 superalloy.\n\nPhoto credit: NASA/Jordan Salkin, May 11, 2024",
+   "crop": "data/advanced/crops/p008_e0.png"
+  }
+ ],
+ "text_layer": "Management’s Discussion \nand Analysis\nNASA’s investment in a breakthrough superalloy developed for the extreme temperatures \nand harsh conditions of air and spaceflight is on the threshold of paying commercial \ndividends. The agency is licensing its invention, dubbed “GRX-810,” to four American \ncompanies, a practice that benefits the United States economy as a return on investment of \ntaxpayer dollars.\nGRX-810 is a 3D-printable high-temperature material that will lead to stronger, more durable \nairplane and spacecraft parts that can withstand more punishment before reaching their \nbreaking point. In this image, the NASA insignia is 3D printed using the GRX-810 superalloy.\nPHOTO CREDIT \nNASA/Jordan Salkin, May 11, 2024\nSECTION 1\n07\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n07\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 343,
+  "cost_usd": 0.000996,
+  "seconds": 10.3,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

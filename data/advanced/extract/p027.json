@@ -1,0 +1,29 @@
+{
+ "page": 27,
+ "printed_page": 26,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "photo",
+   "title": "Did You Know?",
+   "bbox": [
+    75,
+    878,
+    220,
+    944
+   ],
+   "content": "Photo showing members of the 2024 cohort of High School Aerospace Scholars in red shirts working together around a table during an activity. Printed caption: “Members of the 2024 cohort of High School Aerospace Scholars work together at Johnson Space Center during the Engineering Design Challenge focusing on exercise in space on July 29, 2024.” Photo credit — NASA/Bill Stafford",
+   "crop": "data/advanced/crops/p027_e0.png"
+  }
+ ],
+ "text_layer": "26\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n26\nMANAGEMENT’S DISCUSSION AND ANALYSIS\nSTRATEGIC GOALS AND HIGHLIGHTS\n04\nSTRATEGIC GOAL IV. ADVANCE\nEnhance capabilities and operations to catalyze current and future mission success.\nDid You Know?\nMembers of the 2024 cohort of High School Aerospace Scholars work together at Johnson Space Center during the \nEngineering Design Challenge focusing on exercise in space on July 29, 2024. Photo credit — NASA/Bill Stafford\nStrategic Goal 4 is supported by 15 Performance Goals. Of these, 12 were rated Green, one was \nrated Yellow, one was rated Red, and one was unrated at the time of publication.\nOverview \nNASA’s complex and bold missions require modern, adaptable technical and professional support capabilities to \nenable mission readiness, resilience, and our continued leadership in science, exploration, discovery, and innovation. \nWe pursue the goal of enhancing capabilities and operations to ensure that NASA has the right people, infrastructure, \ntechnology, and technical excellence and oversight needed to advance the Agency into the Artemis era and beyond.\nHighlights\nAttracting and Developing a Talented and Diverse Workforce\nWhile NASA employees continue to rate it the best large Federal agency to work for, streamlining the hiring process to \nbring in top talent remains a priority for the Agency. Time to hire, for all hires excluding Senior Executive Service (SES) \nand Pathways, was reduced from 80 days in Q1 to 73 days in Q3 of FY 2024, and we are currently taking steps to gain \nefficiency through multiple initiatives, such as using existing certificates to reduce the time and resources required to \nacquire new hires.\nIn FY 2024, NASA began a six-phase multi-year Agencywide Full Workforce Barrier Analysis. The barrier analysis will \naddress NASA’s overall workforce across the Agency and will examine four key identities: 1) race/ethnicity, 2) gender, \n3) disability status, 4) LGBTQIA+ and include a component addressing NASA’s leadership pipeline. Thus far the Agency \nhas completed two phases including personnel data analysis and shareholder interviewers, with a quantitative survey in \nphase three forthcoming.\nBuilding the Next Generation of Explorers\nNASA’s STEM FY 2023-2024 Learning Agenda poses questions that will prepare the Agency for the future of its \nengagement initiatives. The Agency is making progress on two evaluations, including assessment of NASA internship \noutcomes regarding NASA/industry employment and Phase 2 of the K-12 Student Outcome Study.\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 211,
+  "cost_usd": 0.000838,
+  "seconds": 3.8,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

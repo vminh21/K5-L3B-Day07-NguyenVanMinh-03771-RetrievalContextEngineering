@@ -1,0 +1,41 @@
+{
+ "page": 29,
+ "printed_page": 28,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "diagram",
+   "title": "Assets, Liabilities, and Net Position definitions",
+   "bbox": [
+    59,
+    227,
+    941,
+    317
+   ],
+   "content": "Three side-by-side definition panels connected conceptually by symbols:\n\n- Assets (yellow heading and underline), preceded by a circled plus sign: \"the current and future economic benefits owned or available for use by NASA.\"\n- Liabilities (teal heading and underline), preceded by a circled minus sign: \"the debts owed by NASA but not yet paid.\"\n- Net Position (dark blue heading and underline), preceded by a circled equals sign: \"the activity between revenue and other financing sources, and costs incurred since inception.\"\n\nThe symbols indicate the relationship Assets minus Liabilities equals Net Position.",
+   "crop": "data/advanced/crops/p029_e0.png"
+  },
+  {
+   "kind": "chart",
+   "title": "Balance Sheet Components FY 2024 and FY 2023",
+   "bbox": [
+    228,
+    358,
+    774,
+    920
+   ],
+   "content": "Stacked vertical bar chart. Chart subtitle/unit: (IN MILLIONS). Categories/periods: FY 2024 and FY 2023. Legend: yellow = Assets; teal = Liabilities; dark blue = Net Position.\n\nAssets | FY 2024 | $27,504\nLiabilities | FY 2024 | $7,664\nNet Position | FY 2024 | $19,840\nAssets | FY 2023 | $26,135\nLiabilities | FY 2023 | $6,719\nNet Position | FY 2023 | $19,416\n\nEach period is shown as a stacked bar with Assets as the yellow segment, Liabilities as the teal segment, and Net Position as the dark blue segment.",
+   "crop": "data/advanced/crops/p029_e1.png"
+  }
+ ],
+ "text_layer": "28\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n28\nFY 2023\n$27,504\n$26,135\n$7,664\n$6,719\n$19,840\n$19,416\nFY 2024\nAssets             Liabilities             Net Position\nFinancial Highlights\nMANAGEMENT’S DISCUSSION AND ANALYSIS\nFINANCIAL PERFORMANCE\nOverview of Financial Position\nNASA’s Balance Sheet provides a comparable snapshot of the Agency’s financial position as of September 30, 2024 and \nSeptember 30, 2023. It displays amounts in three primary categories.\nAssets\nNet Position\nthe activity between revenue and \nother financing sources, and costs \nincurred since inception.\nthe current and future \neconomic benefits owned or \navailable for use by NASA.\nBalance Sheet Components FY 2024 and FY 2023\n(IN MILLIONS)\nLiabilities\nthe debts owed by NASA but \nnot yet paid.\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 557,
+  "cost_usd": 0.001253,
+  "seconds": 9.5,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

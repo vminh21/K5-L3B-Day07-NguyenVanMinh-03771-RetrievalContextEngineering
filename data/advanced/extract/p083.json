@@ -1,0 +1,29 @@
+{
+ "page": 83,
+ "printed_page": 82,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "table",
+   "title": "Government Land",
+   "bbox": [
+    59,
+    522,
+    941,
+    828
+   ],
+   "content": "| (IN ACRES) | COMMERCIAL | CONSERVATION AND PRESERVATION | OPERATIONAL | TOTAL ESTIMATED ACREAGE |\n|---|---:|---:|---:|---:|\n| **PP&E Land** |  |  |  |  |\n| Start of Prior Year | 4,217 | 101,198 | 29,898 | 135,313 |\n| End of Prior Year/Start of Current Year | 4,217 | 101,198 | 29,900 | 135,315 |\n| End of Current Year | 4,217 | 101,198 | 29,900 | 135,315 |\n| **Held for Disposal or Exchange (also included in the balances above)** |  |  |  |  |\n| End of Prior Year | — | — | — | 175 |\n| End of Current Year | — | — | — | 175 |",
+   "crop": "data/advanced/crops/p083_e0.png"
+  }
+ ],
+ "text_layer": "82\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n82\nFINANCIAL SECTION\nFINANCIAL STATEMENTS, NOTES, AND REQUIRED SUPPLEMENTARY INFORMATION\nNASA reports information regarding PP&E land and permanent land rights as required supplemental information in \naccordance with SFFAS 59: Accounting and Reporting of Government Land.\nNASA owns and manages various land, aiding in the Agency’s mission of exploration and continued innovation for \nadvancing space-, air-, and Earth-based activities. NASA categorizes land it owns into three main use categories:\n•\tOperational: Land predominantly used for general, administrative, day-to-day operations and mission support \npurposes. Assets such as NASA office buildings, manufacturing plants, and research and development labs are located \non operational land.\n•\tConservation and Preservation: Land predominantly used to support conservation or preservation purposes, \nincluding conservation of natural resources and preserving significant cultural and historical resources associated \nwith NASA’s mission. Assets such as monuments, parks, watershed and water resources, and educational and visitor \ninformation centers are located on such land.\n•\tCommercial: Land predominantly used to generate income from commercial arrangements with the public sector. \nThese include NASA land leased to commercial entities participating in co-location and other arrangements designed \nto support the NASA mission at reasonable market rates. \nNASA's land held for disposal includes land no longer needed for current or future NASA operations. The various \nmethods of disposition include donation, sale, exchange, abandonment, or any combination thereof. NASA disposes \nof land in these instances in a prompt manner that minimizes continued care and handling costs while optimizing \nappropriate returns.\nThe Agency’s estimated land acreage identified by predominant use subcategory as of September 30, 2024, is as follows:\nREQUIRED SUPPLEMENTARY INFORMATION\nGovernment Land\n2024\n(IN ACRES)\nCOMMERCIAL\nCONSERVATION AND\nPRESERVATION\nOPERATIONAL\nTOTAL\nESTIMATED \nACREAGE\nPP&E Land\nStart of Prior Year\n 4,217 \n 101,198 \n 29,898 \n 135,313 \nEnd of Prior Year/Start of Current Year\n 4,217 \n 101,198 \n 29,900 \n 135,315 \nEnd of Current Year\n 4,217 \n 101,198 \n 29,900 \n 135,315 \nHeld for Disposal or Exchange (also included in the balances above)\nEnd of Prior Year\n 175 \nEnd of Current Year\n 175 \n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 342,
+  "cost_usd": 0.000995,
+  "seconds": 4.6,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

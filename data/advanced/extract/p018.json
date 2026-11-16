@@ -1,0 +1,29 @@
+{
+ "page": 18,
+ "printed_page": 17,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "photo",
+   "title": "Rocket Lab’s Electron rocket and PREFIRE CubeSat mission",
+   "bbox": [
+    75,
+    867,
+    219,
+    944
+   ],
+   "content": "Photo shows Rocket Lab’s Electron rocket standing vertically on the launch pad at night. Printed caption: “Rocket Lab’s Electron rocket is vertical on the pad Saturday, May 25, 2024, at Launch Complex 1 in Mahia, New Zealand, loaded with the first of two identical 6U CubeSats for NASA’s PREFIRE (Polar Radiant Energy in the Far-InfraRed Experiment) mission to help close a gap in our understanding of how much of Earth’s heat is lost to space from the Arctic and Antarctica.” Photo credit — Rocket Lab",
+   "crop": "data/advanced/crops/p018_e0.png"
+  }
+ ],
+ "text_layer": "17\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n17\nClimate Change Research   \nUse the global vantage point of space along with the significant scientific knowledge acquired, to advance our \nunderstanding of the Earth System and to curate actionable information to help the Nation understand, mitigate and \nadapt to climate change. By September 30, 2025, NASA will advance the understanding of the Earth System and its \nClimate by delivering three new observing systems, meeting development milestones for the Earth System Observatory \n(ESO), and maturing the interagency U.S. Government Greenhouse Gas Monitoring and Information Center.\nThe Polar Radiant Energy in the Far-InfraRed Experiment (PREFIRE) mission successfully launched CubeSat #2, the first \nof two CubeSats, on May 25, 2024 (NZT and ET) from Rocket Lab’s Launch Complex 1 in Māhia, New Zealand. The launch \nof PREFIRE CubeSat #2 represents a key achievement for this Priority Goal, and it was followed by the successful launch \nof CubeSat #1 on June 4 (ET, June 5 NZT). PREFIRE entered into prime operations on July 1, with a prime mission of 10 \nmonths. The PREFIRE mission is designed to document, for the first time, the variability in spectral fluxes from 5-45 microns \non hourly to seasonal timescales and reveal fluctuations in Earth’s thermostat by capturing the full spectrum of Arctic radiant \nenergy. This will fill a major gap in our knowledge of Arctic energy emissions and the role of far-infrared (FIR) radiation in \nArctic warming, sea ice loss, ice sheet melt, and sea level rise. The use of two CubeSats in asynchronous, near-polar orbits will \nenable the study of how relatively short-lived phenomena like cloud formation, moisture changes, and ice sheet melt affect \nfar-infrared emissions over time.\nIn May, NASA completed the Earth System Explorers (ESE) Step-1 selection by competitively selecting four proposals to \nproceed to Step-2 concept studies addressing one or more of the 2017 Decadal Survey Earth System Explorers Targeted \nObservables. The four proposals selected for concept studies are: The Stratosphere Troposphere Response using Infrared \nVertically-Resolved Light Explorer (STRIVE), The Ocean Dynamics and Surface Exchange with the Atmosphere (ODYSEA), \nEarth Dynamics Geodetic Explorer (EDGE), and The Carbon Investigation (Carbon-I). The ESE Program is designed \nto accomplish high-quality Earth System science investigations addressing one or more Explorer Targeted Observables \nidentified in the National Academies of Sciences, Engineering, and Medicine (NASEM) 2017 Decadal Survey for Earth Science \nand Applications from Space. NASA also continued to work with partner agencies, the Environmental Protection Agency \n(EPA), the National Institute of Standards and Technology (NIST), and the National Oceanic and Atmospheric Administration \n(NOAA), on the web-based Greenhouse Gas (GHG) Center portal and to prototype the initial demonstration areas. Examples \nof updates include improvements in data products corresponding to user feedback, as well as revisions in the Center’s \nstakeholder engagement strategy to increase connections with states, cities, land managers, and other Federal agencies, and \nintegrate user feedback to guide internal planning and for sharing with the GHG Measurement, Monitoring and Information \nSystem (GHGMMIS) community. Portal advances included improved guidance regarding the Center’s hub use, adding state \nlevel diagnostics and analysis, as well as an added capability on dataset and data layer intercomparison.\nAgency Priority Goals\nMANAGEMENT’S DISCUSSION AND ANALYSIS\nMISSION PERFORMANCE\nCONTINUED ON THE NEXT PAGE →\nAgency Priority Goals support improvements in near-term outcomes and advance progress toward longer-term, outcome-focused \nStrategic Objectives. They reflect a limited number of top priorities of Agency leadership and the Administration. Agency Priority \nGoals are selected for implementation over a two-year cycle.\nFor the FY 2024-2025 cycle, NASA continued the previous Agency Priority Goals on Artemis, Climate Change Research, and Space \nTechnology Leadership with updated milestones. Below is the goal statement and an overview of each Agency Priority Goal. Action \nplans and quarterly updates are available at www.performance.gov/agencies/nasa and results for FY 2024 will be published in the \nFY 2026 Volume of Integrated Performance (VIPer).\nDid You Know?\nRocket Lab’s Electron rocket is vertical on the pad Saturday, May 25, 2024, at Launch Complex 1 in Mahia, New \nZealand, loaded with the first of two identical 6U CubeSats for NASA’s PREFIRE (Polar Radiant Energy in the Far-\nInfraRed Experiment) mission to help close a gap in our understanding of how much of Earth’s heat is lost to space \nfrom the Arctic and Antarctica. Photo credit — Rocket Lab\nSUPPORTING STRATEGIC GOAL 1\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 247,
+  "cost_usd": 0.000881,
+  "seconds": 5.0,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

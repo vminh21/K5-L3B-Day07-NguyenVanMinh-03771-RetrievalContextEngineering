@@ -1,0 +1,41 @@
+{
+ "page": 30,
+ "printed_page": 29,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "chart",
+   "title": "Assets by Type Comparison for FY 2024 and FY 2023",
+   "bbox": [
+    84,
+    117,
+    490,
+    505
+   ],
+   "content": "Chart type: vertical stacked bar chart. Units: (IN MILLIONS). Axis titles: none shown. Legend: purple -> Other; blue -> Property, Plant, and Equipment; green -> Fund Balance with Treasury.\n\nOther | FY 2024 | $987\nProperty, Plant, and Equipment | FY 2024 | $9,331\nFund Balance with Treasury | FY 2024 | $17,186\nTotal | FY 2024 | $27,504 Total\nOther | FY 2023 | $106\nProperty, Plant, and Equipment | FY 2023 | $8,651\nFund Balance with Treasury | FY 2023 | $17,378\nTotal | FY 2023 | $26,135 Total\n\nPrinted year labels: 2024; 2023.",
+   "crop": "data/advanced/crops/p030_e0.png"
+  },
+  {
+   "kind": "chart",
+   "title": "Assets by Type 2024",
+   "bbox": [
+    510,
+    117,
+    918,
+    505
+   ],
+   "content": "Chart type: donut chart. Units: (IN MILLIONS). Axis titles: none shown. Legend: green -> Fund Balance with Treasury; blue -> Property, Plant, and Equipment; purple -> Other.\n\nFund Balance with Treasury | 2024 | 62%; $17,186\nProperty, Plant, and Equipment | 2024 | 34%; $9,331\nOther | 2024 | 4%; $987\nTotal Assets | 2024 | $27,504\n\nThe center of the donut is labeled “TOTAL ASSETS” and “$27,504”.",
+   "crop": "data/advanced/crops/p030_e1.png"
+  }
+ ],
+ "text_layer": "29\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n29\nMANAGEMENT’S DISCUSSION AND ANALYSIS\nFINANCIAL PERFORMANCE\nTotal Assets were the largest of the three categories (Total Liabilities plus Total Net Position will always equal\nTotal Assets). NASA’s total asset balance, as of September 30, 2024, was $27.5 billion, five percent higher than FY 2023.\nThe Agency’s Fund Balance with Treasury (FBWT) and its Property, Plant, and Equipment (PP&E) were the two\nprimary components of the total assets balance.\nFBWT, which represents NASA’s cash balance with the U.S. Department of the Treasury, was the largest asset at $17\nbillion, accounting for 62 percent of total assets. This cash balance includes Congressional appropriated funds available\nfor NASA’s mission operations (for example, employee labor or purchased goods or services from contractors) that\nhave not yet been paid.\nNASA’s PP&E had a net book value of $9.3 billion as of September 30, 2024, 34 percent of total assets or an eight percent\nincrease as compared to FY 2023. The increase is primarily attributed to the fabrication of essential assets supporting\nArtemis, Gateway, and the International Space Station (ISS) program requirements, ongoing revitalization, construction \nof facilities, and the active production work on Mobile Launcher-2.\nThe Other category represents Accounts Receivable, Advances and Prepayments, and Investments as of September 30,\n2024. This category increased by $881 million. This increase is due to the implementation of a new Agency business\nprocess for lease accounting mandated by the Statement of Federal Financial Accounting Standards (SFFAS)\n54, Leases, which requires additional financial reporting for leases.\nTOTAL\nASSETS\n$27,504\nFund Balance \nwith Treasury\nProperty, Plant, \nand Equipment\nOther\n$27,504 Total\n2024\n$17,186\n$9,331\n$987\n$26,135 Total\n2023\n$17,378\n$8,651\n$106\n62%\nFund Balance \nwith Treasury\n$17,186\n34%\nProperty, Plant, \nand Equipment\n$9,331\n4%\nOther\n$987\nAssets by Type Comparison\nfor FY 2024 and FY 2023\n(IN MILLIONS)\nAssets by Type 2024\n(IN MILLIONS)\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 502,
+  "cost_usd": 0.001187,
+  "seconds": 8.9,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

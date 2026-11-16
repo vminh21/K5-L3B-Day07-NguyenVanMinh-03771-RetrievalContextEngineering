@@ -1,0 +1,29 @@
+{
+ "page": 65,
+ "printed_page": 64,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "table",
+   "title": "Environmental and disposal liabilities as of September 30, 2024 and 2023",
+   "bbox": [
+    59,
+    517,
+    941,
+    759
+   ],
+   "content": "| (IN MILLIONS) | 2024 | 2023 |\n|---|---:|---:|\n| **Environmental Liabilities** | — | — |\n| &nbsp;&nbsp;&nbsp;Restoration Projects | $ 2,112 | $ 2,070 |\n| &nbsp;&nbsp;&nbsp;Asbestos | 181 | 176 |\n| &nbsp;&nbsp;&nbsp;End of Life Disposal of Property, Plant, and Equipment | 60 | 59 |\n| **Total Environmental and Disposal Liabilities** | **$ 2,353** | **$ 2,305** |\n| &nbsp;&nbsp;&nbsp;Unfunded Environmental Liabilities (Note 8) | $ 2,266 | $ 2,184 |\n| &nbsp;&nbsp;&nbsp;Funded Environmental Liabilities | 87 | 121 |\n| **Total Environmental and Disposal Liabilities** | **$ 2,353** | **$ 2,305** |",
+   "crop": "data/advanced/crops/p065_e0.png"
+  }
+ ],
+ "text_layer": "64\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n64\nFINANCIAL SECTION\nFINANCIAL STATEMENTS, NOTES, AND REQUIRED SUPPLEMENTARY INFORMATION\nIn accordance with guidance issued by FASAB, if an agency is required by Federal, state, and local statutes and \nregulations to clean up hazardous waste resulting from Federal operations, the amount of cleanup cost, if estimable, \nmust be reported and/or disclosed in the financial statements.\nThe statutes and regulations most applicable to NASA environmental reporting, clean-up, and monitoring liabilities \ninclude: the Comprehensive Environmental Response, Compensation and Liability Act; the Resource Conservation and \nRecovery Act; the Nuclear Waste Policy Act of 1982; and applicable state and local laws.\nNASA assesses the likelihood of required cleanup as probable (more likely than not to occur), reasonably possible (more \nthan remote but less than probable), or remote (slight chance of occurring). If the likelihood of required cleanup is \nprobable and the cost can be reasonably estimated, a liability is recorded in the financial statements. If the likelihood \nof required cleanup is reasonably possible, the estimated cost of cleanup is disclosed in the notes to the financial \nstatements. If the likelihood of required cleanup is remote, no liability or estimate is recorded or disclosed.\nEnvironmental and Disposal Liabilities Represent Cleanup Costs Resulting From:\n•\tOperations, including facilities obtained from other governmental entities, that have resulted in contamination from \nwaste disposal methods, leaks and spills;\n•\tOther past activity that created a public health or environmental risk, including identifiable costs associated with \nasbestos abatement; and\n•\tTotal cleanup costs associated with the removal, containment, and/or disposal of hazardous wastes or material and/or \nproperty at permanent or temporary closure or shutdown of associated PP&E.\nEnvironmental and disposal liabilities as of September 30, 2024 and 2023 were as follows:\nRestoration Projects\nNASA recorded a total estimated liability for known restoration projects of $2.112 billion in FY 2024. This was an \nincrease of $42 million from $2.070 billion recorded in FY 2023. The increase in this liability is primarily due to \nthe availability of new or updated information on the extent of contamination and refinements to the estimation \nmethodology. The liability for each restoration project is estimated for a duration of no more than 30 years, except \nwhere required by state statutes, regulations, or an agreement. \nIn addition to the probable cleanup costs for known hazardous conditions recognized in the financial statements, there \nare other remediation sites where the likelihood of required cleanup for known hazardous conditions is reasonably \n(IN MILLIONS)\n2024\n2023\nEnvironmental Liabilities\nRestoration Projects\n $ 2,112 \n $ 2,070 \nAsbestos\n 181 \n 176 \nEnd of Life Disposal of Property, Plant, and Equipment\n 60 \n 59 \nTotal Environmental and Disposal Liabilities\n $ 2,353 \n $ 2,305 \nUnfunded Environmental Liabilities (Note 8)\n $ 2,266 \n $ 2,184 \nFunded Environmental Liabilities \n 87 \n 121 \nTotal Environmental and Disposal Liabilities\n $ 2,353 \n $ 2,305 \nCONTINUED ON THE NEXT PAGE →\n09\nNOTE 9 \nEnvironmental and Disposal Liabilities\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 373,
+  "cost_usd": 0.001032,
+  "seconds": 6.9,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

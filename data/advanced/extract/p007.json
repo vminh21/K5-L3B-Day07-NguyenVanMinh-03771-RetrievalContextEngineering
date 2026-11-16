@@ -1,0 +1,29 @@
+{
+ "page": 7,
+ "printed_page": 6,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "photo",
+   "title": "Portrait of Bill Nelson",
+   "bbox": [
+    59,
+    803,
+    141,
+    868
+   ],
+   "content": "A circular portrait shows Bill Nelson in front of an American flag. Printed text adjacent to the photo: “Sincerely,” and “Bill Nelson.” No photo credit is printed.",
+   "crop": "data/advanced/crops/p007_e0.png"
+  }
+ ],
+ "text_layer": "06\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n06\nNOVEMBER 15, 2024\nMessage from the Administrator (CONTINUED)\nSpanish Translation Available\nClick here or view page 117 to read the Spanish version. Haga clic aquí o vea la página 117 para leer la versión en español.\norbit. Additionally, in FY 2024, we marked the launches of NASA’s SpaceX Crew-8 and SpaceX Crew-9 to the ISS. These \nlaunches represent just some of our latest steps to advance our Commercial Crew Program — our program to transport \nastronauts to and from the ISS in a safe, reliable, and cost-effective way, through partnerships with American private \nindustry.\nIn FY 2024, NASA built upon our longstanding work to study our Earth as a system. Most of what we know about our \nchanging planet comes from our fleet of more than two dozen satellites and instruments, and over 60 years of climate \nobservations. We share the data from our observations freely and fully with all of humanity — and that helps the world \ntake action, including in the face of climate change. In FY 2024, among other things, we advanced our work on the \nNASA-Indian Space Research Organisation (ISRO) Synthetic Aperture Radar (NISAR) satellite. This joint mission \nbetween NASA and ISRO will be the first radar of its kind in space to systematically map the Earth. NISAR will use \ntwo different radar frequencies to measure changes of our planet’s surface, and it will deepen our understanding of \ndeforestation, natural hazards, and climate change, among other global vital signs.\nThe first “A” in NASA is for aeronautics. NASA continues to drive research to improve air travel and make it more \nsustainable. For example, in January 2024, NASA publicly unveiled the X-59 quiet supersonic aircraft — which will \ntransform the way we travel. For 50 years, the United States (U.S.) and other nations have prohibited commercial \nsupersonic flights over land due to the disturbance caused by sonic booms. The X-59 aircraft seeks to demonstrate the \nability to achieve supersonic speeds while generating a much quieter sonic thump, revolutionizing the aviation industry, \nand paving an approach for commercial flights in the future. Further, in FY 2024, we also advanced progress on the X-66 \nSustainable Flight Demonstrator, the first experimental plane specifically focused on helping the U.S. achieve net-zero \naviation emissions by 2050.\nNASA is dedicated to engaging, inspiring, and attracting future generations of explorers. We also are committed \nto promoting science, technology, engineering, and mathematics (STEM) engagement to students from diverse \nbackgrounds to pursue an interest and a career in STEM and space industries. To support this goal, NASA launched its \n2024-2026 STEM Engagement Strategic Implementation Plan. The plan supports NASA’s STEM strategy and outlines \nsystemic efforts that support the coordination and execution of our STEM engagement work. By continuing to engage \nstudents, support educators and educational institutions, and support diversity, equity, inclusion, and accessibility in the \nSTEM fields, NASA strives to help support the next generation of pioneers and adventurers. Further, NASA provides \naccess to opportunities for underserved communities, providing crucial and diverse perspectives needed to take us to \nthe Moon, Mars, and beyond.\nI am deeply moved by the NASA workforce, whom I call the NASA wizards. They do remarkable things each and every \nday on behalf of the American people and for the benefit of all humanity. We excel in breaking down barriers that \nobstruct fairness, ensuring access to opportunities for underserved communities to engage the important and diverse \nperspectives needed to take us to the Moon, Mars, and beyond.\nOur pioneering spirit makes NASA consistently the best place to work in the Federal Government. I am excited for all \nthe giant leaps to come — and to celebrate historic successes for our Nation — as we continue to explore the unknown in \nair and space, innovate for the benefit of humanity, and inspire the world through discovery. \nSincerely,\n \nBill Nelson\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 160,
+  "cost_usd": 0.000777,
+  "seconds": 4.1,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

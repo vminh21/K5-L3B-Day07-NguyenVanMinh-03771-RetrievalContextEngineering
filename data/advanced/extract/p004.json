@@ -1,0 +1,29 @@
+{
+ "page": 4,
+ "printed_page": 3,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "photo",
+   "title": "Apollo 11 moonwalk with the United States flag",
+   "bbox": [
+    0,
+    492,
+    1000,
+    929
+   ],
+   "content": "Photo shows Apollo astronaut Buzz Aldrin standing on the Moon beside the deployed United States flag; the Lunar Module is on the left, and astronaut footprints are visible in the lunar soil.\n\nCaption: Apollo astronaut Buzz Aldrin poses for a photograph beside the deployed United States flag during an Apollo 11 moonwalk on July 20, 1969. The Lunar Module is on the left, and the footprints of the astronauts are clearly visible in the soil of the moon.\n\nPhoto credit: PHOTO CREDIT – NASA",
+   "crop": "data/advanced/crops/p004_e0.png"
+  }
+ ],
+ "text_layer": "03\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n03\n03\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\nNASA COMMEMORATES\n55TH ANNIVERSARY OF \nAPOLLO 11 MOON LANDING\nApollo astronaut Buzz Aldrin poses for a photograph beside the deployed United States flag during an Apollo 11 moonwalk on July 20, 1969. The \nLunar Module is on the left, and the footprints of the astronauts are clearly visible in the soil of the moon.\nPHOTO CREDIT — NASA\nAs the agency explored more of the Moon than ever before under the Artemis campaign, NASA \ncelebrated the 55th anniversary of the first astronauts landing on the Moon with a variety of in-person, \nvirtual, and engagement activities nationwide between Monday, July 15, and Thursday, July 25.\nEvents honored America’s vision and technology that enabled the Apollo 11 crewed lunar landing \non July 20, 1969, as well as Apollo-era inventions and techniques that spread into public life, many \nof which are still in use today. Activities also highlighted NASA’s Artemis campaign, which includes \nlanding the first woman, first person of color, and first international astronaut on the Moon, inspiring \ngreat achievements, exploration, and scientific discovery for the benefit of all.\nDuring the week of July 15, the agency also shared the iconic bootprint image and the significance of \nApollo 11 to NASA’s mission, as well as used the #Apollo11 hashtag across its digital platforms online.\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 313,
+  "cost_usd": 0.00096,
+  "seconds": 5.5,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

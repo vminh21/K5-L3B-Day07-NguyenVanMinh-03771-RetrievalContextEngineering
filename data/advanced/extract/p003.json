@@ -1,0 +1,29 @@
+{
+ "page": 3,
+ "printed_page": 2,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "table",
+   "title": "Table of Contents",
+   "bbox": [
+    58,
+    55,
+    939,
+    949
+   ],
+   "content": "| Left entry | Page | Right entry | Page |\n|---|---:|---|---:|\n| NASA Commemorates 55th Anniversary of Apollo 11 Moon Landing | 03 | SECTION 2 | — |\n| HERstory: NASA Johnson Dedicates Building to Dorothy Vaughan, Women of Apollo | 04 | Financial Section | 45 |\n| Message from the Administrator | 05 | Message from the Chief Financial Officer | 46 |\n| — | — | Introduction to the Principal Financial Statements | 47 |\n| SECTION 1 | — | FINANCIAL STATEMENTS, NOTES, AND REQUIRED SUPPLEMENTARY INFORMATION | 48 |\n| Management’s Discussion and Analysis | 07 | Financial Statements | 49 |\n| WELCOME TO NASA | 08 | Notes to the Financial Statements | 53 |\n| Achieving our Vision and Mission | 09 | Required Supplementary Information | 78 |\n| Organizational Structure | 10 | AUDIT REPORTS | 83 |\n| NASA Centers and Facilities | 11 | Letter from the Inspector General on Audit | 84 |\n| NASA by the Numbers | 12 | Independent Auditors’ Report | 86 |\n| MISSION PERFORMANCE | 13 | SECTION 3 | — |\n| Strategic Plan Framework | 14 | Other Information | 94 |\n| Strategic Goals and Objectives | 15 | Summary of Financial Statement Audit and Management Assurances | 95 |\n| Agency Priority Goals | 17 | Summary of Reports | 96 |\n| STRATEGIC GOALS AND HIGHLIGHTS | 19 | Office of Inspector General (OIG) Report on NASA’s Top Management and Performance Challenges | 97 |\n| Assessment Approach | 20 | Agency Response to OIG Report on NASA’s Top Management and Performance Challenges | 98 |\n| FY 2024 Performance Assessment | 21 | Civil Monetary Penalty Adjustment for Inflation | 112 |\n| FINANCIAL PERFORMANCE | 27 | Undisbursed Balances in Expired Grant Accounts | 113 |\n| Financial Highlights | 28 | Grants Programs Information | 114 |\n| Overview of Financial Position | 28 | Climate-Related Financial Risk | 115 |\n| Results of Operations | 31 | SECTION 4 | — |\n| Sources of Funding | 33 | Appendix | 116 |\n| Limitations of the Financial Statements | 34 | Message from the Administrator: Spanish Version | 117 |\n| ANALYSIS OF SYSTEMS, CONTROLS, AND LEGAL COMPLIANCE | 35 | Message from the Chief Financial Officer: Spanish Version | 119 |\n| Internal Control Framework | 36 | Celebrating NASA 10+ Years of Excellence | 120 |\n| Enterprise Risk Management | 38 | Certificate of Excellence in Accountability Reporting Award | 121 |\n| Management Assurances | 40 | Glossary of Acronyms | 122 |\n| Financial Systems Strategies | 41 | Acknowledgments | 125 |\n| FORWARD LOOKING | 42 | — | — |\n| 2025 and Beyond | 43 | — | — |",
+   "crop": "data/advanced/crops/p003_e0.png"
+  }
+ ],
+ "text_layer": "SECTION 1\nManagement's Discussion and Analysis\n07\nWELCOME TO NASA\n08\nAchieving our Vision and Mission\n09\nOrganizational Structure\n10\nNASA Centers and Facilities\n11\nNASA by the Numbers\n12\nMISSION PERFORMANCE\n13\nStrategic Plan Framework\n14\nStrategic Goals and Objectives\n15\nAgency Priority Goals\n17\nSTRATEGIC GOALS AND HIGHLIGHTS\n19\nAssessment Approach\n20\nFY 2024 Performance Assessment\n21\nFINANCIAL PERFORMANCE\n27\nFinancial Highlights\n28\nOverview of Financial Position\n28\nResults of Operations\n31\nSources of Funding\n33\nLimitations of the Financial Statements\n34\nANALYSIS OF SYSTEMS, CONTROLS, AND\nLEGAL COMPLIANCE\n35\nInternal Control Framework\n36\nEnterprise Risk Management\n38\nManagement Assurances\n40\nFinancial Systems Strategies\n41\nFORWARD LOOKING\n42\n2025 and Beyond\n43\nSECTION 2\nFinancial Section\n45\nMessage from the Chief Financial Officer\n46\nIntroduction to the Principal Financial Statements\n47\nFINANCIAL STATEMENTS, NOTES, AND\nREQUIRED SUPPLEMENTARY INFORMATION\n48\nFinancial Statements\n49\nNotes to the Financial Statements\n53\nRequired Supplementary Information\n78\nAUDIT REPORTS\n83\nLetter from the Inspector General on Audit\n84\nIndependent Auditors’ Report\n86\nSECTION 4\nAppendix\n116\nMessage from the Administrator: Spanish Version\n117\nMessage from the Chief Financial Officer: \nSpanish Version\n119\nCelebrating NASA 10+ Years of Excellence\n120\nCertificate of Excellence in Accountability \nReporting Award\n121 \nGlossary of Acronyms\n122\nAcknowledgments\n125\nNASA Commemorates 55th Anniversary of Apollo 11 \nMoon Landing\n03\nHERstory: NASA Johnson Dedicates Building to \nDorothy Vaughan, Women of Apollo\n04\nMessage from the Administrator\n05\nSECTION 3\nOther Information\n94\nSummary of Financial Statement Audit and \nManagement Assurances\n95\nSummary of Reports\n96\nOffice of Inspector General (OIG) Report on NASA’s \nTop Management and Performance Challenges\n97\nAgency Response to OIG Report on NASA’s Top \nManagement and Performance Challenges\n98\nCivil Monetary Penalty Adjustment for Inflation\n112\nUndisbursed Balances in Expired Grant Accounts\n113\nGrants Programs Information\n114\nClimate-Related Financial Risk\n115\nTable of Contents\n02\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\nNational Aeronautics and\n Space Administration\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 869,
+  "cost_usd": 0.001628,
+  "seconds": 8.0,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "page": 5,
+ "printed_page": 4,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "photo",
+   "title": "Portrait of Dorothy Vaughan",
+   "bbox": [
+    0,
+    0,
+    1000,
+    1000
+   ],
+   "content": "A sepia-toned portrait of Dorothy Vaughan, shown from the shoulders up, fills the page background. Printed caption/title: “NASA Johnson Dedicates Building to Dorothy Vaughan, Women of Apollo”. Photo credit: none printed.",
+   "crop": "data/advanced/crops/p005_e0.png"
+  }
+ ],
+ "text_layer": "04\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n04\nNASA’s Johnson Space Center in Houston recognized legendary human computer Dorothy Vaughan and the women of Apollo \nwith activities celebrating their achievements. The event included a renaming and ribbon-cutting ceremony at the center’s \n“Building 12” on Friday, July 19, the eve of the 55th anniversary of the Apollo 11 Moon landing.\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n04\nNASA Johnson Dedicates Building to \nDorothy Vaughan, Women of Apollo\nHERstory\nSCAN TO \nLEARN MORE\nNASA Johnson Director Vanessa Wyche began with a discussion about the importance of Vaughan and the \nwomen of Apollo’s contributions to the agency’s lunar landing program and their significance to today’s \nArtemis campaign. Other highlights included a poetry reading, a recital by Texas Southern University’s Dr. \nThomas F. Freeman Debate Team, and a “Women in Human Spaceflight” panel discussion.\nFollowing the program, the ribbon-cutting ceremony took place at Building 12, which was renamed the \n“Dorothy Vaughan Center in Honor of the Women of Apollo.” The dedication honored the people who \nmade humanity’s first steps on the Moon possible.\n“On behalf of NASA’s Johnson Space Center, we are proud to host this historic event as the agency honors the significant \ncontributions women have made to the space industry, particularly trailblazers who persevered against many challenges of \ntheir era,” Wyche said. “As we prepare to return to the Moon for long-term science and exploration, NASA’s Artemis missions \nwill land the first woman and first person of color on the Moon. It’s a privilege to dedicate Johnson’s Building 12 to the \ninnovative women who laid the foundation for our nation’s space program.”\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 205,
+  "cost_usd": 0.000831,
+  "seconds": 5.9,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

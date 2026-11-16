@@ -1,0 +1,16 @@
+{
+ "page": 59,
+ "printed_page": 58,
+ "status": "ok",
+ "elements": [],
+ "text_layer": "58\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n58\nFINANCIAL SECTION\nFINANCIAL STATEMENTS, NOTES, AND REQUIRED SUPPLEMENTARY INFORMATION\nReclassification of FY 2024 Information\nCertain reclassifications have been made to FY 2024 financial statements, notes, and supplemental information to better \nalign with the Agency’s policies and procedures effective in FY 2024 and in accordance with the Treasury Financial \nManual and OMB Circular A-136.\nSubsequent Events \nSubsequent events have been evaluated per guidance in OMB Circular A-136 for FY 2024. The auditors’ report date is \nthe date the financial statements are available to be issued and management determined that there are no other items to \ndisclose related to NASA’s FY 2024 financial statements.\n01\nNOTE 1 \nReporting Entity and Summary of Significant Accounting Policies (CONTINUED)\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 11,
+  "cost_usd": 0.000598,
+  "seconds": 2.0,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

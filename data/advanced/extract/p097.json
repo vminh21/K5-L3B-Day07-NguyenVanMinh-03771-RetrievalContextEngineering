@@ -1,0 +1,41 @@
+{
+ "page": 97,
+ "printed_page": 96,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "photo",
+   "title": "NASA astronauts conducting a simulated moonwalk",
+   "bbox": [
+    0,
+    101,
+    1000,
+    557
+   ],
+   "content": "Two NASA astronauts wearing spacesuits and life-support backpacks kneel in a volcanic field while handling a sample bag and geology tools. Printed caption: “NASA astronaut Andre Douglas holds open a sample bag for NASA astronaut Kate Rubins as she pours some geology samples into it during a simulated moonwalk in the San Francisco Volcanic Field in Northern Arizona on May 17, 2024.” Photo credit: “NASA/Josh Valcarcel”.",
+   "crop": "data/advanced/crops/p097_e0.png"
+  },
+  {
+   "kind": "photo",
+   "title": "A Home for Astronauts around the Moon",
+   "bbox": [
+    78,
+    845,
+    255,
+    935
+   ],
+   "content": "A circular, tunnel-like spacecraft module is shown inside an industrial facility. Printed caption/title: “A Home for Astronauts around the Moon.” Photo credit: “Northrop Grumman/Thales Alenia Space, April 12, 2024.”",
+   "crop": "data/advanced/crops/p097_e1.png"
+  }
+ ],
+ "text_layer": "96\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n96\nSummary of Reports\nOTHER INFORMATION\nSUMMARY OF REPORTS\nNASA astronaut Andre Douglas holds open a sample bag for NASA astronaut Kate Rubins as she pours some geology samples into it during a \nsimulated moonwalk in the San Francisco Volcanic Field in Northern Arizona on May 17, 2024.\nPHOTO CREDIT — NASA/Josh Valcarcel\nA Home for Astronauts around the Moon\nThe primary structure of the Gateway space station's HALO (Habitation and Logistics Outpost) module is \none step closer to launch following welding completion in Turin, Italy. HALO is one of four Gateway modules \nwhere astronauts will live, conduct science, and prepare for lunar surface missions. NASA is partnering with \nNorthrop Grumman and their subcontractor Thales Alenia Space to develop HALO.\nDid You Know?\nPHOTO CREDIT — Northrop Grumman/Thales Alenia Space, April 12, 2024\nPayment Integrity Information Act (PIIA) Reporting\nPer OMB requirements, each Executive Branch agency must complete an Annual Data Call. The Annual Data Call \nfulfills reporting requirements under the Payment Integrity Information Act of 2019 (Public Law (P.L.) 116-117) (PIIA) \nand provides the public with comprehensive improper payment data and information. NASA’s response to the OMB \nAnnual Data Call accomplishing PIIA reporting requirements can be found on www.PaymentAccuracy.gov.\nNASA’s Annual OIG Audit Follow-up Activity Report\nPursuant to the Inspector General Act of 1978 (P.L. 95-452), as amended, and codified at 5 U.S.C. Section 405(c), NASA’s \nFY 2023 OIG Audit Follow-up Activity Report is available online at: www.nasa.gov/audit-liaison-resolution-alr-and-\nfollow-up-program/. The FY 2024 Report will be posted to this site as soon as it is released.\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 405,
+  "cost_usd": 0.001071,
+  "seconds": 6.1,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

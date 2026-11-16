@@ -16,3 +16,8 @@ Chấm test: mỗi câu **đạt / không đạt** theo ADVANCED.md §3 (đúng 
 Sinh lại: `python -m src.mm.build_benchmark`.
 
 **Dev v2** (`D2-*`) được thêm sau khi dev v1 bão hòa (18/18 với mọi cấu hình, xem `results/advanced/*/dev`), **trước** mọi lần chạy test; dùng phần tử/đáp án khác test nhưng cùng dạng khó (chỉ có trong hình, bản đồ raster → infographic, biểu đồ → biểu đồ). Test không đổi (`git diff` của `test.json` rỗng).
+
+## Quy tắc chấm bổ sung (ghi trước khi chạy test)
+
+- **Evidence thay thế:** báo cáo lặp số liệu ở nhiều nơi (ví dụ net cost theo goal có ở biểu đồ p32 **và** bảng Statement of Net Cost p51). Citation tới trang khác `evidence` vẫn đạt nếu nội dung **bản gốc** của trang đó hỗ trợ toàn bộ phần được trích; người chấm mở trang gốc để kiểm tra và ghi lại trong `labels.json`. Phát hiện ở dev D2-MH2.
+- **Chi tiết thừa trong đáp án mẫu** (ví dụ "12%", "$24.9B" khi câu hỏi không hỏi) không bắt buộc; auto-check chỉ là gợi ý.

@@ -1,0 +1,41 @@
+{
+ "page": 47,
+ "printed_page": 46,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "infographic",
+   "title": "Office of the Chief Financial Officer’s Goals",
+   "bbox": [
+    651,
+    122,
+    943,
+    465
+   ],
+   "content": "Office of the Chief Financial Officer’s Goals\n\nGOAL I\nEnsure stewardship of the taxpayer’s investment entrusted to NASA to advance and achieve the Agency’s strategic goals, priorities, and missions.\n\nGOAL II\nLead and develop a robust analytical community and capability that supports and empowers the Agency mission.\n\nGOAL III\nDevelop and engage the Enterprise workforce to enable the NASA of the future.",
+   "crop": "data/advanced/crops/p047_e0.png"
+  },
+  {
+   "kind": "photo",
+   "title": "Margaret Vo Schaus",
+   "bbox": [
+    59,
+    802,
+    141,
+    866
+   ],
+   "content": "A head-and-shoulders portrait of Margaret Vo Schaus. Printed name associated with the photo: Margaret Vo Schaus.",
+   "crop": "data/advanced/crops/p047_e1.png"
+  }
+ ],
+ "text_layer": "46\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n46\nI am pleased to join Administrator Nelson in presenting the Fiscal Year\n(FY) 2024 NASA Agency Financial Report (AFR). This report reflects our \ncommitment to advancing NASA’s mission and serving the American people \nthrough effective financial management and oversight of the resources \nentrusted to NASA. The Office of the Chief Financial Officer (OCFO) plays a \ncrucial role in the development of this report, ensuring accurate, transparent, \nand timely financial reporting. Furthermore, OCFO supports NASA in its \nefforts to maintain the highest standards of financial stewardship, integrity, \noperating performance, and effective systems and controls. This standard of \nexcellence is once again recognized in our FY 2024 Auditors’ report, which \naffirms an unmodified “clean” opinion for the 14th consecutive year. This \nconfirms that NASA’s financial statements are free of material misstatements \nand have been prepared in accordance with U.S. Generally Accepted \nAccounting Principles, and that our system of internal control is operating \neffectively.\nOur independent auditors identified one material weakness related to financial \ncontrols that were designed appropriately but did not operate effectively. We \nare implementing enhanced procedures, including strengthened validation and \ncontrol processes and increased analytical protocols, to address the condition \nand mitigate the risk of potential errors. It is important to note that the \nMessage from the Chief Financial Officer\nFINANCIAL SECTION\nNOVEMBER 15, 2024\nSpanish Translation Available\nClick here or view page 119 to read the Spanish version. Haga clic aquí o vea la página 119 para leer la versión en español.\nGOAL I\nEnsure stewardship of the \ntaxpayer’s investment entrusted to \nNASA to advance and achieve the \nAgency’s strategic goals, priorities, \nand missions.\nGOAL II\nLead and develop a robust \nanalytical community and \ncapability that supports and \nempowers the Agency mission.\nGOAL III\nDevelop and engage the Enterprise \nworkforce to enable the NASA of \nthe future.\nOffice of the Chief \nFinancial Officer's Goals\nauditors disclosed no instances of noncompliance with laws and regulations.\nThe OCFO team has advanced several Government-wide initiatives over the past year, on top of our outstanding audit \nresults. NASA has made significant investments to implement the new Federal mandate for lease accounting, ensuring \nthat transactions are accurately recorded, reconciled, and reported in accordance with the established requirements \nfrom the Federal Accounting Standards Advisory Board. NASA has completed G-Invoicing implementation requirements \nto align NASA’s financial system with the Treasury G-Invoicing portal to enable effective transaction capabilities with \ntrading partners. In addition, NASA implemented the Organizational Health and Performance requirement outlined \nby the Office of Management and Budget, developing metrics to track and report NASA’s internal health and external \nperformance as an Agency.\nIn everything we do, we are committed to safety, integrity, teamwork, excellence, and inclusion, as demonstrated by the \nOCFO team members honored with the 2023 Agency Honor Awards and recognized by the Honor Agency Appreciation \nProgram. These awards represent NASA’s highest form of recognition for exceptional contributions and positive impacts \non both NASA and the OCFO organization. Further, these efforts culminated in formal recognition from the AGA, which \nbestowed a tenth Certificate of Excellence in Accountability Reporting Award for NASA’s FY 2023 AFR, along with the \nprestigious Best-in-Class Award. I am extremely proud of the NASA workforce and the strong foundation we have built \ntogether, a legacy which will allow NASA to confidently pursue ambitious goals and turn the seemingly unattainable into \nreality.\nSincerely, \nMargaret Vo Schaus\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 348,
+  "cost_usd": 0.001002,
+  "seconds": 4.5,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

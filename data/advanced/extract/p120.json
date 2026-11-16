@@ -1,0 +1,41 @@
+{
+ "page": 120,
+ "printed_page": 119,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "infographic",
+   "title": "Objetivos de la Oficina de la Directora de Finanzas",
+   "bbox": [
+    638,
+    130,
+    934,
+    516
+   ],
+   "content": "OBJETIVOS DE LA OFICINA DE LA DIRECTORA DE FINANZAS\n\nOBJETIVO I\nGarantizar la administración de la inversión de los contribuyentes confiada a NASA para avanzar y lograr los objetivos estratégicos, las prioridades y las misiones de la Agencia.\n\nOBJETIVO II\nDirigir y desarrollar una comunidad y unas capacidades analíticas sólidas que apoyen y empoderen la misión de la Agencia.\n\nOBJETIVO III\nDesarrollar y lograr la participación de la fuerza laboral empresarial para capacitar a NASA del futuro.\n\nNumbers and percentages: No numbers or percentages printed.",
+   "crop": "data/advanced/crops/p120_e0.png"
+  },
+  {
+   "kind": "photo",
+   "title": "Retrato de Margaret Vo Schaus",
+   "bbox": [
+    57,
+    861,
+    141,
+    927
+   ],
+   "content": "A circular portrait photograph of Margaret Vo Schaus, shown from the shoulders up against a dark blue background. Printed caption/name: “Margaret Vo Schaus”. Photo credit: none printed.",
+   "crop": "data/advanced/crops/p120_e1.png"
+  }
+ ],
+ "text_layer": "119\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n119\nA P É N D I C E\n15 DE NOVIEMBRE DE 2024\nMensaje del Director Financiero\nEs un placer acompañar con el Administrador Nelson en presentar el Año \nFiscal 2024 Financiero de la Agencia (AFR) de la Administración Nacional de \nAeronáutica y el Espacio (NASA). Este reporte refleja nuestro compromiso de \navanzar la misión de NASA y servir al pueblo estadounidense a través de una \ngestión financiera efectivo y la supervisión de los recursos que han sido confiados \na NASA. La Oficina de la Directora de Finanzas (OCFO) desempeña una parte \ncrucial en el desarrollo de este reporte, garantizando una declaración de estados \nfinancieros precisa, transparente y oportuna. Además, la OCFO apoya a NASA en \nsus esfuerzos por mantener los más altos estándares de administración financiera, \nintegridad, desempeño operativo, y sistemas y controles efectivos. Este estándar \nde excelencia ha sido reconocido una vez más en nuestros estados financieros del \nAño Fiscal 2024, que afirma una opinión de auditoria sin modificación por 14o \naño consecutivo. Esto confirma que los estados financieros de NASA son libres \nde errores materiales y han sido preparados de acuerdo con los Principios de \nContabilidad Generalmente Aceptados de Estados Unidos (GAAP), y que nuestro \nsistema de controles internos funciona de manera efectivo.\nNuestros auditores independientes identificaron una debilidad material \nrelacionada con los controles financieros, que fueron designados apropiadamente \npero no funciono de manera efectiva. Estamos implementando procedimientos \nmejorados, incluyendo procesos de validación y control fortalecidos y más \nprotocolos analíticos aumentados, para dirigir la condición y mitigar el riesgo de \nerrores potenciales. Es importante notar que los auditores no revelo ningún caso \nde incumplimiento con la leyes y regulaciones. \nEl equipo de OCFO ha avanzado varias iniciativas en todo el gobierno durante el año pasado, además de nuestros excelentes \nresultados en la auditoría. NASA ha realizado inversiones considerables para implementar el nuevo mandato federal para \nla contabilidad de los arrendamientos, asegurando que las transacciones se registran, concilian, y reportan con precisión \nde acuerdo con los requisitos establecidos por la Junta Asesora de Normas Federales de Contabilidad (FASAB). NASA ha \ncompletado los requisitos para la implementación del sistema de facturación G-Invoicing para alinear el sistema financiero \nde NASA con el portal de G-Invoicing del Departamento del Tesoro para permitir capacidades de transacción efectivas con \nsus socios comerciales. Además, NASA implementó el requisito de Salud y Desempeño Organizacional descrito por la Oficina \nde Administración y Presupuesto, desarrollando métricas para rastrear e informar la información de la salud interna y el \ndesempeño externo de la NASA como Agencia.\nEn todo lo que hacemos, estamos comprometidos con la seguridad, la integridad, el trabajo en equipo, la excelencia, y la \ninclusión, como lo demuestran los miembros del equipo de OCFO honorado con los Premios de Honor de la Agencia 2023 \ny el Programa de Reconocimiento al Honor de la Agencia. Estos premios representan la forma más alta de reconocimiento \nde NASA por contribuciones excepcionales e impactos positivos tanto en NASA como en la organización de OCFO. Además, \nestos esfuerzos culminaron con el reconocimiento formal de la AGA, la cual otorgó por decima vez el Certificado de \nExcelencia en Informes de Contabilidad para el AFR del año fiscal 2023 de NASA, junto con el prestigioso Premio Mejor de \nsu Clase. Estoy extremadamente orgullosa de la fuerza laboral de NASA y de la base fuerte que hemos construido juntos: este \nlegado permitirá a NASA llevar adelante con confianza objetivos ambiciosos y convertir lo aparentemente inalcanzable en \nrealidad.\nAtentamente, \nMargaret Vo Schaus\nObjetivos de la Oficina de \nla Directora de Finanzas\nOBJETIVO I\nGarantizar la administración de \nla inversión de los contribuyentes \nconfiada a NASA para avanzar y \nlograr los objetivos estratégicos, \nlas prioridades y las misiones de la \nAgencia.\nOBJETIVO II\nDirigir y desarrollar una \ncomunidad y unas capacidades \nanalíticas sólidas que apoyen \ny empoderen la misión de la \nAgencia.\nOBJETIVO III\nDesarrollar y lograr la \nparticipación de la fuerza laboral \nempresarial para capacitar a \nNASA del futuro.\n119\nFY 2024 INFORME FINANCIERO DE LA AGENCIA  NASA.GOV\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 322,
+  "cost_usd": 0.000971,
+  "seconds": 4.3,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "page": 1,
+ "printed_page": 0,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "photo",
+   "title": "Astronaut wearing a helmet and spacesuit",
+   "bbox": [
+    0,
+    0,
+    1000,
+    1000
+   ],
+   "content": "Close-up photograph of an astronaut wearing a large white helmet and reflective visor, illuminated by bright lights. Printed caption: none. Photo credit: none printed.",
+   "crop": "data/advanced/crops/p001_e0.png"
+  }
+ ],
+ "text_layer": "National Aeronautics and\n Space Administration\nAGENCY\nREPORT\nFINANCIAL\nFY 2024\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 194,
+  "cost_usd": 0.000818,
+  "seconds": 6.0,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

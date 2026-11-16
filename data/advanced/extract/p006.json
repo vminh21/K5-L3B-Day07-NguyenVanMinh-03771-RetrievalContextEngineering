@@ -1,0 +1,29 @@
+{
+ "page": 6,
+ "printed_page": 5,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "infographic",
+   "title": "NASA’s Major Themes and Strategic Goals",
+   "bbox": [
+    650,
+    130,
+    941,
+    504
+   ],
+   "content": "NASA’s Major Themes and Strategic Goals\n\nDISCOVER\nExpand human knowledge through new scientific discoveries.\n\nEXPLORE\nExtend human presence to the Moon and on towards Mars for sustainable long-term exploration, development, and utilization.\n\nINNOVATE\nCatalyze economic growth and drive innovation to address national challenges.\n\nADVANCE\nEnhance capabilities and operations to catalyze current and future mission success.",
+   "crop": "data/advanced/crops/p006_e0.png"
+  }
+ ],
+ "text_layer": "05\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n05\nI am pleased to present the Fiscal Year (FY) 2024 Agency Financial Report \n(AFR) for the National Aeronautics and Space Administration (NASA). This \nreport provides key financial and performance information and demonstrates \nthe Agency’s commitment to transparency in the use of American taxpayers’ \ndollars. NASA is committed to delivering reliable, accurate, transparent, and \ncomprehensive financial data in support of the Agency’s fiscal operations and \nin accordance with Generally Accepted Accounting Principles. \nWe follow high-quality financial reporting practices, ensuring appropriate \ncontrols with efficient and effective management of Agency funds. Under \nthe leadership of the Office of the Chief Financial Officer, NASA has once \nagain received an unmodified \"clean\" audit opinion on its 2024 financial \nstatements for the 14th consecutive year. However, our independent auditors \nidentified one material weakness related to financial controls that were \ndesigned appropriately but did not operate effectively. We are implementing \nprocedures to mitigate this weakness. The financial and performance data \npresented in this report are complete and reliable.\nNASA has set a bold vision for the future, one defined by innovation and \nexploration. NASA pursues that vision through investing in, among other \nthings, sending humanity into the cosmos, performing science across our \nsolar system and the universe, studying the Earth, developing groundbreaking \ntechnology, building the next generation of air travel, and educating our \nNation’s future explorers. In pursuing these missions, we at NASA continue to leverage our partnerships with the \nprivate sector and with countries around the world. We also strive to refine our internal processes to ensure our \nAgency operates efficiently and effectively, making the most of the resources with which we have been entrusted. By \nmaximizing the value of every dollar invested into our mission and our work, NASA continues to lead at the forefront of \naeronautics, science, and space exploration.\nIn FY 2024, NASA broke barriers and made the seemingly impossible, possible. We continued to make giant leaps to \nexplore new cosmic shores, advance space exploration, enhance air travel safety and efficiency through innovation, and \nsafeguard our planet through monitoring and scientific progress.\nThrough the Artemis campaign, we are leading humanity to return to the Moon for the first time in over half a century. \nWe are going to explore more of the Moon than ever before, for longer periods of time, using a new generation of \nscience and technology. We are going in partnership with a broad coalition of commercial and international partners. \nWe are going, further, to unlock new capabilities in the quest to live, learn, invent, and create on another world. Our \nlunar exploration through Artemis will enable us to look onward to send the first astronauts to Mars. In FY 2024, we \ncontinued to prepare for Artemis II, when we will send four astronauts around the Moon. This mission will pave the \nway for Artemis III, when we will leave footprints on a part of the Moon no person has visited before: the lunar South \npole region. Further, in FY 2024, we made new strides through NASA’s Commercial Lunar Payload Services initiative, \nsuch as by partnering with Intuitive Machines to achieve the first successful soft landing on the Moon performed by a \nprivate company.\nIn FY 2024, alongside our international partners, we continued to operate the world’s orbiting space laboratory, \nthe International Space Station (ISS). Up on the ISS, we carried on our work to unlock new insights in research and \ninnovation while working with our international and commercial partners. NASA will continue to operate the ISS \nthrough 2030 while also working to enable a transition to commercially owned and operated platforms in low Earth \nMessage from the Administrator\nCONTINUED ON THE NEXT PAGE →\nNOVEMBER 15, 2024\nNASA’s Major Themes\nand Strategic Goals\nDISCOVER\nExpand human knowledge \nthrough new scientific discoveries.\nEXPLORE\nExtend human presence to the \nMoon and on towards Mars for \nsustainable long-term exploration, \ndevelopment, and utilization.\nINNOVATE\nCatalyze economic growth and \ndrive innovation to address \nnational challenges.\nADVANCE\nEnhance capabilities and \noperations to catalyze current and \nfuture mission success.\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 233,
+  "cost_usd": 0.000864,
+  "seconds": 5.3,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

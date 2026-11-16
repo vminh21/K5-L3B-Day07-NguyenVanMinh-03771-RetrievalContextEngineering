@@ -1,0 +1,41 @@
+{
+ "page": 15,
+ "printed_page": 14,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "diagram",
+   "title": "Strategic Plan Framework",
+   "bbox": [
+    64,
+    242,
+    882,
+    517
+   ],
+   "content": "Color legend: green = GPRAMA; blue = Evidence Act; purple = PMA Priorities.\n\nBoxes and labels:\n- Strategic Goals — TIMELESS (green)\n- Strategic Objectives — 10+ YEARS (green)\n- Priority Questions — 4 YEARS (blue)\n- Agency Priority Goals — 2 YEARS (green)\n- Performance Goals — 2-5 YEARS (green)\n- Annual Target (white with green outline)\n- Milestone/Activity (white with green outline)\n- President’s Management Agenda Priorities — MULTI YEAR (purple)\n\nRelationships and connectors:\n- Strategic Goals connects downward to Strategic Objectives with a solid green arrow.\n- Strategic Objectives connects rightward to Priority Questions with a solid blue arrow.\n- Performance Goals connects upward to Strategic Objectives with a solid green arrow.\n- Agency Priority Goals connects rightward to Performance Goals with a solid green arrow.\n- Annual Target connects upward to Performance Goals with a solid green arrow.\n- Milestone/Activity connects upward to Annual Target with a solid green arrow.\n- President’s Management Agenda Priorities connects upward and then leftward to Performance Goals with a purple dashed line ending in a left-pointing purple arrow.",
+   "crop": "data/advanced/crops/p015_e0.png"
+  },
+  {
+   "kind": "infographic",
+   "title": "NASA’S PERFORMANCE FRAMEWORK BREAKDOWN",
+   "bbox": [
+    91,
+    556,
+    906,
+    608
+   ],
+   "content": "NASA’S PERFORMANCE FRAMEWORK BREAKDOWN\n\n04 | Strategic Goals\n12 | Strategic Objectives\n50 | Performance Goals",
+   "crop": "data/advanced/crops/p015_e1.png"
+  }
+ ],
+ "text_layer": "14\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n14\nStrategic Plan Framework\nMANAGEMENT’S DISCUSSION AND ANALYSIS\nMISSION PERFORMANCE\nNASA’s 2022 Strategic Plan defines a framework that consists of Strategic Goals aligned to our Mission; Strategic \nObjectives describing our strategies for achieving the Strategic Goals; and multiyear, outcome-oriented Performance \nGoals with annual targets and milestones measuring and tracking incremental progress towards achieving the \nPerformance Goals. The Performance Goals and annual targets are consistent with our fiscal year budget request and \nAgency priorities.\nNASA elevates a subset of performance goals — Agency Priority Goals — for additional attention and external reporting. \nAgency Priority Goals reflect both NASA and Administration priorities. In the 2022 Strategic Plan, NASA presented four \nAgency Priority Goals for the FY 2022-2023 performance cycle: Artemis, Climate Change Research, Space Technology \nLeadership, and James Webb Space Telescope. During FY 2023, we finalized Agency Priority Goals for the FY 2024-\n2025 cycle, continuing the Artemis, Climate Change Research, and Space Technology Leadership goals with updated \nmilestones. \nThe Foundations for Evidence-Based Policymaking Act of 2018 (Evidence Act) established a framework for agencies \nto organize evidence building, data management, and data access functions to ensure an integrated connection to \ndata and evidence. The 2022 Strategic Plan included NASA’s first-ever Learning Agenda, a roadmap for NASA to \nsystematically plan evidence-building activities that will allow the Agency to make evidence-based policy decisions. The \nLearning Agenda identifies a set of broad questions NASA sees as urgent to moving our operations and Mission forward \nover the next four years. As these questions are answered, they will help us work more effectively and efficiently, using \nevidence to make decisions relating to missions, programs, and investments.\nPriority Questions\n4 YEARS\nMilestone/Activity\nAnnual Target\nNASA'S PERFORMANCE \nFRAMEWORK BREAKDOWN\n04\nStrategic \nGoals\n12\nStrategic \nObjectives 50\nPerformance \nGoals\nPresident’s Management\nAgenda Priorities\nMULTI YEAR\nGPRAMA\nPMA Priorities\nEvidence Act\nPerformance Goals\n2-5 YEARS\nAgency Priority Goals\n2 YEARS\nStrategic Objectives\n10+ YEARS\nStrategic Goals\nTIMELESS\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 556,
+  "cost_usd": 0.001252,
+  "seconds": 5.6,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

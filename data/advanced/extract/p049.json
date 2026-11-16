@@ -1,0 +1,29 @@
+{
+ "page": 49,
+ "printed_page": 48,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "photo",
+   "title": "GUSTO scientific balloon observatory in Antarctica",
+   "bbox": [
+    98,
+    227,
+    902,
+    663
+   ],
+   "content": "A scientific observatory hangs beneath a large balloon-launching support structure on a snowy Antarctic surface, with vehicles and personnel nearby under a blue sky. Printed caption: “The GUSTO mission successfully launched on a scientific balloon from Antarctica Dec. 31, 7:30 p.m. local time (Dec. 31, 1:30 a.m. EST). GUSTO is flying on a 39 million cubic-foot zero-pressure scientific balloon, which is so large it could easily fit 195 blimps inside of it. The balloon is used to fly missions for long periods of time during the Austral Summer over Antarctica. GUSTO is aiming for a NASA record of 55+ days in flight to achieve its science goals. GUSTO is mapping a large portion of the Milky Way galaxy and Large Magellanic Cloud to help scientists study the interstellar medium. The observatory is transmitting the data it collects back to watchful teams on the ground as it steadily circumnavigates the South Pole around 120,000+ feet.” Photo credit: NASA/Scott Battaion",
+   "crop": "data/advanced/crops/p049_e0.png"
+  }
+ ],
+ "text_layer": "48\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n48\nFinancial Statements, Notes, \nand Required Supplementary \nInformation\nFINANCIAL SECTION\nThe GUSTO mission successfully launched on a scientific balloon from \nAntarctica Dec. 31, 7:30 p.m. local time (Dec. 31, 1:30 a.m EST). GUSTO is flying \non a 39 million cubic-foot zero-pressure scientific balloon, which is so large it \ncould easily fit 195 blimps inside of it. The balloon is used to fly missions for \nlong periods of time during the Austral Summer over Antarctica. GUSTO is \naiming for a NASA record of 55+ days in flight to achieve its science goals.\nGUSTO is mapping a large portion of the Milky Way galaxy and Large \nMagellanic Cloud to help scientists study the interstellar medium. The \nobservatory is transmitting the data it collects back to watchful teams on the \nground as it steadily circumnavigates the South Pole around 120,000+ feet.\nPHOTO CREDIT \nNASA/Scott Battaion\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 350,
+  "cost_usd": 0.001005,
+  "seconds": 5.2,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

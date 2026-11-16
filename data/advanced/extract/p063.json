@@ -1,0 +1,29 @@
+{
+ "page": 63,
+ "printed_page": 62,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "table",
+   "title": "HERITAGE ASSETS (IN PHYSICAL UNITS)",
+   "bbox": [
+    335,
+    796,
+    943,
+    934
+   ],
+   "content": "| HERITAGE ASSETS (IN PHYSICAL UNITS) | 2023 | ADDITIONS | WITHDRAWALS | 2024 |\n|---|---:|---:|---:|---:|\n| Collection-type | — | — | — | — |\n| &nbsp;&nbsp;Air and Space Displays and Artifacts | 2 | — | — | 2 |\n| &nbsp;&nbsp;Art | 1 | — | — | 1 |\n| Non-Collection-type | — | — | — | — |\n| &nbsp;&nbsp;NASA Locations | 9 | — | 1 | 8 |\n| Total Heritage Assets | 12 | — | 1 | 11 |",
+   "crop": "data/advanced/crops/p063_e0.png"
+  }
+ ],
+ "text_layer": "62\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n62\nFINANCIAL SECTION\nFINANCIAL STATEMENTS, NOTES, AND REQUIRED SUPPLEMENTARY INFORMATION\nessential part of the Agency’s mission. NASA acquires such assets as a result of donation, or acquires the assets as a result \nof historically significant items being retired from active service and preserved by the Agency for historic purposes. \nWhen capitalized assets are identified as heritage assets and no longer predominately serve NASA’s primary operations, \ntheir values are removed from the PP&E accounts. Any maintenance costs incurred for the upkeep of the heritage assets \nare expensed in the period incurred.\nAssets that have a heritage function and are used in NASA’s day-to-day operations are considered multi-use heritage \nassets. NASA’s multi-use heritage assets consist of items such as launch pads, research labs, and wind tunnels still in \noperational use. Such assets that meet the capitalization criteria are accounted for as PP&E and depreciated over their \nestimated useful life in the same manner as other PP&E. Multi-use heritage assets are presented at the individual item \nlevel. As of September 30, 2024, and 2023, the total number of NASA’s multi-use heritage assets were 507 and 502 \nrespectively.\nWhen PP&E has no use in operations, but is designated as a heritage asset, its cost and accumulated depreciation are \nreclassified and removed from the PP&E asset accounts. Such assets remain on the record as heritage assets, except \nwhere there is legal authority for transfer or sale at which time they are removed from the heritage asset record. Heritage \nassets are withdrawn when they are disposed or reclassified as multi-use heritage assets. Heritage assets are generally in \nfair condition suitable for display.\nSFFAS 29 provides agencies with considerations for defining individual physical heritage assets units as a collection, \nor a group of assets, where appropriate. NASA has reviewed and categorized its heritage assets into collection-type and \nnon-collection-type assets. NASA’s collection-type heritage assets include Air and Space Displays and Artifacts, and Art \nas described in the following paragraphs.\n•\tAir and Space Displays and Artifacts collections are classified based on the physical custody of the asset. There are \ntwo collections: NASA-held and Contractor-held. Each collection is composed of assorted mementos of historic NASA \nevents. Examples include items from previous missions that have historical significance to NASA and historic mission \ncontrol artifacts that possess educational value and enhance the public’s understanding of NASA’s numerous programs. \n•\tArt collection includes artwork inspired by the U.S. Aerospace program, as well as historical books, documents, and \nother library materials that document NASA’s history. This collection is comprised of items created by artists who have \ncontributed their time and talent to record their impressions of the history of the U.S. Aerospace Program through \npaintings, drawings, written form, and other media. These works of art not only provide a historic record of NASA \nprojects, but they also support NASA’s mission by giving the public a new and more comprehensive understanding of \nadvancements in aerospace.\nNASA’s non-collection-type heritage assets include historic buildings, bunkers, towers, test stands, and properties that \nare listed or eligible to be listed on the National Register of Historic Places and National Historic Landmarks, and other \nresources.\n•\tNon-collection-type heritage assets were established by locations for specific reasons and to pursue a variety of \ngoals. Each is home to specific areas of expertise and support different elements of NASA’s missions, taking on a \nunique identity. They provide the public with tangible examples of assets with historical significance or educational \nimportance to NASA programs and missions at each location. \nTotal physical units, along with \nthe additions and withdrawals \nfor the year ended in September \n30, 2023 and 2024, for NASA’s \nheritage assets are displayed in \nthe table to the right:\nHERITAGE ASSETS (IN PHYSICAL UNITS)\n2023\nADDITIONS\nWITHDRAWALS\n2024\nCollection-type\nAir and Space Displays and Artifacts\n 2 \n — \n — \n 2 \nArt\n 1 \n — \n — \n 1 \nNon-Collection-type\nNASA Locations\n 9 \n — \n 1 \n 8 \nTotal Heritage Assets\n 12 \n — \n 1 \n 11 \n06\nNOTE 6 \nStewardship PP&E (CONTINUED)\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 336,
+  "cost_usd": 0.000988,
+  "seconds": 3.9,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

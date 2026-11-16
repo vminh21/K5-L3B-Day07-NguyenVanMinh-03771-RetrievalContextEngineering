@@ -1,0 +1,41 @@
+{
+ "page": 34,
+ "printed_page": 33,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "chart",
+   "title": "Sources of Funding Comparison for FY 2024 and FY 2023",
+   "bbox": [
+    84,
+    538,
+    493,
+    939
+   ],
+   "content": "Chart type: two stacked vertical bars; units: (IN MILLIONS).\n\nBar/period values:\nCongressional Appropriations | 2024 | $24,876\nPrior Year Congressional Appropriations | 2024 | $3,335\nSpending Authority from Offsetting Collections | 2024 | $1,840\nTotal | 2024 | $30,051 Total\nCongressional Appropriations | 2023 | $25,573\nPrior Year Congressional Appropriations | 2023 | $3,242\nSpending Authority from Offsetting Collections | 2023 | $2,108\nTotal | 2023 | $30,923 Total\n\nLegend colour mapping:\nPurple | Spending Authority from Offsetting Collections\nBlue | Prior Year Congressional Appropriations\nLime green | Congressional Appropriations\n\nPrinted period labels beneath bars: 2024; 2023.",
+   "crop": "data/advanced/crops/p034_e0.png"
+  },
+  {
+   "kind": "chart",
+   "title": "Sources of Funding FY 2024",
+   "bbox": [
+    510,
+    538,
+    917,
+    940
+   ],
+   "content": "Chart type: donut chart; units: (IN MILLIONS).\n\nPrinted values:\nSpending Authority from Offsetting Collections | FY 2024 | 6%; $1,840\nPrior Year Congressional Appropriations | FY 2024 | 11%; $3,335\nCongressional Appropriations | FY 2024 | 83%; $24,876\nTotal Funding | FY 2024 | $30,051\n\nLegend/segment colour mapping:\nPurple | Spending Authority from Offsetting Collections\nBlue | Prior Year Congressional Appropriations\nLime green | Congressional Appropriations\n\nAdditional printed chart text: TOTAL FUNDING.",
+   "crop": "data/advanced/crops/p034_e1.png"
+  }
+ ],
+ "text_layer": "33\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n33\nMANAGEMENT’S DISCUSSION AND ANALYSIS\nFINANCIAL PERFORMANCE\nAppropriations from Congress for the current fiscal year and unobligated balances \nfrom prior fiscal years.\nRevenue from agreements with other governmental organizations or private entities.\n$\nSources of Funding \nThe Statement of Budgetary Resources provides information on the budgetary funding available to NASA. NASA’s\nresources consist primarily of funds received from two sources:\nIn FY 2024, the total funds available for use by the Agency was $30 billion — a decrease of $872 million or three percent, \ncompared to FY 2023. \nThe $24.9 billion in appropriations from Congress for FY 2024 accounted for 83 percent of the total funds available for \nuse by the Agency. Congress designates the funding available to the Agency for a specific NASA mission. Appropriations \nthat remained available from prior years totaled $3.3 billion, 11 percent of NASA’s available resources in FY 2024.\nNASA’s FY 2024 funding also included $1.8 billion spending authority from offsetting collections, primarily comprised \nof revenue earned and collected from agreements, representing six percent of NASA’s available resources in FY \n2024. Revenue is earned under NASA’s authority to provide goods, services, or use of facilities to other entities on a \nreimbursable basis.\nIn FY 2024, NASA obligated $27 billion of the $30 billion available for Agency programmatic and institutional \nobjectives. An obligation binds the Government to make an expenditure (or outlay) of funds and reflects a reservation of \nbudget authority that will be used to pay for a contract, labor, or other items. The remaining $3 billion may be obligated \nuntil the funds’ periods of availability expire. \n$30,051 Total\n2024\n$30,923 Total\n2023\n$25,573\n$2,108\n$3,242\n$24,876\n$1,840\n$3,335\nSpending Authority \nfrom Offsetting \nCollections\nCongressional\nAppropriations\nPrior Year \nCongressional \nAppropriations\nSources of Funding Comparison\nfor FY 2024 and FY 2023\n(IN MILLIONS)\nSources of Funding FY 2024\n(IN MILLIONS)\n83%\n\nCongressional \nAppropriations\n$24,876\n11%\nPrior Year\nCongressional\nAppropriations\n$3,335\n6%\nSpending Authority\nfrom Offsetting\nCollections\n$1,840\nTOTAL\nFUNDING\n$30,051\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 492,
+  "cost_usd": 0.001175,
+  "seconds": 5.3,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

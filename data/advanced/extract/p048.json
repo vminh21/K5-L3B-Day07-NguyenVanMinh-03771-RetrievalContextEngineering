@@ -1,0 +1,65 @@
+{
+ "page": 48,
+ "printed_page": 47,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "infographic",
+   "title": "Consolidated Balance Sheets",
+   "bbox": [
+    59,
+    219,
+    941,
+    329
+   ],
+   "content": "Consolidated Balance Sheets\nprovide information on assets, liabilities, and net position as of the end of the reporting periods. Net position is the difference between assets and liabilities. It is a summary measure of the Agency’s financial condition at the end of the reporting periods.",
+   "crop": "data/advanced/crops/p048_e0.png"
+  },
+  {
+   "kind": "infographic",
+   "title": "Consolidated Statements of Net Cost",
+   "bbox": [
+    59,
+    393,
+    941,
+    516
+   ],
+   "content": "Consolidated Statements of Net Cost\nreport net cost of operations during the reporting periods by strategic goal and at the entity level. It is a measure of gross costs of operations less earned revenue, and represents the cost to taxpayers for achieving each strategic goal and Agency Mission at the entity level.",
+   "crop": "data/advanced/crops/p048_e1.png"
+  },
+  {
+   "kind": "infographic",
+   "title": "Consolidated Statements of Changes in Net Position",
+   "bbox": [
+    59,
+    568,
+    941,
+    678
+   ],
+   "content": "Consolidated Statements of Changes in Net Position\nreport the beginning balances of net position, current financing sources and use of resources, unexpended resources for the reporting periods, and ending net position for the current reporting periods.",
+   "crop": "data/advanced/crops/p048_e2.png"
+  },
+  {
+   "kind": "infographic",
+   "title": "Combined Statements of Budgetary Resources",
+   "bbox": [
+    59,
+    744,
+    941,
+    851
+   ],
+   "content": "Combined Statements of Budgetary Resources\nreport information on the sources and status of budgetary resources for the reporting periods. Information in these statements is reported on the budgetary basis of accounting, which supports compliance with budgetary controls and controlling legislation.",
+   "crop": "data/advanced/crops/p048_e3.png"
+  }
+ ],
+ "text_layer": "47\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n47\nConsolidated Balance Sheets\nprovide information on assets, liabilities, and net position as of the end of the reporting \nperiods. Net position is the difference between assets and liabilities. It is a summary \nmeasure of the Agency’s financial condition at the end of the reporting periods.\nConsolidated Statements of Net Cost\nreport net cost of operations during the reporting periods by strategic goal and at \nthe entity level. It is a measure of gross costs of operations less earned revenue, and \nrepresents the cost to taxpayers for achieving each strategic goal and Agency Mission at \nthe entity level.\nConsolidated Statements of Changes in Net Position\nreport the beginning balances of net position, current financing sources and use of \nresources, unexpended resources for the reporting periods, and ending net position for \nthe current reporting periods.\nCombined Statements of Budgetary Resources\nreport information on the sources and status of budgetary resources for the reporting \nperiods. Information in these statements is reported on the budgetary basis of accounting, \nwhich supports compliance with budgetary controls and controlling legislation.\nIntroduction to the Principal Financial Statements\nThe principal financial statements are prepared to report the financial position and results of \noperations of the National Aeronautics and Space Administration, pursuant to the requirements of \n31 U.S.C. § 3515(b).\nFINANCIAL SECTION\nINTRODUCTION TO THE PRINCIPAL FINANCIAL STATEMENTS\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 483,
+  "cost_usd": 0.001164,
+  "seconds": 5.0,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

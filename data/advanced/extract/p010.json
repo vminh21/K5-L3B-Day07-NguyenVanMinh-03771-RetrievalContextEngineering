@@ -1,0 +1,53 @@
+{
+ "page": 10,
+ "printed_page": 9,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "photo",
+   "title": "The Moon’s shadow, or umbra, is pictured covering portions of the Canadian provinces of Quebec and New Brunswick and the American state of Maine",
+   "bbox": [
+    0,
+    99,
+    1000,
+    458
+   ],
+   "content": "Photograph showing Earth’s curved horizon from the International Space Station, with station hardware visible against space. Printed caption: “The Moon’s shadow, or umbra, is pictured covering portions of the Canadian provinces of Quebec and New Brunswick and the American state of Maine in this photograph from the International Space Station as it soared into the solar eclipse from 261 miles above.” Photo credit: “PHOTO CREDIT – NASA Johnson, April 8, 2024”.",
+   "crop": "data/advanced/crops/p010_e0.png"
+  },
+  {
+   "kind": "infographic",
+   "title": "NASA’s Core Values",
+   "bbox": [
+    59,
+    588,
+    713,
+    936
+   ],
+   "content": "NASA’s Core Values\n\nNASA’s existing Core Values of Safety, Integrity, Inclusion, Teamwork, and Excellence mandate individual and organizational behavior across the Agency at all levels:\n\nSAFETY\nNASA’s constant attention to safety is the cornerstone upon which we build mission success.\n\nINTEGRITY\nNASA is committed to maintaining an environment of trust, built upon honesty, ethical behavior, respect, and candor.\n\nINCLUSION\nNASA is committed to a culture of diversity, inclusion, and equity, where all employees feel welcome, respected, and engaged.\n\nTEAMWORK\nNASA’s most powerful asset for achieving mission success is a multidisciplinary team of diverse, talented people across all NASA Centers.\n\nEXCELLENCE\nTo achieve the highest standards in engineering, research, operations, and management in support of mission success, NASA is committed to nurturing an organizational culture in which individuals make full use of their time, talent, and opportunities to pursue excellence in conducting all Agency efforts.",
+   "crop": "data/advanced/crops/p010_e1.png"
+  },
+  {
+   "kind": "infographic",
+   "title": "VISION / MISSION",
+   "bbox": [
+    727,
+    588,
+    941,
+    797
+   ],
+   "content": "VISION\nExploring the secrets of the universe for the benefit of all.\n\nMISSION\nNASA explores the unknown in air and space, innovates for the benefit of humanity, and inspires the world through discovery.",
+   "crop": "data/advanced/crops/p010_e2.png"
+  }
+ ],
+ "text_layer": "09\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n09\nAchieving our Vision and Mission\nMANAGEMENT’S DISCUSSION AND ANALYSIS\nWELCOME TO NASA\nNASA embraces the challenge of furthering global scientific and technological achievement and expands the realm of \nwhat is possible in aeronautics and space exploration. This challenge is our passion and our purpose, and is reflected in \nthe Vision and Mission described in our 2022 Strategic Plan4.\nNASA’s long-term success will be largely determined by the strategic decisions and investments we make today, as well \nas constant adherence to our five guiding Core Values, shown below.\nVISION\nExploring the secrets \nof the universe for the \nbenefit of all.\nMISSION\nNASA explores the \nunknown in air and \nspace, innovates for the \nbenefit of humanity, \nand inspires the world \nthrough discovery.\nNASA’s Core Values\nNASA's existing Core Values of Safety, Integrity, Inclusion, Teamwork, and Excellence \nmandate individual and organizational behavior across the Agency at all levels:\nSAFETY\nNASA's constant attention to safety is the \ncornerstone upon which we build mission \nsuccess.\nINTEGRITY\nNASA is committed to maintaining an \nenvironment of trust, built upon honesty, \nethical behavior, respect, and candor.\nINCLUSION\nNASA is committed to a culture of \ndiversity, inclusion, and equity, where all \nemployees feel welcome, respected, and \nengaged.\nTEAMWORK\nNASA’s most powerful asset for achieving \nmission success is a multidisciplinary \nteam of diverse, talented people across all \nNASA Centers.\nEXCELLENCE\nTo achieve the highest standards in engineering, research, operations, and management \nin support of mission success, NASA is committed to nurturing an organizational culture \nin which individuals make full use of their time, talent, and opportunities to pursue \nexcellence in conducting all Agency efforts.\n4 NASA produces a Strategic Plan \nevery four years in accordance with \nGPRAMA. NASA published the 2022 \nStrategic Plan on March 28, 2022, \nconcurrent with publication of our \nFY 2023 Congressional Justification. \nThe Strategic Plan is available at \nhttps://www.nasa.gov/wp-content/\nuploads/2018/01/2022_nasa_\nstrategic_plan_0.pdf\nThe Moon's shadow, or umbra, is pictured covering portions of the Canadian provinces of Quebec and New Brunswick and the American state of \nMaine in this photograph from the International Space Station as it soared into the solar eclipse from 261 miles above.\nPHOTO CREDIT — NASA Johnson, April 8, 2024\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 646,
+  "cost_usd": 0.00136,
+  "seconds": 11.8,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

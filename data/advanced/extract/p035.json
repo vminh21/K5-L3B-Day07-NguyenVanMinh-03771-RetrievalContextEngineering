@@ -1,0 +1,29 @@
+{
+ "page": 35,
+ "printed_page": 34,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "photo",
+   "title": "Women’s History Month 2024 group photograph",
+   "bbox": [
+    0,
+    244,
+    1000,
+    956
+   ],
+   "content": "A large group of women and other staff members pose outdoors in front of a NASA facility building, with a street and crosswalk in the foreground. Printed caption: “In honor of Women’s History Month 2024 and those who paved the way for them, hundreds of female staff – from artists to administrative support, educators to engineers, and scientists to safety officers – gathered in front of the Katherine G. Johnson Computational Research Facility at NASA’s Langley Research Center in Hampton, Virginia, on Feb. 6, 2024.” Photo credit: “PHOTO CREDIT – NASA/David C. Bowman”",
+   "crop": "data/advanced/crops/p035_e0.png"
+  }
+ ],
+ "text_layer": "34\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n34\nLimitations of the Financial Statements\nMANAGEMENT’S DISCUSSION AND ANALYSIS\nFINANCIAL PERFORMANCE\nIn honor of Women’s History Month 2024 and those who paved the way for them, hundreds of female staff – from artists to administrative support, \neducators to engineers, and scientists to safety officers – gathered in front of the Katherine G. Johnson Computational Research Facility at NASA’s \nLangley Research Center in Hampton, Virginia, on Feb. 6, 2024.\nPHOTO CREDIT — NASA/David C. Bowman\nThe financial statements are prepared to report the financial position, financial condition, and results \nof operations, consistent with the requirements of 31 U.S.C. § 3515(b). The statements are prepared \nfrom records of Federal entities in accordance with Federal Generally Accepted Accounting Principles \n(GAAP) and the formats prescribed by the Office of Management and Budget (OMB). Reports used to \nmonitor and control budgetary resources are prepared from the same records. Users of the statements \nare advised that the statements are for a component of the U.S. Government. \n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 237,
+  "cost_usd": 0.000869,
+  "seconds": 6.3,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

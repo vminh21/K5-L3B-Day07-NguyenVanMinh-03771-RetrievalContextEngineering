@@ -1,0 +1,41 @@
+{
+ "page": 38,
+ "printed_page": 37,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "diagram",
+   "title": "FIGURE 1\nNASA FMFIA Annual Statement of Assurance Process",
+   "bbox": [
+    548,
+    222,
+    931,
+    648
+   ],
+   "content": "A hierarchical pyramid diagram with a light-green upward arrow running from the bottom through the tiers to the top. At the top, the arrow points upward to “ADMINISTRATOR.” From bottom to top, the dark-green pyramid levels are: “ANNUAL ASSESSMENT OF INTERNAL CONTROLS OVER PROGRAMS, OPERATIONS, FINANCIAL REPORTING & SYSTEMS”; “NASA OFFICIALS-IN-CHARGE/ CENTER DIRECTORS/ CFO ASSURANCE STATEMENTS”; “MANAGEMENT SYSTEM WORKING GROUP”; “SENIOR ASSESSMENT TEAM”; and “MISSION SUPPORT COUNCIL.” The upward arrow connects the annual assessment at the bottom through each organizational level to the Administrator at the top.",
+   "crop": "data/advanced/crops/p038_e0.png"
+  },
+  {
+   "kind": "photo",
+   "title": "For Your Processing Pleasure: The Sharpest Pictures of Jupiter’s Volcanic Moon Io in a Generation",
+   "bbox": [
+    78,
+    815,
+    229,
+    904
+   ],
+   "content": "Photo showing Jupiter’s volcanic moon Io, a roughly spherical ochre-yellow and brown body against a black background, with visible surface markings and a shadowed vertical region. Printed caption: “For Your Processing Pleasure: The Sharpest Pictures of Jupiter’s Volcanic Moon Io in a Generation” followed by: “NASA’s Juno spacecraft just made the closest flybys of Jupiter’s moon Io that any spacecraft has carried out in more than 20 years. An instrument on this spacecraft called ‘JunoCam’ returned spectacular, high-resolution images—and raw data are now available for you to process, enhance, and investigate. On Dec. 30, 2023, Juno came within about 930 miles (1,500 kilometers) of the surface of the solar system’s most volcanic world.” Printed photo credit: “PHOTO CREDIT - NASA/JPL-Caltech/SwRI/MSSS Image processing by Emma Wälimäki”.",
+   "crop": "data/advanced/crops/p038_e1.png"
+  }
+ ],
+ "text_layer": "37\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n37\nMANAGEMENT’S DISCUSSION AND ANALYSIS\nANALYSIS OF SYSTEMS, CONTROLS, AND LEGAL COMPLIANCE\nNASA Federal Managers' Financial Integrity Act Annual Statement of Assurance Process \n(CONTINUED)\nFor Your Processing Pleasure: The Sharpest Pictures of Jupiter’s Volcanic Moon Io in a Generation\nNASA's Juno spacecraft just made the closest flybys of Jupiter's moon Io that any spacecraft has \ncarried out in more than 20 years. An instrument on this spacecraft called “JunoCam” returned \nspectacular, high-resolution images—and raw data are now available for you to process, enhance, \nand investigate. On Dec. 30, 2023, Juno came within about 930 miles (1,500 kilometers) of the \nsurface of the solar system's most volcanic world. \nDid You Know?\nPHOTO CREDIT - NASA/JPL-Caltech/SwRI/MSSS Image processing by Emma Wälimäki\nLEARN MORE →\nS C A N M E\ninternal controls over operations, management systems, and reporting with consideration of reviews and other relevant \nsources of information. NASA’s executive leadership provides annual reporting and certifications on the effectiveness of \ninternal controls that are implemented to meet intended objectives. \nIn addition, the NASA Office of the Chief Financial Officer (OCFO) implements an extensive annual assessment \nmethodology and internal control testing techniques that evaluate internal controls over financial reporting. \nIn its execution of the Administrator’s Statement of Assurance \n(SoA) Process, NASA considers Enterprise Risk Management \n(ERM) Program activities, including reviews of the Agency \nRisk and Fraud Risk Profiles, to inform the evaluation of and \nprovide assurance over internal controls. \nThe FMFIA assurance statement is based on self-certifications \nsubmitted by NASA Officials-in-Charge that ultimately support \nthe Administrator’s SoA as well as a review of various internal \nand external sources of information. The self-certifications \nare based upon organizational self-assessments guided by \nthe Government Accountability Office’s (GAO) Standards for \nInternal Control in the Federal Government (known as the \nGreen Book). The self-certifications and subsequent reviews \nare informed by relevant sources of information such as \ninternal reviews of controls, as well as recommendations for \nimprovements from external audits, investigations, and reviews \nconducted by the Office of Inspector General (OIG) and the \nGAO. The Mission Support Council (MSC), the organization \nresponsible for oversight of NASA’s Internal Control Program, \nadvises the Administrator on the Statement of Assurance. The \nSenior Assessment Team (SAT), which supports the MSC, \nprovides oversight for the internal control evaluation and \nreporting process that recommends the type of assurance \nresulting from execution of the SoA Program. \nADMINISTRATOR\nMISSION\nSUPPORT\nCOUNCIL \nSENIOR\nASSESSMENT\nTEAM\nMANAGEMENT SYSTEM \nWORKING GROUP\nANNUAL ASSESSMENT OF INTERNAL \nCONTROLS OVER PROGRAMS, OPERATIONS, \nFINANCIAL REPORTING & SYSTEMS\nNASA OFFICIALS-IN- CHARGE/\nCENTER DIRECTORS/\nCFO ASSURANCE STATEMENTS\nFIGURE 1\nNASA FMFIA Annual Statement of \nAssurance Process\nThe Management System Working Group (MSWG) performs the first level evaluation of annual results and serves as\nthe primary advisory body for NASA's internal control activities. The MSWG analyzes the annual assessment results and \nreports issues that may significantly impact the effective operation of internal controls and makes recommendations on \nthe design of internal controls to the SAT. Figure 1 depicts the Agency’s Annual SoA process and organizational \ncomponents. \n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 589,
+  "cost_usd": 0.001292,
+  "seconds": 6.6,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

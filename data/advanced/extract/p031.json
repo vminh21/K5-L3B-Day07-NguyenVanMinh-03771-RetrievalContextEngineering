@@ -1,0 +1,41 @@
+{
+ "page": 31,
+ "printed_page": 30,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "chart",
+   "title": "Liabilities by Type Comparison for FY 2024 and FY 2023",
+   "bbox": [
+    82,
+    358,
+    490,
+    839
+   ],
+   "content": "Stacked column chart. Unit: (IN MILLIONS). Each column is divided into liability types.\n\nLegend / colour mapping:\n- Brown: Pensions and Post-Employment Benefits Payable\n- Light green: Advances from Others and Deferred Revenue\n- Orange: Federal Employee Salary, Leave and Benefits Payable\n- Blue: Other Liabilities\n- Purple: Other Accrued Liabilities\n- Lime green: Accounts Payable\n- Dark green: Environmental and Disposal Liabilities\n\nPrinted values:\nPensions and Post-Employment Benefits Payable | FY 2024 | $26\nAdvances from Others and Deferred Revenue | FY 2024 | $214\nFederal Employee Salary, Leave and Benefits Payable | FY 2024 | $348\nOther Liabilities | FY 2024 | $1,046\nOther Accrued Liabilities | FY 2024 | $1,902\nAccounts Payable | FY 2024 | $1,775\nEnvironmental and Disposal Liabilities | FY 2024 | $2,353\nTotal | FY 2024 | $7,664 Total\n\nPensions and Post-Employment Benefits Payable | FY 2023 | $27\nAdvances from Others and Deferred Revenue | FY 2023 | $238\nFederal Employee Salary, Leave and Benefits Payable | FY 2023 | $288\nOther Liabilities | FY 2023 | $302\nOther Accrued Liabilities | FY 2023 | $1,793\nAccounts Payable | FY 2023 | $1,766\nEnvironmental and Disposal Liabilities | FY 2023 | $2,305\nTotal | FY 2023 | $6,719 Total",
+   "crop": "data/advanced/crops/p031_e0.png"
+  },
+  {
+   "kind": "chart",
+   "title": "Liabilities by Type FY 2024",
+   "bbox": [
+    510,
+    358,
+    917,
+    839
+   ],
+   "content": "Doughnut chart. Unit: (IN MILLIONS). Center label: TOTAL LIABILITIES $7,664.\n\nColour mapping:\n- Dark green: Environmental and Disposal Liabilities\n- Lime green: Accounts Payable\n- Blue: Other Liabilities\n- Orange: Federal Employee Salary, Leave and Benefits Payable\n- Light green: Advances from Others and Deferred Revenue\n- Purple: Other Accrued Liabilities\n- Brown: Pensions and Post-Employment Benefits Payable\n\nPrinted values:\nEnvironmental and Disposal Liabilities | FY 2024 | 31% | $2,353\nAccounts Payable | FY 2024 | 23% | $1,775\nOther Liabilities | FY 2024 | 14% | $1,046\nFederal Employee Salary, Leave and Benefits Payable | FY 2024 | 4% | $348\nAdvances from Others and Deferred Revenue | FY 2024 | 3% | $214\nOther Accrued Liabilities | FY 2024 | 25% | $1,902\nPensions and Post-Employment Benefits Payable | FY 2024 | Less Than 1% | $26",
+   "crop": "data/advanced/crops/p031_e1.png"
+  }
+ ],
+ "text_layer": "30\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n30\nMANAGEMENT’S DISCUSSION AND ANALYSIS\nFINANCIAL PERFORMANCE\nTotal Liabilities, as of September 30, 2024, were $7.7 billion, 14 percent higher than FY 2023. Environmental and\nDisposal Liabilities, Accounts Payable, and Other Accrued Liabilities represent the majority of NASA’s liabilities.\nEnvironmental and Disposal Liabilities of $2.4 billion represent the estimated cost to clean up both known and \nprojected environmental hazards. This category had an increase of $48 million or two percent. \nAccounts Payable, which represents amounts owed to other entities, was $1.8 billion, an increase of $9 million, or\none percent, compared to FY 2023. The increase is attributed to the timing of invoices being received, approved, and\ndisbursed. \nOther Accrued Liabilities with public entities were $1.9 billion, an increase of $109 million, or six percent, compared \nto FY 2023. Other Liabilities, which represents various amounts including Unearned Lease Revenue and Contingent \nLiabilities, were $1 billion, an increase of $744 million. The increase is primarily due to the implementation of SFFAS 54 \nin FY 2024 which requires additional financial reporting for leases. \nFederal Employee Salary, Leave and Benefits Payable are Accrued Funded Payroll and Leave and Unfunded Leave. \nTotal Net Position comprised of Unexpended Appropriations and Cumulative Results of Operations (“net \nworth”), increased by $424 million, two percent higher than FY 2023. Unexpended Appropriations, at $13 billion, \ndecreased by $176 million or one percent from FY 2023. Cumulative Results of Operations, at $6.7 billion, increased by\n$600 million or 10 percent from FY 2023.\n$1,775\n$1,902\n$2,353\n$348\n$1,046\n$214\n$7,664 Total\n2024\n$6,719 Total\n2023\nOther Accrued \nLiabilities\nPensions and \nPost-Employment \nBenefits Payable\nAccounts Payable\nAdvances from \nOthers and \nDeferred Revenue\nFederal Employee \nSalary, Leave and \nBenefits Payable\nOther Liabilities \nEnvironmental and Disposal Liabilities\n$26\n$1,766\n$1,793\n$2,305\n$288\n$302\n$238\n$27\nLiabilities by Type Comparison\nfor FY 2024 and FY 2023\n(IN MILLIONS)\nLiabilities by Type FY 2024\n(IN MILLIONS)\nLess Than 1%\nPensions and Post-Employment \nBenefits Payable\n$26\n23%\nAccounts \nPayable \n$1,775\nTOTAL\nLIABILITIES\n$7,664\n14%\nOther\nLiabilities\n$1,046\n4%\nFederal Employee \nSalary, Leave and \nBenefits Payable\n$348\n3%\nAdvances from \nOthers and\nDeferred Revenue\n$214\n31%\nEnvironmental \nand Disposal \nLiabilities\n$2,353\n25%\nOther Accrued \nLiabilities\n$1,902\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 922,
+  "cost_usd": 0.001691,
+  "seconds": 8.2,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

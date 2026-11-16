@@ -1,0 +1,16 @@
+{
+ "page": 112,
+ "printed_page": 111,
+ "status": "ok",
+ "elements": [],
+ "text_layer": "111\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n111\nOTHER INFORMATION\nAGENCY RESPONSE TO OIG REPORT ON NASA’S TOP MANAGEMENT AND PERFORMANCE CHALLENGES\n14 \nThank you for the opportunity to review and comment on the draft 2024 Report on NASA’s \nTop Management and Performance Challenges, as well as provide additional updates on the \nimportant progress we have made.  If you have any questions regarding NASA’s response, \nplease contact Mark Jenson, GAO/OIG Audit Liaison Program Manager, at (202) 358-0629. \ncc: \nChief Financial Officer/Ms. Schaus  \nChief Information Officer/Mr. Seaton \nAssociate Administrator for Aeronautics Research Mission Directorate/Mr. Pearce \nAssociate Administrator for Exploration Systems Development Mission Directorate/ \n  Ms. Koerner \nAssociate Administrator for Science Mission Directorate/Ms. Fox \nAssociate Administrator for Space Operations Mission Directorate/Mr. Bowersox \nAssistant Administrator for Procurement/Ms. Smith Jackson \nAssistant Administrator for Strategic Infrastructure/Mr. Carney \nChief Human Capital Officer/Ms. Elliott \n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 11,
+  "cost_usd": 0.000598,
+  "seconds": 1.2,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

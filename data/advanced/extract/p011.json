@@ -1,0 +1,29 @@
+{
+ "page": 11,
+ "printed_page": 10,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "diagram",
+   "title": "Organizational Structure",
+   "bbox": [
+    59,
+    188,
+    943,
+    723
+   ],
+   "content": "Organizational chart. Central top box: “Administrator / Deputy Administrator / Associate Administrator.”\n\nConnected to the central leadership box:\n- Left, by solid connector: “Chief Financial Officer” and “Chief Information Officer.”\n- Left of those offices, connected by dotted lines indicating independent advisory or oversight organizations: “Advisory Groups—NAC & ASAP” and “Inspector General.”\n- Right, by solid connector: “Office of Technology, Policy and Strategy.”\n- Downward, by a solid vertical connector to the organizational structure below.\n\nLeft-side offices and support organizations connected to the lower organizational line:\n- “Diversity & Equal Opportunity” — “Small Business Programs.”\n- “STEM Engagement” — “Communications.”\n- “International & Interagency Relations” — “Legislative & Intergovernmental Affairs.”\n- “General Counsel.”\n\nMission Directorates and related offices connected to the lower organizational line:\n- “Aeronautics Research Mission Directorate” — “Exploration Systems Development Mission Directorate.”\n- “Science Mission Directorate” — “Space Operations Mission Directorate.”\n- “Space Technology Mission Directorate” — “Mission Support Directorate.”\n- “Chief Engineer” — “Chief, Safety & Mission Assurance.”\n- “Chief Health & Medical Officer” — “Chief Scientist/Senior Climate Advisor.”\n\nResearch centers connected in the right-side hierarchy:\n- “Ames Research Center” — “Johnson Space Center.”\n- “Armstrong Flight Research Center” — “Kennedy Space Center.”\n- “Glenn Research Center” — “Langley Research Center.”\n- “Goddard Space Flight Center” — “Marshall Space Flight Center.”\n- “Jet Propulsion Laboratory**” — “Stennis Space Center.”\n\nThe boxes are connected by solid lines unless otherwise noted. The chart’s lower central vertical line connects the Administrator/Deputy Administrator/Associate Administrator to the lower organizational structure. Horizontal connectors link paired offices and centers as shown above.\n\nLegend:\n“**JET PROPULSION LABORATORY (JPL)”\nis a Federally Funded Research and Development Center (FFRDC) managed by the California Institute of Technology (Caltech) with oversight by the NASA Office of JPL Management and Oversight\n\n“Dotted lines indicate independent advisory or oversight organizations”\n\n“N​​ASA Advisory Council (NAC) | Aerospace Safety Advisory Panel (ASAP)”",
+   "crop": "data/advanced/crops/p011_e0.png"
+  }
+ ],
+ "text_layer": "10\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n10\nOrganizational Structure\nMANAGEMENT’S DISCUSSION AND ANALYSIS\nWELCOME TO NASA\nThe innovative, responsive, and dynamic nature of NASA’s work benefits from our highly leveraged relationships with \nand between Mission Directorates, Mission Support Offices, and Centers. This organizational model ensures that our \nleaders can take both a holistic and more narrowly focused approach to programmatic, operational, business, and safety \nmanagement.5\nThe Administrator and senior officials lead NASA by providing top-level strategy, policy, and direction. NASA’s Office \nof the Chief Financial Officer leads the Agency’s budget, financial, and performance management processes. Mission \nDirectorates and Mission Support Offices at Headquarters manage decisions on programmatic investments and guide \noperations of the Centers.\nLEGEND\n **JET PROPULSON LABORATORY (JPL)\nis a Federally Funded Research and Development Center (FFRDC) managed by the \nCalifornia Institute of Technology (Caltech) with oversight by the NASA Office of JPL \nManagement and Oversight\nDotted lines indicate independent advisory or oversight organizations\nNASA Advisory Council (NAC) | Aerospace Safety Advisory Panel (ASAP)\nNASA’s Headquarters, located in Washington, DC, provides the overall guidance and direction to the Agency under the \nleadership of the Administrator. A skilled and diverse group of technical and business professionals conduct day-to-day \nactivities throughout our nine Centers and multiple unique facilities.\nInspector General\nAdvisory Groups—\nNAC & ASAP\nDiversity & Equal \nOpportunity\nSmall Business\nPrograms\nSTEM\nEngagement\nCommunications\nInternational\n& Interagency\nRelations\nGeneral Counsel\nLegislative &\nIntergovernmental\nAffairs\nAeronautics Research \nMission Directorate\nScience Mission \nDirectorate\nSpace Operations \nMission Directorate\nSpace Technology \nMission Directorate\nMission Support \nDirectorate\nOffice of Technology, \nPolicy and Strategy\nJohnson Space\nCenter\nKennedy Space\nCenter\nLangley Research\nCenter\nMarshall Space\nFlight Center\nStennis Space\nCenter\nAmes Research\nCenter\nArmstrong Flight \nResearch Center\nGlenn Research \nCenter\nGoddard Space\nFlight Center\nJet Propulsion \nLaboratory**\nChief Scientist/Senior \nClimate Advisor\nChief, Safety &\nMission Assurance\nAdministrator\nDeputy Administrator\nAssociate Administrator\nChief Engineer\nChief Health &\nMedical Officer\nExploration Systems \nDevelopment Mission \nDirectorate\n5 The Agency’s organization structure, roles, and responsibilities are described in NASA Policy Directive 1000.3E, NASA Organization\nhttps://nodis3.gsfc.nasa.gov/displayDir.cfm?t=NPD&c=1000&s=3E\nChief Financial\nOfficer\nChief Information\nOfficer\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 739,
+  "cost_usd": 0.001472,
+  "seconds": 8.7,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

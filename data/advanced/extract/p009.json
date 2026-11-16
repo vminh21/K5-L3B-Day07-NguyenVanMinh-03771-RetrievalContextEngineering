@@ -1,0 +1,29 @@
+{
+ "page": 9,
+ "printed_page": 8,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "photo",
+   "title": "Administrator Bill Nelson and Snoopy view the eclipse",
+   "bbox": [
+    75,
+    784,
+    242,
+    891
+   ],
+   "content": "Photo shows Administrator Bill Nelson and Snoopy viewing the solar eclipse outdoors with people gathered around them. Printed caption: “Administrator Bill Nelson and Snoopy view the eclipse just before totality. NASA Glenn Research Center and the Great Lakes Science Center hosted a three-day celestial celebration in downtown Cleveland, OH. This free, outdoor, family-friendly science and arts festival featured free concerts, performances, speakers, and hands-on science activities with community partners. A total solar eclipse swept across a narrow portion of the North American continent from Mexico’s Pacific coast to the Atlantic coast of Newfoundland, Canada. A partial solar eclipse was visible across the entire North American continent along with parts of Central America and Europe.” Photo credit — NASA/GRC/Sara Lowthian-Hanna, April 8, 2024",
+   "crop": "data/advanced/crops/p009_e0.png"
+  }
+ ],
+ "text_layer": "08\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n08\nWelcome to NASA\nMANAGEMENT’S DISCUSSION AND ANALYSIS\nWELCOME TO NASA\nThe FY 2024 AFR presents NASA’s audited FY 2024 and FY 2023 financial statements and disclosures; \nthe related independent auditors’ opinion; required supplemental information; preliminary, top-level \nperformance results for FY 2024; and other information. The FY 2024 AFR can be found on NASA’s \nwebsite (www.nasa.gov) at Agency Financial Reports.\nNASA inspires the world through exploration and discovery, leading scientific and technological advancements that \nbenefit Americans and all humanity. Our efforts in space help to further the national economy, including through \ninnovative commercial partnerships with American businesses. With the increasing threat of climate change, NASA’s \nefforts to study and understand the Earth are of critical global significance. In addition, NASA’s partnerships with \nacademic institutions support a robust science, technology, engineering, and mathematics (STEM) workforce and \npromote diversity, equity, inclusion, and accessibility (DEIA) in the fields of science and technology.\nNASA’s achievements of tomorrow are being built on a solid foundation of fiscal operations and performance \nmanagement. Through the rigorous application of controls and standards, we ensure that our programs and \nprojects have the resources they need to continue this forward momentum. We use credible, quality data to drive \nAgency decision-making and planning. NASA is transparent in these efforts, complying fully with requirements on \naccountability and performance management.\nNASA demonstrates stewardship of its resources and accountability for results through compliance with the Chief \nFinancial Officers Act of 1990 (CFO Act)1 and the Government Performance and Results Act Modernization Act of \n2010 (GPRAMA)2. Financial aspects of the Agency’s business operations are accounted for according to U.S. Generally \nAccepted Accounting Principles (GAAP). GAAP, for Federal entities, are the standards prescribed by the Federal \nAccounting Standards Advisory Board (FASAB).\nIn this report, NASA presents both performance and financial results of operations by Strategic Goals as identified in \nNASA’s 2022 Strategic Plan3. Highlights of key program activities contributing to each Strategic Goal are provided in \nthe Mission Performance section (starting on page 13). A high-level summary of the linkage between program results \nand the cost of operations is available in the Statement of Net Cost (SNC), found in the Financial section (starting on \npage 45). The SNC presents comparative net cost of operations during FY 2023 and FY 2024 by Strategic Goal and for \nthe Agency as a whole. In addition, the Financial Highlights found in the Financial Performance section explain any \nsignificant changes in NASA’s financial condition from FY 2023 to FY 2024.\n1 Chief Financial Officers Act of 1990 (CFO Act) https://govinfo.library.unt.edu/npr/library/misc/cfo.html\n2 Government Performance and Results Act Modernization Act of 2010 (GPRAMA) https://www.congress.gov/111/plaws/publ352/PLAW-111publ352.pdf\n3 NASA's 2022 Strategic Plan https://smd-cms.nasa.gov/wp-content/uploads/2023/04/fy_22_strategic_plan-1.pdf\nDid You Know?\nAdministrator Bill Nelson and Snoopy view the eclipse just before totality. NASA Glenn Research Center and \nthe Great Lakes Science Center hosted a three-day celestial celebration in downtown Cleveland, OH. This \nfree, outdoor, family-friendly science and arts festival featured free concerts, performances, speakers, and \nhands-on science activities with community partners. A total solar eclipse swept across a narrow portion of \nthe North American continent from Mexico’s Pacific coast to the Atlantic coast of Newfoundland, Canada. \nA partial solar eclipse was visible across the entire North American continent along with parts of Central \nAmerica and Europe. Photo credit — NASA/GRC/Sara Lowthian-Hanna, April 8, 2024\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 298,
+  "cost_usd": 0.000942,
+  "seconds": 3.5,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

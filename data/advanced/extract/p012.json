@@ -1,0 +1,65 @@
+{
+ "page": 12,
+ "printed_page": 11,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "map",
+   "title": "NASA Centers and Facilities",
+   "bbox": [
+    55,
+    111,
+    945,
+    490
+   ],
+   "content": "Map of the United States showing NASA centers and facilities. Legend: dark blue square = NASA center; red circle = NASA supporting facility; yellow hexagon = Federally funded research and development center. Labels and map connections: Ames Research Center (ARC) — dark blue square marker in California; Jet Propulsion Laboratory (JPL) — yellow hexagon marker in California; Armstrong Flight Research Center (AFRC) — dark blue square marker in California; White Sands Test Facility (managed by JSC) — red circle marker in New Mexico; Johnson Space Center (JSC) — dark blue square marker in Texas; Michoud Assembly Facility (managed by MSFC) — red circle marker in Louisiana; Stennis Space Center (SSC) — dark blue square marker in Mississippi; NASA Shared Services Center (managed by SSC) — red circle marker in Mississippi; Neil A. Armstrong Test Facility (managed by GRC) — red circle marker in Ohio; Glenn Research Center (GRC) — dark blue square marker in Ohio; Katherine Johnson Verification and Validation Facility (managed by GSFC) — red circle marker in West Virginia; Goddard Institute for Space Studies (managed by GSFC) — red circle marker in New York; Goddard Space Flight Center (GSFC) — dark blue square marker in Maryland; Wallops Flight Facility (managed by GSFC) — red circle marker in Virginia; Mary W. Jackson Headquarters — dark blue square marker in Washington, D.C.; Langley Research Center (LaRC) — dark blue square marker in Virginia; Marshall Space Flight Center (MSFC) — dark blue square marker in Alabama; Kennedy Space Center (KSC) — dark blue square marker in Florida. Each label is connected to its corresponding map marker by a leader line. Facilities marked “managed by” identify the managing NASA center: White Sands Test Facility by JSC; Michoud Assembly Facility by MSFC; NASA Shared Services Center by SSC; Neil A. Armstrong Test Facility by GRC; Katherine Johnson Verification and Validation Facility by GSFC; Goddard Institute for Space Studies by GSFC; Wallops Flight Facility by GSFC.",
+   "crop": "data/advanced/crops/p012_e0.png"
+  },
+  {
+   "kind": "photo",
+   "title": "Dragonfly team members review the half-scale lander model",
+   "bbox": [
+    59,
+    616,
+    209,
+    689
+   ],
+   "content": "Photo shows team members gathered around and reviewing a half-scale Dragonfly lander model after wind tunnel testing. Printed caption: “Dragonfly team members review the half-scale lander model after it underwent wind tunnel testing at NASA Langley Research Center in Hampton, Virginia. Team members Art Azarbarzin, Juan Cruz, Wayne Dellinger, Zibi Turtle, Chuck Hebert, Ken Hibbard, Bernadine Juliano and Bruce Owens are utilizing unique NASA facilities to shape innovative Titan-bound Rotorcraft.” Photo Credit — Johns Hopkins APL/Ed Whitman, October 23, 2023",
+   "crop": "data/advanced/crops/p012_e1.png"
+  },
+  {
+   "kind": "photo",
+   "title": "Payload Hazardous Servicing Facility at NASA’s Kennedy Space Center",
+   "bbox": [
+    59,
+    725,
+    209,
+    817
+   ],
+   "content": "Photo shows technicians and engineers inside a servicing facility inspecting spacecraft hardware. Printed caption: “Technicians and engineers inside the Payload Hazardous Servicing Facility at NASA’s Kennedy Space Center in Florida inspect the Agency’s largest planetary mission spacecraft, Europa Clipper, as part of prelaunch processing on Tuesday, May 28, 2024. Slated to launch aboard a SpaceX Falcon Heavy rocket later this year from Launch Complex 39A at Kennedy, Europa Clipper will help determine if conditions exist below the surface Jupiter’s fourth largest moon, Europa that could support life.” Photo Credit — NASA/Kim Shiflett",
+   "crop": "data/advanced/crops/p012_e2.png"
+  },
+  {
+   "kind": "photo",
+   "title": "Technicians at NASA’s Michoud Assembly Facility lift a Liquid Oxygen Tank",
+   "bbox": [
+    59,
+    845,
+    209,
+    938
+   ],
+   "content": "Photo shows technicians lifting a large Liquid Oxygen Tank inside NASA’s Michoud Assembly Facility. Printed caption: “Technicians at NASA’s Michoud Assembly Facility in New Orleans, lift a Liquid Oxygen Tank intended for Space Launch System (SLS) into Cell D. This tank will be crucial for the astronauts participating in the Artemis missions. NASA is working to land the first woman and first person of color on the Moon under Artemis. SLS is part of NASA’s backbone for deep space exploration, along with Orion and the Gateway in orbit around the Moon. SLS is the only rocket in operation that can send Orion, astronauts, and supplies to the Moon in a single mission.” Photo Credit — NASA/Evan Deroche, February 01, 2024",
+   "crop": "data/advanced/crops/p012_e3.png"
+  }
+ ],
+ "text_layer": "11\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n11\nTesting Capabilities Support Future Mission Success\nNASA maintains a wide collection of testing capabilities for aircraft, spacecraft, and exploration vehicles. These \ncapabilities allow us to simulate real environmental stresses, physiological reactions, and other conditions that can \naffect mission success. Below is a sample of some of our testing capabilities.\nNASA Centers and Facilities\nDragonfly team members review the half-scale lander model after it underwent wind tunnel testing \nat NASA Langley Research Center in Hampton, Virginia. Team members Art Azarbarzin, Juan Cruz, \nWayne Dellinger, Zibi Turtle, Chuck Hebert, Ken Hibbard, Bernadine Juliano and Bruce Owens are \nutilizing unique NASA facilities to shape innovative Titan-bound Rotorcraft.\nPhoto Credit — Johns Hopkins APL/Ed Whitman, October 23, 2023\nTechnicians and engineers inside the Payload Hazardous Servicing Facility at NASA’s Kennedy Space \nCenter in Florida inspect the Agency’s largest planetary mission spacecraft, Europa Clipper, as part \nof prelaunch processing on Tuesday, May 28, 2024. Slated to launch aboard a SpaceX Falcon Heavy \nrocket later this year from Launch Complex 39A at Kennedy, Europa Clipper will help determine if \nconditions exist below the surface Jupiter’s fourth largest moon, Europa that could support life.\nPhoto Credit — NASA/Kim Shiflett\nTechnicians at NASA’s Michoud Assembly Facility in New Orleans, lift a Liquid Oxygen Tank intended \nfor Space Launch System (SLS) into Cell D. This tank will be crucial for the astronauts participating in \nthe Artemis missions. NASA is working to land the first woman and first person of color on the Moon \nunder Artemis. SLS is part of NASA’s backbone for deep space exploration, along with Orion and the \nGateway in orbit around the Moon. SLS is the only rocket in operation that can send Orion, astronauts, \nand supplies to the Moon in a single mission. Photo Credit — NASA/Evan Deroche, February 01, 2024\nMANAGEMENT’S DISCUSSION AND ANALYSIS\nWELCOME TO NASA\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 1141,
+  "cost_usd": 0.001954,
+  "seconds": 11.8,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

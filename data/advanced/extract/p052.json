@@ -1,0 +1,29 @@
+{
+ "page": 52,
+ "printed_page": 51,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "table",
+   "title": "Consolidated Statements of Changes in Net Position\nFor the Fiscal Years Ended September 30, 2024 and 2023",
+   "bbox": [
+    59,
+    144,
+    945,
+    629
+   ],
+   "content": "(IN MILLIONS)\n\n|  | 2024 | 2023 |\n|---|---:|---:|\n| **Unexpended Appropriations:** |  |  |\n|   Beginning Balance | $ 13,333 | $ 12,951 |\n|   Appropriations Received | 24,875 | 25,573 |\n|   Appropriations Transferred-In/Out | 4 | — |\n|   Other Adjustments | (48) | (26) |\n|   Appropriations Used | (25,007) | (25,165) |\n|   Net Change in Unexpended Appropriations | $ (176) | $ 382 |\n| **Total Unexpended Appropriations** | **$ 13,157** | **$ 13,333** |\n|  |  |  |\n| **Cumulative Results from Operations:** |  |  |\n|   Beginning Balance | $ 6,083 | $ 5,258 |\n|   Appropriations Used | 25,007 | 25,165 |\n|   Non-Exchange Revenue | 27 | 1 |\n|   Donations and Forfeitures of Property | 8 | 44 |\n|   Imputed Financing | 292 | 231 |\n|   Net Cost of Operations | (24,734) | (24,616) |\n|   Net Change in Cumulative Results of Operations | $ 600 | $ 825 |\n| **Total Cumulative Results of Operations** | **$ 6,683** | **$ 6,083** |\n|  |  |  |\n| **Net Position** | **$ 19,840** | **$ 19,416** |",
+   "crop": "data/advanced/crops/p052_e0.png"
+  }
+ ],
+ "text_layer": "51\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n51\nFINANCIAL SECTION\nFINANCIAL STATEMENTS, NOTES, AND REQUIRED SUPPLEMENTARY INFORMATION\nTHE ACCOMPANYING NOTES ARE AN INTEGRAL PART OF THESE FINANCIAL STATEMENTS\nNATIONAL AERONAUTICS AND SPACE ADMINISTRATION\nConsolidated Statements of Changes in Net Position\nFor the Fiscal Years Ended September 30, 2024 and 2023\n(IN MILLIONS)\n2024\n2023\nUnexpended Appropriations:\nBeginning Balance\n $  13,333 \n $  12,951 \nAppropriations Received\n 24,875 \n 25,573 \nAppropriations Transferred-In/Out\n 4 \n — \nOther Adjustments\n (48)\n (26)\nAppropriations Used\n (25,007)\n (25,165)\nNet Change in Unexpended Appropriations\n $ (176)\n $ 382 \nTotal Unexpended Appropriations\n $ 13,157 \n $ 13,333 \nCumulative Results from Operations:\nBeginning Balance\n $  6,083 \n $  5,258 \nAppropriations Used\n 25,007 \n 25,165 \nNon-Exchange Revenue\n 27 \n 1 \nDonations and Forfeitures of Property\n 8 \n 44 \nImputed Financing \n 292 \n 231 \nNet Cost of Operations\n (24,734)\n (24,616)\nNet Change in Cumulative Results of Operations\n $ 600 \n $ 825 \nTotal Cumulative Results of Operations\n $ 6,683 \n $ 6,083 \nNet Position\n $ 19,840 \n $ 19,416 \n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 559,
+  "cost_usd": 0.001256,
+  "seconds": 6.1,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "page": 20,
+ "printed_page": 19,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "photo",
+   "title": "SpaceX Falcon Heavy rocket launch with Psyche spacecraft",
+   "bbox": [
+    98,
+    204,
+    902,
+    697
+   ],
+   "content": "Photo shows a SpaceX Falcon Heavy rocket launching beside a body of water, with a large plume of smoke and fire, a bird flying overhead, and the launch tower visible at right. Printed caption: “A SpaceX Falcon Heavy rocket with the Psyche spacecraft onboard is launched from Launch Complex 39A, Friday, Oct. 13, 2023, at NASA’s Kennedy Space Center in Florida. NASA’s Psyche spacecraft will travel to a metal-rich asteroid by the same name orbiting the Sun between Mars and Jupiter to study its composition. The spacecraft also carries the Agency’s Deep Space Optical Communications technology demonstration, which will test laser communications beyond the Moon.” Photo credit: “NASA/Aubrey Gemignani”",
+   "crop": "data/advanced/crops/p020_e0.png"
+  }
+ ],
+ "text_layer": "19\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n19\nMANAGEMENT’S DISCUSSION AND ANALYSIS\nStrategic Goals and Highlights\nA SpaceX Falcon Heavy rocket with the Psyche spacecraft onboard is \nlaunched from Launch Complex 39A, Friday, Oct. 13, 2023, at NASA’s \nKennedy Space Center in Florida. NASA’s Psyche spacecraft will travel to a \nmetal-rich asteroid by the same name orbiting the Sun between Mars and \nJupiter to study its' composition. The spacecraft also carries the Agency's \nDeep Space Optical Communications technology demonstration, which will \ntest laser communications beyond the Moon.\nPHOTO CREDIT \nNASA/Aubrey Gemignani\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 293,
+  "cost_usd": 0.000936,
+  "seconds": 5.0,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

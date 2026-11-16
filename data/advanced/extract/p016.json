@@ -1,0 +1,29 @@
+{
+ "page": 16,
+ "printed_page": 15,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "infographic",
+   "title": "Strategic Goals and objectives",
+   "bbox": [
+    58,
+    20,
+    943,
+    895
+   ],
+   "content": "Four major themes, each characterized by a single word, reflect the focus of NASA’s four Strategic Goals:\n• DISCOVER references NASA’s enduring purpose of scientific discovery\n• EXPLORE references NASA’s push to expand the boundaries of human presence and exploration in space\n• INNOVATE references NASA’s broad mandate to promote the technologies of tomorrow\n• ADVANCE references the capabilities, workforce, and facilities that allow NASA to achieve our Mission\n\nDISCOVER\nStrategic Goal: Expand human knowledge through new scientific discoveries.\n1.1 Understand the Earth system and its climate.\n1.2 Understand the Sun, solar system, and universe.\n1.3 Ensure NASA’s science data are accessible to all and produce practical benefits to society.\n\nEXPLORE\nStrategic Goal: Extend human presence to the Moon and on towards Mars for sustainable long-term exploration, development, and utilization.\n2.1 Explore the surface of the Moon and deep space.\n2.2 Develop a human space flight economy enabled by a commercial market.\n2.3 Develop capabilities and perform research to safeguard explorers.\n2.4 Enhance space access and services.\n\nINNOVATE\nStrategic Goal: Catalyze economic growth and drive innovation to address national challenges.\n3.1 Innovate and advance transformational space technologies.\n3.2 Drive efficient and sustainable aviation.\n\nADVANCE\nStrategic Goal: Enhance capabilities and operations to catalyze current and future mission success.\n4.1 Attract and develop a talented and diverse workforce.\n4.2 Transform mission support capabilities for the next era of aerospace.\n4.3 Build the next generation of explorers.\n\nThe infographic presents four Strategic Goals, each identified by its corresponding theme, with numbered Strategic Objectives grouped beneath it: DISCOVER → objectives 1.1–1.3; EXPLORE → objectives 2.1–2.4; INNOVATE → objectives 3.1–3.2; ADVANCE → objectives 4.1–4.3.",
+   "crop": "data/advanced/crops/p016_e0.png"
+  }
+ ],
+ "text_layer": "15\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n15\nNASA has identified four Strategic Goals that define our Mission and contribute to maintaining American leadership \nin space, aeronautics, climate research, and innovation while driving economic growth in the civil space sector. The \nStrategic Goals, as well as their corresponding Strategic Objectives, are outlined below.\nFour major themes, each characterized by a single word, reflect the focus of NASA’s four Strategic Goals:\n• DISCOVER references NASA’s enduring purpose of scientific discovery\n• EXPLORE references NASA’s push to expand the boundaries of human presence and exploration in space\n• INNOVATE references NASA’s broad mandate to promote the technologies of tomorrow\n• ADVANCE references the capabilities, workforce, and facilities that allow NASA to achieve our Mission\nStrategic Goals and Objectives\nMANAGEMENT’S DISCUSSION AND ANALYSIS\nMISSION PERFORMANCE\nINNOVATE\nCatalyze economic growth and \ndrive innovation to address national \nchallenges.\nADVANCE\nEnhance capabilities and operations \nto catalyze current and future \nmission success.\nDISCOVER\nExpand human knowledge through \nnew scientific discoveries.\n1.1\nUnderstand the Earth system and its climate.\n1.2\nUnderstand the Sun, solar system, and universe.\n1.3 Ensure NASA’s science data are accessible to all and \nproduce practical benefits to society.\nEXPLORE\nExtend human presence to the Moon \nand on towards Mars for sustainable \nlong-term exploration, development, \nand utilization.\n2.1\nExplore the surface of the Moon and deep space.\n2.2 Develop a human space flight economy enabled by a \ncommercial market.\n2.3 Develop capabilities and perform research to safeguard \nexplorers.\n2.4 Enhance space access and services.\n3.1\nInnovate and advance transformational space technologies.\n3.2 Drive efficient and sustainable aviation.\n4.1 Attract and develop a talented and diverse workforce.\n4.2 Transform mission support capabilities for the next era of \naerospace.\n4.3 Build the next generation of explorers.\nCONTINUED ON THE NEXT PAGE →\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 567,
+  "cost_usd": 0.001265,
+  "seconds": 5.9,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

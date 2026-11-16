@@ -1,0 +1,16 @@
+{
+ "page": 86,
+ "printed_page": 85,
+ "status": "ok",
+ "elements": [],
+ "text_layer": "85\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n85\nFINANCIAL SECTION\nLETTER FROM THE INSPECTOR GENERAL ON AUDIT\n2 \n \nWe appreciate the courtesies extended to our team during the audit. Please contact Brian Mullins, \nActing Assistant Inspector General for Audits, at 202-358-3725 or brian.mullins@nasa.gov if you have \nany questions about the enclosed reports. \n \nGeorge A. Scott \nDeputy Inspector General \nEnclosures – 2 \n \n \n \n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 11,
+  "cost_usd": 0.000598,
+  "seconds": 1.6,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "page": 71,
+ "printed_page": 70,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "table",
+   "title": "Reconciliation of Net Cost to Net Outlays",
+   "bbox": [
+    59,
+    275,
+    944,
+    936
+   ],
+   "content": "| 2024 |  |  |  |\n|---|---:|---:|---:|\n| (IN MILLIONS) | INTRAGOVERNMENTAL | WITH THE PUBLIC | TOTAL |\n| **Net Cost** | **$ 371** | **$ 24,363** | **$ 24,734** |\n| **Components of Net Cost not part of the Budgetary Outlays** |  |  |  |\n|   Property, plant, and equipment depreciation expense | — | (492) | (492) |\n|   Property, plant, and equipment disposals and revaluations | — | (85) | (85) |\n|   Lessee lease amortization | — | (4) | (4) |\n|   Lease expense | — | (3) | (3) |\n|   Applied overhead/cost capitalization offset | — | 1,227 | 1,227 |\n| **Increase/(Decrease) in Assets not affecting Budgetary Outlays:** |  |  |  |\n|   Accounts receivable, net | 30 | 25 | 55 |\n|   Other assets | 111 | 20 | 131 |\n| **(Increase)/(Decrease) in Liabilities not affecting Budgetary Outlays:** |  |  |  |\n|   Accounts payable | 7 | (16) | (9) |\n|   Lessee lease liability | — | (24) | (24) |\n|   Environmental and disposal liabilities | — | (49) | (49) |\n|   Federal employee salary, leave, and benefits payable | — | (60) | (60) |\n|   Pensions and Post-Employment Benefits Payable | — | 1 | 1 |\n|   Other liabilities | (11) | (94) | (105) |\n| **Financing Sources:** |  |  |  |\n|   Imputed cost | (292) | — | (292) |\n| **Total Components of Net Cost not part of the Budgetary Outlays** | **(155)** | **446** | **291** |\n| **Components of the Budgetary Outlays not part of Net Cost:** |  |  |  |\n| **Financing Sources:** |  |  |  |\n|   Transfers out (in) without reimbursements | (20) | — | (20) |\n| **Total Components of the Budgetary Outlays not part of Net Cost** | **(20)** | **—** | **(20)** |\n| **Misc Items** |  |  |  |\n|   Distributed offsetting receipts | (4) | — | (4) |\n|   Recognition of right-to-use lease assets | — | 27 | 27 |\n|   Custodial/Non-exchange revenue | (1) | (13) | (14) |\n|   Appropriated receipts for Trust/Special Funds | 1 | — | 1 |\n| **Total Other Reconciling Items** | **(4)** | **14** | **10** |\n| **Total Net Outlays (Calculated Total)** | **$ 192** | **$ 24,823** | **$ 25,015** |\n| **Budgetary Agency Outlays, net** |  |  | **$ 25,015** |",
+   "crop": "data/advanced/crops/p071_e0.png"
+  }
+ ],
+ "text_layer": "70\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n70\nFINANCIAL SECTION\nFINANCIAL STATEMENTS, NOTES, AND REQUIRED SUPPLEMENTARY INFORMATION\nCONTINUED ON THE NEXT PAGE →\n2024\n(IN MILLIONS)\nINTRAGOVERNMENTAL\nWITH THE PUBLIC\nTOTAL\nNet Cost\n $ 371 \n $ 24,363 \n $ 24,734 \nComponents of Net Cost not part of the Budgetary Outlays\nProperty, plant, and equipment depreciation expense\n — \n (492)\n (492)\nProperty, plant, and equipment disposals and revaluations\n — \n (85)\n (85)\nLessee lease amortization\n — \n (4)\n (4)\nLease expense\n — \n (3)\n (3)\nApplied overhead/cost capitalization offset\n — \n 1,227 \n 1,227 \nIncrease/(Decrease) in Assets not affecting Budgetary Outlays:\nAccounts receivable, net\n 30 \n 25 \n 55 \nOther assets\n 111 \n 20 \n 131 \n(Increase)/Decrease in Liabilities not affecting Budgetary Outlays:\nAccounts payable\n 7 \n (16)\n (9)\nLessee lease liability\n — \n (24)\n (24)\nEnvironmental and disposal liabilities\n — \n (49)\n (49)\nFederal employee salary, leave, and benefits payable\n — \n (60)\n (60)\nPensions and Post-Employment Benefits Payable\n — \n 1 \n 1 \nOther liabilities\n (11)\n (94)\n (105)\nFinancing Sources:\nImputed cost\n (292)\n — \n (292)\nTotal Components of Net Cost not part of the Budgetary Outlays\n (155)\n 446 \n 291 \nComponents of the Budgetary Outlays not part of Net Cost:\nFinancing Sources:\nTransfers out (in) without reimbursements\n (20)\n — \n (20)\nTotal Components of the Budgetary Outlays not part of Net Cost\n (20)\n — \n (20)\nMisc Items\nDistributed offsetting receipts\n (4)\n — \n (4)\nRecognition of right-to-use lease assets\n — \n 27 \n 27 \nCustodial/Non-exchange revenue\n (1)\n (13)\n (14)\nAppropriated receipts for Trust/Special Funds\n 1 \n — \n 1 \nTotal Other Reconciling Items\n (4)\n 14 \n 10 \nTotal Net Outlays (Calculated Total) \n $ 192 \n $ 24,823 \n $ 25,015 \nBudgetary Agency Outlays, net\n $ 25,015 \n15\nNOTE 15\nReconciliation of Net Cost to Net Outlays\nBudgetary accounting is used for planning and control purposes and relates to both the receipt and use of cash, as well \nas reporting the Federal deficit. Financial accounting is intended to provide a picture of the Government’s financial \noperations and financial position on an accrual basis. The accrual basis includes information about costs arising from \nthe consumption of assets and the incurrence of liabilities. The reconciliation of net outlays is presented on a budgetary \nbasis, and the net cost is presented on an accrual basis, which provides an explanation of the relationship between \nbudgetary and financial accounting information. The reconciliation serves not only to identify costs in the past and \nthose paid in the future, but also to assure integrity between budgetary and financial accounting. The analysis below \nillustrates this reconciliation by listing the key differences between net cost and net outlays.\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 853,
+  "cost_usd": 0.001608,
+  "seconds": 7.8,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "page": 25,
+ "printed_page": 24,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "photo",
+   "title": "NASA’s SpaceX Crew-8 mission crew",
+   "bbox": [
+    75,
+    873,
+    219,
+    944
+   ],
+   "content": "Photo shows the four crew members of NASA’s SpaceX Crew-8 mission wearing white spacesuits and posing together during their Crew Equipment Interface Test. Printed caption: “The crew of NASA’s SpaceX Crew-8 mission to the International Space Station poses for a photo during their Crew Equipment Interface Test at NASA’s Kennedy Space Center in Florida. The goal of the training was to rehearse launch day activities and get a close look at the spacecraft that will take them to the International Space Station.” Photo credit — SpaceX, January 12, 2024",
+   "crop": "data/advanced/crops/p025_e0.png"
+  }
+ ],
+ "text_layer": "24\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n24\nMANAGEMENT’S DISCUSSION AND ANALYSIS\nSTRATEGIC GOALS AND HIGHLIGHTS\n02\nSTRATEGIC GOAL II. EXPLORE\nExtend human presence to the Moon and on towards Mars for sustainable\nlong-term exploration, development, and utilization.\nStrategic Goal 2 is supported by 10 Performance Goals. Of these, eight were rated Green, one was \nrated Yellow, and one was unrated at the time of publication.\nOverview \nNASA’s rich history of human spaceflight provides the foundation for today’s exploration vision: to maintain U.S. \nleadership in space, establish a lasting presence on and around the Moon, and pave the way forward to Mars and beyond. \nThis strategy begins with the Artemis, a series of missions that will land the first woman and the first person of color on \nthe lunar surface, marking the first time in nearly 50 years that humans have landed on the Moon.\nWe are building on more than two decades of operations in low Earth orbit (LEO) aboard the International Space Station \n(ISS) and leveraging our wealth of experience with groundbreaking exploration. This era of human exploration will \nrequire innovative technologies and systems — some of which have not yet been demonstrated — to explore new and \nmore challenging locations, like the lunar South Pole.\nDeveloping these capabilities will spur advancements in critical fields like medicine, energy, materials science, \nmanufacturing, and climate science. Artemis mission success will require the continuation of existing partnerships and \nthe development of new ones. Working with commercial partners enables NASA to focus its attention forward, while \ncreating jobs and stimulating the economy.\nHighlights\nExploring the Surface of the Moon and Deep Space\nNASA’s Artemis campaign has made progress on significant milestones over the last year. Earlier this year, the Artemis \nII Space Launch System (SLS) Booster Segments were delivered to KSC, and the Artemis II Crew Module (CM)/Service \nModule (SM) Vacuum Performance Testing completed in July 2024. Progress was made on capabilities for Artemis \nIII including the April 2024 Preliminary Design Review (PDR)-informed Sync Review kickoff for the Exploration \nExtravehicular Activity Services (xEVAS) project, and the closure board met in August 2024. The Artemis III Booster \nAft Skirts were ready for Acceptance Checkout (ACO) in July 2024. Multiple milestones have shifted or been delayed \nbut continue to be in work, including Artemis III Integrated Sync Review #2 Kickoff, and the Gateway Habitation and \nLogistics Outpost (HALO) Habitable Element delivery.\nDeveloping a Human Spaceflight Economy Enabled by a Commercial Market\nNASA continues to maximize its use of the ISS and its capabilities to aid in the development of U.S. industry’s ability to \nprovide the necessary platforms and services in LEO. SpaceX Crew-8 successfully launched March 2024, where crew \nmembers conducted new scientific research to prepare for human exploration beyond LEO and benefit humanity on \nEarth. In FY 2024, NASA continued to conduct and sponsor in-space experiments and production for both in-house and \nindustry development. These included Compartment Cartilage Tissue Construct (Tangolab Mission-35) investigating \nbiological materials that mimic Deoxyribonucleic acid (DNA) to develop a scaffold for regenerating cartilage tissues and \ntests the effect of a specific Ribonucleic acid (RNA) on cartilage growth in space, and a study on Cancer in Low Earth \nOrbit - 2 (Ax-3) on the Axiom-3 (Ax-3) private astronaut mission (PAM) expanding on previous research to develop \nmodels that predict potential development of cancers. To compliment a growing commercial sector, the increased use \nof PAMs on commercial destinations aboard the ISS shows promise as a major step towards unfettered commercial \nresearch and services in space.\nCONTINUED ON THE NEXT PAGE →\nDid You Know?\nThe crew of NASA’s SpaceX Crew-8 mission to the International Space Station poses for a photo during their Crew \nEquipment Interface Test at NASA’s Kennedy Space Center in Florida. The goal of the training was to rehearse \nlaunch day activities and get a close look at the spacecraft that will take them to the International Space Station. \nPhoto credit — SpaceX, January 12, 2024\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 218,
+  "cost_usd": 0.000846,
+  "seconds": 4.4,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

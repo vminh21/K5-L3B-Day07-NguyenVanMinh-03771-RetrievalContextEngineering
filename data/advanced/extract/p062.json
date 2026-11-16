@@ -1,0 +1,41 @@
+{
+ "page": 62,
+ "printed_page": 61,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "table",
+   "title": "2023 — PP&E",
+   "bbox": [
+    59,
+    117,
+    941,
+    358
+   ],
+   "content": "**2023**\n\n**(IN MILLIONS)**\n\n| PP&E | DEPRECIATION/ AMORTIZATION METHOD | ESTIMATED USEFUL LIFE | COST | ACCUMULATED DEPRECIATION/ AMORTIZATION | BOOK VALUE |\n|---|---|---|---:|---:|---:|\n| Structures, Facilities and Leasehold Improvements | Straight-Line | 15-40 Years | $ 12,393 | $ (9,417) | $ 2,976 |\n| Equipment | Straight-Line | 5-20 Years | 16,493 | (15,427) | 1,066 |\n| Work In Progress – Personal Property | N/A | N/A | 3,527 | — | 3,527 |\n| Construction In Progress – Real Property | N/A | N/A | 955 | — | 955 |\n| Internal Use Software | Straight-Line | 5 Years | 253 | (251) | 2 |\n| Land | N/A | N/A | 124 | — | 124 |\n| Internal Use Software In Development | N/A | N/A | 1 | — | 1 |\n| **Total** |  |  | **$ 33,746** | **$ (25,095)** | **$ 8,651** |",
+   "crop": "data/advanced/crops/p062_e0.png"
+  },
+  {
+   "kind": "table",
+   "title": "NET PP&E",
+   "bbox": [
+    382,
+    374,
+    941,
+    615
+   ],
+   "content": "**NET PP&E**\n\n**(IN MILLIONS)**\n\n|  | 2024 | 2023 |\n|---|---:|---:|\n| **Balance Beginning of Year, Unadjusted** | **$8,651** | **$7,643** |\n| Effects of Implementation of SFFAS 54 | 27 | — |\n| **Balance Beginning of Year, Adjusted** |  |  |\n| Capitalized Acquisitions | 1,227 | 1,664 |\n| CY Amortization of Right-to-Use Lease Assets | (4) | — |\n| Dispositions | (85) | (106) |\n| Depreciation Expense | (492) | (594) |\n| Donations | 7 | 44 |\n| **Balance End of Year** | **$ 9,331** | **$ 8,651** |",
+   "crop": "data/advanced/crops/p062_e1.png"
+  }
+ ],
+ "text_layer": "61\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n61\nFINANCIAL SECTION\nFINANCIAL STATEMENTS, NOTES, AND REQUIRED SUPPLEMENTARY INFORMATION\nFederal agencies are required to classify and report heritage assets, multi-use heritage assets, and stewardship land \nin accordance with SFFAS 29, Heritage Assets and Stewardship Land. Stewardship PP&E have physical characteristics \nsimilar to those of PP&E, but differ from PP&E because their value is more intrinsic and not easily determinable in \ndollars. The only type of stewardship PP&E owned by NASA is heritage assets.\nHeritage assets are PP&E that possess one or more of the following characteristics:\n•\tHistorical or natural significance; \n•\tCultural, educational, or artistic (e.g., aesthetic importance); \n•\tSignificant architectural characteristics. \nThere is no minimum dollar threshold for designating PP&E as a heritage asset, and depreciation expense is not taken \non these assets. For these reasons, heritage assets (other than multi-use heritage assets) are reported in physical \nunits, rather than with assigned dollar values. In accordance with SFFAS 29, the cost of acquisition, improvement, \nreconstruction, or renovation of heritage assets is expensed in the period incurred.\nThroughout the history of NASA’s operations, the Agency has become an owner of historic buildings, structures, \nhistorical artifacts, art, and other cultural resources. The protection and conservation of these heritage assets is an \nThe following table presents the \nchanges in total PP&E and accumulated \ndepreciation from October 1, 2023 to \nSeptember 30, 2024 and October 1, \n2022 to September 30, 2023.\nCONTINUED ON THE NEXT PAGE →\n2023\n(IN MILLIONS)\nDEPRECIATION/\nAMORTIZATION \nMETHOD\nESTIMATED USEFUL \nLIFE\nCOST\nACCUMULATED \nDEPRECIATION/\nAMORTIZATION\nBOOK\nVALUE\nPP&E\nStructures, Facilities and Leasehold Improvements\nStraight-Line\n15-40 Years\n $ 12,393 \n $ (9,417)\n $ 2,976 \nEquipment\nStraight-Line\n5-20 Years\n 16,493 \n (15,427)\n 1,066 \nWork In Progress – Personal Property\nN/A\nN/A\n 3,527 \n — \n 3,527 \nConstruction In Progress – Real Property\nN/A\nN/A\n 955 \n — \n 955 \nInternal Use Software\nStraight-Line\n5 Years\n 253 \n (251)\n 2 \nLand\nN/A\nN/A\n 124 \n — \n 124 \nInternal Use Software In Development\nN/A\nN/A\n 1 \n — \n 1 \nTotal\n $ 33,746 \n  $ (25,095) \n $ 8,651 \nNET PP&E\n(IN MILLIONS)\n2024\n2023\nBalance Beginning of Year, Unadjusted\n $8,651 \n $7,643 \nEffects of Implementation of SFFAS 54\n 27 \n — \nBalance Beginning of Year, Adjusted\nCapitalized Acquisitions \n 1,227 \n 1,664\nCY Amortization of Right-to-Use Lease Assets\n (4)\n —\nDispositions\n (85)\n (106)\nDepreciation Expense\n (492)\n (594)\nDonations\n 7 \n 44\nBalance End of Year\n $ 9,331 \n $ 8,651 \n05\nNOTE 5\nProperty, Plant, and Equipment, Net (CONTINUED)\n06\nNOTE 6 \nStewardship PP&E\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 658,
+  "cost_usd": 0.001374,
+  "seconds": 6.4,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

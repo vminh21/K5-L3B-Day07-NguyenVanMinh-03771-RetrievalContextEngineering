@@ -28,3 +28,5 @@
 {"ts": "2026-11-16T15:04:23", "tag": "agent", "model": "gpt-5.6-luna", "tokens_in": 467, "tokens_out": 26, "reasoning_tokens": 0, "cost_usd": 0.0001246}
 {"ts": "2026-11-16T15:04:24", "tag": "agent", "model": "gpt-5.6-luna", "tokens_in": 898, "tokens_out": 54, "reasoning_tokens": 23, "cost_usd": 0.00024440000000000003}
 {"ts": "2026-11-16T15:04:26", "tag": "agent", "model": "gpt-5.6-luna", "tokens_in": 1101, "tokens_out": 38, "reasoning_tokens": 10, "cost_usd": 0.0002658}
+{"ts": "2026-11-16T15:04:49", "tag": "agent", "model": "gpt-5.6-luna", "tokens_in": 465, "tokens_out": 26, "reasoning_tokens": 0, "cost_usd": 0.00012419999999999998}
+{"ts": "2026-11-16T15:04:52", "tag": "agent", "model": "gpt-5.6-luna", "tokens_in": 1000, "tokens_out": 68, "reasoning_tokens": 13, "cost_usd": 0.0002816}

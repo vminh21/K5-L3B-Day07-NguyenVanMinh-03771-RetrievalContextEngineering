@@ -1,0 +1,29 @@
+{
+ "page": 32,
+ "printed_page": 31,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "chart",
+   "title": "Net Cost of Operations By Strategic Goal for FY 2024 (IN MILLIONS)",
+   "bbox": [
+    136,
+    238,
+    864,
+    885
+   ],
+   "content": "Chart type: doughnut chart.\n\nTitle: Net Cost of Operations By Strategic Goal for FY 2024\nUnit: (IN MILLIONS)\n\nTotal:\nTOTAL NET COST | $24,734\n\nPrinted values:\nStrategic Goal 1 | Goal 1 | 32% | $8,038\nStrategic Goal 2 | Goal 2 | 44% | $10,920\nStrategic Goal 3 | Goal 3 | 12% | $2,929\nStrategic Goal 4 | Goal 4 | 12% | $2,847\n\nLegend mapping colour -> series and description:\nBlue -> STRATEGIC GOAL 1 — Expand human knowledge through new scientific discoveries.\nGreen -> STRATEGIC GOAL 2 — Extend human presence to the Moon and on towards Mars for sustainable long-term exploration, development, and utilization.\nPurple -> STRATEGIC GOAL 3 — Catalyze economic growth and drive innovation to address national challenges.\nOrange -> STRATEGIC GOAL 4 — Enhance capabilities and operations to catalyze current and future mission success.",
+   "crop": "data/advanced/crops/p032_e0.png"
+  }
+ ],
+ "text_layer": "31\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n31\nMANAGEMENT’S DISCUSSION AND ANALYSIS\nFINANCIAL PERFORMANCE\nResults of Operations\n \nNet Cost of Operations\nThe Statement of Net Cost presents NASA’s Net Cost of Operations by strategic goal. NASA’s strategic goals are \ndescribed in the Mission Performance section of the Agency Financial Report (page 13). The Net Cost of Operations \nrepresents gross cost incurred less revenue earned for work performed for other government organizations or private \nentities. As of September 30, 2024, NASA’s gross costs were $26.6 billion, an increase of $318 million from FY 2023. \nEarned Revenue from other governmental organizations or private entities was $1.8 billion, a $200 million increase \nfrom FY 2023. This leaves NASA with a FY 2024 net cost of $24.7 billion, an increase of $118 million from FY 2023.\nSTRATEGIC GOAL 1\nExpand human knowledge through new scientific discoveries.\nSTRATEGIC GOAL 2\nExtend human presence to the Moon and on towards Mars for sustainable long-term \nexploration, development, and utilization.\nSTRATEGIC GOAL 3\nCatalyze economic growth and drive innovation to address national challenges.\nSTRATEGIC GOAL 4\nEnhance capabilities and operations to catalyze current and future mission success.\nNet Cost of Operations By\nStrategic Goal for FY 2024\n(IN MILLIONS)\nCONTINUED ON THE NEXT PAGE →\nTOTAL\nNET COST\n$24,734\n32%\nGoal 1\n$8,038\n44%\nGoal 2\n$10,920\n12%\nGoal 3\n$2,929\n12%\nGoal 4\n$2,847\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 423,
+  "cost_usd": 0.001092,
+  "seconds": 5.0,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

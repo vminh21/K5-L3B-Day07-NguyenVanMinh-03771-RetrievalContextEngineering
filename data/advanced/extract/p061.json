@@ -1,0 +1,53 @@
+{
+ "page": 61,
+ "printed_page": 60,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "table",
+   "title": "2024",
+   "bbox": [
+    59,
+    285,
+    491,
+    409
+   ],
+   "content": "| (IN MILLIONS) | ACCOUNTS RECEIVABLE | ALLOWANCE FOR UNCOLLECTIBLE ACCOUNTS | NET AMOUNT DUE |\n|---|---:|---:|---:|\n| Intragovernmental | $ 98 | $ — | $ 98 |\n| Public | 26 | — | 26 |\n| **Total** | **$ 124** | **$ —** | **$ 124** |",
+   "crop": "data/advanced/crops/p061_e0.png"
+  },
+  {
+   "kind": "table",
+   "title": "2023",
+   "bbox": [
+    508,
+    285,
+    941,
+    409
+   ],
+   "content": "| (IN MILLIONS) | ACCOUNTS RECEIVABLE | ALLOWANCE FOR UNCOLLECTIBLE ACCOUNTS | NET AMOUNT DUE |\n|---|---:|---:|---:|\n| Intragovernmental | $ 67 | $ — | $ 67 |\n| Public | 1 | — | 1 |\n| **Total** | **$ 68** | **$ —** | **$ 68** |",
+   "crop": "data/advanced/crops/p061_e1.png"
+  },
+  {
+   "kind": "table",
+   "title": "2024",
+   "bbox": [
+    59,
+    664,
+    941,
+    933
+   ],
+   "content": "| (IN MILLIONS) | DEPRECIATION / AMORTIZATION METHOD | ESTIMATED USEFUL LIFE | COST | ACCUMULATED DEPRECIATION / AMORTIZATION | BOOK VALUE |\n|---|---|---|---:|---:|---:|\n| **PP&E** |  |  |  |  |  |\n| Structures, Facilities and Leasehold Improvements | Straight-Line | 15-40 Years | $ 12,460 | $ (9,603) | $ 2,857 |\n| Equipment | Straight-Line | 5-20 Years | 16,447 | (15,541) | 906 |\n| Work In Progress – Personal Property | N/A | N/A | 4,448 | — | 4,448 |\n| Construction In Progress – Real Property | N/A | N/A | 968 | — | 968 |\n| Right-to-Use Lease Assets – Real Property | Straight-Line | N/A | 27 | (4) | 23 |\n| Internal Use Software | Straight-Line | 5 Years | 256 | (252) | 4 |\n| Land | N/A | N/A | 124 | — | 124 |\n| Internal Use Software In Development | N/A | N/A | 1 | — | 1 |\n| **Total** |  |  | **$ 34,731** | **$ (25,400)** | **$ 9,331** |",
+   "crop": "data/advanced/crops/p061_e2.png"
+  }
+ ],
+ "text_layer": "60\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n60\nFINANCIAL SECTION\nFINANCIAL STATEMENTS, NOTES, AND REQUIRED SUPPLEMENTARY INFORMATION\nThere are no known restrictions to the use or convertibility of NASA PP&E. The composition of NASA PP&E as of \nSeptember 30, 2024 and 2023 is presented in the table below. Information concerning deferred maintenance and repairs \nand estimated land acreage is discussed in unaudited required supplementary information.\nIn FY 2024, NASA implemented the requirements under SFFAS 54, Leases. Arrangements that meet the definition of a \nlease under SFFAS 54, other than short-term and intragovernmental, requires NASA to report a right-to-use lease asset.\nSee Note 11, Leases, for more information.\nThe Accounts Receivable balance represents net valid claims by NASA to cash or other assets of other entities. \nIntragovernmental Accounts Receivable represents reimbursements due from other Federal entities for goods \nand services provided by NASA on a reimbursable basis. Accounts Receivable due from the public is the total of \nmiscellaneous debts owed to NASA from employees and/or smaller reimbursements from other non-Federal entities. A \nperiodic evaluation of accounts receivable is performed to estimate any uncollectible amounts based on current status, \nfinancial and other relevant characteristics of debtors, and the overall relationship with the debtor. An allowance for \nuncollectible accounts is recorded for Accounts Receivable due from the public and Federal sector to reduce Accounts \nReceivable to its net realizable value in accordance with SFFAS 1, Accounting for Selected Assets and Liabilities. The total \nallowance for uncollectible accounts during FY 2024 and FY 2023 is less than one–half million dollars.\n2024\n2023\n(IN MILLIONS)\nACCOUNTS \nRECEIVABLE\nALLOWANCE FOR \nUNCOLLECTIBLE \nACCOUNTS\nNET AMOUNT \nDUE\n(IN MILLIONS)\nACCOUNTS \nRECEIVABLE\nALLOWANCE FOR \nUNCOLLECTIBLE \nACCOUNTS\nNET AMOUNT \nDUE\nIntragovernmental\n $ 98 \n $ — \n $ 98 \nIntragovernmental\n $ 67 \n $ — \n $ 67 \nPublic\n 26 \n — \n  26 \nPublic\n 1 \n — \n  1 \nTotal\n $ 124 \n $ — \n $ 124 \nTotal\n $ 68 \n $ — \n $ 68 \n2024\n(IN MILLIONS)\nDEPRECIATION/\nAMORTIZATION \nMETHOD\nESTIMATED USEFUL \nLIFE\nCOST\nACCUMULATED \nDEPRECIATION/\nAMORTIZATION\nBOOK\nVALUE\nPP&E\nStructures, Facilities and Leasehold Improvements\nStraight-Line\n15-40 Years\n $ 12,460 \n $ (9,603)\n $ 2,857 \nEquipment\nStraight-Line\n5-20 Years\n 16,447 \n (15,541)\n 906 \nWork In Progress – Personal Property\nN/A\nN/A\n 4,448 \n — \n 4,448 \nConstruction In Progress – Real Property\nN/A\nN/A\n 968 \n — \n 968 \nRight-to-Use Lease Assets – Real Property\nStraight-Line\nN/A\n 27 \n (4)\n 23 \nInternal Use Software\nStraight-Line\n5 Years\n 256 \n (252)\n 4 \nLand\nN/A\nN/A\n 124 \n—\n 124 \nInternal Use Software In Development\nN/A\nN/A\n 1 \n—\n 1 \nTotal\n $ 34,731 \n $ (25,400)\n $ 9,331 \nCONTINUED ON THE NEXT PAGE →\n04\nNOTE 4 \nAccounts Receivable, Net\n05\nNOTE 5\nProperty, Plant, and Equipment, Net\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 630,
+  "cost_usd": 0.001341,
+  "seconds": 6.0,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

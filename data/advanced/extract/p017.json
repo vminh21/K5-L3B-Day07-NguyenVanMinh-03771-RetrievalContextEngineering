@@ -1,0 +1,41 @@
+{
+ "page": 17,
+ "printed_page": 16,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "table",
+   "title": "Strategic Goals and Objectives (continued)",
+   "bbox": [
+    59,
+    135,
+    940,
+    624
+   ],
+   "content": "Units: Millions\n\n| Strategic Goal | Strategic Objective | Requested FY 2024 | OP FY 2024 |\n|---|---|---:|---:|\n| DISCOVER — Expand human knowledge through new scientific discoveries. | 1.1 Understand the Earth system and its climate. | 1,974 | 1,740 |\n| DISCOVER — Expand human knowledge through new scientific discoveries. | 1.2 Understand the Sun, solar system, and universe. | 5,788 | 5,138 |\n| DISCOVER — Expand human knowledge through new scientific discoveries. | 1.3 Ensure NASA’s science data are accessible to all and produce practical benefits to society. | 499 | 447 |\n| EXPLORE — Extend human presence to the Moon and on towards Mars for sustainable long-term exploration, development, and utilization. | 2.1 Explore the surface of the Moon and deep space. | 7,971 | 7,648 |\n| EXPLORE — Extend human presence to the Moon and on towards Mars for sustainable long-term exploration, development, and utilization. | 2.2 Develop a human space flight economy enabled by a commercial market. | 3,488 | 3,215 |\n| EXPLORE — Extend human presence to the Moon and on towards Mars for sustainable long-term exploration, development, and utilization. | 2.3 Develop capabilities and perform research to safeguard explorers. | 255 | 258 |\n| EXPLORE — Extend human presence to the Moon and on towards Mars for sustainable long-term exploration, development, and utilization. | 2.4 Enhance space access and services. | 791 | 747 |\n| INNOVATE — Catalyze economic growth and drive innovation to address national challenges. | 3.1 Innovate and advance transformational space technologies. | 1,392 | 1,100 |\n| INNOVATE — Catalyze economic growth and drive innovation to address national challenges. | 3.2 Drive efficient and sustainable aviation. | 996 | 935 |\n| ADVANCE — Enhance capabilities and operations to catalyze current and future mission success. | 4.1 Attract and develop a talented and diverse workforce. | 112 | 102 |\n| ADVANCE — Enhance capabilities and operations to catalyze current and future mission success. | 4.2 Transform mission support capabilities for the next era of aerospace. | 3,711 | 3,356 |\n| ADVANCE — Enhance capabilities and operations to catalyze current and future mission success. | 4.3 Build the next generation of explorers. | 158 | 143 |",
+   "crop": "data/advanced/crops/p017_e0.png"
+  },
+  {
+   "kind": "photo",
+   "title": "Inside the quiet room of the Acoustics Lab",
+   "bbox": [
+    0,
+    661,
+    1000,
+    956
+   ],
+   "content": "A group of five people stands inside an acoustics quiet room lined with sound-absorbing panels. Printed caption: “Inside the quiet room of the Acoustics Lab, Zach Jones of NASA’s Human Health and Performance Directorate speaks with Northrop Grumman’s Grant Cooper and Jay Boucher, Leah Honey, and Cooper Burleson of NASA’s Commercial Low Earth Orbit Development Program. The quiet room provides a low acoustic noise environment used for audio recording and subjective audio performance testing.” Photo credit: “James Blair, April 2, 2024”",
+   "crop": "data/advanced/crops/p017_e1.png"
+  }
+ ],
+ "text_layer": "16\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n16\nMANAGEMENT’S DISCUSSION AND ANALYSIS\nMISSION PERFORMANCE\nBelow is a table detailing the FY 2024 budget broken out into the Strategic Goal and Strategic Objective level. Both the \nrequested budget and Operating Plan (OP) are included.\nEnhance capabilities and \noperations to catalyze \ncurrent and future mission \nsuccess.\n4.1\nAttract and develop a talented and diverse workforce.\n112\n102\n4.2\nTransform mission support capabilities for the next \nera of aerospace.\n3,711\n3,356\n4.3\nBuild the next generation of explorers.\n158\n143\nCatalyze economic growth \nand drive innovation to \naddress national challenges.\n3.1\nInnovate and advance transformational space \ntechnologies.\n1,392\n1,100\n3.2\nDrive efficient and sustainable aviation.\n996\n935\nExtend human presence to \nthe Moon and on towards \nMars for sustainable \nlong-term exploration, \ndevelopment, and utilization.\n2.1\nExplore the surface of the Moon and deep space.\n7,971\n7,648\n2.2\nDevelop a human space flight economy enabled by a \ncommercial market.\n3,488\n3,215\n2.3\nDevelop capabilities and perform research to \nsafeguard explorers.\n255\n258\n2.4\nEnhance space access and services.\n791\n747\nINNOVATE\nADVANCE\nEXPLORE\nSTRATEGIC GOAL\nSTRATEGIC OBJECTIVE\nFY 2024\nFY 2024\nMillions\nRequested\nOP\nExpand human knowledge \nthrough new scientific \ndiscoveries.\n1.1\nUnderstand the Earth system and its climate.\n1,974\n1,740\n1.2\nUnderstand the Sun, solar system, and universe.\n5,788\n5,138\n1.3\nEnsure NASA’s science data are accessible to all and \nproduce practical benefits to society.\n499\n447\nDISCOVER\nStrategic Goals and Objectives (CONTINUED)\n16\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n16\nInside the quiet room of the Acoustics Lab, Zach Jones of NASA’s Human Health and Performance Directorate speaks with Northrop Grumman’s \nGrant Cooper and Jay Boucher, Leah Honey, and Cooper Burleson of NASA’s Commercial Low Earth Orbit Development Program. The quiet room \nprovides a low acoustic noise environment used for audio recording and subjective audio performance testing.\nPHOTO CREDIT — James Blair, April 2, 2024\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 875,
+  "cost_usd": 0.001635,
+  "seconds": 8.9,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

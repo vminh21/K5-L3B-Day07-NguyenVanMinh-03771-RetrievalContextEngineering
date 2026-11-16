@@ -1,0 +1,65 @@
+{
+ "page": 121,
+ "printed_page": 120,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "photo",
+   "title": "NASA workforce group photograph",
+   "bbox": [
+    0,
+    164,
+    1000,
+    458
+   ],
+   "content": "A large group of NASA employees pose together indoors, with one person seated in front and the remainder standing behind him. No printed caption or photo credit is visible.",
+   "crop": "data/advanced/crops/p121_e0.png"
+  },
+  {
+   "kind": "infographic",
+   "title": "Best Place to Work awards, 2012–2023",
+   "bbox": [
+    59,
+    477,
+    640,
+    629
+   ],
+   "content": "A two-row grid of award-certificate images. Printed year labels, arranged left to right:\n\nTop row: 2023 | 2022 | 2021 | 2020 | 2019 | 2018\nBottom row: 2017 | 2016 | 2015 | 2014 | 2013 | 2012\n\nEach year is paired with an image of a “Best Places to Work” award certificate. The adjacent printed statement says: “NASA has been named the ‘Best Place to Work in the Federal Government’ among large agencies for 12 consecutive years, with #1 ranking since 2012.”",
+   "crop": "data/advanced/crops/p121_e1.png"
+  },
+  {
+   "kind": "photo",
+   "title": "Certificates of Excellence in Accountability Reporting awards",
+   "bbox": [
+    389,
+    662,
+    942,
+    809
+   ],
+   "content": "Photograph showing a row of AGA Certificates of Excellence in Accountability Reporting award trophies, with one larger trophy centered among the others. The trophies reference NASA and the National Aeronautics and Space Administration. No separate printed caption or photo credit is visible.",
+   "crop": "data/advanced/crops/p121_e2.png"
+  },
+  {
+   "kind": "photo",
+   "title": "Unmodified audit opinion documents",
+   "bbox": [
+    74,
+    841,
+    187,
+    941
+   ],
+   "content": "Illustration or photograph of several stacked financial-report documents, with a magnifying glass highlighting a seal reading “Unmodified Opinion.” No separate printed caption or photo credit is visible.",
+   "crop": "data/advanced/crops/p121_e3.png"
+  }
+ ],
+ "text_layer": "120\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n120\nNASA’s high quality financial reporting and results are a direct reflection of its award-winning work environment. \nNASA’s workforce is a diverse community that values teamwork and is united by a shared mission. The accomplishments \nfeatured in this year’s AFR demonstrate NASA’s legacy of excellence and innovation.\nAPPENDIX\nAWARDS\nCelebrating NASA 10+ Years of Excellence\nNASA received its 10th Certificate of\nExcellence in Accountability Reporting \n(CEAR) Award for its FY 2023 AFR from \nAGA. The CEAR award is the highest form \nof recognition in the Federal government \nfinancial community.\nFor the 13th consecutive year, NASA received an unmodified, or “clean,” opinion from the Independent \nAuditors on its FY 2023 financial statements. NASA’s financial statements and budgetary reporting have \nreceived the highest possible audit opinion, certifying that it adheres to Generally Accepted Accounting \nPrinciples for Federal agencies.\nNASA has been named the \n“Best Place to Work in \nthe Federal Government” \namong large agencies for \n12 consecutive years, with \n#1 ranking since 2012.\n2023\n2022\n2021\n2020\n2019\n2018\n2017\n2016\n2015\n2014\n2013\n2012\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 530,
+  "cost_usd": 0.001221,
+  "seconds": 7.8,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

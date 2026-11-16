@@ -1,0 +1,41 @@
+{
+ "page": 114,
+ "printed_page": 113,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "table",
+   "title": "Undisbursed Balances in Expired Grant Accounts",
+   "bbox": [
+    59,
+    630,
+    941,
+    800
+   ],
+   "content": "| FISCAL YEAR | TOTAL NUMBER OF EXPIRED GRANTS WITH UND بحURSED BALANCES | TOTAL AMOUNT OF UNDisbursed BALANCES FOR EXPIRED GRANTS (IN THOUSANDS) |\n|---|---:|---:|\n| 2024 | 975 | $ 12,936 |\n| 2023 | 663 | $ 8,126 |\n| 2022 | 669 | $ 16,718 |",
+   "crop": "data/advanced/crops/p114_e0.png"
+  },
+  {
+   "kind": "photo",
+   "title": "NASA Participates in the Podcast Movement",
+   "bbox": [
+    79,
+    866,
+    234,
+    941
+   ],
+   "content": "Photo showing people gathered at a NASA podcast-related event, with a visible sign reading “YES NASA HAS PODCASTS.” Printed caption: “NASA Participates in the Podcast Movement.” Caption text: “NASA participates in the Podcast Movement conference, Tuesday, Aug. 20, 2024, at the Gaylord National Resort and Convention Center in National Harbor, Md. During the event, NASA hosted a panel entitled, ‘Eclipses, Moon Missions, and Climate Change: How NASA Reaches Curious Listeners.’” Photo credit: “NASA/Bill Ingalls.”",
+   "crop": "data/advanced/crops/p114_e1.png"
+  }
+ ],
+ "text_layer": "113\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n113\nIn December 2015, Congress passed the Commerce, Justice, Science, and Related Agencies Appropriations Act, 2016 \n(Division B of the Consolidated Appropriations Act, 2016, P.L. 114-113), which required NASA to report undisbursed \nbalances in expired grant accounts. OMB Memorandum M-16-18, Financial and Performance Reporting on Undisbursed \nBalances in Expired Grant Accounts, requires this information to be included each year until instructed otherwise. NASA \nmonitors and tracks grants’ undisbursed balances in expired accounts through a monthly review of internal control \nactivities designed to identify undisbursed balances in expired accounts.\nNASA generates financial management reports to aid in the tracking and monitoring of undisbursed amounts. An aging \nreport of open obligations is generated monthly to determine the last day activity occurred. For open obligations in \nwhich no activity has occurred in a six-month period and/or there is no supporting documentation, further review\nis performed to determine the validity of obligation balances and the existence of valid source documentation. \nAdditionally, further analysis is performed to determine if funds can be de-obligated. If obligations are valid, the aging \nreports are updated to reflect that obligations have been confirmed with procurement as valid.\nNASA will continue to track undisbursed balances in expired grant accounts through its monthly review of internal \ncontrol activities designed to identify funds for de-obligation. This involves the continuous monitoring of undisbursed \nbalances, identifying balances that should be de-obligated, and performing timely closeout of grants and other activities. \nAdditionally, NASA’s financial management and procurement offices will continue to collaborate in monitoring and \ntracking undisbursed balances.\nCurrently, NASA does not have undisbursed balances in expired accounts that may be returned to the Treasury of the \nUnited States. The following chart reflects the total number and dollar amount of undisbursed grants for which the \nperiod of performance has expired. All amounts have been obligated to a specific project.\nThe expired awards listed below include awards that are within 120 days of the period of performance end date. Code \nof Federal Regulations § 200.344 allows grant recipients 120 days to finalize reporting and complete final financial \ntransactions. Once all closeout requirements are met by the grantee, NASA makes every effort to close out the grant in a \ntimely manner. The number of expired grants with undisbursed balances closely correlate to the total number of awards \nthat expired each year, which is the cause for the increase in FY 2024.\nUndisbursed Balances in Expired Grant Accounts\nOTHER INFORMATION\nUNDISBURSED BALANCES IN EXPIRED GRANT ACCOUNTS\nFISCAL YEAR\nTOTAL NUMBER OF EXPIRED\nGRANTS WITH UNDISBURSED\nBALANCES \nTOTAL AMOUNT OF UNDISBURSED\nBALANCES FOR EXPIRED GRANTS\n(IN THOUSANDS)  \n2024\n975\n$ 12,936 \n2023\n663\n$ 8,126 \n2022\n669\n$ 16,718 \nDid You Know?\nNASA Participates in the Podcast Movement\nNASA participates in the Podcast Movement conference, Tuesday, Aug. 20, 2024, at the Gaylord National Resort \nand Convention Center in National Harbor, Md. During the event, NASA hosted a panel entitled, “Eclipses, Moon \nMissions, and Climate Change: How NASA Reaches Curious Listeners.”\nPHOTO CREDIT — NASA/Bill Ingalls\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 476,
+  "cost_usd": 0.001156,
+  "seconds": 6.1,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

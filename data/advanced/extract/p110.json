@@ -1,0 +1,29 @@
+{
+ "page": 110,
+ "printed_page": 109,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "table",
+   "title": "Contract/Instrument Types and Percentage of Total Obligations",
+   "bbox": [
+    320,
+    348,
+    669,
+    475
+   ],
+   "content": "| Instrument Type | Percentage of Total Obligations |\n|---|---|\n| Firm-Fixed-Price | 31% |\n| Cost-Plus-Award-Fee | 28% |\n| Cost-Plus-Fixed-Fee | 23% |\n| Cost-Plus-Incentive-Fee | 6% |\n| Grant | 6% |\n| Other * | 6% |\n\n* includes Cost-No-Fee, Fixed-Price-Award-Fee, and Time-and-Materials",
+   "crop": "data/advanced/crops/p110_e0.png"
+  }
+ ],
+ "text_layer": "109\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n109\nOTHER INFORMATION\nAGENCY RESPONSE TO OIG REPORT ON NASA’S TOP MANAGEMENT AND PERFORMANCE CHALLENGES\n12 \nstrategy, governance, and adoption of innovative AI technologies in support of NASA’s \nmissions and mission support functions.   \nProcurement \nThe following highlights the Agency’s efforts relative to challenges related to the oversight \nof contracts, award fees, procurement fraud avoidance, and improper use of NASA grant \nfunds.  \nOversight \nNASA has improved contract oversight through various strategies.  In FY 2024, the Office of \nProcurement obligated funds using a variety of contract/instrument types:   \nInstrument Type \nPercentage of Total \nObligations \nFirm-Fixed-Price \n31% \nCost-Plus-Award-Fee \n28% \nCost-Plus-Fixed-Fee \n23% \nCost-Plus-Incentive-Fee \n6% \nGrant \n6% \nOther * \n6% \n* includes Cost-No-Fee, Fixed-Price-Award-Fee, and Time-and-\nMaterials\nNASA acquisition professionals are equipped with tools, training, and processes to assist in \nanalyzing risks to ensure that contract types align with Agency needs while balancing risk \nand incentives.  When appropriate, contracting officers work with the program management \ncommunity to ensure the maximum use of hybrid cost and fixed-price and/or fixed-price \ncontractual instruments to minimize NASA cost-risk and incentivize successful contractor \nperformance.   \nNASA continues to strengthen our contract administration and oversight of contract \ncost/performance risk through revitalization of the Procurement Management Review (PMR) \nprocess, which assesses compliance with regulations, and effectiveness of contract execution. \nThe PMR process has instituted improvements such as quarterly corrective action plan \nreviews, development of an organizational health rating scheme, and the addition of special \nfocus areas to identify cost control risks. \nAward Fees \nAward fees are a critical acquisition management tool by which the Federal Government can \nincentivize enhanced contractor performance during the execution of a design and \ndevelopment type contract.  The NASA Federal Acquisition Regulation Supplement was \nrevised to implement an independent award fee panel for procurements over $1 billion.  This \nindependent Agency-level panel provides stakeholder confidence of award fee scores that \nreflect unbiased assessments of contractor performance.  NASA also developed the new Peer \nReview policy (comparable to the Department of Defense peer review process) for review of \nany actions valued over $1 billion. \nCONTINUED ON THE NEXT PAGE →\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 233,
+  "cost_usd": 0.000864,
+  "seconds": 3.6,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

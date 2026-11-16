@@ -1,0 +1,29 @@
+{
+ "page": 116,
+ "printed_page": 115,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "photo",
+   "title": "NASA DC-8 aircraft conducting the ASIA-AQ mission",
+   "bbox": [
+    0,
+    101,
+    1000,
+    430
+   ],
+   "content": "Photo shows a NASA DC-8 aircraft flying above a runway with snow-covered mountains in the background. Printed caption: “The DC-8 aircraft completed its last mission, ASIA-AQ, which collected detailed air quality data over several locations in Asia to improve the understanding of local air quality in collaboration with local scientists, air quality agencies, and government partners.” Photo credit: “NASA/Carla Thomas, January 24, 2024”",
+   "crop": "data/advanced/crops/p116_e0.png"
+  }
+ ],
+ "text_layer": "115\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n115\nOTHER INFORMATION\nCLIMATE-RELATED FINANCIAL RISK\nClimate-Related Financial Risk\nThe DC-8 aircraft completed its last mission, ASIA-AQ, which collected detailed air quality data over several locations in Asia to improve the \nunderstanding of local air quality in collaboration with local scientists, air quality agencies, and government partners.\nPHOTO CREDIT — NASA/Carla Thomas, January 24, 2024\nDid You Know?\nWelcome to NASA’s Third Rock Radio\nDiscovery powers the work of NASA.  It also drives music lovers to the Internet in search of something less \nordinary.  The two came together in 2011 with the launch of NASA’s Third Rock Radio, produced and published \nby Houston-based RFC Media LLC under a Space Act Agreement with the National Aeronautics and Space \nAdministration, Washington, DC.  LISTEN TO US →\nClimate Adaptation Plan and Sustainability Plan\nClimate variability and climate change have important impacts on NASA’s ability to fulfill its mission and thus merit a \nproactive and integrated response. As such, NASA continues to implement proactive measures to execute its mission \nand reduce the Agency’s environmental, institutional, programmatic, and operational risks. As a global leader in the \nfield of Earth science, NASA also recognizes that it has a unique role in end-to-end Earth System Science, which \nincludes observing and researching the climate system, as well as applying that knowledge for decision making and to \ninform the public about climate change.\nFundamental to NASA efforts are the Climate Adaptation Plan (CAP) and Sustainability Plan. The CAP provides NASA’s \nvision for adapting to climate change effects on mission, facilities, infrastructure, natural lands, and other assets, now \nand in the future. It identifies opportunities to further incorporate consideration of climate risk into management \nfunctions and other processes to prioritize those risks, apply resources and track progress. The Sustainability Plan \nsummarizes actions to meet Federal sustainability goals, track results/cost savings, and showcase the Agency's strategies \nfor continued progress and performance improvements. These Plans are also aligned to NASA’s Strategic Plan and \nAgency Master Plan. Addressing climate requires an integrated and aligned approach to NASA’s various strategic plans \nand policies.\nPlease explore the links below to discover and learn about NASA’s Climate Adaptation Plan and the Sustainability Plan:\n2024-2027 NASA Climate Adaptation Plan\nwww.sustainability.gov/pdfs/nasa-2024-cap.pdf\n2022 NASA Sustainability Plan\nwww.sustainability.gov/pdfs/nasa-2022-sustainability-plan.pdf\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 324,
+  "cost_usd": 0.000974,
+  "seconds": 5.9,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

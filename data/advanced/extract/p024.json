@@ -1,0 +1,29 @@
+{
+ "page": 24,
+ "printed_page": 23,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "photo",
+   "title": "NASA’s PACE spacecraft in Falcon 9 payload fairings",
+   "bbox": [
+    75,
+    851,
+    220,
+    947
+   ],
+   "content": "The photo shows NASA and SpaceX technicians encapsulating NASA’s PACE (Plankton, Aerosol, Cloud, ocean Ecosystem) spacecraft in SpaceX’s Falcon 9 payload fairings. Caption: “NASA and SpaceX technicians safely encapsulate NASA’s PACE (Plankton, Aerosol, Cloud, ocean Ecosystem) spacecraft in SpaceX’s Falcon 9 payload fairings on Tuesday, Jan. 30, 2024, at the Astrotech Space Operations Facility near the Agency’s Kennedy Space Center in Florida. The fairing halves protect the spacecraft from aerodynamic pressure and heating during the ascent phase of launch.” Photo credit — NASA Goddard/Katie Mellos",
+   "crop": "data/advanced/crops/p024_e0.png"
+  }
+ ],
+ "text_layer": "23\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n23\nMANAGEMENT’S DISCUSSION AND ANALYSIS\nSTRATEGIC GOALS AND HIGHLIGHTS\n01\nSTRATEGIC GOAL I. DISCOVER\nExpand human knowledge through new scientific discoveries.\nStrategic Goal 1 is supported by 14 Performance Goals. Of these, three were rated Green, one was \nrated Red, and 10 were unrated at the time of publication.\nOverview \nNASA’s enduring purpose is scientific discovery and exploration for the benefit of the United States and all of humanity. \nNASA seeks to discover the secrets of the universe, search for life elsewhere, and protect and improve life on Earth and \nin space. Finding answers to these profound science questions requires support for national priorities in science and \nexploration, enhancing new opportunities for cross-disciplinary science, and expanding the societal benefits of our \nscience programs. \nNASA is undertaking new work that builds on our past successes in individual disciplines to enable a more collaborative \nenvironment at the forefront of science and science applications. We have an open data policy that makes our science \ndata available to all. Current data systems are focused on disseminating data to the science community to support \nresearch in five science disciplines: Earth Science, Astrophysics, Planetary Science, Heliophysics, and Biological and \nPhysical Sciences.\nHighlights\nUnderstand the Earth system and its climate\nAs climate change makes its impact felt across the United States and the globe, NASA is rising to meet the challenge. \nCentral to NASA’s achievement of its climate goals is the publication of the 2024-2034 Earth Science to Action \nStrategy, which documents the Strategic Objectives and results of the Earth Science Division (ESD). The Earth Science \nto Action Strategy aims to holistically observe, monitor, and understand the Earth system, as well as deliver trusted \ninformation to drive Earth resiliency activities. By launching the Plankton, Aerosol, Cloud, Ocean Ecosystem (PACE) \nmission in February 2024, NASA met all planned elements of the 2022-2023 Agency Priority Goal related to using the \nlocal vantage point of space to advance the understanding of the Earth system, its processes, and changing climate.\nIn May 2024 and June 2024, NASA also launched the first Polar Radiant Energy in the Far-InfraRed Experiment \n(PREFIRE) mission CubeSats looking for clues about sea ice loss, ice-sheet melting, and a warming Arctic. Both \nlaunches will ensure NASA is advancing our understanding of the Earth system and to curate actionable information to \nhelp the Nation understand, mitigate, and adapt to climate change.\nUnderstanding the Sun, Solar System, and Universe\nIn October 2023, NASA launched Psyche, designed to visit a metal-rich asteroid that contains planetesimal, a building \nblock of an early planet. The Mars Perseverance rover continues to seek signs of ancient life and has collected samples \nof rock and regolith for an eventual return to Earth. NASA continues development of Interstellar Mapping and \nAcceleration Probe, Europa Clipper, the Nancy Grace Roman Space Telescope (Roman), and Near-Earth Object (NEO) \nSurveyor.\nCONTINUED ON THE NEXT PAGE →\nDid You Know?\nNASA and SpaceX technicians safely encapsulate NASA’s PACE (Plankton, Aerosol, Cloud, ocean Ecosystem) \nspacecraft in SpaceX’s Falcon 9 payload fairings on Tuesday, Jan. 30, 2024, at the Astrotech Space Operations \nFacility near the Agency’s Kennedy Space Center in Florida. The fairing halves protect the spacecraft from \naerodynamic pressure and heating during the ascent phase of launch. Photo credit — NASA Goddard/Katie Mellos\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 360,
+  "cost_usd": 0.001017,
+  "seconds": 6.9,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

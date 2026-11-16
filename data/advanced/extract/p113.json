@@ -1,0 +1,41 @@
+{
+ "page": 113,
+ "printed_page": 112,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "photo",
+   "title": "NASA astronaut and Artemis II commander Reid Wiseman training in the Neutral Buoyancy Lab",
+   "bbox": [
+    0,
+    101,
+    1000,
+    571
+   ],
+   "content": "Shows NASA astronaut and Artemis II commander Reid Wiseman in an orange spacesuit floating in water during training beside a spacecraft mockup, with another suited person behind him. Printed caption: “NASA astronaut and Artemis II commander Reid Wiseman participates in training Jan. 23 in the Neutral Buoyancy Lab at the agency’s Johnson Space Center in Houston.” Photo credit: “PHOTO CREDIT – NASA Johnson Space Center”",
+   "crop": "data/advanced/crops/p113_e0.png"
+  },
+  {
+   "kind": "photo",
+   "title": "The Cygnus space freighter fires its engine to raise the station’s orbital altitude",
+   "bbox": [
+    72,
+    855,
+    215,
+    925
+   ],
+   "content": "Shows the Northrop Grumman Cygnus space freighter firing its engine in space, with star trails and aurora visible. Printed caption: “The Cygnus space freighter fires its engine to raise the station’s orbital altitude” “This long-duration photograph taken with a station camera uses increased sensitivity and shows the Northrop Grumman Cygnus space freighter firing its engine to raise the International Space Station’s orbital altitude. The reboosts counteract atmospheric drag and prepare for the space station upcoming spacecraft activities. The orbital outpost was soaring 263 miles above the Indian Ocean with a field of star trails above and the Aurora Australis below.” Photo credit: “PHOTO CREDIT – NASA Johnson”",
+   "crop": "data/advanced/crops/p113_e1.png"
+  }
+ ],
+ "text_layer": "112\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n112\nOTHER INFORMATION\nCIVIL MONETARY PENALTY ADJUSTMENT FOR INFLATION\nCivil Monetary Penalty Adjustment for Inflation\nFor The Fiscal Year Ended September 30, 2024\nThe Federal Civil Penalties Inflation Adjustment Act Improvements Act of 2015 (P.L. 114-74), requires agencies to make \nannual inflation adjustments to civil monetary penalties and report on these adjustments in their AFR.\nAgencies must include, as Other Information, information about civil monetary penalties within their jurisdiction and \nthe annual inflation adjustments made under the Act.\nNASA reviewed each of the penalty amounts under its statutes and penalty amounts for inflation when required under \nlaw. The authorities imposing the penalties, the civil penalties, the adjustment years, and the current penalty amounts \nfor penalty updates are located in the Federal Register Volume 89, No. 56 at govinfo.gov/content/pkg/FR-2024-03-21/\npdf/2024-05999.pdf.\nDid You Know?\nNASA astronaut and Artemis II commander Reid Wiseman participates in training Jan. 23 in the Neutral Buoyancy Lab at the agency’s Johnson \nSpace Center in Houston.\n NASA Johnson Space Center\nPHOTO CREDIT —\nThe Cygnus space freighter fires its engine to raise the station's orbital altitude\nThis long-duration photograph taken with a station camera uses increased sensitivity and shows the Northrop \nGrumman Cygnus space freighter firing its engine to raise the International Space Station's orbital altitude. The \nreboosts counteract atmospheric drag and prepare for the space station upcoming spacecraft activities. The orbital \noutpost was soaring 263 miles above the Indian Ocean with a field of star trails above and the Aurora Australis below.\nPHOTO CREDIT — NASA Johnson\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 477,
+  "cost_usd": 0.001157,
+  "seconds": 7.1,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

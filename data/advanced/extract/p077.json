@@ -1,0 +1,29 @@
+{
+ "page": 77,
+ "printed_page": 76,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "table",
+   "title": "Public-Private Partnerships/Agreements/Contracts (in millions)",
+   "bbox": [
+    59,
+    117,
+    942,
+    267
+   ],
+   "content": "| PUBLIC-PRIVATE PARTNERSHIPS/AGREEMENTS/CONTRACTS (IN MILLIONS) | 2024 — ACTUAL AMOUNT PAID IN FY | 2024 — ESTIMATED AMOUNT TO BE PAID IN FUTURE YEARS | 2024 — ESTIMATED CUMULATIVE AMOUNT TO BE PAID OVER EXPECTED LIFE OF ARRANGEMENT | 2023 — ACTUAL AMOUNT PAID IN FY | 2023 — ESTIMATED AMOUNT TO BE PAID IN FUTURE YEARS | 2023 — ESTIMATED CUMULATIVE AMOUNT TO BE PAID OVER EXPECTED LIFE OF ARRANGEMENT |\n|---|---:|---:|---:|---:|---:|---:|\n| ESPC | $ 14 | $ 189 | $ 302 | $ 14 | $ 204 | $ 302 |\n| UESC | 5 | 41 | 87 | 6 | 46 | 87 |\n| **Estimated Total** | **$ 19** | **$ 230** | **$ 389** | **$ 20** | **$ 250** | **$ 389** |",
+   "crop": "data/advanced/crops/p077_e0.png"
+  }
+ ],
+ "text_layer": "76\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n76\nFINANCIAL SECTION\nFINANCIAL STATEMENTS, NOTES, AND REQUIRED SUPPLEMENTARY INFORMATION\nCONTINUED ON THE NEXT PAGE →\nPUBLIC-PRIVATE \nPARTNERSHIPS\nAGREEMENTS/\nCONTRACTS\n(IN MILLIONS)\n2024\n2023\nACTUAL\nAMOUNT\nPAID IN FY\nESTIMATED\nAMOUNT TO BE\nPAID IN FUTURE \nYEARS\nESTIMATED\nCUMULATIVE\nAMOUNT TO BE PAID\nOVER EXPECTED LIFE\nOF ARRANGEMENT\nACTUAL\nAMOUNT\nPAID IN FY\nESTIMATED\nAMOUNT TO BE\nPAID IN FUTURE \nYEARS\nESTIMATED\nCUMULATIVE\nAMOUNT TO BE PAID\nOVER EXPECTED LIFE\nOF ARRANGEMENT\nESPC\n $ 14 \n $ 189 \n $ 302 \n $ 14 \n $ 204 \n $ 302 \nUESC\n 5 \n 41 \n 87 \n 6 \n 46 \n 87 \nEstimated Total\n $ 19 \n $ 230 \n $ 389 \n $ 20 \n $ 250 \n $ 389 \n18\nNOTE 18\nPublic-Private Partnerships (CONTINUED)\nB.\t Leases\nNASA’s Enhanced Use Lease (EUL) and National Historic Preservation Act (NHPA) programs allow NASA to \nmanage non-excess, underutilized property through leasing arrangements to private sector organizations. Title \n51 U.S.C. § 20145, Lease of Non-Excess Property, authorizes NASA to lease real property under NASA’s control or \njurisdiction to other public and private entities on a long-term basis in return for cash consideration at fair market \nvalue. NASA’s previous EUL authority expired on December 31, 2021, and was extended until December 31, 2022, \nthrough passage of the Omnibus Bill under H.R. 2471-1065, and was most recently extended until December 31, \n2032, under P.L. 117-80, effective August 9, 2022. NASA’s previous EUL authority under 42 U.S.C. § 2459j (2007) \npermitted in-kind consideration. A few of NASA’s leases executed under the previous EUL authority included \nin-kind consideration that was negotiated as part of the terms and conditions of the arrangements. Title 54 U.S.C. \n§ 306121 (P.L. 89-665 October 15, 1966), Lease or Exchange (NHPA), authorizes Federal agencies to lease historic \nproperty owned by the agency to any person or organization or exchange its property with comparable historic \nproperty, if determined that the lease or exchange will adequately ensure the preservation of the historic property. \nTitle 40 U.S.C. § 1314, Easements, allows Federal agencies to grant real property owned by the agency to any \nperson or organization that is not adverse to the interest of the Government with monetary or other consideration, \nincluding an interest in real property.\nNASA’s EUL and NHPA leases serve to provide space to third parties on NASA land or a NASA Facility. NASA’s EUL \nand NHPA leases range from 5 to 96 years expected life, i.e., base term of the lease and amendments plus extensions \nthat can be reasonably anticipated and represent the period in which receipts are expected to be received directly \nfrom the partner. NASA’s EUL and NHPA leases include waivers of liability, tenant insurance requirements, and \ntenant environmental responsibilities to protect NASA’s interest and mitigate potential risk of loss.\nBenefits to NASA from the EUL and NHPA program include:\n•\t Revenue in the form of lease payments; and\n•\t Cost savings, (i.e., operations and maintenance associated with the leased assets that would normally be paid by \nNASA under normal operations).\nUnder the EUL and NHPA program, NASA does not:\n•\t Provide any kind of guarantee for the purpose of private-party financing; or,\n•\t Allow for payment from NASA to the partner.\nNASA will only pursue termination of a lease commenced under EUL or NHPA prior to the end of the lease term \nin the event of default, noncompliance, nonperformance by the lessee, or for reasons of force majeure or act of \nCongress. When termination does occur, NASA does not owe or pay any fees, costs, expenses or penalties, and the \nlessee bears all risk. Upon termination, NASA would assume responsibility for operations and maintenance of the \nleasehold or divestment through normal program and budget planning processes. In most cases, the tenants are \nrequired to remove any additions or improvements and return the leasehold to its original state unless otherwise \n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 391,
+  "cost_usd": 0.001054,
+  "seconds": 4.5,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

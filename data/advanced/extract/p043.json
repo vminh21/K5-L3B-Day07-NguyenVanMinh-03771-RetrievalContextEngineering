@@ -1,0 +1,29 @@
+{
+ "page": 43,
+ "printed_page": 42,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "photo",
+   "title": "TechGirls Tour NASA Goddard",
+   "bbox": [
+    98,
+    210,
+    902,
+    704
+   ],
+   "content": "Photo showing a woman speaking with a group of girls during a NASA Goddard tour; the background includes a Nancy Grace Roman Space Telescope display. Printed caption: “TechGirls Tour NASA Goddard NASA Goddard hosted participants from the U.S. Department of State’s TechGirls program once again this summer. On Aug. 1, 2024, 133 girls from 37 different countries/territories toured Goddard’s research labs and TV production studios and heard from a panel of some of the incredible women that work at Goddard.” Photo credit: “NASA/Jay Friedlander”.",
+   "crop": "data/advanced/crops/p043_e0.png"
+  }
+ ],
+ "text_layer": "42\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n42\nForward Looking\nMANAGEMENT’S DISCUSSION AND ANALYSIS\nTechGirls Tour NASA Goddard\nNASA Goddard hosted participants from the U.S. Department of \nState’s TechGirls program once again this summer. On Aug. 1, 2024, \n133 girls from 37 different countries/territories toured Goddard's \nresearch labs and TV production studios and heard from a panel of \nsome of the incredible women that work at Goddard.\nPHOTO CREDIT \nNASA/Jay Friedlander\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 280,
+  "cost_usd": 0.000921,
+  "seconds": 4.9,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

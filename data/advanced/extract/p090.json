@@ -1,0 +1,16 @@
+{
+ "page": 90,
+ "printed_page": 89,
+ "status": "ok",
+ "elements": [],
+ "text_layer": "89\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n89\nFINANCIAL SECTION\nINDEPENDENT AUDITORS' REPORT\n4\nOther Reporting Required by Government Auditing Standards\nIn accordance with Government Auditing Standards, we have also issued our report dated\nNovember 15, 2024, on our consideration of NASA’s internal control over financial reporting and\non our tests of its compliance with certain provisions of laws, regulations, contracts and grant\nagreements, and other matters. The purpose of that report is solely to describe the scope of our\ntesting of internal control over financial reporting and compliance and the results of that testing,\nand not to provide an opinion on the effectiveness of NASA’s internal control over financial\nreporting or on compliance. That report is an integral part of an audit performed in accordance\nwith Government Auditing Standards in considering NASA’s internal control over financial\nreporting and compliance.\nNovember 15, 2024\nA member firm of Ernst & Young Global Limited \nCONTINUED ON THE NEXT PAGE →\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 80,
+  "cost_usd": 0.000681,
+  "seconds": 1.9,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

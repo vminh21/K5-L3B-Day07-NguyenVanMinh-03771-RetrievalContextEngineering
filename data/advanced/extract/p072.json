@@ -1,0 +1,29 @@
+{
+ "page": 72,
+ "printed_page": 71,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "table",
+   "title": "Reconciliation of Net Cost to Net Outlays (CONTINUED)",
+   "bbox": [
+    59,
+    113,
+    941,
+    755
+   ],
+   "content": "| (IN MILLIONS) | INTRAGOVERNMENTAL | WITH THE PUBLIC | TOTAL |\n|---|---:|---:|---:|\n| **2023** |  |  |  |\n| Net Cost | $ 640 | $ 23,976 | $ 24,616 |\n| **Components of Net Cost not part of the Budgetary Outlays** |  |  |  |\n|   Property, plant, and equipment depreciation expense | — | (593) | (593) |\n|   Property, plant, and equipment disposals and revaluations | — | (106) | (106) |\n|   Applied overhead/cost capitalization offset | — | 1,664 | 1,664 |\n|   Donations | — | 44 | 44 |\n|   Gains/Losses on all other investments | — | — | — |\n| **Increase/(Decrease) in Assets not affecting Budgetary Outlays:** |  |  |  |\n|   Accounts receivable, net | 11 | — | 11 |\n|   Other assets | (32) | (6) | (38) |\n| **(Increase)/Decrease in Liabilities not affecting Budgetary Outlays:** |  |  |  |\n|   Accounts payable | (17) | 110 | 93 |\n|   Environmental and disposal liabilities | — | (175) | (175) |\n|   Federal employee benefits payable | — | (1) | (1) |\n|   Other liabilities | 41 | 46 | 87 |\n| **Financing Sources:** |  |  |  |\n|   Imputed cost | (231) | — | (231) |\n| **Total Components of Net Cost not part of the Budgetary Outlays** | (228) | 983 | 755 |\n| **Components of the Budgetary Outlays not part of Net Cost:** |  |  |  |\n| **Financing Sources:** |  |  |  |\n|   Donated revenue | — | — | — |\n|   Transfers out (in) without reimbursements | — | — | — |\n| **Total Components of the Budgetary Outlays not part of Net Cost** | — | — | — |\n| **Misc Items** |  |  |  |\n|   Distributed offsetting receipts | (7) | — | (7) |\n|   Custodial/Non-exchange revenue | (1) | (44) | (45) |\n|   Other temporary timing differences | — | — | — |\n|   Appropriated receipts for Trust/Special Funds | — | — | — |\n| **Total Other Reconciling Items** | (8) | (44) | (52) |\n| **Total Net Outlays (Calculated Total)** | $ 404 | $ 24,915 | $ 25,319 |\n| **Budgetary Agency Outlays, net** | — | — | $ 25,319 |",
+   "crop": "data/advanced/crops/p072_e0.png"
+  }
+ ],
+ "text_layer": "71\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n71\nFINANCIAL SECTION\nFINANCIAL STATEMENTS, NOTES, AND REQUIRED SUPPLEMENTARY INFORMATION\nThe Jet Propulsion Laboratory (JPL) is a NASA-owned facility which serves as a Federally Funded Research and \nDevelopment Center (FFRDC). The facility commenced activities in the mid-1930s and at that time was sponsored by \nthe U.S. Army to develop rocket technology and missile systems.\nThe California Institute of Technology (Caltech), a private, not-for-profit 501(c)(3) university, manages JPL pursuant \n16\nNOTE 16\nDisclosure Entity\n15\nNOTE 15\nReconciliation of Net Cost to Net Outlays (CONTINUED)\n2023\n(IN MILLIONS)\nINTRAGOVERNMENTAL\nWITH THE PUBLIC\nTOTAL\nNet Cost\n $ 640 \n $ 23,976 \n $ 24,616 \nComponents of Net Cost not part of the Budgetary Outlays\nProperty, plant, and equipment depreciation expense\n — \n (593)\n (593)\nProperty, plant, and equipment disposals and revaluations\n — \n (106)\n (106)\nApplied overhead/cost capitalization offset\n — \n 1,664 \n 1,664 \nDonations\n — \n 44 \n 44 \nGains/Losses on all other investments\n — \n — \n — \nIncrease/(Decrease) in Assets not affecting Budgetary Outlays:\nAccounts receivable, net\n 11 \n — \n 11 \nOther assets\n (32)\n (6)\n (38)\n(Increase)/Decrease in Liabilities not affecting Budgetary Outlays:\nAccounts payable\n (17)\n 110 \n 93 \nEnvironmental and disposal liabilities\n — \n (175)\n (175)\nFederal employee benefits payable\n — \n (1)\n (1)\nOther liabilities\n 41 \n 46 \n 87 \nFinancing Sources:\nImputed cost\n (231)\n — \n (231)\nTotal Components of Net Cost not part of the Budgetary Outlays\n (228)\n 983 \n 755 \nComponents of the Budgetary Outlays not part of Net Cost:\nFinancing Sources:\nDonated revenue\n — \n — \n — \nTransfers out (in) without reimbursements\n — \n — \n — \nTotal Components of the Budgetary Outlays not part of Net Cost\n — \n — \n — \nMisc Items\nDistributed offsetting receipts\n (7)\n — \n (7)\nCustodial/Non-exchange revenue\n (1)\n (44)\n (45)\nOther temporary timing differences\n — \n — \n — \nAppropriated receipts for Trust/Special Funds\n — \n — \n — \nTotal Other Reconciling Items\n (8)\n (44)\n (52)\nTotal Net Outlays (Calculated Total) \n $ 404 \n $ 24,915 \n $ 25,319 \nBudgetary Agency Outlays, net\n $  25,319 \nCONTINUED ON THE NEXT PAGE →\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 789,
+  "cost_usd": 0.001532,
+  "seconds": 8.1,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

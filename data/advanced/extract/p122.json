@@ -1,0 +1,53 @@
+{
+ "page": 122,
+ "printed_page": 121,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "photo",
+   "title": "NASA team members receiving AGA awards",
+   "bbox": [
+    0,
+    96,
+    1000,
+    701
+   ],
+   "content": "A group of seven people pose in front of a geometric wall; two people hold framed certificates and the person in the center holds a trophy. Printed caption: \"AGA awarded NASA its prestigious CEAR Award and Best-in-Class Award, marking the 10th year NASA has been recognized for its excellence in financial reporting.\" No photo credit is printed.",
+   "crop": "data/advanced/crops/p122_e0.png"
+  },
+  {
+   "kind": "photo",
+   "title": "AGA award trophy",
+   "bbox": [
+    59,
+    648,
+    160,
+    712
+   ],
+   "content": "A close-up image of a blue AGA award trophy on a stand. No printed caption or photo credit.",
+   "crop": "data/advanced/crops/p122_e1.png"
+  },
+  {
+   "kind": "photo",
+   "title": "Frank E. Petersen, III",
+   "bbox": [
+    75,
+    807,
+    259,
+    921
+   ],
+   "content": "Portrait of Frank E. Petersen, III, wearing a dark suit, white shirt, and pink tie, photographed outdoors. No printed caption or photo credit.",
+   "crop": "data/advanced/crops/p122_e2.png"
+  }
+ ],
+ "text_layer": "121\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n121\nCertificate of Excellence in Accountability Reporting Award\nAPPENDIX\nAWARDS\nFrank E. Petersen, III\nMr. Frank E. Petersen, III serves as NASA’s Deputy Chief Financial Officer for Finance. In \nthis role, Mr. Petersen oversees the Associate Chief Financial Officer for Policy and Systems \n(Financial Policy, Agency Financial Systems Office, and HQ Travel Office); Quality Assurance \nDivision; and Financial Management Division. Mr. Petersen is responsible for the financial \nsystems, financial policies and procedures, financial management, quality assurance, internal \ncontrols, OCFO risk management, and reporting of all Agency financial resources. Mr. \nPetersen is currently serving as AGA’s National President for 2024 – 2025.\nAGA awarded NASA its prestigious CEAR Award and Best-in-Class Award, marking the 10th year NASA has \nbeen recognized for its excellence in financial reporting.\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 497,
+  "cost_usd": 0.001181,
+  "seconds": 8.1,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

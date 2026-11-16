@@ -1,0 +1,16 @@
+{
+ "page": 93,
+ "printed_page": 92,
+ "status": "ok",
+ "elements": [],
+ "text_layer": "92\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n92\nFINANCIAL SECTION\nINDEPENDENT AUDITORS' REPORT\nthe design and operating effectiveness of the internal control system as part of the normal course\nof operations, including regular management and supervisory activities.\nTo mitigate the risks of undetected errors in the financial reporting process, management should\nensure that control activities are operating as designed and that the appropriate level of\ndocumentation to evidence reviews is maintained to prevent and detect material misstatements.\nManagement should also consider whether additional training on proper operation of its controls\nis necessary to enhance NASA’s financial reporting control environment.  Finally, management\nshould perform ongoing monitoring over the operating effectiveness of its financial reporting\ncontrols.\nReport on Compliance and Other Matters\nAs part of obtaining reasonable assurance about whether NASA’s financial statements are free of\nmaterial misstatement, we performed tests of its compliance with certain provisions of laws,\nregulations, contracts and grant agreements as well as the requirements referred to in the Federal\nFinancial Management Improvement Act of 1996 (FFMIA), noncompliance with which could\nhave a direct and material effect on the financial statements. However, providing an opinion on\ncompliance with those provisions was not an objective of our audit, and accordingly, we do not\nexpress such an opinion. The results of our tests disclosed no instances of noncompliance or other\nmatters that are required to be reported under Government Auditing Standards and the provisions\nof OMB Bulletin No. 24-02 and disclosed no instances of noncompliance in which NASA’s\nfinancial management systems did not substantially comply with the Section 803(a) requirements\nof FFMIA.\nNASA’s Response to Findings\nGovernment Auditing Standards requires the auditor to perform limited procedures on NASA’s\nresponse to the findings identified in our audit and described previously. NASA’s response was\nnot subjected to the other auditing procedures applied in the audit of the financial statements and\naccordingly, we express no opinion on the response.\nCONTINUED ON THE NEXT PAGE →\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 39,
+  "cost_usd": 0.000632,
+  "seconds": 2.2,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

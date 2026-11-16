@@ -1,0 +1,41 @@
+{
+ "page": 2,
+ "printed_page": 1,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "photo",
+   "title": "Artemis II crew with White House staff",
+   "bbox": [
+    0,
+    0,
+    1000,
+    579
+   ],
+   "content": "A group photograph shows the Artemis II crew—NASA astronauts Reid Wiseman, Victor Glover, Christina Koch, and Canadian Space Agency (CSA) astronaut Jeremy Hansen—in front of a blue curtain with White House staff. Printed caption: “The Artemis II crew, NASA astronauts Reid Wiseman, left, Victor Glover, Christina Koch, and Canadian Space Agency (CSA) astronaut Jeremy Hansen, right, pose for a group photograph with White House staff after a briefing, Thursday, June 6, 2024, at the Eisenhower Executive Office Building in Washington.” Photo credit: “PHOTO CREDIT – Bill Ingalls”",
+   "crop": "data/advanced/crops/p002_e0.png"
+  },
+  {
+   "kind": "photo",
+   "title": "NASA astronaut Andre Douglas wearing AR display technology",
+   "bbox": [
+    59,
+    623,
+    386,
+    922
+   ],
+   "content": "A close-up photograph shows NASA astronaut Andre Douglas wearing a helmet with illuminated augmented-reality display equipment during a nighttime field test. Printed caption: “NASA astronaut Andre Douglas wears AR (Augmented Reality) display technology during a nighttime advanced technology run in the San Francisco Volcanic Field in Northern Arizona on May 21, 2024. The monocular lens consists of a pico-projector and waveguide optical element to focus an image for crew to see their real world overlaid with digital information. These unique near-eye form factors may be used to improve the usability and minimally impact the complex biomechanics of working in a pressurized suit environment.” Photo credit: “PHOTO CREDIT – NASA/Josh Valcarcel”",
+   "crop": "data/advanced/crops/p002_e1.png"
+  }
+ ],
+ "text_layer": "01\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\nThe Artemis II crew, NASA astronauts Reid Wiseman, left, Victor Glover, Christina Koch, and Canadian Space Agency (CSA) astronaut Jeremy \nHansen, right, pose for a group photograph with White House staff after a briefing, Thursday, June 6, 2024, at the Eisenhower Executive Office \nBuilding in Washington.\nPHOTO CREDIT — Bill Ingalls\nCOVER IMAGE\nCaption and credits \nNASA astronaut Andre Douglas wears AR (Augmented Reality) \ndisplay technology during a nighttime advanced technology run in \nthe San Francisco Volcanic Field in Northern Arizona on May 21, \n2024. The monocular lens consists of a pico-projector and waveguide \noptical element to focus an image for crew to see their real world \noverlaid with digital information. These unique near-eye form factors \nmay be used to improve the usability and minimally impact the \ncomplex biomechanics of working in a pressurized suit environment.\nPHOTO CREDIT — NASA/Josh Valcarcel\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 447,
+  "cost_usd": 0.001121,
+  "seconds": 8.5,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "page": 33,
+ "printed_page": 32,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "chart",
+   "title": "Comparative Gross Cost of Operations By Strategic Goal FY 2024 and FY 2023",
+   "bbox": [
+    88,
+    222,
+    917,
+    920
+   ],
+   "content": "Horizontal bar chart. Title: Comparative Gross Cost of Operations By Strategic Goal FY 2024 and FY 2023. Unit: (IN MILLIONS). Legend: orange = 2024; purple = 2023. Overall totals: FY 2024 Total: $26,551; FY 2023 Total: $26,233.\n\nSTRATEGIC GOAL 1 — Expand human knowledge through new scientific discoveries.\nEarth Science Research | FY 2024 | $578\nEarth Science Research | FY 2023 | $522\nEarth Systematic Missions | FY 2024 | $831\nEarth Systematic Missions | FY 2023 | $748\nReimbursable-Science Programmatic | FY 2024 | $916\nReimbursable-Science Programmatic | FY 2023 | $713\nOther Goal 1 Programs | FY 2024 | $6,803\nOther Goal 1 Programs | FY 2023 | $7,183\nFY 2024 Total: $9,128 | FY 2023 Total: $9,166\n\nSTRATEGIC GOAL 2 — Extend human presence to the Moon and on towards Mars for sustainable long-term exploration, development, and utilization.\nHuman Landing System | FY 2024 | $1,144\nHuman Landing System | FY 2023 | $1,463\nInternational Space Station Program | FY 2024 | $1,282\nInternational Space Station Program | FY 2023 | $1,313\nCrew and Cargo Program | FY 2024 | $1,552\nCrew and Cargo Program | FY 2023 | $1,449\nSpace Launch System | FY 2024 | $2,719\nSpace Launch System | FY 2023 | $2,555\nOther Goal 2 Programs | FY 2024 | $4,609\nOther Goal 2 Programs | FY 2023 | $4,250\nFY 2024 Total: $11,306 | FY 2023 Total: $11,030\n\nSTRATEGIC GOAL 3 — Catalyze economic growth and drive innovation to address national challenges.\nTechnology Demonstration | FY 2024 | $369\nTechnology Demonstration | FY 2023 | $337\nScience and Engineering | FY 2024 | $577\nScience and Engineering | FY 2023 | $655\nOther Goal 3 Programs | FY 2024 | $2,129\nOther Goal 3 Programs | FY 2023 | $2,052\nFY 2024 Total: $3,075 | FY 2023 Total: $3,044\n\nSTRATEGIC GOAL 4 — Enhance capabilities and operations to catalyze current and future mission success.\nInfrastructure | FY 2024 | $660\nInfrastructure | FY 2023 | $666\nMission Enabling Service | FY 2024 | $683\nMission Enabling Service | FY 2023 | $686\nCenter Engineering, Safety, & Operations | FY 2024 | $800\nCenter Engineering, Safety, & Operations | FY 2023 | $829\nOther Goal 4 Programs | FY 2024 | $899\nOther Goal 4 Programs | FY 2023 | $812\nFY 2024 Total: $3,042 | FY 2023 Total: $2,993",
+   "crop": "data/advanced/crops/p033_e0.png"
+  }
+ ],
+ "text_layer": "32\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n32\nMANAGEMENT’S DISCUSSION AND ANALYSIS\nFINANCIAL PERFORMANCE\nResults of Operations (CONTINUED)\nGross Cost of Operations\nNASA’s day-to-day operations are performed at NASA and contractor facilities around the globe and in space. Gross \ncost of operations is presented in the following table, detailing select NASA programs that support each strategic goal. \nGross cost of operations include expenses incurred for NASA’s research and development (R&D) investments that are \nexpected to maintain or increase national economic productive capacity or yield other future benefits. Top programs by \nstrategic goal in relation to gross cost have remained consistent year to year. \nFY 2024 Total: $3,075  |  FY 2023 Total: $3,044\nSTRATEGIC GOAL 3\nCatalyze economic growth and drive innovation to address national challenges.\nTechnology Demonstration\n$337\n$369\nScience and Engineering\n$655\n$577\nOther Goal 3 Programs\n$2,052\n$2,129\nFY 2024 Total: $3,042  |  FY 2023 Total: $2,993\nSTRATEGIC GOAL 4 \nEnhance capabilities and operations to catalyze current and future mission success.\nInfrastructure\n$666\n$660\n Mission Enabling Service \n$686\n$683\nCenter Engineering, Safety, & Operations\n$829\n$800\nOther Goal 4 Programs\n$812\n$899\nFY 2024 Total: $9,128  |  FY 2023 Total: $9,166\nSTRATEGIC GOAL 1\nExpand human knowledge through new scientific discoveries.\nEarth Science Research\n$522\n$578\nEarth Systematic Missions\n$748\n$831\nReimbursable-Science Programmatic\n$713\n$916\nOther Goal 1 Programs\n$7,183\n$6,803\nFY 2024 Total: $11,306  |  FY 2023 Total: $11,030\nSTRATEGIC GOAL 2\nExtend human presence to the Moon and on towards Mars for sustainable long-term \nexploration, development, and utilization.\nHuman Landing System\n$1,463\n$1,144\nInternational Space Station Program\n$1,313\n$1,282\nCrew and Cargo Program\n$1,449\n$1,552\nSpace Launch System\n$2,555\n$2,719\nOther Goal 2 Programs\n$4,250\n$4,609\nComparative Gross Cost of Operations\nBy Strategic Goal FY 2024 and FY 2023\n(IN MILLIONS)\n2024       2023\nFY 2024 Total: $26,551\nFY 2023 Total: $26,233\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 822,
+  "cost_usd": 0.001571,
+  "seconds": 7.2,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

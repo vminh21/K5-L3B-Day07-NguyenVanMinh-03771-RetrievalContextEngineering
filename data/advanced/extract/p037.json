@@ -1,0 +1,29 @@
+{
+ "page": 37,
+ "printed_page": 36,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "photo",
+   "title": "Firefly Aerospace’s Alpha rocket launch",
+   "bbox": [
+    0,
+    98,
+    1000,
+    542
+   ],
+   "content": "A nighttime photograph shows Firefly Aerospace’s Alpha rocket launching in a bright arc over a mountainous coastal landscape, viewed through silhouetted dead trees. Printed caption: “Firefly Aerospace’s Alpha rocket carrying eight CubeSats as part of NASA’s CubeSat Launch Initiative (CSLI) lifts off from Space Launch Complex 2 at Vandenberg Space Force Base in California at 9:04 p.m. PDT Wednesday, July 3, 2024. The successful launch of the rocket, named “Noise of Summer,” completed the company’s Venture-Class Launch Services Demonstration 2 (VCLS Demo 2) contract with the agency. The CubeSat missions were designed by universities and NASA centers to conduct climate studies, satellite technology development, and educational outreach to students.” Photo credit: “Firefly Aerospace/Sean Parker”.",
+   "crop": "data/advanced/crops/p037_e0.png"
+  }
+ ],
+ "text_layer": "36\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n36\nInternal Control Framework\nMANAGEMENT’S DISCUSSION AND ANALYSIS\nANALYSIS OF SYSTEMS, CONTROLS, AND LEGAL COMPLIANCE\nCONTINUED ON THE NEXT PAGE →\nFirefly Aerospace’s Alpha rocket carrying eight CubeSats as part of NASA’s CubeSat Launch Initiative (CSLI) lifts off from Space Launch Complex 2 at \nVandenberg Space Force Base in California at 9:04 p.m. PDT Wednesday, July 3, 2024. The successful launch of the rocket, named “Noise of Summer,” \ncompleted the company’s Venture-Class Launch Services Demonstration 2 (VCLS Demo 2) contract with the agency. The CubeSat missions were \ndesigned by universities and NASA centers to conduct climate studies, satellite technology development, and educational outreach to students.\nPHOTO CREDIT — Firefly Aerospace/Sean Parker\nThe Federal Managers’ Financial Integrity Act (FMFIA)1 requires agency heads to evaluate and report on the internal \ncontrol and financial systems to ensure the integrity of Federal programs and operations. This evaluation aims to \nprovide reasonable assurance that internal controls are operating effectively to ensure efficient operations, reliable \nfinancial reporting, and compliance with applicable laws and regulations. \nAn effective system of internal control is at the core of NASA fulfilling its mission and meeting its objectives while \nsafeguarding governmental resources. NASA's management is responsible for implementing internal control activities \nthat support the organization in meeting established objectives. \nNASA complies with the Office of Management and Budget’s (OMB) Circular A-1232, Management’s Responsibility for \nEnterprise Risk Management and Internal Control, which provides Government-wide requirements for internal control \nand accountability, based on the FMFIA. OMB Circular A-123 also requires agencies to establish internal controls over \noperations, reporting, and compliance. \nNASA assesses internal control across the Agency at various levels of the organization to ensure significant risks are \nidentified, and related internal controls that address those risks are evaluated. NASA assesses the effectiveness of the \nNASA Federal Managers' Financial Integrity Act Annual Statement of Assurance Process \n1 The Federal Managers’ Financial Integrity Act (FMFIA) https://www.congress.gov/97/statute/STATUTE-96/STATUTE-96-Pg814.pdf\n2 OMB Circular A-123, Management’s Responsibility for Enterprise Risk Management and Internal Control\nhttps://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2016/m-16-17.pdf\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 325,
+  "cost_usd": 0.000975,
+  "seconds": 5.1,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

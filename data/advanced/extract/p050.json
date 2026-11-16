@@ -1,0 +1,29 @@
+{
+ "page": 50,
+ "printed_page": 49,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "table",
+   "title": "Consolidated Balance Sheets\nAs of September 30, 2024 and 2023\n(IN MILLIONS)",
+   "bbox": [
+    59,
+    143,
+    941,
+    926
+   ],
+   "content": "|  | 2024 | 2023 |\n|---|---:|---:|\n| **Assets** |  |  |\n| *Intragovernmental:* |  |  |\n| Fund Balance with Treasury (Note 2) | $ 17,186 | $ 17,378 |\n| Investments, Net (Note 3) | 15 | 15 |\n| Accounts Receivable, Net (Note 4) | 98 | 67 |\n| Advances and Prepayments | 108 | — |\n| **Total Intragovernmental** | **17,407** | **17,460** |\n| *With the Public:* |  |  |\n| Accounts Receivable, Net (Note 4) | 26 | 1 |\n| Property, Plant, and Equipment, Net (Note 5) | 9,331 | 8,651 |\n| Advances and Prepayments | 43 | 23 |\n| Other Assets (Note 7) | 697 | — |\n| **Total with the Public** | **10,097** | **8,675** |\n| **Total Assets** | **$ 27,504** | **$ 26,135** |\n| **Stewardship PP&E (Note 6)** |  |  |\n| **Liabilities: (Note 8)** |  |  |\n| *Intragovernmental:* |  |  |\n| Accounts Payable | $ 29 | $ 36 |\n| Advances from Others and Deferred Revenue | 34 | 39 |\n| Other Liabilities (Note 10) | 188 | 175 |\n| **Total Intragovernmental** | **251** | **250** |\n| *With the Public:* |  |  |\n| Accounts Payable | 1,746 | 1,730 |\n| Federal Employee Salary, Leave and Benefits Payable | 348 | 288 |\n| Pensions and Post-Employment Benefits Payable | 26 | 27 |\n| Environmental and Disposal Liabilities (Note 9) | 2,353 | 2,305 |\n| Advances from Others and Deferred Revenue | 180 | 199 |\n| Other Liabilities (Note 10) |  |  |\n| &nbsp;&nbsp;&nbsp;&nbsp;Other Accrued Liabilities | 1,902 | 1,793 |\n| &nbsp;&nbsp;&nbsp;&nbsp;Other | 858 | 127 |\n| **Total with the Public** | **7,413** | **6,469** |\n| **Total Liabilities** | **$ 7,664** | **$ 6,719** |\n| **Commitments and Contingencies (Note 12)** |  |  |\n| **Net Position:** |  |  |\n| Unexpended Appropriations | $ 13,157 | $ 13,333 |\n| Cumulative Results of Operations | 6,683 | 6,083 |\n| **Total Net Position** | **$ 19,840** | **$ 19,416** |\n| **Total Liabilities and Net Position** | **$ 27,504** | **$ 26,135** |",
+   "crop": "data/advanced/crops/p050_e0.png"
+  }
+ ],
+ "text_layer": "49\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n49\nFINANCIAL SECTION\nFINANCIAL STATEMENTS, NOTES, AND REQUIRED SUPPLEMENTARY INFORMATION\nTHE ACCOMPANYING NOTES ARE AN INTEGRAL PART OF THESE FINANCIAL STATEMENTS\nNATIONAL AERONAUTICS AND SPACE ADMINISTRATION\nConsolidated Balance Sheets\nAs of September 30, 2024 and 2023\n(IN MILLIONS)\n2024\n2023\nAssets\nIntragovernmental:\nFund Balance with Treasury (Note 2)\n $ 17,186 \n $ 17,378 \nInvestments, Net (Note 3)\n 15 \n 15 \nAccounts Receivable, Net (Note 4)\n 98 \n 67 \nAdvances and Prepayments\n 108 \n — \nTotal Intragovernmental\n 17,407 \n 17,460 \nWith the Public:\nAccounts Receivable, Net (Note 4)\n 26 \n 1 \nProperty, Plant, and Equipment, Net (Note 5)\n 9,331 \n 8,651 \nAdvances and Prepayments\n 43 \n 23 \nOther Assets (Note 7)\n 697 \n — \nTotal with the Public\n 10,097 \n 8,675 \nTotal Assets\n $ 27,504 \n $ 26,135 \nStewardship PP&E (Note 6)\nLiabilities: (Note 8)\nIntragovernmental:\nAccounts Payable\n $ 29 \n $ 36 \nAdvances from Others and Deferred Revenue\n 34 \n 39 \nOther Liabilities (Note 10)\n 188 \n 175 \nTotal Intragovernmental  \n 251 \n 250 \nWith the Public:\nAccounts Payable\n 1,746 \n 1,730 \nFederal Employee Salary, Leave and Benefits Payable\n 348 \n 288 \nPensions and Post-Employment Benefits Payable\n 26 \n 27 \nEnvironmental and Disposal Liabilities (Note 9)\n 2,353 \n 2,305 \nAdvances from Others and Deferred Revenue\n 180 \n 199 \nOther Liabilities (Note 10)\nOther Accrued Liabilities\n 1,902 \n 1,793 \nOther\n 858 \n 127 \nTotal with the Public\n 7,413 \n 6,469 \nTotal Liabilities\n $ 7,664 \n $ 6,719 \nCommitments and Contingencies (Note 12)\nNet Position:\nUnexpended Appropriations\n $ 13,157 \n $ 13,333 \nCumulative Results of Operations\n 6,683 \n 6,083 \nTotal Net Position\n $ 19,840 \n $ 19,416 \nTotal Liabilities and Net Position\n $ 27,504 \n $ 26,135 \n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 864,
+  "cost_usd": 0.001622,
+  "seconds": 8.2,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

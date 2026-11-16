@@ -1,0 +1,29 @@
+{
+ "page": 22,
+ "printed_page": 21,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "chart",
+   "title": "Summary of preliminary FY 2024 ratings by Strategic Goal compared to FY 2023",
+   "bbox": [
+    110,
+    299,
+    890,
+    673
+   ],
+   "content": "100% stacked bar chart. Y-axis is unlabeled and marked in percentages: 0%, 10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90%, 100%. X-axis categories are Strategic Goal 1, Strategic Goal 2, Strategic Goal 3, and Strategic Goal 4; each has FY 2023 and FY 2024 bars. Legend: green = Complete or On Target to Complete; yellow/orange = Below Target; red = Significantly Below Target/At Risk; gray = Unrated.\n\nPrinted values:\nComplete or On Target to Complete | Strategic Goal 1, FY 2023 | 5\nUnrated | Strategic Goal 1, FY 2023 | 11\nComplete or On Target to Complete | Strategic Goal 1, FY 2024 | 3\nSignificantly Below Target/At Risk | Strategic Goal 1, FY 2024 | 1\nUnrated | Strategic Goal 1, FY 2024 | 10\nComplete or On Target to Complete | Strategic Goal 2, FY 2023 | 7\nBelow Target | Strategic Goal 2, FY 2023 | 3\nComplete or On Target to Complete | Strategic Goal 2, FY 2024 | 8\nBelow Target | Strategic Goal 2, FY 2024 | 1\nUnrated | Strategic Goal 2, FY 2024 | 1\nComplete or On Target to Complete | Strategic Goal 3, FY 2023 | 7\nBelow Target | Strategic Goal 3, FY 2023 | 3\nSignificantly Below Target/At Risk | Strategic Goal 3, FY 2023 | 1\nComplete or On Target to Complete | Strategic Goal 3, FY 2024 | 10\nBelow Target | Strategic Goal 3, FY 2024 | 1\nComplete or On Target to Complete | Strategic Goal 4, FY 2023 | 10\nBelow Target | Strategic Goal 4, FY 2023 | 1\nSignificantly Below Target/At Risk | Strategic Goal 4, FY 2023 | 1\nComplete or On Target to Complete | Strategic Goal 4, FY 2024 | 12\nBelow Target | Strategic Goal 4, FY 2024 | 1\nSignificantly Below Target/At Risk | Strategic Goal 4, FY 2024 | 1\nUnrated | Strategic Goal 4, FY 2024 | 1",
+   "crop": "data/advanced/crops/p022_e0.png"
+  }
+ ],
+ "text_layer": "21\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n21\nFY 2024 Performance Assessment\nMANAGEMENT’S DISCUSSION AND ANALYSIS\nSTRATEGIC GOALS AND HIGHLIGHTS\nTwelve Performance Goals supporting Strategic Goals remained unrated at the time of the FY 2024 AFR’s publication. \nTen of those are awaiting ratings from the Science Advisory Committees, which recommends ratings (based on \nrelevant published, peer-reviewed science findings and other criteria) for NASA’s science-focused Performance Goals \nfor Strategic Goal 1 at their Fall meetings. The Science Mission Directorate considers those recommendations when \nassigning the final fiscal year rating. Performance Goal 2.2.3 focuses on providing operational resources to enable the \nclosure of capability gaps in support of deep space exploration and remains unrated due to milestones being initiated \nbut not yet fully operational. Performance Goal 4.2.8 which focuses on increasing facility reliability for current and \nfuture mission needs through investments in preventative maintenance that reduce unscheduled maintenance is \nunrated due to a lag of data availability immediately after the quarter. \nThe table above shows a snapshot of the comparison of ratings for Q3 in FY 2023 and 2024, but it is worth noting that \nfor both Strategic Goals 1 and 4, the total number of Performance Goals differs. For Strategic Goal 1 focusing on science, \ntwo Performance Goals were removed for FY 2024. One Performance Goal, formerly an Agency Priority Goal, was \nsunsetted when the James Webb Space Telescope became operational and no longer in development. Two Performance \nThroughout FY 2024, program officials assessed progress towards achieving NASA’s 50 Performance Goals and \ndetermined whether the goals’ annual targets were met and assigned one of the color ratings described above. The \nPerformance Improvement Officer (PIO) confirmed the ratings.\nThe following graph shows the summary of preliminary FY 2024 ratings summarized by Strategic Goal compared \nto the FY 2023 ratings that were published in the FY 2025 VIPer. For each Strategic Goal, the graph shows how the \nPerformance Goals were rated at the time of publication. The FY 2026 VIPer, which will be published concurrently \nwith the FY 2026 President’s Budget Request at https://www.nasa.gov/ocfo/performance-report, will provide the \nfinal performance results for each Performance Goal.\nSTRATEGIC GOAL 1\nSTRATEGIC GOAL 2\nSTRATEGIC GOAL 3\nSTRATEGIC GOAL 4\n100%\n1\n1\n1\n1\n1\n90%\n1\n1\n3\n1\n80%\n1\n3\n70%\n11\n10\n60%\n50%\n10\n40%\n8\n10\n12\n7\n7\n30%\n1\n20%\n5\n10%\n3\n0%\nFY 2023\nFY 2024\nFY 2023\nFY 2024\nFY 2023\nFY 2024\nFY 2023\nFY 2024\nComplete or On \nBelow Target\nSignificantly Below \nUnrated\nTarget to Complete\nTarget/At Risk\nCONTINUED ON THE NEXT PAGE →\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 803,
+  "cost_usd": 0.001548,
+  "seconds": 7.0,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

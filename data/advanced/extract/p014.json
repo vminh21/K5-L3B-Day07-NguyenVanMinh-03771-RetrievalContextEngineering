@@ -1,0 +1,29 @@
+{
+ "page": 14,
+ "printed_page": 13,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "photo",
+   "title": "NASA astronaut Kate Rubins during a simulated moonwalk",
+   "bbox": [
+    88,
+    187,
+    893,
+    727
+   ],
+   "content": "Photo shows NASA astronaut Kate Rubins wearing a spacesuit and using a hammer to drive a tube into the ground during a nighttime simulated moonwalk. Printed caption: “NASA astronaut Kate Rubins uses a hammer to get a drive tube into the ground to collect a pristine soil sample during a nighttime simulated moonwalk in the San Francisco Volcanic Field in Northern Arizona on May 16, 2024. The drive tube is the key piece of hardware for preserving the integrity of samples from the Moon.” Photo credit: NASA/Josh Valcarcel",
+   "crop": "data/advanced/crops/p014_e0.png"
+  }
+ ],
+ "text_layer": "13\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n13\nMission Performance\nMANAGEMENT’S DISCUSSION AND ANALYSIS\nNASA astronaut Kate Rubins uses a hammer to get a drive tube into the \nground to collect a pristine soil sample during a nighttime simulated \nmoonwalk in the San Francisco Volcanic Field in Northern Arizona \non May 16, 2024. The drive tube is the key piece of hardware for \npreserving the integrity of samples from the Moon.\nPHOTO CREDIT \nNASA/Josh Valcarcel\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 233,
+  "cost_usd": 0.000864,
+  "seconds": 4.3,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

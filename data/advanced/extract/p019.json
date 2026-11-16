@@ -1,0 +1,41 @@
+{
+ "page": 19,
+ "printed_page": 18,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "photo",
+   "title": "Aerial view of the Vehicle Assembly Building",
+   "bbox": [
+    75,
+    391,
+    219,
+    468
+   ],
+   "content": "Aerial photograph showing NASA’s Vehicle Assembly Building at Kennedy Space Center, with surrounding roads and landscape. Printed caption: “In this aerial view, teams with Exploration Ground Systems (EGS) transport the Agency’s powerful SLS (Space Launch System) core stage to the Vehicle Assembly Building at NASA’s Kennedy Space Center in Florida on Wednesday, July 24, 2024, after it completed the journey from NASA’s Michoud Assembly Facility in New Orleans aboard the Pegasus barge. In the coming months, SLS will be prepared for integration atop the mobile launcher ahead of the Artemis II launch.” Photo credit — NASA/Jamie Peer and Michael Downs",
+   "crop": "data/advanced/crops/p019_e0.png"
+  },
+  {
+   "kind": "photo",
+   "title": "CADRE rovers in a clean room",
+   "bbox": [
+    75,
+    850,
+    219,
+    927
+   ],
+   "content": "Photograph showing three small Moon-bound rovers in a clean room at NASA’s Jet Propulsion Laboratory. Printed caption: “Engineers prepare three small Moon-bound rovers for a drive test in a clean room at the Agency’s Jet Propulsion Laboratory in Southern California in December 2023. Along with a base station that will be mounted on a lunar lander, the rovers make up the CADRE (Cooperative Autonomous Distributed Robotic Exploration) technology demonstration. This image was taken during a test of the rovers’ ability to drive together as a team autonomously, without explicit commands from engineers.” Photo credit — NASA/JPL-Caltech",
+   "crop": "data/advanced/crops/p019_e1.png"
+  }
+ ],
+ "text_layer": "18\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n18\nMANAGEMENT’S DISCUSSION AND ANALYSIS\nMISSION PERFORMANCE\nAgency Priority Goals (CONTINUED)\nDid You Know?\nIn this aerial view, teams with Exploration Ground Systems (EGS) transport the Agency’s powerful SLS (Space \nLaunch System) core stage to the Vehicle Assembly Building at NASA’s Kennedy Space Center in Florida on \nWednesday, July 24, 2024, after it completed the journey from NASA’s Michoud Assembly Facility in New Orleans \naboard the Pegasus barge. In the coming months, SLS will be prepared for integration atop the mobile launcher \nahead of the Artemis II launch. Photo credit — NASA/Jamie Peer and Michael Downs\nDid You Know?\nEngineers prepare three small Moon-bound rovers for a drive test in a clean room at the Agency's Jet Propulsion \nLaboratory in Southern California in December 2023. Along with a base station that will be mounted on a lunar \nlander, the rovers make up the CADRE (Cooperative Autonomous Distributed Robotic Exploration) technology \ndemonstration. This image was taken during a test of the rovers' ability to drive together as a team autonomously, \nwithout explicit commands from engineers. Photo credit — NASA/JPL-Caltech\nArtemis\nAdvance America’s goal to land the first woman and first person of color on the Moon and pursue a sustainable program \nof exploration, support scientific discovery, and demonstrate capabilities that advance lunar exploration. By September \n30, 2025, NASA will Launch Artemis II, the first crewed Artemis mission. Additionally, NASA will demonstrate a key \nenabling technology by completing an on-orbit propellant transfer test in preparation for Artemis III and it will deliver \nother key capabilities to enable deep space exploration.\nIn support of launching Artemis II, the first crewed Artemis mission, the Crew and Service Module (CSM) completed \nvehicle integrated electromagnetic interference/compatibility (EMI/EMC) testing, replacement and installation of the \nEnvironmental Control and Life Support Systems (ECLSS) digital motor controller hardware, began repair procedures for \nthe flight Crew Module Batteries, and completed the CSM integrated vehicle vacuum chamber testing. Exploration Ground \nSystems (EGS) completed the Booster offline processing. The Artemis II core stage completed final outfitting and was \ndelivered to Kennedy Space Center on July 24, 2024.\nSpace Technology Leadership \nEnsure American global leadership in space technology innovations through increased partnering with industry, \nbroadening the base of innovation, and demonstrating key lunar surface and deep space technologies. By September \n30, 2025, NASA will demonstrate leadership in space technology by: enhancing partnerships with industry through \ndelivery or completion of milestones for at least three Tipping Point opportunities, and at least three critical small \nbusiness technology transitions to develop capabilities that support NASA and commercial needs, advancing at least two \nnew technologies that will be demonstrated on the lunar surface or in lunar orbit, and completing at least four major \nmilestones for projects that increase the Nation’s capabilities in deep space.\nNASA will lay the groundwork for the aerospace breakthroughs of tomorrow through demonstration of new technologies \non the lunar surface and in deep space. Achievement will require working closely with stakeholders, enlisting partnerships, \nutilizing evidence-based decision making, and promoting diversity, equity, inclusion, and accessibility.\nNASA completed the FY 2024 Quarter 3 (Q3) milestone when the three Cooperative Autonomous Distributed Robotic \nExploration (CADRE) rovers were completed and put in storage on February 15, 2024, for delivery to the Commercial Lunar \nPayload Services (CLPS) vendor for integration to their lander.\nSUPPORTING STRATEGIC GOAL 3\nSUPPORTING STRATEGIC GOAL 2\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 419,
+  "cost_usd": 0.001088,
+  "seconds": 4.7,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

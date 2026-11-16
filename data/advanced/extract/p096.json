@@ -1,0 +1,41 @@
+{
+ "page": 96,
+ "printed_page": 95,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "table",
+   "title": "TABLE 1 — Summary of Financial Statement Audit",
+   "bbox": [
+    58,
+    226,
+    943,
+    375
+   ],
+   "content": "| Audit Opinion | Unmodified |\n|---|---|\n| Restatement | No |\n| **Material Weaknesses** | **Beginning Balance** | **New** | **Resolved** | **Consolidated** | **Ending Balance** |\n| Deficiencies in Financial Reporting Oversight Controls | 0 | 1 | 0 | 0 | 1 |\n| **Total Material Weaknesses** | 0 | 1 | 0 | 0 | 1 |",
+   "crop": "data/advanced/crops/p096_e0.png"
+  },
+  {
+   "kind": "table",
+   "title": "TABLE 2 — Summary of Management Assurances",
+   "bbox": [
+    58,
+    444,
+    943,
+    886
+   ],
+   "content": "### EFFECTIVENESS OF INTERNAL CONTROL OVER FINANCIAL REPORTING (FMFIA 2)\n\n| Statement of Assurance | Modified |\n|---|---|\n| **Material Weaknesses** | **Beginning Balance** | **New** | **Resolved** | **Consolidated** | **Reassessed** | **Ending Balance** |\n| Deficiencies in Financial Controls | 0 | 1 | 0 | 0 | 0 | 1 |\n| **Total Material Weaknesses** | 0 | 1 | 0 | 0 | 0 | 1 |\n\n### EFFECTIVENESS OF INTERNAL CONTROL OVER OPERATIONS (FMFIA 2)\n\n| Statement of Assurance | Unmodified |\n|---|---|\n| **Material Weaknesses** | **Beginning Balance** | **New** | **Resolved** | **Consolidated** | **Reassessed** | **Ending Balance** |\n| None | 0 | 0 | 0 | 0 | 0 | 0 |\n| **Total Material Weaknesses** | 0 | 0 | 0 | 0 | 0 | 0 |\n\n### CONFORMANCE WITH FEDERAL FINANCIAL MANAGEMENT SYSTEM REQUIREMENTS (FMFIA 4)\n\n| Statement of Assurance | Federal Systems conform to financial management system requirements. |\n|---|---|\n| **Non-Conformances** | **Beginning Balance** | **New** | **Resolved** | **Consolidated** | **Reassessed** | **Ending Balance** |\n| None | 0 | 0 | 0 | 0 | 0 | 0 |\n| **Total Non-Conformances** | 0 | 0 | 0 | 0 | 0 | 0 |\n\n### COMPLIANCE WITH FEDERAL FINANCIAL MANAGEMENT IMPROVEMENT ACT (FFMIA)\n\n|  | **Agency** | **Auditor** |\n|---|---|---|\n| 1. Federal Financial Management System Requirements | No lack of compliance noted | No lack of compliance noted |\n| 2. Applicable Federal Accounting Standards | No lack of compliance noted | No lack of compliance noted |\n| 3. USSGL at Transaction Level | No lack of compliance noted | No lack of compliance noted |",
+   "crop": "data/advanced/crops/p096_e1.png"
+  }
+ ],
+ "text_layer": "95\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n95\nSummary of Financial Statement Audit and \nManagement Assurances\nOTHER INFORMATION\nSUMMARY OF FINANCIAL STATEMENT AUDIT AND MANAGEMENT ASSURANCES\nCONFORMANCE WITH FEDERAL FINANCIAL MANAGEMENT SYSTEM REQUIREMENTS (FMFIA 4)\nStatement of Assurance\nFederal Systems conform to financial management system requirements.\nNon-Conformances\nBeginning Balance\nNew\nResolved\nConsolidated\nReassessed\nEnding Balance\nNone\n0\n0\n0\n0\n0\n0\nTotal Non-Conformances\n0\n0\n0\n0\n0\n0\nEFFECTIVENESS OF INTERNAL CONTROL OVER OPERATIONS (FMFIA 2) \nStatement of Assurance\nUnmodified\nMaterial Weaknesses\nBeginning Balance\nNew\nResolved\nConsolidated\nReassessed\nEnding Balance\nNone\n0\n0\n0\n0\n0\n0\nTotal Material Weaknesses\n0\n0\n0\n0\n0\n0\nEFFECTIVENESS OF INTERNAL CONTROL OVER FINANCIAL REPORTING (FMFIA 2)\nStatement of Assurance\nModified\nMaterial Weaknesses\nBeginning Balance\nNew\nResolved\nConsolidated\nReassessed\nEnding Balance\nDeficiencies in Financial Controls\n0\n1\n0\n0\n0\n1\nTotal Material Weaknesses\n0\n1\n0\n0\n0\n1\nAudit Opinion\nUnmodified\nRestatement\nNo\nMaterial Weaknesses\nBeginning Balance\nNew\nResolved\nConsolidated\nEnding Balance\nDeficiencies in Financial Reporting Oversight Controls\n0\n1\n0\n0\n1\nTotal Material Weaknesses\n0\n1\n0\n0\n1\nCOMPLIANCE WITH FEDERAL FINANCIAL MANAGEMENT IMPROVEMENT ACT (FFMIA)\nAgency\nAuditor\n1. Federal Financial Management System Requirements\nNo lack of compliance noted\nNo lack of compliance noted\n2. Applicable Federal Accounting Standards\nNo lack of compliance noted\nNo lack of compliance noted\n3. USSGL at Transaction Level\nNo lack of compliance noted\nNo lack of compliance noted\nTABLE 1\nSummary of Financial Statement Audit\nTABLE 2\nSummary of Management Assurances\nThe following tables summarize the Agency’s FY 2024 Financial Statement Audit and Management Assurances. Table 1 \nsummarizes the status of prior year—FY 2023 material weaknesses identified, if any by the Financial Statement Auditor. \nTable 2 summarizes the status of prior year material weaknesses, if any identified by NASA Management.\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 717,
+  "cost_usd": 0.001445,
+  "seconds": 6.5,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "page": 53,
+ "printed_page": 52,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "table",
+   "title": "Combined Statements of Budgetary Resources\nFor the Fiscal Years Ended September 30, 2024 and 2023",
+   "bbox": [
+    59,
+    143,
+    943,
+    604
+   ],
+   "content": "**(IN MILLIONS)**\n\n|  | 2024 | 2023 |\n|---|---:|---:|\n| **Budgetary Resources:** |  |  |\n|   Unobligated Balance from Prior Year Budget Authority, Net | $ 3,335 | $ 3,242 |\n|   Appropriations | 24,876 | 25,573 |\n|   Spending Authority from Offsetting Collections | 1,840 | 2,108 |\n| **  Total Budgetary Resources** | **$ 30,051** | **$ 30,923** |\n|  |  |  |\n| **Status of Budgetary Resources:** |  |  |\n|   New Obligations and Upward Adjustments (Total) | $ 27,170 | $ 28,276 |\n|   Unobligated Balance, End of Year: |  |  |\n|      Apportioned, Unexpired Accounts | 2,612 | 2,466 |\n|      Unapportioned, Unexpired Accounts | 97 | 5 |\n|      Unexpired Unobligated Balance, End of Year | 2,709 | 2,471 |\n|      Expired Unobligated Balance, End of Year | 172 | 176 |\n|   Unobligated Balance, End of Year (Total) | 2,881 | 2,647 |\n| **  Total Budgetary Resources** | **$ 30,051** | **$ 30,923** |\n|  |  |  |\n| **Outlays, Net:** |  |  |\n|   Outlays, Net (Total) | $ 25,019 | $ 25,326 |\n|   Distributed Offsetting Receipts (-) | (4) | (7) |\n| **  Agency Outlays, Net** | **$ 25,015** | **$ 25,319** |",
+   "crop": "data/advanced/crops/p053_e0.png"
+  }
+ ],
+ "text_layer": "52\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n52\nFINANCIAL SECTION\nFINANCIAL STATEMENTS, NOTES, AND REQUIRED SUPPLEMENTARY INFORMATION\nTHE ACCOMPANYING NOTES ARE AN INTEGRAL PART OF THESE FINANCIAL STATEMENTS\nNATIONAL AERONAUTICS AND SPACE ADMINISTRATION\nCombined Statements of Budgetary Resources\nFor the Fiscal Years Ended September 30, 2024 and 2023\n(IN MILLIONS)\n2024\n2023\nBudgetary Resources:\nUnobligated Balance from Prior Year Budget Authority, Net\n $ 3,335 \n $ 3,242 \nAppropriations\n 24,876 \n 25,573 \nSpending Authority from Offsetting Collections\n 1,840 \n 2,108 \nTotal Budgetary Resources\n $ 30,051 \n $ 30,923 \nStatus of Budgetary Resources:\nNew Obligations and Upward Adjustments (Total)\n $ 27,170 \n $ 28,276 \nUnobligated Balance, End of Year:\nApportioned, Unexpired Accounts\n 2,612 \n 2,466 \nUnapportioned, Unexpired Accounts\n 97 \n 5 \nUnexpired Unobligated Balance, End of Year\n 2,709 \n 2,471 \nExpired Unobligated Balance, End of Year\n 172 \n 176 \nUnobligated Balance, End of Year (Total)\n 2,881 \n 2,647 \nTotal Budgetary Resources\n $ 30,051 \n $ 30,923 \nOutlays, Net:\nOutlays, Net (Total)\n $ 25,019 \n $ 25,326 \nDistributed Offsetting Receipts (-)\n (4)\n (7)\nAgency Outlays, Net\n $ 25,015 \n $ 25,319 \n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 587,
+  "cost_usd": 0.001289,
+  "seconds": 5.4,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "page": 21,
+ "printed_page": 20,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "infographic",
+   "title": "EXAMPLE",
+   "bbox": [
+    510,
+    128,
+    941,
+    466
+   ],
+   "content": "EXAMPLE\n\nMEASUREMENTS STATEMENT:\nComplete Launch Services Program (LSP) commercial non-crewed launch services objectives for NASA-Managed science, exploration, U.S. Government, and Government-sponsored missions.\n\nMEASUREMENTS APPROACH:\nLaunch and complete launch services objectives for Psyche, PACE, and GOES-U\n\nTARGET FOR FY 2024:\n100 percent of launch services objectives completed\n\nANTICIPATED PERCENT USING AVAILABLE DATA:\n100 percent of launch services objectives completed\n\nANTICIPATED RATING FY 2024:\nGreen",
+   "crop": "data/advanced/crops/p021_e0.png"
+  },
+  {
+   "kind": "infographic",
+   "title": "Performance Goal Rating Definitions",
+   "bbox": [
+    59,
+    542,
+    941,
+    807
+   ],
+   "content": "GREEN\nComplete or On Target to Complete\nNASA has completed or is on target to complete the Performance Goal/Agency Priority Goal as planned.\n\nYELLOW\nBelow Target\nNASA is below target or behind schedule for the fiscal year but currently expects the work being measured to be completed as planned by the end of the Performance Goal’s time frame.\n\nRED\nSignificantly Below Target/At Risk\nNASA is significantly below target or behind schedule for the fiscal year. The work being measured is at risk of not being completed within the Performance Goal’s time frame.\n\nGREY\nUnrated\nInformation needed to evaluate performance was not available in time for AFR publication. A final rating will be provided in the FY 2026 VIPer.",
+   "crop": "data/advanced/crops/p021_e1.png"
+  }
+ ],
+ "text_layer": "20\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n20\nMEASUREMENTS STATEMENT:\nComplete Launch Services Program (LSP) \ncommercial non-crewed launch services objectives \nfor NASA-Managed science, exploration, U.S. \nGovernment, and Government-sponsored missions.\nMEASUREMENTS APPROACH:\nLaunch and complete launch services objectives for \nPsyche, PACE, and GOES-U\nTARGET FOR FY 2024:\n100 percent of launch services objectives completed\nANTICIPATED PERCENT USING AVAILABLE DATA:\n100 percent of launch services objectives completed\nANTICIPATED RATING FY 2024:\nGreen\nEXAMPLE\nAssessment Approach\nGREEN\nGREY\nRED\nYELLOW\nComplete or On \nTarget to Complete\nNASA has completed or \nis on target to complete \nthe Performance Goal/\nAgency Priority Goal as \nplanned.\nMANAGEMENT’S DISCUSSION AND ANALYSIS\nSTRATEGIC GOALS AND HIGHLIGHTS\n6 NASA’s VIPer document is comprised of the Annual Performance Report of fiscal year performance results and the Agency Performance Plan, which lists the Performance Goals, \nannual targets consistent with the budget request, and adjusted targets consistent with the previous budget year’s appropriations. The FY 2026 VIPer will publish concurrent with \nthe FY 2026 President’s Budget Request and can be found at nasa.gov/performance.\nEvery Strategic Objective is supported by at least one \nPerformance Goal. NASA’s Performance Goals consist of \nan outcome-based statement, a measurement approach \nthat describes how the Performance Goal will be \nmeasured throughout its lifespan, and an annual target \nconsistent with the budget. To the right is an example of \na Performance Goal supporting Strategic Objective 2.4: \nEnhance space access and services.\nFor NASA’s 50 Performance Goals, we indicate the \ninterim progress, based on the FY 2024 targets, by \nassigning a color rating of Green (complete or on target \nto complete), Yellow (below target), or Red (significantly \nbelow target/at risk). Internal success criteria defined \nduring the planning phase establish the thresholds for \na Yellow or Red rating. A Grey rating indicates that the \nPerformance Goal could not be assessed in time for the \nAFR publication, but a final rating will be provided in the \nFY 2026 Volume of Integrated Performance (VIPer).6\nSignificantly Below \nTarget/At Risk\nNASA is significantly \nbelow target or behind \nschedule for the fiscal \nyear. The work being \nmeasured is at risk of \nnot being completed \nwithin the Performance \nGoal’s time frame.\nBelow Target\nNASA is below target \nor behind schedule \nfor the fiscal year but \ncurrently expects the \nwork being measured \nto be completed as \nplanned by the end of \nthe Performance Goal’s \ntime frame.\nUnrated\nInformation needed to \nevaluate performance \nwas not available \nin time for AFR \npublication. A final \nrating will be provided \nin the FY 2026 VIPer.\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 486,
+  "cost_usd": 0.001168,
+  "seconds": 5.6,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

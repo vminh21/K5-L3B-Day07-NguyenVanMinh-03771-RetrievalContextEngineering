@@ -1,0 +1,29 @@
+{
+ "page": 40,
+ "printed_page": 39,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "diagram",
+   "title": "FIGURE 3 — ERM Sources",
+   "bbox": [
+    94,
+    491,
+    790,
+    754
+   ],
+   "content": "Title: FIGURE 3; ERM Sources.\n\nThe diagram consists of a large outer oval containing overlapping circular/oval elements arranged around a central white oval labeled “ERM Sources.” The surrounding elements overlap one another and the central oval:\n\n- Top: “Management Councils”\n- Upper left: “Audits and Assessments”\n- Upper right: “SoA, MSWG, SAT, AFR”\n- Left: “Strategic Review”\n- Lower left: “Technical Authorities”\n- Lower center-right: “Baseline Performance Review”\n- Right: “ARMO – Collaborations, ARMWG”\n\nExternal labels positioned around the outer oval:\n- Above the top element: “EC, ASC” and “MSC, APMC”\n- Upper left: “GAO, OIG, Audit Reports, Fraud Risk Assessments”\n- Upper right: “Internal Control Reviews”\n- Left: “External Reporting”\n- Right: “Risk Management Working Groups”\n- Lower left: “Office of Safety and Mission Assurance, Office of the Chief Engineer, and Office of the Chief Health and Medical Officer”\n- Lower right: “Organizational Performance Reporting”\n\nRelationships: the external source labels correspond to and surround the overlapping internal elements; all of the internal elements are enclosed within the large outer oval and arranged around the central “ERM Sources” oval. The circular outlines are solid blue lines, with overlapping regions visibly shared between adjacent circles and the central oval. The internal labels are shown in dark red; the central “ERM Sources” label is black.",
+   "crop": "data/advanced/crops/p040_e0.png"
+  }
+ ],
+ "text_layer": "39\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n39\nMANAGEMENT’S DISCUSSION AND ANALYSIS\nANALYSIS OF SYSTEMS, CONTROLS, AND LEGAL COMPLIANCE\nEnterprise Risk Management (CONTINUED)\nThe ARMO works in concert with Mission Directorates, Centers, Technical Authorities and Offices to increase \nawareness, understanding, and consideration of risks to NASA’s strategic goals and objectives as well as opportunities \nto support risk-informed decision-making. This collaboration includes the application of objectives driven risk \nmanagement (ODRM) and risk leadership principles to characterize and communicate the types and amount of risk \nNASA is willing to accept to achieve its objectives. The ARMO leads collaboration groups comprising senior-level \nrepresentatives from across Agency Mission Directorates, Centers, and Technical Authorities. These groups help to \nfoster increased risk awareness and understanding of potential cross-cutting implications, impacts, and/or opportunities \nfor stakeholders.\nAs NASA’s chief steward of risk management policy and practices, the ARMO oversees the development of strengthened \ncapabilities to enable more efficient, effective, and sustainable risk communication and practices. Improving NASA’s \nERM capabilities is accomplished with the direct support of Agency leadership and through efforts such as enhancing \ntools for integrated data management and revising workforce training to grow and sustain enterprise risk management \nknowledge and expertise. The ARMO assesses an array of enterprise-level risks, Agency Risk Profile, and documents and \nmakes accessible the risk data in a dashboard to support ODRM and risk-informed decisions. Significant risks affecting \nthe Agency’s strategic goals and objectives then are elevated and briefed by the responsible organization at monthly \nBaseline Performance Reviews, chaired by the NASA Associate Administrator.\nAs illustrated in Figure 3, NASA leverages a range of sources to identify potential enterprise risks and relies upon the \nAgency’s governance structure of decisional councils. Other bodies include board and working groups across Mission \nDirectorates, Programs/Projects, Centers, and the Technical Authorities that work to identify and assess individual \nand cross-cutting risks. Under ARMO’s purview, the Agency Risk Management Working Group (ARMWG) provides a \ncommunity of practice to support and enhance the discipline of risk management within the Agency.\nNASA continues to face new challenges in carrying out essential functions necessary to achieve its core mission. Long \nstanding risk management processes and activities are inherently woven throughout NASA’s culture, so the Agency is \nwell positioned to respond to unknown threats or national emergencies that may disrupt operations for an extended \nperiod. NASA's leadership has developed Agencywide guidance that considers guidelines provided by the White House, \nOffice of Personnel Management, and OMB.\nNASA continues to strengthen its risk management and reporting process through comprehensive collaboration with \nthe various risk bodies and stakeholders throughout the Agency, to effectively identify key risks and opportunities, \ndevelop effective risk responses, and implement timely mitigation actions. NASA continues to benchmark and \ncollaborate with other Federal agencies to ensure continual learning and improvement of risk management.\nFIGURE 3\nERM Sources\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 694,
+  "cost_usd": 0.001418,
+  "seconds": 8.7,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

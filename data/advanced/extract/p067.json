@@ -1,0 +1,29 @@
+{
+ "page": 67,
+ "printed_page": 66,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "table",
+   "title": "Other Liabilities",
+   "bbox": [
+    58,
+    488,
+    942,
+    946
+   ],
+   "content": "| (IN MILLIONS) | 2024 Current | 2024 Non-Current | 2024 Total | 2023 Current | 2023 Non-Current | 2023 Total |\n|---|---:|---:|---:|---:|---:|---:|\n| Intergovernmental Liabilities | — | — | — | — | — | — |\n| Employer Contributions and Payroll Taxes Payable | $ 23 | $ — | $ 23 | $ 53 | $ — | $ 53 |\n| Other Liabilities With Related Budgetary Obligations | 158 | — | 158 | 117 | — | 117 |\n| Other Liabilities Without Related Budgetary Obligations | 2 | — | 2 | — | — | — |\n| Other Post-Employment Benefits Due and Payable | 4 | 1 | 5 | 5 | — | 5 |\n| Total Intergovernmental Liabilities | $ 187 | $ 1 | $ 188 | $ 175 | $ — | $ 175 |\n| With the Public Liabilities | — | — | — | — | — | — |\n| Other Accrued Liabilities | 1,902 | — | 1,902 | 1,793 | — | 1,793 |\n| Other Liabilities | — | — | — | — | — | — |\n| Contingent Liabilities | 10 | — | 10 | 2 | — | 2 |\n| Liability for Non-Fiduciary Deposit Funds and Undeposited Collections | 25 | — | 25 | 28 | — | 28 |\n| Other Liabilities Without Related Budgetary Obligations | 92 | — | 92 | 97 | — | 97 |\n| Lease Liability | — | 24 | 24 | — | — | — |\n| Unearned Lease Revenue | — | 707 | 707 | — | — | — |\n| Total With the Public Liabilities | $ 2,029 | $ 731 | $ 2,760 | $ 1,920 | $ — | $ 1,920 |\n| Total Other Liabilities | $ 2,216 | $ 732 | $ 2,948 | $ 2,095 | $ — | $ 2,095 |",
+   "crop": "data/advanced/crops/p067_e0.png"
+  }
+ ],
+ "text_layer": "66\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n66\nFINANCIAL SECTION\nFINANCIAL STATEMENTS, NOTES, AND REQUIRED SUPPLEMENTARY INFORMATION\nIntragovernmental Other Liabilities primarily represent accrued cost estimates for goods and services performed by \nFederal trading partners and payroll costs related to employer contributions, payroll taxes payable, and other post-\nemployment benefits. For FY 2024, Intragovernmental Other Liabilities included $29 million in other current liabilities \nthat are not covered by budgetary resources.\nOther Accrued Liabilities with public entities primarily consist of the accrual of contractor costs with related budgetary \nobligations for goods and services performed. The period of performance for contractor contracts typically spans the \nduration of NASA programs, which could be for a number of years prior to final delivery of the product. In such cases, \nNASA records a cost accrual throughout the fiscal year as the work is performed.\nOther Liabilities with the public include unearned lease revenue and lease liability. In FY 2024, SFFAS 54, Leases, requires \nthat Federal lessees recognize a lease liability and a right-to-use lease asset, and that Federal lessors recognize a lease \nreceivable and unearned revenues at net present value over the lease term, unless the lease meets the definitional criteria \nof a short-term lease, contract or agreement that transfers ownership, or an intra-governmental lease. See Note 11, Leases, \nfor information on NASA’s lease reporting.\nOther Liabilities with the public also include the accrual of incurred but not reported grant program costs incurred \nwithout related budgetary obligations in support of NASA’s research and development and other related activities. \nAdditionally, it represents other liabilities without related budgetary resources which include current obligations for \ncost to be funded within a year. For FY 2024, Other Liabilities with the public included $102 million in other current \nliabilities that are not covered by budgetary resources.\n2024\n2023\n(IN MILLIONS)\nCURRENT\nNON-CURRENT\nTOTAL\nCURRENT\nNON-CURRENT\nTOTAL\nIntragovernmental Liabilities \nEmployer Contributions and Payroll Taxes Payable\n $ 23 \n $ — \n $ 23 \n $ 53 \n $ — \n $ 53 \nOther Liabilities With Related Budgetary Obligations\n 158 \n — \n 158 \n 117 \n — \n 117 \nOther Liabilities Without Related Budgetary Obligations\n 2 \n — \n 2 \n — \n — \n — \nOther Post-Employment Benefits Due and Payable\n 4 \n 1 \n 5 \n 5 \n — \n 5 \nTotal Intragovernmental Liabilities\n $ 187 \n $ 1 \n $ 188 \n $ 175 \n $ — \n $ 175 \nWith the Public Liabilities\nOther Accrued Liabilities\n 1,902 \n — \n 1,902 \n 1,793 \n — \n 1,793 \nOther Liabilities\nContingent Liabilities\n 10 \n — \n 10 \n 2 \n — \n 2 \nLiability for Non-Fiduciary Deposit Funds and \nUndeposited Collections\n 25 \n—\n 25 \n 28 \n—\n 28 \nOther Liabilities Without Related Budgetary Obligations\n 92 \n — \n 92 \n 97 \n — \n 97 \nLease Liability\n — \n 24 \n 24 \n — \n — \n — \nUnearned Lease Revenue\n — \n 707 \n 707 \n — \n — \n — \nTotal With the Public Liabilities\n $ 2,029 \n $ 731 \n $ 2,760  $ 1,920 \n $ — \n $ 1,920 \nTotal Other Liabilities\n $ 2,216 \n $ 732 \n $ 2,948  $ 2,095 \n $ — \n $ 2,095 \n10\nNOTE 10 \nOther Liabilities\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 817,
+  "cost_usd": 0.001565,
+  "seconds": 8.8,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

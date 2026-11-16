@@ -1,0 +1,29 @@
+{
+ "page": 82,
+ "printed_page": 81,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "table",
+   "title": "Real Property DM&R as of September 30, 2024 and 2023",
+   "bbox": [
+    59,
+    606,
+    941,
+    754
+   ],
+   "content": "| (IN MILLIONS) | 2024 | 2023 |\n|---|---:|---:|\n| Asset Category | — | — |\n| PP&E – Real Property | $ 4,068 | $ 3,710 |\n| Heritage Assets – Real Property | 73 | 62 |\n| **Total Deferred Maintenance and Repairs** | **$ 4,141** | **$ 3,772** |",
+   "crop": "data/advanced/crops/p082_e0.png"
+  }
+ ],
+ "text_layer": "81\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n81\nFINANCIAL SECTION\nFINANCIAL STATEMENTS, NOTES, AND REQUIRED SUPPLEMENTARY INFORMATION\nMaintenance requirements and funding amounts are included in program, project, or activity baseline budgets. In the \nyear of execution, the equipment managing activity takes steps to either mitigate, or increase the levels of deferred \nmaintenance based on the availability of resources and mission priorities. Each NASA activity managing equipment \nmay take steps to reduce the amount of deferred maintenance through the reallocation of resources from lesser priority \nareas, or supplemental funding received from shifting project schedules.\nRanking and Prioritizing M&R Activities \nNASA typically prioritizes the M&R activities based on mission need, health, safety, fire detection and protection, and \nenvironmental requirements. NASA also prioritizes the M&R projects with an emphasis on mission critical facilities, \nfollowed by mission support, then Center support. Managing activities also maintain agile strategies to react to \nemerging requirements and real-world events to review and reprioritize M&R requirements. The evaluation of the \nfacility conditions by building type indicates that NASA continues to focus M&R activities on direct mission-related \nfacilities and infrastructure. \nFactors Considered in Determining Acceptable Condition Standards \nNASA applies industry accepted codes and standards or equipment manufacturer’s recommendations to all facilities \nrelated work. The standard of condition depends on the intended use, the mission criticality, utilization or health and \nsafety aspects of that use. The Agency employs risk-based methodologies in determining acceptable levels of equipment \noperational risk.\nChanges from Prior Year \nAs of September 30, 2024, $4.141 billion of DM&R was estimated to be required to return real property assets to an \nacceptable operating condition. This is an overall increase of $369 million from $3.772 billion as of September 30, 2023. \nThe increase in the DM&R estimate can be attributed to various reasons; including changes to deterioration of facilities \ndue to natural disasters, damage from testing to program support equipment in high-value assets, and normal inflation \nincreases in CRV of assets and high-value infrastructure assets as upgrades progress.\nThe table below shows Real Property DM&R as of September 30, 2024 and 2023.\nREQUIRED SUPPLEMENTARY INFORMATION\nDeferred Maintenance and Repairs for FY 2024 (CONTINUED)\n(IN MILLIONS)\n2024\n2023\nAsset Category\nPP&E – Real Property\n $ 4,068 \n $ 3,710 \nHeritage Assets – Real Property\n 73 \n 62 \nTotal Deferred Maintenance and Repairs\n $ 4,141 \n $ 3,772 \n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 278,
+  "cost_usd": 0.000918,
+  "seconds": 5.2,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

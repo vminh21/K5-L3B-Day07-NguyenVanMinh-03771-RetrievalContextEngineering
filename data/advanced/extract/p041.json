@@ -1,0 +1,16 @@
+{
+ "page": 41,
+ "printed_page": 40,
+ "status": "ok",
+ "elements": [],
+ "text_layer": "40\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n40\nNOVEMBER 15, 2024\nAdministrator's Statement of Assurance\nManagement Assurances\nNational Aeronautics and Space Administration (NASA) management is responsible for establishing and \nmaintaining an effective system of internal control to support reliable financial reporting and effective and \nefficient programmatic operations. Accordingly, NASA conducted its Fiscal Year (FY) 2024 annual assessment \nof the effectiveness of management’s internal controls for compliance with applicable laws, regulations, and \npolicies; the Federal Managers’ Financial Integrity Act (FMFIA); Federal Financial Management Improvement \nAct (FFMIA); the Office of Management and Budget’s (OMB) Circular A-123, Management’s Responsibility \nfor Enterprise Risk Management and Internal Control; the United States (U.S.) Government Accountability \nOffice’s Standards for Internal Controls in the Federal Government, and NASA policies. Based on the results of \nthe assessment, NASA can provide reasonable assurance that internal control over operations, reporting, and \ncompliance were operating effectively as of September 30, 2024, except for a material weakness associated with \nspecific financial controls. While designed appropriately, the controls did not operate effectively, increasing the \nrisk of a material misstatement on the Agency financial statements.\nExcept for the identified material weakness, NASA provides reasonable assurance that internal controls over \nfinancial reporting are operating effectively and in compliance with Federal financial management standards. \nManagement remains dedicated to strengthening the control environment and ensuring reliability of financial \nreporting in future periods.\nIn addition, NASA complies with FMFIA and OMB requirements to evaluate and assure the reliability of \ninternal controls over its financial management systems, complies with Federal financial management system \nrequirements, and assures reliability of its Digital Accountability and Transparency Act of 2014 submissions. \n \nFFMIA requires agencies to have financial management systems that substantially comply with Federal financial \nmanagement system requirements, Federal Accounting Standards, and the U.S. Government Standard General \nLedger at the transaction level. NASA conducted its evaluation of financial management systems for compliance \nwith FFMIA in accordance with Appendix D of OMB Circular A-123. NASA’s financial management systems \nsubstantially comply with FFMIA as of September 30, 2024. \n \nNASA remains committed to ensuring that a sound system of internal control exists over operations, reporting, \nand financial management systems. \nSincerely, \nBill Nelson\nAdministrator\nMANAGEMENT’S DISCUSSION AND ANALYSIS\nANALYSIS OF SYSTEMS, CONTROLS, AND LEGAL COMPLIANCE\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 11,
+  "cost_usd": 0.000598,
+  "seconds": 1.5,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

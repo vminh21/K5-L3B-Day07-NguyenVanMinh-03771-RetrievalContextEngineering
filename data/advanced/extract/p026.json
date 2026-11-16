@@ -1,0 +1,29 @@
+{
+ "page": 26,
+ "printed_page": 25,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "photo",
+   "title": "DSN hybrid antenna",
+   "bbox": [
+    75,
+    855,
+    210,
+    932
+   ],
+   "content": "Photo shows a large Deep Space Network dish antenna. Caption: “Capable of receiving both radio frequency and optical signals, the DSN’s hybrid antenna has tracked and decoded the downlink laser from DSOC, aboard NASA’s Psyche mission. An experimental antenna has received both radio frequency and near-infrared laser signals from NASA’s Psyche spacecraft as it travels through deep space. This shows it’s possible for the giant dish antennas of NASA’s Deep Space Network (DSN), which communicate with spacecraft via radio waves, to be retrofitted for optical, or laser, communications. By packing more data into transmissions, optical communication will enable new space exploration capabilities while supporting the DSN as demand on the network grows.” Photo credit — NASA/JPL-Caltech",
+   "crop": "data/advanced/crops/p026_e0.png"
+  }
+ ],
+ "text_layer": "25\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n25\nMANAGEMENT’S DISCUSSION AND ANALYSIS\nSTRATEGIC GOALS AND HIGHLIGHTS\nCONTINUED ON THE NEXT PAGE →\n03\nSTRATEGIC GOAL III. INNOVATE\nCatalyze economic growth and drive innovation to address national challenges.\nStrategic Goal 3 is supported by 11 Performance Goals. Of these, 10 were rated Green and one was \nrated Yellow at the time of publication.\nOverview \nOriginally tied to advancing U.S. leadership in aeronautics, communications satellites, and Earth remote sensing, \nNASA’s mandate is broader today. NASA addresses gathering climate change data, driving American innovation through \naerospace research and development, developing commercial and human space launch, transportation, and exploration \ncapabilities, understanding cosmic phenomena as wide-ranging as space weather, asteroids, and exoplanets, supplying \ntechnological solutions that could also apply to terrestrial problems, and improving the Nation’s innovation capacity.\nToday, NASA invests in a broad portfolio of both space technology and aeronautics research, development, and \ndemonstration. Where possible, the Agency leverages public-private partnerships, reducing development costs, \naccelerating infusion of new technologies, meeting national needs, and potentially enabling new markets. Each year, \nNASA creates over 1,000 new technologies, and the Agency works diligently to ensure that the American people \nreceive maximum benefit from those advancements through patent licenses, software usage agreements, and other \ncommercialization efforts.\nHighlights\nInnovating and Advancing Transformational Space Technologies\nNASA investments continue to serve as a catalyst for the new technology required for the varied mission architecture \nneeds of multiple stakeholders. The Agency has made significant progress by developing and delivering new \ntechnologies and capabilities. Examples include in November 2023, the Deep Space Optical Communications (DSOC) \nachieved first light by sending and receiving optical data from far beyond the Moon, multiple Cryogenic Fluid \nManagement (CFM) maturity and design reviews at both Lockheed Martin and United Launch Alliance; and numerous \nsignificant technology transitions and infusions.\nDriving Efficient and Sustainable Aviation\nIn FY 2024, the Low Boom Flight Demonstration (LBFD) X-59 completed its flight readiness review in March, \npreparing to demonstrate quieter sonic “thumps” during supersonic flight over land. The Electrified Powertrain Flight \nDemonstrations (EPFD) completed project Integrated Baseline Reviews at both partner organizations earlier in FY \n2024, helping to enable electric aircraft propulsion. Furthermore, the Sustainable Flight Demonstration (SFD) project \ncompleted a system requirements review (SRR) in January 2024, which will mature innovative aeronautical designs \ninto the future of commercial aircraft.\nDid You Know?\nCapable of receiving both radio frequency and optical signals, the DSN's hybrid antenna has tracked and decoded \nthe downlink laser from DSOC, aboard NASA's Psyche mission. An experimental antenna has received both radio \nfrequency and near-infrared laser signals from NASA's Psyche spacecraft as it travels through deep space. This shows \nit's possible for the giant dish antennas of NASA's Deep Space Network (DSN), which communicate with spacecraft \nvia radio waves, to be retrofitted for optical, or laser, communications. By packing more data into transmissions, optical \ncommunication will enable new space exploration capabilities while supporting the DSN as demand on the network \ngrows. Photo credit — NASA/JPL-Caltech\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 504,
+  "cost_usd": 0.00119,
+  "seconds": 5.3,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

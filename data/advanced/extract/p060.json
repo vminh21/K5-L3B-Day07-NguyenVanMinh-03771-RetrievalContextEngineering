@@ -1,0 +1,53 @@
+{
+ "page": 60,
+ "printed_page": 59,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "table",
+   "title": "Status of Fund Balance with Treasury:",
+   "bbox": [
+    59,
+    222,
+    940,
+    417
+   ],
+   "content": "| (IN MILLIONS) | 2024 | 2023 |\n|---|---:|---:|\n| **Status of Fund Balance with Treasury:** |  |  |\n| Unobligated Balances |  |  |\n| &nbsp;&nbsp;&nbsp;&nbsp;Available | $ 2,612 | $ 2,466 |\n| &nbsp;&nbsp;&nbsp;&nbsp;Unavailable | 269 | 181 |\n| Obligated Balance Not Yet Disbursed | 14,280 | 14,702 |\n| Non-Budgetary FBWT | 25 | 29 |\n| **Total** | **$ 17,186** | **$ 17,378** |",
+   "crop": "data/advanced/crops/p060_e0.png"
+  },
+  {
+   "kind": "table",
+   "title": "2024",
+   "bbox": [
+    59,
+    648,
+    940,
+    784
+   ],
+   "content": "| (IN MILLIONS) | COST | AMORTIZATION METHOD | AMORTIZED (PREMIUM DISCOUNT) | INTEREST RECEIVABLE | INVESTMENTS, NET | UNREALIZED GAIN/(LOSS) | MARKET VALUE DISCLOSURE |\n|---|---:|---|---:|---:|---:|---:|---:|\n| **Intergovernmental Securities:** |  | Straight-Line<br>Effective-Interest |  |  |  |  |  |\n| &nbsp;&nbsp;&nbsp;&nbsp;Non-Marketable: Par value | $ 15 | 4.704 - 4.747% | $ — | $ — | $ 15 | $ — | $ 15 |\n| **Total** | **$ 15** |  | **$ —** | **$ —** | **$ 15** | **$ —** | **$ 15** |",
+   "crop": "data/advanced/crops/p060_e1.png"
+  },
+  {
+   "kind": "table",
+   "title": "2023",
+   "bbox": [
+    59,
+    795,
+    940,
+    932
+   ],
+   "content": "| (IN MILLIONS) | COST | AMORTIZATION METHOD | AMORTIZED (PREMIUM DISCOUNT) | INTEREST RECEIVABLE | INVESTMENTS, NET | UNREALIZED GAIN/(LOSS) | MARKET VALUE DISCLOSURE |\n|---|---:|---|---:|---:|---:|---:|---:|\n| **Intergovernmental Securities:** |  | Straight-Line<br>Effective-Interest |  |  |  |  |  |\n| &nbsp;&nbsp;&nbsp;&nbsp;Non-Marketable: Par value | $ 15 | 4.676 - 5.441% | $ — | $ — | $ 15 | $ — | $ 15 |\n| **Total** | **$ 15** |  | **$ —** | **$ —** | **$ 15** | **$ —** | **$ 15** |",
+   "crop": "data/advanced/crops/p060_e2.png"
+  }
+ ],
+ "text_layer": "59\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n59\nFINANCIAL SECTION\nFINANCIAL STATEMENTS, NOTES, AND REQUIRED SUPPLEMENTARY INFORMATION\nInvestments consist of non-marketable par value intragovernmental securities issued by the Treasury’s Bureau of the \nFiscal Service. Trust fund balances are invested in Treasury securities, which are purchased at either a premium or \ndiscount and redeemed at par value exclusively through Treasury’s Federal Investment Branch. The effective-interest \nmethod is used to amortize the premium on the bond, and the straight-line method is used to amortize discounts on bills. \nInterest receivable on investments was zero in FY 2024 and FY 2023. In addition, NASA did not have any adjustments \nresulting from the sale of securities prior to maturity or any change in value that was more than temporary. \nThe FBWT represents the total fund balance recorded in the general ledger for unobligated and obligated balances. \nUnobligated balances — available is the amount remaining in appropriated funds available for obligation. Unobligated \nbalances — unavailable is primarily comprised of amounts remaining in appropriated funds used only for adjustments to \npreviously recorded obligations. Obligated balance not yet disbursed is the cumulative amount of obligations incurred \nfor which outlays have not been made. Non-Budgetary FBWT is comprised of amounts in non-appropriated funds.\n(IN MILLIONS)\n2024\n2023\nStatus of Fund Balance with Treasury:\nUnobligated Balances\n Available \n $ 2,612 \n $ 2,466 \n Unavailable \n 269 \n 181 \nObligated Balance Not Yet Disbursed\n 14,280 \n 14,702 \nNon-Budgetary FBWT\n 25 \n 29 \nTotal\n $ 17,186 \n $ 17,378 \n2024\n(IN MILLIONS)\nCOST          \nAMORTIZATION METHOD\nAMORTIZED \n(PREMIUM)\nDISCOUNT\nINTEREST\nRECEIVABLE\nINVESTMENTS, \nNET\nUNREALIZED\nGAIN/(LOSS)\nMARKET VALUE \nDISCLOSURE\nIntragovernmental Securities:\nStraight-Line\nEffective-Interest\nNon-Marketable: Par value\n $ 15 \n4.704 - 4.747%\n $ — \n $ — \n $ 15 \n $ — \n $ 15 \nTotal\n $ 15 \n $ — \n $ — \n $ 15 \n $ — \n $ 15 \n2023\n(IN MILLIONS)\nCOST          \nAMORTIZATION METHOD\nAMORTIZED \n(PREMIUM)\nDISCOUNT\nINTEREST\nRECEIVABLE\nINVESTMENTS, \nNET\nUNREALIZED\nGAIN/(LOSS)\nMARKET VALUE \nDISCLOSURE\nIntragovernmental Securities:\nStraight-Line\nEffective-Interest\nNon-Marketable: Par value\n $ 15 \n4.676 - 5.441%\n $ — \n $ — \n $ 15 \n $ — \n $ 15 \nTotal\n $ 15 \n $ — \n $ — \n $ 15 \n $ — \n $ 15 \n02\nNOTE 2\nFund Balance with Treasury\n03\nNOTE 3\nInvestments, Net\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 1077,
+  "cost_usd": 0.001877,
+  "seconds": 10.0,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

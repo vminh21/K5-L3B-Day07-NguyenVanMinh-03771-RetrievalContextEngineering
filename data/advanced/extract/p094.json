@@ -1,0 +1,16 @@
+{
+ "page": 94,
+ "printed_page": 93,
+ "status": "ok",
+ "elements": [],
+ "text_layer": "93\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n93\nFINANCIAL SECTION\nINDEPENDENT AUDITORS' REPORT\nPurpose of this Report\nThe purpose of this report is solely to describe the scope of our testing of internal control and\ncompliance and the results of that testing, and not to provide an opinion on the effectiveness of the\nentity’s internal control or on compliance. This report is an integral part of an audit performed in\naccordance with Government Auditing Standards in considering the entity’s internal control and\ncompliance. Accordingly, this communication is not suitable for any other purpose.\nNovember 15, 2024\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 63,
+  "cost_usd": 0.00066,
+  "seconds": 1.7,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

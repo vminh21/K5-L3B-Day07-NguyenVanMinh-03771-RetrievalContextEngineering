@@ -1,0 +1,41 @@
+{
+ "page": 78,
+ "printed_page": 77,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "table",
+   "title": "2024",
+   "bbox": [
+    59,
+    566,
+    941,
+    723
+   ],
+   "content": "| PUBLIC-PRIVATE PARTNERSHIPS AGREEMENTS/CONTRACTS (IN MILLIONS) | ACTUAL AMOUNT RECEIVED IN FY | ESTIMATED AMOUNT TO BE RECEIVED IN FUTURE YEARS | ESTIMATED CUMULATIVE AMOUNT TO BE RECEIVED OVER EXPECTED LIFE OF ARRANGEMENT | ESTIMATED CUMULATIVE IN KIND CONSIDERATION |\n|---|---:|---:|---:|---:|\n| EUL | $ 1 | $ 567 | $ 569 | $ 20 |\n| NHPA | — | 14 | 14 | — |\n| Easement Authority | — | — | — | 2 |\n| **Estimated Total** | **$ 1** | **$ 581** | **$ 583** | **$ 22** |",
+   "crop": "data/advanced/crops/p078_e0.png"
+  },
+  {
+   "kind": "table",
+   "title": "2023",
+   "bbox": [
+    59,
+    737,
+    941,
+    914
+   ],
+   "content": "| PUBLIC-PRIVATE PARTNERSHIPS AGREEMENTS/CONTRACTS (IN MILLIONS) | ACTUAL AMOUNT RECEIVED IN FY | ESTIMATED AMOUNT TO BE RECEIVED IN FUTURE YEARS | ESTIMATED CUMULATIVE AMOUNT TO BE RECEIVED OVER EXPECTED LIFE OF ARRANGEMENT | ESTIMATED CUMULATIVE IN KIND CONSIDERATION |\n|---|---:|---:|---:|---:|\n| EUL | $ 12 | $ 935 | $ 1,020 | $ 27 |\n| NHPA | 16 | 1,044 | 1,160 | — |\n| **Estimated Subtotal** | **$ 28** | **$ 1,979** | **$ 2,180** | **$ 27** |\n| SFFAS 54, Lease Implementation | — | (1,411) | (1,610) | (7) |\n| **Estimated Total** | **$ 28** | **$ 568** | **$ 570** | **$ 20** |",
+   "crop": "data/advanced/crops/p078_e1.png"
+  }
+ ],
+ "text_layer": "77\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n77\nFINANCIAL SECTION\nFINANCIAL STATEMENTS, NOTES, AND REQUIRED SUPPLEMENTARY INFORMATION\nPUBLIC-PRIVATE PARTNERSHIPS\nAGREEMENTS/CONTRACTS\n(IN MILLIONS)\n2024\nACTUAL AMOUNT\nRECEIVED IN FY\nESTIMATED AMOUNT TO\nBE RECEIVED IN FUTURE \nYEARS\nESTIMATED CUMULATIVE AMOUNT\nTO BE RECEIVED OVER EXPECTED \nLIFE OF ARRANGEMENT\nESTIMATED CUMULATIVE\n IN KIND CONSIDERATION\nEUL\n $ 1 \n $ 567 \n $ 569 \n $ 20 \nNHPA\n — \n 14 \n 14 \n — \nEasement Authority\n — \n — \n — \n 2 \nEstimated Total\n $ 1 \n $ 581 \n $ 583 \n $ 22 \nPUBLIC-PRIVATE PARTNERSHIPS\nAGREEMENTS/CONTRACTS\n(IN MILLIONS)\n2023\nACTUAL AMOUNT\nRECEIVED IN FY\nESTIMATED AMOUNT TO\nBE RECEIVED IN FUTURE \nYEARS\nESTIMATED CUMULATIVE AMOUNT\nTO BE RECEIVED OVER EXPECTED \nLIFE OF ARRANGEMENT\nESTIMATED CUMULATIVE\n IN KIND CONSIDERATION\nEUL\n $ 12\n $ 935\n $ 1,020 \n $ 27 \nNHPA\n 16 \n 1,044 \n 1,160 \n — \nEstimated Subtotal\n $ 28 \n$ 1,979 \n$ 2,180 \n $ 27 \nSFFAS 54, Lease Implementation\n (1,411) \n (1,610) \n (7) \nEstimated Total\n $ 28 \n $ 568 \n $ 570 \n $ 20 \n18\nNOTE 18\nPublic-Private Partnerships (CONTINUED)\nagreed to under the terms of the arrangement. A few of NASA’s long-term leases provide for transfer of constructed \nassets to NASA or a third-party entity upon termination. Under these leases NASA would assume responsibility for \noperations and maintenance, divestment, or establishment of a new lease based on the current need of the assets at \nthe time of termination. Based on the current state of these arrangements, NASA does not anticipate that this would \nbe likely in the near future and does not consider this to be any more than a remote risk of loss.\nNASA’s leases or easements that include in-kind consideration provided by the tenant were negotiated into \nthe terms and conditions of the lease or easement. In accordance with the specified terms, NASA may assume \nresponsibility for operations of infrastructure improvements provided by the tenant under normal program and \nbudget planning processes, may seek an alternative tenant, or may request the property be returned to its original \nstate.\nNASA has identified a limited number of leases where development by the tenant on the leasehold could impact \nCenter infrastructure and operations such as water, sewer, maintenance, or security operations based on increased \ncapacity. NASA would negotiate any potential impacts with existing providers and the tenant. NASA currently has \na lease that requires additional Center infrastructure capacity based on the original terms of the lease; however, \nthe lease is in the transition phase and tenant development on the leasehold has not started. NASA is continuing to \nresearch alternative options to mitigate the potential risks.\nIn FY 2024, NASA implemented the requirements under SFFAS 54 for Leases (Reference Note 1). Arrangements\nmeeting the criteria of a Lease under SFFAS 54 are disclosed in Note 11, Leases, based on the Net Present Value of\nfuture lease payments. For arrangements that meet the requirements of a lease under SFFAS 54 and a Public-\nPrivate Partnership under SFFAS 49, the table below discloses the prior year estimated amounts associated with the\nimplementation of SFFAS 54 for Leases (Note 11), actual amounts received in the prior year were not impacted. For\narrangements that have a future commencement date, these are included in the P3 disclosure below and are not \nincluded in the SFFAS 54 Lease Implementation amount.\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 543,
+  "cost_usd": 0.001236,
+  "seconds": 6.4,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

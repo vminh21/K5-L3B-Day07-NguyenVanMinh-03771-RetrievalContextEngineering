@@ -1,0 +1,41 @@
+{
+ "page": 115,
+ "printed_page": 114,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "table",
+   "title": "Grants/Cooperative Agreements by Age",
+   "bbox": [
+    59,
+    501,
+    942,
+    741
+   ],
+   "content": "| CATEGORY | 2-3 YEARS | 4-5 YEARS | MORE THAN 5 YEARS |\n|---|---:|---:|---:|\n| Number of Grants/Cooperative Agreements with Zero Dollar Balances | 1 | 1 | 3 |\n| Number of Grants/Cooperative Agreements with Undisbursed Balances | 2 | 1 | 0 |\n| Total Amount of Undisbursed Balances (In Thousands) | $ 183 | $ 20 | $ — |",
+   "crop": "data/advanced/crops/p115_e0.png"
+  },
+  {
+   "kind": "photo",
+   "title": "Thermal Blanket Technician",
+   "bbox": [
+    78,
+    855,
+    243,
+    944
+   ],
+   "content": "Photo shows Paula Cain, a thermal blanket technician, holding thermal blanket material indoors. Text overlaid on the photo: “THERMAL BLANKET TECHNICIAN.” Printed caption: “You’ll surely get wrapped up in this episode of Surprisingly STEM featuring Paula Cain, a thermal blanket technician at NASA’s Goddard Space Flight Center. She covers why things sent into space need to be protected by a thermal blanket. (November 3, 2023)” Photo credit: none printed.",
+   "crop": "data/advanced/crops/p115_e1.png"
+  }
+ ],
+ "text_layer": "114\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n114\nGrants Programs Information\nCATEGORY\n2-3 YEARS\n4-5 YEARS\nMORE THAN \n5 YEARS\nNumber of Grants/Cooperative Agreements\nwith Zero Dollar Balances\n1\n1\n3\nNumber of Grants/Cooperative Agreements\nwith Undisbursed Balances\n2\n1\n0\nTotal Amount of Undisbursed Balances\n(In Thousands)\n$ 183\n $ 20\n $ — \nOTHER INFORMATION\nGRANTS PROGRAMS INFORMATION\nYou’ll surely get wrapped up in this episode of Surprisingly STEM featuring Paula Cain, a \nthermal blanket technician at NASA’s Goddard Space Flight Center. She covers why things \nsent into space need to be protected by a thermal blanket. (November 3, 2023)\nLEARN MORE →\nDid You Know?\nS C A N M E\nSignificant reporting entities with Federal grants programs must submit a brief high-level summary of expired, but not \nclosed, Federal grants and cooperative agreements (awards). NASA continues to ensure its grants programs operate \nefficiently with the timely processing of expired, but not closed, Federal grants and cooperative agreements (awards) for \ncloseout.\nThe Continuing Monitoring Program ensures ongoing review and validation of financial data and the effectiveness \nof internal controls over the entire financial management process, including grants. When grants with undisbursed \nbalances in expired accounts are identified, appropriate action is taken to ensure optimum use of grant resources.\nIn FY 2024, the number of grants expired 2 or more years was reduced from 14 to 8. The total amount of undisbursed \nbalances in this population increased from $7,169 to $202,870. The Agency fully implemented unilateral closeout \nprocedures outlined in the NASA Grant and Cooperative Agreement Manual (GCAM) 9.1.4. In FY 2024, there were \nthree instruments with undisbursed balances that could not be deobligated and closed, leading to the increase in \nundisbursed balances. One instrument is pending closeout of cost reimbursable sub-awards. Another instrument is \npending legal review of a request for Principal Investigator transfer to another institution. The third instrument is \npending supporting documentation.\nNASA continued an automated process which sends expired grants to closeout on a weekly basis. This enhancement \ncontinues to ensure that the Agency operates with efficiency when managing and monitoring the grant close out \nprocess.\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 534,
+  "cost_usd": 0.001226,
+  "seconds": 6.0,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

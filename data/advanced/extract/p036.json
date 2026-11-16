@@ -1,0 +1,29 @@
+{
+ "page": 36,
+ "printed_page": 35,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "photo",
+   "title": "JAXA Internal Ball Camera 2 aboard the International Space Station",
+   "bbox": [
+    98,
+    229,
+    902,
+    722
+   ],
+   "content": "Photo shows JAXA’s free-flying robotic camera, a spherical white-and-black robot with two illuminated blue-ringed lenses, floating inside the Kibo laboratory module aboard the International Space Station. Printed caption: “JAXA’s (Japan Aerospace Exploration Agency) free-flying robotic camera, also known as the JEM (Japanese Experiment Module) Internal Ball Camera 2, is pictured during a technology demonstration inside the Kibo laboratory module. The Internal Ball Camera 2 is being tested for its ability to autonomously maneuver and navigate aboard the International Space Station while photographing and videotaping crew activities.” Photo credit: “NASA Johnson, February 27, 2024”",
+   "crop": "data/advanced/crops/p036_e0.png"
+  }
+ ],
+ "text_layer": "35\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n35\nAnalysis of Systems, Controls, \nand Legal Compliance\nMANAGEMENT’S DISCUSSION AND ANALYSIS\nJAXA's (Japan Aerospace Exploration Agency) free-flying robotic camera, also known \nas the JEM (Japanese Experiment Module) Internal Ball Camera 2, is pictured during \na technology demonstration inside the Kibo laboratory module. The Internal Ball \nCamera 2 is being tested for its ability to autonomously maneuver and navigate aboard \nthe International Space Station while photographing and videotaping crew activities.\nPHOTO CREDIT \nNASA Johnson, February 27, 2024\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 285,
+  "cost_usd": 0.000927,
+  "seconds": 5.2,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

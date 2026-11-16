@@ -1,0 +1,29 @@
+{
+ "page": 51,
+ "printed_page": 50,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "table",
+   "title": "Consolidated Statements of Net Cost\nFor the Fiscal Years Ended September 30, 2024 and 2023",
+   "bbox": [
+    58,
+    145,
+    944,
+    717
+   ],
+   "content": "**(IN MILLIONS)**\n\n|  | 2024 | 2023 |\n|---|---:|---:|\n| **STRATEGIC GOAL 1** | — | — |\n| **Expand human knowledge through new scientific discoveries:** | — | — |\n| Gross Costs | $ 9,128 | $ 9,166 |\n| Less: Earned Revenue | 1,090 | 904 |\n| Net Costs | 8,038 | 8,262 |\n| **STRATEGIC GOAL 2** | — | — |\n| **Extend human presence to the Moon and on towards Mars for sustainable long-term exploration, development, and utilization:** | — | — |\n| Gross Costs | $ 11,306 | $ 11,030 |\n| Less: Earned Revenue | 386 | 354 |\n| Net Costs | 10,920 | 10,676 |\n| **STRATEGIC GOAL 3** | — | — |\n| **Catalyze economic growth and drive innovation to address national challenges:** | — | — |\n| Gross Costs | $ 3,075 | $ 3,044 |\n| Less: Earned Revenue | 146 | 161 |\n| Net Costs | 2,929 | 2,883 |\n| **STRATEGIC GOAL 4** | — | — |\n| **Enhance capabilities and operations to catalyze current and future mission success:** | — | — |\n| Gross Costs | $ 3,042 | $ 2,993 |\n| Less: Earned Revenue | 195 | 198 |\n| Net Costs | 2,847 | 2,795 |\n| **Net Cost of Operations** | — | — |\n| Total Gross Costs | $ 26,551 | $ 26,233 |\n| Less: Total Earned Revenue | 1,817 | 1,617 |\n| **Net Costs** | **$ 24,734** | **$ 24,616** |",
+   "crop": "data/advanced/crops/p051_e0.png"
+  }
+ ],
+ "text_layer": "50\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n50\nFINANCIAL SECTION\nFINANCIAL STATEMENTS, NOTES, AND REQUIRED SUPPLEMENTARY INFORMATION\nTHE ACCOMPANYING NOTES ARE AN INTEGRAL PART OF THESE FINANCIAL STATEMENTS\nNATIONAL AERONAUTICS AND SPACE ADMINISTRATION\nConsolidated Statements of Net Cost\nFor the Fiscal Years Ended September 30, 2024 and 2023\n(IN MILLIONS)\n2024\n2023\nSTRATEGIC GOAL 1\nExpand human knowledge through new scientific discoveries:\nGross Costs\n $ 9,128 \n $ 9,166 \nLess: Earned Revenue\n 1,090 \n 904 \nNet Costs\n 8,038 \n 8,262 \nSTRATEGIC GOAL 2\nExtend human presence to the Moon and on towards Mars for sustainable \nlong-term exploration, development, and utilization:\nGross Costs\n $ 11,306 \n $ 11,030 \nLess: Earned Revenue\n 386 \n 354 \nNet Costs\n 10,920 \n 10,676 \nSTRATEGIC GOAL 3\nCatalyze economic growth and drive innovation to address national challenges:\nGross Costs\n $ 3,075 \n $ 3,044 \nLess: Earned Revenue\n 146 \n 161 \nNet Costs\n 2,929 \n 2,883 \nSTRATEGIC GOAL 4\nEnhance capabilities and operations to catalyze current and future mission success:\nGross Costs\n $ 3,042 \n $ 2,993 \nLess: Earned Revenue\n 195 \n 198 \nNet Costs\n 2,847 \n 2,795 \nNet Cost of Operations\nTotal Gross Costs\n $ 26,551 \n $ 26,233 \nLess: Total Earned Revenue\n 1,817 \n 1,617 \nNet Costs\n $ 24,734 \n $ 24,616 \n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 591,
+  "cost_usd": 0.001294,
+  "seconds": 5.8,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

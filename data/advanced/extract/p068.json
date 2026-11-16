@@ -1,0 +1,41 @@
+{
+ "page": 68,
+ "printed_page": 67,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "table",
+   "title": "Lease liabilities by fiscal year",
+   "bbox": [
+    88,
+    368,
+    741,
+    560
+   ],
+   "content": "(IN MILLIONS)\n\n| FY | PRINCIPAL | INTEREST | TOTAL LIABILITY |\n|---|---:|---:|---:|\n| 2025 | $ 3 | $ 1 | $ 4 |\n| 2026 | 4 | 1 | 5 |\n| 2027 | 4 | 1 | 5 |\n| 2028 | 3 | 1 | 4 |\n| 2029 | 3 | — | 3 |\n| 2030-34 | 7 | — | 7 |\n| **Total** | **$ 24** | **$ 4** | **$ 28** |",
+   "crop": "data/advanced/crops/p068_e0.png"
+  },
+  {
+   "kind": "table",
+   "title": "Annual lease expense by asset class",
+   "bbox": [
+    508,
+    588,
+    941,
+    675
+   ],
+   "content": "(IN MILLIONS)\n\n| ASSET CLASS | ANNUAL EXPENSE |\n|---|---:|\n| Buildings/Other Structures | $ 38 |\n| **Total** | **$ 38** |",
+   "crop": "data/advanced/crops/p068_e1.png"
+  }
+ ],
+ "text_layer": "67\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n67\nFINANCIAL SECTION\nFINANCIAL STATEMENTS, NOTES, AND REQUIRED SUPPLEMENTARY INFORMATION\n(IN MILLIONS)\nFY\nPRINCIPAL\nINTEREST\nTOTAL LIABILITY\n2025\n $ 3 \n $ 1 \n $ 4 \n2026\n 4 \n 1 \n 5 \n2027\n 4 \n 1 \n 5 \n2028\n 3 \n 1 \n 4 \n2029\n 3 \n — \n 3 \n2030-34\n 7 \n — \n 7 \nTotal\n $ 24 \n $ 4 \n $ 28 \n11\nNOTE 11\nLeases\nIn FY 2024, NASA applied the provisions of SFFAS 54, Leases (Reference Note 1).  For arrangements that meet the\ndefinition of a lease under SFFAS 54, other than short-term and intragovernmental, the net present value of future\npayments or receipts over the term of the lease is recognized and amortized over the term of the arrangement. NASA\nhas arrangements that meet the definition of a lease under SFFAS 54 as both a lessee and a lessor. For leases that also \nmeet the requirements of SFFAS 49, Public-Private Partnership, the shared risk is disclosed in Note 18.\nA.\t Lessee \nNASA, as a lessee, has lease arrangements where NASA has leased facilities and land to further its mission. These \narrangements include leases across the country and abroad for office and warehouse space, other facilities, and \nland. The leases have a remaining term, including probable options, that range from three to eight years. These \narrangements do not implicitly include interest/discount; however, under SFFAS 54 an interest/discount rate based \non Treasury marketable securities was utilized. These rates ranged from 4.69% to 4.88% based on the remaining \nterm. NASA recognized $5.4 million of annual lease expense in FY 2024 associated with leases under SFFAS 54.\nCONTINUED ON THE NEXT PAGE →\nNASA, as a lessee, has intragovernmental lease \narrangements for office space and associated parking. \nThe leases have a remaining term, including probable \noptions, that range from three to eight years. \n(IN MILLIONS)\nASSET CLASS\nANNUAL EXPENSE\nBuildings/Other Structures\n $ 38 \nTotal\n $ 38 \nB.\t Lessor \nNASA, as a Lessor, has lease arrangements with non-intragovernmental entities for use of NASA’s property for land, \nbuildings, and other structures and facilities. The leases are generally executed under our enhanced use lease (51 \nU.S.C. § 20145), or National Historic Preservation Act (54 U.S.C. § 306121) authorities and are for land or facilities \nthat are non-excess but underutilized. The leases have a remaining term, including probable options, that range \nfrom three years to eighty-eight years. These arrangements do not implicitly include interest/discount, however, \nunder SFFAS 54 an interest/discount rate based on either a rate specified in the arrangement, or the Treasury \nmarketable securities was utilized based on the remaining term of the arrangement. The interest/discount rates \nranged from 1.7% to 8.35%. Arrangements that include sub-lease provisions based on future performance of the \nlessee are considered variable payments and are not included in the lease receivable and are recognized as revenue \nin the period received. NASA recognized $48.6 million of annual lease revenue in FY 2024 associated with leases \nunder SFFAS 54.\nSee Note 5, Property, Plant, \nand Equipment, Net (Lease \nAssets and Amortization)\nSee Note 8, Liabilities Not \nCovered by Budgetary \nResources (Lease Liabilities)\nSee Note 10, Other Liabilities \n(Lease Liabilities)\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 341,
+  "cost_usd": 0.000994,
+  "seconds": 3.8,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

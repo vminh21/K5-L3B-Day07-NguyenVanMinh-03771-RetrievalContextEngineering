@@ -1,0 +1,29 @@
+{
+ "page": 117,
+ "printed_page": 116,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "photo",
+   "title": "Composite image of a partial solar eclipse over the Washington Monument",
+   "bbox": [
+    98,
+    236,
+    902,
+    674
+   ],
+   "content": "A composite image shows multiple exposures of a partial solar eclipse progressing diagonally across the sky over the Washington Monument, with silhouetted tree branches at left. Printed caption: “This composite image of multiple exposures shows the progression of a partial solar eclipse over the Washington Monument, Monday, April 8, 2024, in Washington. A total solar eclipse swept across a narrow portion of the North American continent from Mexico’s Pacific coast to the Atlantic coast of Newfoundland, Canada. A partial solar eclipse was visible across the entire North American continent along with parts of Central America and Europe.” Photo credit: NASA/Bill Ingalls",
+   "crop": "data/advanced/crops/p117_e0.png"
+  }
+ ],
+ "text_layer": "116\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n116\nAppendix\nSECTION 4\nThis composite image of multiple exposures shows the progression of a \npartial solar eclipse over the Washington Monument, Monday, April 8, 2024, \nin Washington. A total solar eclipse swept across a narrow portion of the \nNorth American continent from Mexico’s Pacific coast to the Atlantic coast \nof Newfoundland, Canada. A partial solar eclipse was visible across the entire \nNorth American continent along with parts of Central America and Europe.\nPHOTO CREDIT \nNASA/Bill Ingalls\n116\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n116\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 252,
+  "cost_usd": 0.000887,
+  "seconds": 3.9,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

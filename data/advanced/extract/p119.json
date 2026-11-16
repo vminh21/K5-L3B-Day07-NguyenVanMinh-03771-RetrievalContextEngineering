@@ -1,0 +1,29 @@
+{
+ "page": 119,
+ "printed_page": 118,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "photo",
+   "title": "Retrato de Bill Nelson",
+   "bbox": [
+    59,
+    824,
+    141,
+    889
+   ],
+   "content": "Fotografía circular de Bill Nelson, mostrando su rostro y parte de los hombros, con una bandera de Estados Unidos al fondo. No hay pie de foto ni crédito de fotografía impresos.",
+   "crop": "data/advanced/crops/p119_e0.png"
+  }
+ ],
+ "text_layer": "118\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n118\nA P É N D I C E\n15 DE NOVIEMBRE DE 2024\nMensaje del Administrador (CONTINUACIÓN)\nen la orbita baja de la Tierra. Adicionalmente, en el Año Fiscal 2024, marcamos los lanzamientos de tripulaciones Crew-8 y \nCrew-9 de la NASA al EEI a bordo de cohetes de SpaceX. Estos lanzamientos representan solo unos de los pasos para avanzar \nnuestro Programa Tripulacion Comercial – nuestro programa para transportar Astronauticas hacia y desde la EEI en una \nmanera segura, confiable, y gastos efectivo, a traves de asociaciones con la industria privada estadounidense. \n \nEn el Año Fiscal 2024, NASA ha construido sobre nuestro largo trabajo para estudiar nuestra Tierra como un sistema. La \nmayor parte de lo que sabemos sobre nuestro planeta cambiante viene de nuestra flota de más de dos docenas de satélites e \ninstrumentos, y más de 60 años de observaciones sobre el clima. Compartimos nuestros datos de observaciones libremente \nand con toda la humanidad – y eso ayuda al mundo a tomar medidas, incluso frente al cambio climático. En el Año Fiscal \n2024, entre otras cosas, avanzamos nuestro trabajo con el satélite del Radar de Apertura Sintética (NISAR, por sus siglas en \ninglés) de NASA y ISRO (Organización de Investigación Espacial de la India). Esta misión conjunta entre NASA y ISRO será \nel primer radar de este tipo en el espacio para mapear sistemáticamente la Tierra. NISAR utilizara dos frecuencias de radar \ndiferentes para medir cambios del exterior de nuestro planeta, y profundizara nuestra compresión acerca de la deforestación, \nlos desastres naturales, y el cambio climático, a través de otros signos vitales globales. \n \nLa primera “A” en NASA as para Astronáuticos. NASA continua las investigaciones para mejorar los viajes aéreos y hacerlos \nmás sostenibles. Por ejemplo, en enero de 2024, NASA presento públicamente el avión supersónico silencioso, X-59 – el cual \ntransformara la forma en que viajamos. Por 50 años, los Estados Unidos (U.S.) y otras naciones han prohibido los aviones \nsupersónicos comerciales sobre tierra debido a la perturbación causada por explosiones sónicas. El avión X-59 quiere \ndemostrar la habilidad de alcanzar velocidades supersónicas mientras generando un golpe más silencioso, revolucionando \nla industria de aviación, y haciendo un camino de acceso para los aviones comerciales en el futuro. Además, en el Año Fiscal \n2024, también avanzamos el progreso con el Demostrador de Vuelo Sostenible X-66, el primer avión experimental enfocado \nespecíficamente en ayudar a U.S. a lograr cero emisiones netas de aviación para el Año 2050.  \n \nNASA está dedicada a participar, inspirar, y atraer a las futuras generaciones de exploradores. También estamos \ncomprometido con la promoción en Ciencia, Tecnología, Ingeniero, y Matemáticas (STEM) para los estudiantes de diversos \norígenes para que sigan intereses y una carrera en STEM e la industria espaciales. Para apoyar este objetivo, NASA lanzo \nsu Plan Estratégico de Implementación para la Participación en STEM 2024-2026. Este plan apoya la estrategia en STEM \nde NASA y describe los esfuerzos sistémicos para apoyar la coordinación y ejecución de nuestro trabajo en STEM. Al \ncontinuar participando con los estudiantes, apoyando educadores y las instituciones educativas, y apoyando la diversidad, y \naccesibilidad en el campo STEM, NASA lucha por ayudar la próxima generación de pioneros y aventureros. Además, NASA \nbrinda accesos a oportunidades para las comunidades desatendidas, ofreciendo perspectivas cruciales y diversas que son \nnecesarias para llevarnos a la Luna, Marte y más allá.\n \nEstoy profundamente conmovido por la fuerza laboral de la NASA, a quienes llamo los magos de la NASA. Todos los días \nrealizan cosas extraordinarias en nombre del pueblo estadounidense y en beneficio de toda la humanidad. Nos destacamos \npor romper barreras que impiden obstruir la justicia, garantizando el acceso a las oportunidades para que las comunidades \ndesatendidas participen en las perspectivas importantes y diversas que son necesarias para llevarnos a la Luna, Marte y más \nallá.\n \nNuestro espíritu pionero hace que NASA sea siempre el mejor lugar para trabajar dentro del gobierno federal. Estoy \nemocionada con los avances gigantes que viene - y con la celebración de los históricos éxitos de nuestra nación - mientras \ncontinuamos explorando lo desconocido en el aire y en el espacio, innovando en beneficio de la humanidad e inspirando al \nmundo a través del descubrimiento.\nAtentamente, \nBill Nelson\n118\nFY 2024 INFORME FINANCIERO DE LA AGENCIA  NASA.GOV\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 180,
+  "cost_usd": 0.000801,
+  "seconds": 3.7,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

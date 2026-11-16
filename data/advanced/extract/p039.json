@@ -1,0 +1,29 @@
+{
+ "page": 39,
+ "printed_page": 38,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "diagram",
+   "title": "FIGURE 2 — NASA’s UNICORN",
+   "bbox": [
+    155,
+    464,
+    845,
+    940
+   ],
+   "content": "A large blue-outlined oval contains the NASA UNICORN framework. At the top inside the oval is the label “Enterprise Risk Management.”\n\nTop council nodes and color coding:\n- Red oval: “EC”\n- Blue oval: “APMC”\n- White oval with gray outline: “ASC”\n- Green oval: “MSC”\n\nCouncil relationships and arrows:\n- APMC and EC are connected by two black diagonal arrows. The arrow from APMC toward EC is labeled “Programmatic Assessments and Recommendations.” The arrow from EC toward APMC is labeled “Program Strategic Guidance & Budget.”\n- APMC and EC are also associated with the blue diagonal label “Program & Mission Decisions.”\n- EC and ASC are connected by two vertical black arrows. The upward relationship is labeled “Extended EC.” The downward relationship is labeled “ASC Advice and Recommendations.”\n- EC and MSC are connected by two black diagonal arrows. The relationship is labeled “Institutional Strategic Guidance & Budget.”\n- EC and MSC are also associated with the green diagonal label “Mission-Enabling Decisions.”\n- APMC and ASC are connected by a blue arrow labeled “APMC Participation.”\n- ASC and MSC are connected by a blue, two-way relationship labeled “Extended MSC.”\n- ASC and MSC are connected by a black horizontal, two-way relationship labeled “Program-derived Institutional Requirements.”\n- APMC and MSC are connected by a black horizontal, two-way relationship labeled “Delivery of Institutional Capabilities.”\n\nRisk categories, shown as adjacent colored blocks across the lower middle of the oval:\n- Blue: “Political and Reputational Risk”\n- Light blue: “Programmatic Risk”\n- Olive green: “Financial Risk”\n- Yellow: “Strategic Risk”\n- Red: “Operational Risk”\n\nThe risk-category blocks sit beneath a green triangular/roof-shaped form rising to the center beneath the ASC node. Large curved green arrows on the left and right surround the framework and point around the oval.\n\nLower organizational layers:\n- A large light-blue rounded rectangle reads: “HQ Mission Directorate Centers” and “Functional Organizations Supporting Center Operations.”\n- A green rounded rectangle below it reads: “Control Certifications-Analysis of Controls” and “Fraud Risk Management.”\n\nColor legend at the bottom:\n- Red: “EC Executive Council”\n- Blue: “APMC Agency Program Management Council”\n- White/gray outline: “ASC Acquisition Strategy Council”\n- Green: “MSC Mission Support Council”",
+   "crop": "data/advanced/crops/p039_e0.png"
+  }
+ ],
+ "text_layer": "38\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n38\nEnterprise Risk Management\nCONTINUED ON THE NEXT PAGE →\nOMB Circular A-123, Management’s Responsibility for Enterprise Risk Management and Internal Control, requires \nFederal agencies to implement ERM to ensure Federal managers are effectively managing risks that could affect the \nachievement of Agency strategic objectives.\nRisk management is embedded in NASA’s culture, and the principles and practices are inherent in everyday operations. \nIn July 2023, the NASA Deputy Administrator directed the formation of an internal Agency Risk Management Tiger \nTeam to review, assess and propose options to strengthen the Agency’s risk management framework. Specifically, \nthe Tiger Team focused on identifying how to best support risk practitioners and senior leaders in managing and \ncommunicating their risks effectively. Based on the Tiger Team’s findings, NASA implemented several initiatives to \nimprove internal risk management processes. This includes establishment of an Agency Risk Management Officer \n(ARMO) within the Headquarters Office of Safety and Mission Assurance to fortify NASA’s risk management policies, \npractices, and capabilities.\nNASA’s ARMO leads the Agency’s ERM effort in collaboration with the Quality Assurance Division within OCFO. The \nNASA Unified Comprehensive Operational Risk Network (UNICORN), NASA’s ERM framework, is the framework \nfor the communication and exchange of risk information between NASA’s functional organizations and the Agency \nleadership (see Figure 2). The framework is the foundation of the Agency’s risk management policy, activities, and \ndecisional councils.\nEC\nAPMC\nMSC\nEnterprise Risk Management\nASC\nPolitical and \nReputational Risk\nProgrammatic \nRisk\nFinancial Risk\nStrategic Risk\nOperational Risk\nHQ Mission Directorate\nCenters\nFunctional Organizations Supporting Center Operations\nExtended EC\nASC Advice and\nRecommendations\nProgram-derived Institutional Requirements\nDelivery of Institutional Capabilities\nControl Certifications-Analysis of Controls\nFraud Risk Management\nMSC Mission Support Council\nASC Acquisition Strategy Council\nAPMC Agency Program Management Council\nEC Executive Council\nFIGURE 2\nNASA's UNICORN\nMANAGEMENT’S DISCUSSION AND ANALYSIS\nANALYSIS OF SYSTEMS, CONTROLS, AND LEGAL COMPLIANCE\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 832,
+  "cost_usd": 0.001583,
+  "seconds": 9.5,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

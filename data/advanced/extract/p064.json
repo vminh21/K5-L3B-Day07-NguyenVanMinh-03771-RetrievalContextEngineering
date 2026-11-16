@@ -1,0 +1,29 @@
+{
+ "page": 64,
+ "printed_page": 63,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "table",
+   "title": "Liabilities Not Covered by Budgetary Resources",
+   "bbox": [
+    59,
+    570,
+    941,
+    878
+   ],
+   "content": "| (IN MILLIONS) | 2024 | 2023 |\n|---|---:|---:|\n| Intragovernmental Liabilities: |  |  |\n|      Other Liabilities | $ 30 | $ 58 |\n|      Total Intragovernmental Liabilities | 30 | 58 |\n| Federal Employee Salary, Leave and Benefits Payable | 281 | 275 |\n| Pensions and Post-Employment Benefits Payable | 26 | 27 |\n| Environmental and Disposal Liabilities (Note 9) | 2,266 | 2,184 |\n| Other Liabilities | 833 | 99 |\n|      Total Liabilities Not Covered by Budgetary Resources | $ 3,436 | $ 2,643 |\n|      Total Liabilities Covered by Budgetary Resources | $ 4,203 | $ 4,048 |\n|      Total Liabilities Not Requiring Budgetary Resources | $ 25 | $ 28 |\n| Total Liabilities | $ 7,664 | $ 6,719 |",
+   "crop": "data/advanced/crops/p064_e0.png"
+  }
+ ],
+ "text_layer": "63\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n63\nFINANCIAL SECTION\nFINANCIAL STATEMENTS, NOTES, AND REQUIRED SUPPLEMENTARY INFORMATION\nNASA’s Other Assets consist of lessor lease receivables, which represent amounts due from lessees under lease agreements \nwhere NASA is the lessor. In FY 2024, NASA implemented the requirements under SFFAS 54, Leases, which requires \nNASA to record a lease receivable for the term of the lease at net present value where NASA is the lessor for arrangements \nother than (1) short-term leases, (2) contracts or agreements that transfer ownership, and (3) intragovernmental leases, \nincluding the estimated allowance for uncollectible accounts (See Note 11, Leases, for more information). The value of \nOther Assets at the end of the period was $697 million, which represent lessor lease receivables as of September 30, 2024. \nNASA has determined the estimated uncollectible amount is zero due to the nature of arrangements.\nLiabilities Not Covered by Budgetary Resources include future environmental cleanup liability, legal claims, other \nretirement benefits, workers’ compensation, annual leave, unearned lease revenue, and lease liability. Liabilities not \ncovered by budgetary resources require future congressional action whereas liabilities covered by budgetary resources \nreflect prior congressional action. Liabilities that do not require the use of budgetary resources are covered by monetary \nassets that are not budgetary resources to the entity.\nThe present value of the FECA actuarial liability estimate at year-end was calculated by the Department of Labor using \na discount rate of 2.65 percent in FY 2024 and 2.33 percent in FY 2023. This liability includes the estimated future costs \nfor claims incurred but not reported or approved as of the end of each year.\nIn FY 2024, NASA implemented the requirements of SFFAS 54, Leases. This Statement revises the financial \nreporting standards for Federal lease accounting. The requirements set forth in SFFAS 54 outline the recognition and \nmeasurement for lease liabilities and unearned lease revenue. See Note 11, Leases, for information on NASA’s lease \nreporting.\n(IN MILLIONS)\n2024\n2023\nIntragovernmental Liabilities:\nOther Liabilities\n $ 30 \n $ 58 \nTotal Intragovernmental Liabilities\n 30 \n 58 \nFederal Employee Salary, Leave and Benefits Payable\n 281 \n 275 \nPensions and Post-Employment Benefits Payable\n 26 \n 27 \nEnvironmental and Disposal Liabilities (Note 9)\n 2,266 \n 2,184 \nOther Liabilities\n 833 \n 99 \nTotal Liabilities Not Covered by Budgetary Resources\n $ 3,436 \n $ 2,643 \nTotal Liabilities Covered by Budgetary Resources\n $ 4,203 \n $ 4,048 \nTotal Liabilities Not Requiring Budgetary Resources\n $ 25 \n $ 28 \nTotal Liabilities\n $ 7,664 \n $ 6,719 \n07\nNOTE 7\nOther Assets\n08\nNOTE 8\nLiabilities Not Covered by Budgetary Resources\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 401,
+  "cost_usd": 0.001066,
+  "seconds": 4.1,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

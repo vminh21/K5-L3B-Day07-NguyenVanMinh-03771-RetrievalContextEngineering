@@ -1,0 +1,41 @@
+{
+ "page": 70,
+ "printed_page": 69,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "table",
+   "title": "Explanation of Differences Between the SBR and the Budget of the U.S. Government",
+   "bbox": [
+    59,
+    281,
+    942,
+    497
+   ],
+   "content": "| (IN MILLIONS) | TOTAL BUDGETARY RESOURCES | NEW OBLIGATIONS & UPWARD ADJUSTMENTS (TOTAL) | DISTRIBUTED OFFSETTING RECEIPTS | NET OUTLAYS |\n|---|---:|---:|---:|---:|\n| Combined Statement of Budgetary Resources | $ 30,923 | $ 28,276 | $ (7) | $ 25,326 |\n| Included on SBR, not in President’s Budget | — | — | — | — |\n|   Expired Accounts | (318) | (142) | — | — |\n|   Distributed Offsetting Receipts | — | — | 7 | — |\n| Budget of the United States Government | $ 30,605 | $ 28,134 | $ — | $ 25,326 |",
+   "crop": "data/advanced/crops/p070_e0.png"
+  },
+  {
+   "kind": "table",
+   "title": "Undelivered Orders at the End of the Period",
+   "bbox": [
+    58,
+    664,
+    942,
+    929
+   ],
+   "content": "| (IN MILLIONS) | 2024 | 2023 |\n|---|---:|---:|\n| Federal | — | — |\n|   Unpaid | $ 601 | $ 706 |\n|   Paid | 212 | 101 |\n|   Total | 813 | 807 |\n| Nonfederal | — | — |\n|   Unpaid | $ 11,355 | $ 12,076 |\n|   Paid | 46 | 26 |\n|   Total | 11,401 | 12,102 |\n| Total Undelivered Orders | $ 12,214 | $ 12,909 |",
+   "crop": "data/advanced/crops/p070_e1.png"
+  }
+ ],
+ "text_layer": "69\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n69\nFINANCIAL SECTION\nFINANCIAL STATEMENTS, NOTES, AND REQUIRED SUPPLEMENTARY INFORMATION\nThe FY 2026 Budget of the United States Government (President’s Budget), which presents the actual amounts for the \nyear ended September 30, 2024, has not been published as of the issue date of these financial statements. The FY 2026 \nBudget of the United States Government will be published on a later date at https://www.whitehouse.gov/omb/budget \n(Unaudited).\nNASA reconciled the amounts of the FY 2023 column on the Statement of Budgetary Resources (SBR) to the actual \namounts for FY 2023 in the FY 2025 President’s Budget for budgetary resources, new obligations, upward adjustments \n(total), distributed offsetting receipts, and net outlays as presented below.\nUndelivered Orders represent the amount of goods and/or services ordered to perform NASA’s mission objectives, \nwhich have not been received. Undelivered Orders at the end of the period totaled $12 billion as of September 30, 2024 \nand $13 billion as of September 30, 2023.\n(IN MILLIONS)\nTOTAL\nBUDGETARY \nRESOURCES\nNEW OBLIGATIONS &\nUPWARD ADJUSTMENTS \n(TOTAL)\nDISTRIBUTED \nOFFSETTING \nRECEIPTS\nNET OUTLAYS\nCombined Statement of Budgetary Resources\n $ 30,923 \n $ 28,276 \n $ (7)\n $ 25,326 \nIncluded on SBR, not in President’s Budget\nExpired Accounts\n (318)\n (142) \n — \n — \nDistributed Offsetting Receipts\n — \n — \n 7 \n — \nBudget of the United States Government\n $ 30,605 \n $ 28,134 \n $ — \n $ 25,326 \n(IN MILLIONS)\n2024\n2023\nFederal\nUnpaid\n $ 601 \n $ 706 \nPaid\n 212 \n 101 \nTotal \n 813 \n 807 \nNonfederal\nUnpaid\n $ 11,355 \n $ 12,076 \nPaid\n 46 \n 26 \nTotal \n 11,401 \n 12,102 \nTotal Undelivered Orders\n $ 12,214 \n $ 12,909 \n13\nNOTE 13 \nExplanation of Differences Between the SBR and the Budget of the\nU.S. Government\n14\nNOTE 14\nUndelivered Orders at the End of the Period\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 507,
+  "cost_usd": 0.001193,
+  "seconds": 4.8,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "page": 46,
+ "printed_page": 45,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "photo",
+   "title": "SpaceX Starship launch",
+   "bbox": [
+    98,
+    177,
+    902,
+    613
+   ],
+   "content": "A SpaceX Starship vehicle launches vertically through clouds above a coastline, with smoke and exhaust below. Printed caption: “As part of NASA’s Artemis campaign to return humans to the Moon for the benefit of all, the agency is working with SpaceX to develop the company’s Starship human landing system (HLS), which will land astronauts near the Moon’s South Pole during the Artemis III and Artemis IV missions. On March 14, SpaceX launched the third integrated flight test of its Super Heavy booster and Starship upper stage, an important milestone toward providing NASA with a Starship HLS for its Artemis missions.\n\nA complement of 33 Raptor engines, fueled by super-cooled liquid methane and liquid oxygen, powered the Super Heavy booster with Starship stacked on top, from the company’s Starbase orbital launch pad at 8:25 a.m. CDT. Starship, using six Raptor engines, separated from the Super Heavy booster employing a hot-staging technique to fire the engines before separation at approximately three minutes into the flight, in accordance with the flight plan.” Photo credit: SpaceX",
+   "crop": "data/advanced/crops/p046_e0.png"
+  }
+ ],
+ "text_layer": "45\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n45\nFinancial Section\nSECTION 2\nAs part of NASA's Artemis campaign to return humans to the Moon for the benefit \nof all, the agency is working with SpaceX to develop the company's Starship human \nlanding system (HLS), which will land astronauts near the Moon's South Pole during \nthe Artemis III and Artemis IV missions. On March 14, SpaceX launched the third \nintegrated flight test of its Super Heavy booster and Starship upper stage, an important \nmilestone toward providing NASA with a Starship HLS for its Artemis missions. \nA complement of 33 Raptor engines, fueled by super-cooled liquid methane and liquid \noxygen, powered the Super Heavy booster with Starship stacked on top, from the \ncompany’s Starbase orbital launch pad at 8:25 a.m. CDT. Starship, using six Raptor \nengines, separated from the Super Heavy booster employing a hot-staging technique \nto fire the engines before separation at approximately three minutes into the flight, in \naccordance with the flight plan. \nPHOTO CREDIT \nSpaceX\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 387,
+  "cost_usd": 0.001049,
+  "seconds": 5.5,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

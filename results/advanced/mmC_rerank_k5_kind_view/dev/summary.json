@@ -1,0 +1,49 @@
+{
+ "config": "mmC_rerank_k5_kind_view",
+ "split": "dev",
+ "agent_params": {
+  "retriever": "hybrid_rerank",
+  "retriever_params": {
+   "rrf_k": 60,
+   "candidate_pool": 30,
+   "components": [
+    "dense",
+    "bm25"
+   ],
+   "dedup_text": false,
+   "reranker": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+   "rerank_pool": 30
+  },
+  "top_k": 5,
+  "max_steps": 5,
+  "budget_chars": 12000,
+  "view_page": true,
+  "kind_filter": true,
+  "llm": {
+   "provider": "openai (Responses API)",
+   "model": "gpt-5.6-luna",
+   "reasoning_effort": "low",
+   "max_output_tokens": 1500,
+   "temperature": "not set (reasoning model)",
+   "price_per_1M": [
+    0.2,
+    1.2
+   ],
+   "max_cost_usd": 1.0
+  }
+ },
+ "n": 28,
+ "auto_pass": 26,
+ "by_group": {
+  "chart": "6/6",
+  "image": "5/5",
+  "multihop": "2/4",
+  "no_evidence": "5/5",
+  "table": "3/3",
+  "text": "5/5"
+ },
+ "errors": 0,
+ "cost_usd": 0.03027,
+ "median_s": 3.7,
+ "p95_s": 8.5
+}

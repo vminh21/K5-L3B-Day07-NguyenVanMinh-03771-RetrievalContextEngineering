@@ -1,0 +1,29 @@
+{
+ "page": 95,
+ "printed_page": 94,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "photo",
+   "title": "A top-down view of the OSIRIS-REx Touch-and-Go-Sample-Acquisition-Mechanism (TAGSAM) head",
+   "bbox": [
+    98,
+    229,
+    902,
+    667
+   ],
+   "content": "Photo showing a top-down view of the OSIRIS-REx Touch-and-Go-Sample-Acquisition-Mechanism (TAGSAM) head with the lid removed, revealing the remainder of the asteroid sample inside. Printed caption: “A top-down view of the OSIRIS-REx Touch-and-Go-Sample-Acquisition-Mechanism (TAGSAM) head with the lid removed, revealing the remainder of the asteroid sample inside. Erika Blumenfeld, creative lead for the Advanced Imaging and Visualization of Astromaterials (AIVA) and Joe Aebersold, project management lead, captured this picture using manual high-resolution precision photography and a semi-automated focus stacking procedure. The result is an image that can be zoomed in on to show extreme detail of the sample. The remaining sample material includes dust and rocks up to about .4 in (one cm) in size.” Photo credit: “NASA/Erika Blumenfeld & Joseph Aebersold, January 17, 2024”",
+   "crop": "data/advanced/crops/p095_e0.png"
+  }
+ ],
+ "text_layer": "94\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n94\n94\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n94\nOther Information\nA top-down view of the OSIRIS-REx Touch-and-Go-Sample-Acquisition-\nMechanism (TAGSAM) head with the lid removed, revealing the remainder of the \nasteroid sample inside. Erika Blumenfeld, creative lead for the Advanced Imaging \nand Visualization of Astromaterials (AIVA) and Joe Aebersold, project management \nlead, captured this picture using manual high-resolution precision photography \nand a semi-automated focus stacking procedure. The result is an image that can be \nzoomed in on to show extreme detail of the sample. The remaining sample material \nincludes dust and rocks up to about .4 in (one cm) in size.\nPHOTO CREDIT \nNASA/Erika Blumenfeld & Joseph Aebersold, January 17, 2024\nSECTION 3\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 374,
+  "cost_usd": 0.001034,
+  "seconds": 6.2,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

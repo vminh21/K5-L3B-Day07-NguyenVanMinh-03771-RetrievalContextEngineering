@@ -1,0 +1,53 @@
+{
+ "page": 13,
+ "printed_page": 12,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "infographic",
+   "title": "NASA by the Numbers — FY 2024 Budget",
+   "bbox": [
+    59,
+    134,
+    490,
+    684
+   ],
+   "content": "FY 2024 BUDGET\n$24.9 Billion\n\n$13.3B (54%) | Research, Engineering, & Development\n$9.0B (36%) | Operations\n$1.3B (5%) | Grants\n$1.3B (5%) | Facilities and Equipment\n\nNOTE:\nThe $24.9 billion includes $4.5 million of funds transferred from General Services Administration (GSA) for Technology Modernization Fund (TMF) investment award.",
+   "crop": "data/advanced/crops/p013_e0.png"
+  },
+  {
+   "kind": "infographic",
+   "title": "NASA’S CIVIL SERVICE WORKFORCE BY CENTER",
+   "bbox": [
+    509,
+    134,
+    941,
+    684
+   ],
+   "content": "NASA’S CIVIL SERVICE WORKFORCE BY CENTER\n18,475 Employees\n\n3,229 (18%) | Johnson Space Center (JSC)\n3,180 (17%) | Goddard Space Flight Center (GSFC)\n2,345 (13%) | Marshall Space Flight Center (MSFC)\n2,104 (11%) | Kennedy Space Center (KSC)\n1,848 (10%) | Langley Research Center (LaRC)\n1,744 (9%) | NASA Headquarters (HQ)\n1,471 (8%) | Glenn Research Center (GRC)\n1,327 (7%) | Ames Research Center (ARC)\n675 (4%) | Other\n552 (3%) | Armstrong Flight Research Center (AFRC)",
+   "crop": "data/advanced/crops/p013_e1.png"
+  },
+  {
+   "kind": "photo",
+   "title": "2024 ONWARD AND UPWARD",
+   "bbox": [
+    78,
+    854,
+    283,
+    943
+   ],
+   "content": "A grayscale photograph of the Moon, with a dark foreground and the illuminated lunar surface visible on the right. Printed text on the image: “2024” and “ONWARD AND UPWARD.”",
+   "crop": "data/advanced/crops/p013_e2.png"
+  }
+ ],
+ "text_layer": "12\nFY 2024 AGENCY FINANCIAL REPORT  NASA.GOV\n12\nNASA by the Numbers\nMANAGEMENT’S DISCUSSION AND ANALYSIS\nWELCOME TO NASA\nNOTE:\nThe $24.9 billion includes $4.5 million of funds transferred \nfrom General Services Administration (GSA) for Technology \nModernization Fund (TMF) investment award.\nFY 2024 BUDGET\n$24.9 Billion\n$13.3B\n(54%)\nResearch, Engineering, & \nDevelopment\n$9.0B\n(36%)\nOperations\n$1.3B\n(5%)\nGrants\n$1.3B\n(5%)\nFacilities and Equipment\nNASA’S CIVIL SERVICE WORKFORCE BY CENTER\n18,475 Employees\n3,229 (18%)\nJohnson Space Center \n(JSC)\n3,180 (17%)\nGoddard Space Flight \nCenter (GSFC)\n2,345 (13%)\nMarshall Space Flight \nCenter (MSFC)\n2,104 (11%)\nKennedy Space Center \n(KSC)\n1,848 (10%)\nLangley Research Center \n(LaRC)\n1,744 (9%)\nNASA Headquarters\n(HQ)\n1,471 (8%)\nGlenn Research Center \n(GRC)\n1,327 (7%)\nAmes Research Center \n(ARC)\n675 (4%)\nOther\n552 (3%)\nArmstrong Flight Research \nCenter (AFRC)\nLanding science on the Moon, demonstrating quiet supersonic aircraft, and launching \ntwo new Earth climate satellites, plus a mission to Europa, one of Jupiter's icy moons, \nare just a FEW of the milestones we have planned for 2024. (December 27, 2023)\nLEARN MORE →\nDid You Know?\nS C A N M E\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 661,
+  "cost_usd": 0.001378,
+  "seconds": 7.7,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "page": 127,
+ "printed_page": 126,
+ "status": "ok",
+ "elements": [
+  {
+   "kind": "photo",
+   "title": "A Moonlit Moonwalk",
+   "bbox": [
+    0,
+    0,
+    1000,
+    1000
+   ],
+   "content": "A nighttime photograph shows a NASA astronaut in a spacesuit collecting a soil sample in a rocky, desert-like volcanic field, with other people and equipment nearby under a dark blue sky. Printed caption: “NASA astronaut Kate Rubins places a sample marker in the soil before collecting a sample during a nighttime simulated moonwalk in the San Francisco Volcanic Field in Northern Arizona on May 16, 2024. A sample marker provides a photographic reference point for science samples collected on the lunar surface.” Photo credit: “NASA/Josh Valcarcel”.",
+   "crop": "data/advanced/crops/p127_e0.png"
+  }
+ ],
+ "text_layer": "MARY W. JACKSON\nNASA HEADQUARTERS\n300 E Street SW (Hidden Figures Way)\nWashington, DC 20546\n(202) 358 - 0001\nNASA.GOV\nNational Aeronautics and\n Space Administration\nBACK COVER IMAGE \nA Moonlit Moonwalk\nNASA astronaut Kate Rubins places a \nsample marker in the soil before collecting \na sample during a nighttime simulated \nmoonwalk in the San Francisco Volcanic \nField in Northern Arizona on May 16, 2024. \nA sample marker provides a photographic \nreference point for science samples \ncollected on the lunar surface.\nPHOTO CREDIT — NASA/Josh Valcarcel\nTHANK YOU FOR YOUR INTEREST\nIN NASA'S FY 2024 AFR\nWe welcome your comments on how we can improve this report \nfor our readers. Electronic copies of this report and prior years’ \nreports are available through the Agency’s website. \nfacebook.com/NASA\nx.com/NASA\ninstagram.com/NASA\nyoutube.com/NASA\nflickr.com/NASAhqphoto\nlinkedin.com/company/NASA\nS C A N M E\nSTAY CONNECTED WITH NASA\n",
+ "usage": {
+  "tokens_in": 2924,
+  "tokens_out": 231,
+  "cost_usd": 0.000862,
+  "seconds": 7.0,
+  "dpi": 150,
+  "effort": "low",
+  "model": "gpt-5.6-luna"
+ }
+}

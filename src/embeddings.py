@@ -37,8 +37,10 @@ class MyEmbedder:
         model_name: str = "embeddinggemma",
         base_url: str = "http://localhost:11434",
         batch_size: int = 32,
+        doc_title: str = "Manifesto of the Communist Party",
     ) -> None:
         self.model_name = model_name
+        self.doc_title = doc_title
         self.base_url = base_url.rstrip("/")
         self.batch_size = batch_size
         self.dimensions = self._detect_dimensions()
@@ -68,7 +70,7 @@ class MyEmbedder:
         for i in range(0, total, self.batch_size):
             batch = texts[i : i + self.batch_size]
             # Tiền tố chỉ dẫn Asymmetric Retrieval của Google DeepMind cho EmbeddingGemma
-            formatted_batch = [f"title: Manifesto of the Communist Party | text: {t}" for t in batch]
+            formatted_batch = [f"title: {self.doc_title} | text: {t}" for t in batch]
             payload = json.dumps({"model": self.model_name, "input": formatted_batch}).encode("utf-8")
             req = urllib.request.Request(
                 f"{self.base_url}/api/embed",
