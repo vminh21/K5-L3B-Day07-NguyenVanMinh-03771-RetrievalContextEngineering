@@ -1,0 +1,71 @@
+[
+  {
+    "id": "u01",
+    "split": "test",
+    "question": "According to the Manifesto, whose ideas have always been the ruling ideas of each age?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "u02",
+    "split": "test",
+    "question": "Which work by Proudhon is cited as an example of Conservative or Bourgeois Socialism?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "u03",
+    "split": "test",
+    "question": "How does the Manifesto characterise feudal Socialism in relation to the past and the future?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "u04",
+    "split": "test",
+    "question": "In Switzerland, which party do the Communists support, and what do they keep in mind about that party?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "u05",
+    "split": "test",
+    "question": "In Chapter II, on what foundation is the present, bourgeois family based?",
+    "answerable": true,
+    "filter": {
+      "chapter": "Chapter II"
+    }
+  },
+  {
+    "id": "u06",
+    "split": "test",
+    "question": "According to the prefaces, what kind of movement was socialism in 1847, and what kind was communism?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "u07",
+    "split": "test",
+    "question": "According to the 1892 Polish preface, in which year did Poland succumb to Russia, and how much greater was the Russian force?",
+    "answerable": true,
+    "filter": null
+  },
+  {
+    "id": "un01",
+    "split": "test",
+    "question": "In what year was Karl Marx born, according to the Manifesto and its prefaces?",
+    "absence_reason": "Grep 'born', 'birth', '1818' over all 167 chunks: '1818' only appears as Lewis Henry Morgan's dates (1818-1861, p.3); 'birth' only about the proletariat (p.9) and a 'new proletarian era' (p.44). No birth date for Marx anywhere.",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "filter": null
+  },
+  {
+    "id": "un02",
+    "split": "test",
+    "question": "What does the Manifesto say about Abraham Lincoln and the abolition of slavery in the American Civil War?",
+    "absence_reason": "Grep 'Lincoln' = 0; 'civil war' only 'veiled civil war' (p.12) and the title 'The Civil War in France' (p.33, p.39); 'slavery' only generic (p.12); 'American' hits (p.30, 34, 40, 42) are about Icaria, agriculture, translations and May Day. Nothing about Lincoln or US abolition.",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "filter": null
+  }
+]

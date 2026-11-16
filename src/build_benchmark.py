@@ -117,5 +117,75 @@ def main():
     print("questions with alternative gold pages:", multi)
 
 
-if __name__ == "__main__":
+if __name__ == "__main__" and "--test-v2" not in __import__("sys").argv:
     main()
+
+
+# ---------------------------------------------------------------------------------------------
+# TEST v2 (written 2026-11-16 AFTER test v1 was used to diagnose t06 -> test v1 is contaminated
+# for tuning). Written and committed BEFORE any new change is made or evaluated; pages never used
+# by dev or test v1. Output: data/day7/test_v2/{questions,cases}.json with split="test".
+NEW_TEST_V2 = [
+    dict(id="u01", type="direct", filter=None,
+         question="According to the Manifesto, whose ideas have always been the ruling ideas of each age?",
+         expected_answer="The ideas of its ruling class.",
+         evidence="The ruling ideas of each age have ever been the ideas of its ruling class."),
+    dict(id="u02", type="direct", filter=None,
+         question="Which work by Proudhon is cited as an example of Conservative or Bourgeois Socialism?",
+         expected_answer="Proudhon's 'Philosophie de la Misère' (spelled 'Philosophis de la Misère' in this edition).",
+         evidence="We may cite Proudhon’s Philosophis de la Misère as an example of this form."),
+    dict(id="u03", type="paraphrase", filter=None,
+         question="How does the Manifesto characterise feudal Socialism in relation to the past and the future?",
+         expected_answer="Half lamentation, half lampoon; half an echo of the past, half menace of the future.",
+         evidence="half lamentation, half lampoon; half an echo of the past, half menace of the future"),
+    dict(id="u04", type="conditional", filter=None,
+         question="In Switzerland, which party do the Communists support, and what do they keep in mind about that party?",
+         expected_answer="They support the Radicals, without losing sight of the fact that this party consists of antagonistic elements: partly Democratic Socialists (in the French sense), partly radical bourgeois.",
+         evidence="In Switzerland, they support the Radicals, without losing sight of the fact that this party consists of antagonistic elements, partly of Democratic Socialists, in the French sense, partly of radical bourgeois."),
+    dict(id="u05", type="metadata_filter", filter={"chapter": "Chapter II"},
+         question="In Chapter II, on what foundation is the present, bourgeois family based?",
+         expected_answer="On capital, on private gain.",
+         evidence="On what foundation is the present family, the bourgeois family, based? On capital, on private gain."),
+    dict(id="u06", type="direct", filter=None,
+         question="According to the prefaces, what kind of movement was socialism in 1847, and what kind was communism?",
+         expected_answer="Socialism was a middle-class movement; communism was a working-class movement.",
+         evidence="Thus, in 1847, socialism was a middle-class movement, communism a working-class movement."),
+    dict(id="u07", type="conditional", filter=None,
+         question="According to the 1892 Polish preface, in which year did Poland succumb to Russia, and how much greater was the Russian force?",
+         expected_answer="In 1863, to a tenfold greater Russian force.",
+         evidence="was left to its own resources when it succumbed in 1863 to a tenfold greater Russian force."),
+]
+NO_EVIDENCE_V2 = [
+    dict(id="un01", split="test",
+         question="In what year was Karl Marx born, according to the Manifesto and its prefaces?",
+         absence_reason="Grep 'born', 'birth', '1818' over all 167 chunks: '1818' only appears as Lewis Henry Morgan's dates (1818-1861, p.3); 'birth' only about the proletariat (p.9) and a 'new proletarian era' (p.44). No birth date for Marx anywhere."),
+    dict(id="un02", split="test",
+         question="What does the Manifesto say about Abraham Lincoln and the abolition of slavery in the American Civil War?",
+         absence_reason="Grep 'Lincoln' = 0; 'civil war' only 'veiled civil war' (p.12) and the title 'The Civil War in France' (p.33, p.39); 'slavery' only generic (p.12); 'American' hits (p.30, 34, 40, 42) are about Icaria, agriculture, translations and May Day. Nothing about Lincoln or US abolition."),
+]
+
+
+def build_test_v2():
+    chunks = json.loads(CHUNKS.read_text(encoding="utf-8"))
+    used = {q["id"] for q in json.loads((OUT / "questions.json").read_text(encoding="utf-8"))}
+    assert not used & {q["id"] for q in NEW_TEST_V2}
+    questions = []
+    for q in NEW_TEST_V2:
+        spans = exact_spans(q["evidence"], chunks)
+        assert spans, f"{q['id']}: evidence not found"
+        questions.append({"id": q["id"], "split": "test", "type": q["type"], "question": q["question"],
+                          "expected_answer": q["expected_answer"], "gold": gold_for(q["evidence"], spans[0]["page"], chunks),
+                          "filter": q["filter"], "origin": "day7-test-v2"})
+    cases = [{"id": q["id"], "split": "test", "question": q["question"], "answerable": True, "filter": q["filter"]}
+             for q in questions]
+    cases += [{**n, "answerable": False, "expected_behavior": "search_and_abstain", "filter": None} for n in NO_EVIDENCE_V2]
+    out = OUT / "test_v2"
+    out.mkdir(exist_ok=True)
+    for name, data in (("questions.json", questions), ("cases.json", cases)):
+        (out / name).write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"test_v2: {len(questions)} answerable + {len(NO_EVIDENCE_V2)} no-evidence;",
+          "pages:", [g["page"] for q in questions for g in q["gold"]])
+
+
+if __name__ == "__main__" and "--test-v2" in __import__("sys").argv:
+    build_test_v2()

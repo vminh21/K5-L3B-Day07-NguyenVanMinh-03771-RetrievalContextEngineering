@@ -1,0 +1,116 @@
+[
+  {
+    "id": "u01",
+    "split": "test",
+    "type": "direct",
+    "question": "According to the Manifesto, whose ideas have always been the ruling ideas of each age?",
+    "expected_answer": "The ideas of its ruling class.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 19,
+        "evidence": "The ruling ideas of each age have ever\nbeen the ideas of its ruling class."
+      }
+    ],
+    "filter": null,
+    "origin": "day7-test-v2"
+  },
+  {
+    "id": "u02",
+    "split": "test",
+    "type": "direct",
+    "question": "Which work by Proudhon is cited as an example of Conservative or Bourgeois Socialism?",
+    "expected_answer": "Proudhon's 'Philosophie de la Misère' (spelled 'Philosophis de la Misère' in this edition).",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 27,
+        "evidence": "We may cite Proudhon’s Philosophis de la Misère as an example of this form."
+      }
+    ],
+    "filter": null,
+    "origin": "day7-test-v2"
+  },
+  {
+    "id": "u03",
+    "split": "test",
+    "type": "paraphrase",
+    "question": "How does the Manifesto characterise feudal Socialism in relation to the past and the future?",
+    "expected_answer": "Half lamentation, half lampoon; half an echo of the past, half menace of the future.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 22,
+        "evidence": "half lamentation, half lampoon; half an echo of the past,\nhalf menace of the future"
+      }
+    ],
+    "filter": null,
+    "origin": "day7-test-v2"
+  },
+  {
+    "id": "u04",
+    "split": "test",
+    "type": "conditional",
+    "question": "In Switzerland, which party do the Communists support, and what do they keep in mind about that party?",
+    "expected_answer": "They support the Radicals, without losing sight of the fact that this party consists of antagonistic elements: partly Democratic Socialists (in the French sense), partly radical bourgeois.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 31,
+        "evidence": "In Switzerland, they support the Radicals, without losing sight of the fact that this party\nconsists of antagonistic elements, partly of Democratic Socialists, in the French sense, partly of\nradical bourgeois."
+      }
+    ],
+    "filter": null,
+    "origin": "day7-test-v2"
+  },
+  {
+    "id": "u05",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "In Chapter II, on what foundation is the present, bourgeois family based?",
+    "expected_answer": "On capital, on private gain.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 17,
+        "evidence": "On what foundation is the present family, the bourgeois family, based? On capital, on\nprivate gain."
+      }
+    ],
+    "filter": {
+      "chapter": "Chapter II"
+    },
+    "origin": "day7-test-v2"
+  },
+  {
+    "id": "u06",
+    "split": "test",
+    "type": "direct",
+    "question": "According to the prefaces, what kind of movement was socialism in 1847, and what kind was communism?",
+    "expected_answer": "Socialism was a middle-class movement; communism was a working-class movement.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 38,
+        "evidence": "Thus,\nin 1847, socialism was a middle-class movement, communism a working-class movement."
+      }
+    ],
+    "filter": null,
+    "origin": "day7-test-v2"
+  },
+  {
+    "id": "u07",
+    "split": "test",
+    "type": "conditional",
+    "question": "According to the 1892 Polish preface, in which year did Poland succumb to Russia, and how much greater was the Russian force?",
+    "expected_answer": "In 1863, to a tenfold greater Russian force.",
+    "gold": [
+      {
+        "source_id": "communist-manifesto-1848",
+        "page": 43,
+        "evidence": "was left to its own\nresources when it succumbed in 1863 to a tenfold greater Russian force."
+      }
+    ],
+    "filter": null,
+    "origin": "day7-test-v2"
+  }
+]
