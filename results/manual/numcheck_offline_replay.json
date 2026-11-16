@@ -1,0 +1,33 @@
+{
+  "note": "Offline replay of src/numcheck.py over every stored answered trace (296), deterministic, no LLM calls. Done AFTER test v3; verifier NOT changed afterwards.",
+  "flagged": [
+    {
+      "trace": "A2_hybrid_v2_nb/test t06",
+      "numbers": [
+        1,
+        1873
+      ],
+      "verdict": "1873 = TRUE positive (document says 1874); 1 = false positive (pronoun 'one')"
+    },
+    {
+      "trace": "A0_hybrid_k5_s3/test_v2 u07, A2_hybrid_v2_nb/test_v2 u07, A3b/test_v2 u07",
+      "numbers": [
+        10
+      ],
+      "verdict": "false positive: passage 'tenfold greater', answer 'ten times greater'"
+    },
+    {
+      "trace": "A0_dense_baseline/test_v3 v09",
+      "numbers": [
+        1860
+      ],
+      "verdict": "false positive: passage \"early in the 'sixties\", answer 'early 1860s'"
+    }
+  ],
+  "summary": {
+    "answered_traces": 296,
+    "flagged": 5,
+    "true_positive_traces": 1,
+    "false_positive_traces": 4
+  }
+}

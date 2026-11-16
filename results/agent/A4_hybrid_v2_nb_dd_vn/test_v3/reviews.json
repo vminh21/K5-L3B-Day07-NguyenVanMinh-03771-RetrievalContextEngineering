@@ -1,0 +1,198 @@
+[
+  {
+    "query_id": "v01",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "v02",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "v03",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct ('over-production'), p7."
+  },
+  {
+    "query_id": "v04",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "v05",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "v06",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Both parts answered and supported (multi-hop)."
+  },
+  {
+    "query_id": "v07",
+    "answer_grade": 0,
+    "citation_support": [],
+    "reason": "FALSE ABSTENTION. Gold …f4daba retrieved at rank 3/5 in searches 1 and 3 but never packed: neighbours of higher-ranked hits used the 4500-char budget (same failure as dev q12). Number check did not fire; dedup not the cause (replayed)."
+  },
+  {
+    "query_id": "v08",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "v09",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "v10",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Both parts: p38 …4e016d 'Marx … had it already worked out' + Darwin comparison."
+  },
+  {
+    "query_id": "v11",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "v12",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "v13",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "v14",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "v15",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "v16",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Both parts answered and supported (multi-hop)."
+  },
+  {
+    "query_id": "v17",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "v18",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "v19",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "v20",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "w01",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Abstained after searching; near-miss trap not answered."
+  },
+  {
+    "query_id": "w02",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Abstained after searching; near-miss trap not answered."
+  },
+  {
+    "query_id": "w03",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Abstained after searching; near-miss trap not answered."
+  },
+  {
+    "query_id": "w04",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Abstained after searching; near-miss trap not answered."
+  },
+  {
+    "query_id": "w05",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Abstained after searching; near-miss trap not answered."
+  },
+  {
+    "query_id": "w06",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Abstained after searching; near-miss trap not answered."
+  }
+]

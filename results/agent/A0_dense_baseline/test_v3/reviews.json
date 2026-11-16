@@ -1,0 +1,203 @@
+[
+  {
+    "query_id": "v01",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "v02",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "v03",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "v04",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "v05",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "v06",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Both parts answered and supported (multi-hop)."
+  },
+  {
+    "query_id": "v07",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "v08",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "v09",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true,
+      true
+    ],
+    "reason": "Correct, all parts: p34 …077a89 'translated by Bakunin, published early in the sixties by the printing office of the Kolokol', p33 …fb0b1a 'Russian translation published in Geneva in the sixties', p39 …1a05c3 'second … by Vera Zasulich … Geneva in 1882'. Alternative evidence (not in gold); 'early 1860s' consistent with 'about 1863'."
+  },
+  {
+    "query_id": "v10",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Both parts: p38 …745803 'Marx … had it already worked out' (attribution) + 'what Darwin's theory has done for biology'."
+  },
+  {
+    "query_id": "v11",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "v12",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "v13",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "v14",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "v15",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "v16",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Both parts answered and supported (multi-hop)."
+  },
+  {
+    "query_id": "v17",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Correct; p14 …ad8734 supports the extra 'abolition of bourgeois property' remark."
+  },
+  {
+    "query_id": "v18",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "v19",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "v20",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "w01",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Abstained after searching; near-miss trap not answered."
+  },
+  {
+    "query_id": "w02",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Abstained after searching; near-miss trap not answered."
+  },
+  {
+    "query_id": "w03",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Abstained after searching; near-miss trap not answered."
+  },
+  {
+    "query_id": "w04",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Abstained after searching; near-miss trap not answered."
+  },
+  {
+    "query_id": "w05",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Abstained after searching; near-miss trap not answered."
+  },
+  {
+    "query_id": "w06",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Abstained after searching; near-miss trap not answered."
+  }
+]

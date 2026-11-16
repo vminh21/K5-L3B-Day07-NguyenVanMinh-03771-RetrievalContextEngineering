@@ -1,0 +1,53 @@
+{
+  "config": "hybrid_k5_b4500_nb_dd_TESTV3",
+  "split": "test",
+  "method": "hybrid_rrf",
+  "retriever_params": {
+    "rrf_k": 60,
+    "candidate_pool": 20,
+    "components": [
+      "dense",
+      "bm25"
+    ],
+    "dedup_text": true
+  },
+  "top_k_context": 5,
+  "context": {
+    "budget_chars": 4500,
+    "neighbors": true,
+    "overflow": "skip",
+    "continuation_first": false,
+    "order": "interleave by rank across searches",
+    "dedup": "chunk id"
+  },
+  "filter": null,
+  "query_mode": "original question, no rewrite",
+  "N_answerable": 20,
+  "hit@1": {
+    "n": 16,
+    "N": 20,
+    "pct": 80.0,
+    "str": "16/20"
+  },
+  "evidence_hit@3": {
+    "n": 19,
+    "N": 20,
+    "pct": 95.0,
+    "str": "19/20"
+  },
+  "context_evidence_rate": {
+    "n": 18,
+    "N": 20,
+    "pct": 90.0,
+    "str": "18/20"
+  },
+  "mrr@10": 0.882,
+  "errors": 0,
+  "median_latency_ms": 44.0,
+  "init_seconds": 0.15,
+  "bm25_index_seconds": 0.0053,
+  "cost_usd": 0.0,
+  "cost_note": "local only: Ollama embeddinggemma + Postgres; no API calls",
+  "questions_file": "data/day7/test_v3/questions.json",
+  "timestamp": "2026-11-16T12:13:06"
+}

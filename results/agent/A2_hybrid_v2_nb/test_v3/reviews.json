@@ -1,0 +1,202 @@
+[
+  {
+    "query_id": "v01",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "v02",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "v03",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "v04",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "v05",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "v06",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Both parts answered and supported (multi-hop)."
+  },
+  {
+    "query_id": "v07",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "v08",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "v09",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "v10",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Both parts: p35 …e4cf4c 'belongs solely and exclusively to Marx' + p38 …745803 Darwin comparison."
+  },
+  {
+    "query_id": "v11",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "v12",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "v13",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "v14",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct; 'Grün' is the umlaut spelling of the passage's 'Gruen'."
+  },
+  {
+    "query_id": "v15",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "v16",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Both parts answered and supported (multi-hop)."
+  },
+  {
+    "query_id": "v17",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "Correct; p14 …ad8734 supports the extra 'abolition of bourgeois property' remark."
+  },
+  {
+    "query_id": "v18",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "v19",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "v20",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Correct and complete; cited chunk contains the gold evidence."
+  },
+  {
+    "query_id": "w01",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Abstained after searching; near-miss trap not answered."
+  },
+  {
+    "query_id": "w02",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Abstained after searching; near-miss trap not answered."
+  },
+  {
+    "query_id": "w03",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Abstained after searching; near-miss trap not answered."
+  },
+  {
+    "query_id": "w04",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Abstained after searching; near-miss trap not answered."
+  },
+  {
+    "query_id": "w05",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Abstained after searching; near-miss trap not answered."
+  },
+  {
+    "query_id": "w06",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Abstained after searching; near-miss trap not answered."
+  }
+]

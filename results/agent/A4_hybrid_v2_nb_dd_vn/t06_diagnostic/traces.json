@@ -1,0 +1,112 @@
+[
+  {
+    "query_id": "t06",
+    "config": "A4_hybrid_v2_nb_dd_vn",
+    "model": "gpt-5.6-luna",
+    "question": "How had the International changed the workers by the time it broke up, compared with when it started, and in which years were those two points?",
+    "filter": null,
+    "status": "answered",
+    "answer": "It began in **1864** and broke up in **1874**. By then, it had left workers “quite different”: their struggles and discussions had produced a more complete understanding of the conditions of emancipation, while Proudhonism and Lassalleanism were dying out and the Manifesto’s principles had gained substantial ground among workers internationally. [communist-manifesto-1848_p0037_B_0001_46eb1b][communist-manifesto-1848_p0037_B_0002_b9bd5a]",
+    "citations": [
+      "communist-manifesto-1848_p0037_B_0001_46eb1b",
+      "communist-manifesto-1848_p0037_B_0002_b9bd5a"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "hybrid_rrf",
+        "query": "International when it started and broke up changed workers by the time it dissolved years 1864 1872",
+        "filter": null,
+        "results": [
+          {
+            "id": "communist-manifesto-1848_p0041_B_0004_2d6d9b",
+            "page": 41,
+            "rank": 1,
+            "score": 0.03279
+          },
+          {
+            "id": "communist-manifesto-1848_p0037_B_0001_46eb1b",
+            "page": 37,
+            "rank": 2,
+            "score": 0.03175
+          },
+          {
+            "id": "communist-manifesto-1848_p0044_B_0001_99a5c1",
+            "page": 44,
+            "rank": 3,
+            "score": 0.03031
+          },
+          {
+            "id": "communist-manifesto-1848_p0036_B_0003_949d16",
+            "page": 36,
+            "rank": 4,
+            "score": 0.03021
+          },
+          {
+            "id": "communist-manifesto-1848_p0041_B_0000_b1a3da",
+            "page": 41,
+            "rank": 5,
+            "score": 0.03012
+          }
+        ],
+        "added_ids": [
+          "communist-manifesto-1848_p0041_B_0004_2d6d9b",
+          "communist-manifesto-1848_p0041_B_0003_deebda",
+          "communist-manifesto-1848_p0041_B_0005_4c2ec7",
+          "communist-manifesto-1848_p0037_B_0001_46eb1b",
+          "communist-manifesto-1848_p0037_B_0000_aa77d3",
+          "communist-manifesto-1848_p0037_B_0002_b9bd5a",
+          "communist-manifesto-1848_p0044_B_0001_99a5c1"
+        ],
+        "dropped_ids": [
+          "communist-manifesto-1848_p0044_B_0000_e16b58",
+          "communist-manifesto-1848_p0044_B_0002_6b0085",
+          "communist-manifesto-1848_p0036_B_0003_949d16",
+          "communist-manifesto-1848_p0036_B_0002_432d68",
+          "communist-manifesto-1848_p0036_B_0004_610153",
+          "communist-manifesto-1848_p0041_B_0000_b1a3da",
+          "communist-manifesto-1848_p0040_B_0003_e3e463",
+          "communist-manifesto-1848_p0041_B_0001_ba862b"
+        ],
+        "labels": {
+          "S1": "communist-manifesto-1848_p0041_B_0004_2d6d9b",
+          "S2": "communist-manifesto-1848_p0041_B_0003_deebda",
+          "S3": "communist-manifesto-1848_p0041_B_0005_4c2ec7",
+          "S4": "communist-manifesto-1848_p0037_B_0001_46eb1b",
+          "S5": "communist-manifesto-1848_p0037_B_0000_aa77d3",
+          "S6": "communist-manifesto-1848_p0037_B_0002_b9bd5a",
+          "S7": "communist-manifesto-1848_p0044_B_0001_99a5c1"
+        },
+        "elapsed_ms": 91
+      },
+      {
+        "event": "answer",
+        "raw": {
+          "answer": "It began in **1864** and broke up in **1874**. By then, it had left workers “quite different”: their struggles and discussions had produced a more complete understanding of the conditions of emancipation, while Proudhonism and Lassalleanism were dying out and the Manifesto’s principles had gained substantial ground among workers internationally. [S4][S6]",
+          "citations": [
+            "S4",
+            "S6"
+          ],
+          "abstain": false
+        }
+      }
+    ],
+    "context": "[communist-manifesto-1848_p0041_B_0004_2d6d9b | communist-manifesto-1848 | page 41 | Appendix]\n\"Working men of all countries, unite!\" But few voices responded when we proclaimed these\nwords to the world 42 years ago, on the eve of the first Paris Revolution in which the proletariat\ncame out with the demands of its own. On September 28, 1864, however, the proletarians of\nmost of the Western European countries joined hands in the International Working Men's\nAssociation of glorious memory. True, the International itself lived only nine years. But that the\neternal union of the proletarians of all countries created by it is still alive and lives stronger than\n\n[communist-manifesto-1848_p0041_B_0003_deebda | communist-manifesto-1848 | page 41 | Appendix]\nYet, it was powerful enough to bring into being two systems of utopian\ncommunism -- in France, the \"Icarian\" communists of Cabet, and in Germany that of Weitling. Socialism in 1847 signified a bourgeois movement, communism a working-class movement. Socialism was, on the Continent at least, quite respectable, whereas communism was the very\nopposite. And since we were very decidely of the opinion as early as then that \"the emancipation\nof the workers must be the task of the working class itself,\" we could have no hesitation as to\nwhich of the two names we should choose. Nor has it ever occured to us to repudiate it.\n\n[communist-manifesto-1848_p0041_B_0005_4c2ec7 | communist-manifesto-1848 | page 41 | Appendix]\n\"Working men of all countries, unite!\" But few voices responded when we proclaimed these\nwords to the world 42 years ago, on the eve of the first Paris Revolution in which the proletariat\ncame out with the demands of its own. On September 28, 1864, however, the proletarians of\nmost of the Western European countries joined hands in the International Working Men's\nAssociation of glorious memory. True, the International itself lived only nine years. But that the\neternal union of the proletarians of all countries created by it is still alive and lives stronger than\n\n[communist-manifesto-1848_p0037_B_0001_46eb1b | communist-manifesto-1848 | page 37 | Appendix]\nMarx, who drew up this programme to the satisfaction of all parties, entirely trusted to the\nintellectual development of the working class, which was sure to result from combined action\nand mutual discussion. The very events and vicissitudes in the struggle against capital, the\ndefeats even more than the victories, could not help bringing home to men's minds the\ninsufficiency of their various favorite nostrums, and preparing the way for a more complete\ninsight into the true conditions for working-class emancipation. And Marx was right. The\nInternational, on its breaking in 1874, left the workers quite different men from what it found\nthem in 1864.\n\n[communist-manifesto-1848_p0037_B_0000_aa77d3 | communist-manifesto-1848 | page 37 | Appendix]\nthe followers of Proudhon in France, Belgium, Italy, and Spain, and to the Lassalleans in\nGermany.11\n\n[communist-manifesto-1848_p0037_B_0002_b9bd5a | communist-manifesto-1848 | page 37 | Appendix]\nProudhonism in France, Lassalleanism in Germany, were dying out, and even the\nconservative English trade unions, though most of them had long since severed their connection\nwith the International, were gradually advancing towards that point at which, last year at\nSwansea, their president could say in their name: \"Continental socialism has lost its terror for\nus.\" In fact, the principles of the Manifesto had made considerable headway among the working\nmen of all countries.\n\n[communist-manifesto-1848_p0044_B_0001_99a5c1 | communist-manifesto-1848 | page 44 | Appendix]\nThus, if the Revolution of 1848 was not a socialist revolution, it paved the way, prepared the\nground for the latter. Through the impetus given to large-scaled industry in all countries, the\nbourgeois regime during the last forty-five years has everywhere created a numerous,\nconcentrated and powerful proletariat. It has thus raised, to use the language of the Manifesto, its\nown grave-diggers. Without restoring autonomy and unity to each nation, it will be impossible to\nachieve the international union of the proletariat, or the peaceful and intelligent co-operation of\nthese nations toward common aims. Just imagine joint international action by the Italian,\nHungarian, German, Polish and Russian workers under the political conditions preceding 1848!",
+    "context_ids": [
+      "communist-manifesto-1848_p0041_B_0004_2d6d9b",
+      "communist-manifesto-1848_p0041_B_0003_deebda",
+      "communist-manifesto-1848_p0041_B_0005_4c2ec7",
+      "communist-manifesto-1848_p0037_B_0001_46eb1b",
+      "communist-manifesto-1848_p0037_B_0000_aa77d3",
+      "communist-manifesto-1848_p0037_B_0002_b9bd5a",
+      "communist-manifesto-1848_p0044_B_0001_99a5c1"
+    ],
+    "error": null,
+    "elapsed_ms": 5046,
+    "tokens_in": 1851,
+    "tokens_out": 239,
+    "cost_usd": 0.000657,
+    "n_llm_calls": 2,
+    "stop": "final_answer"
+  }
+]
