@@ -102,36 +102,17 @@ def pretty_answer(ans: str) -> str:
     return re.sub(r"\[(communist-manifesto-1848_[^\]]+)\]", lambda m: f" `[{short(m.group(1))}]`", ans or "")
 
 
-def tool_calls(r: dict) -> pd.DataFrame:
-    """One row per step of the agent: which tool, with which arguments, what came back."""
-    rows = []
+def main_tools_md(r: dict) -> str:
+    """Only the tools the LLM itself called (search, final_answer), one compact line each."""
+    lines = []
     for e in r.get("events", []):
-        ev = e["event"]
-        if ev == "search":
-            labels = {v: k for k, v in e.get("labels", {}).items()}
-            got = ", ".join(f"{labels.get(i, '')} {short(i)}".strip() for i in e.get("added_ids", [])) or "(không có chunk mới)"
-            rows.append({"Tool": f"🔎 search · {e.get('tool', '')}",
-                         "Tham số": f'query="{e["query"]}"' + (f", filter={e['filter']}" if e.get("filter") else ""),
-                         "Kết quả": f"top-5 trang {', '.join(str(x['page']) for x in e.get('results', []))} → vào context: {got}"
-                                    + (f" · bỏ do hết budget: {len(e['dropped_ids'])}" if e.get("dropped_ids") else ""),
-                         "Thời gian": f"{e.get('elapsed_ms', 0)} ms"})
-        elif ev == "answer":
+        if e["event"] == "search":
+            pages = ", ".join(str(x["page"]) for x in e.get("results", []))
+            lines.append(f'🔎 `search("{e["query"]}")` → {len(e.get("results", []))} chunk (trang {pages})')
+        elif e["event"] == "answer":
             a = e["raw"]
-            rows.append({"Tool": "🏁 final_answer",
-                         "Tham số": f"abstain={a['abstain']}, citations={a['citations']}",
-                         "Kết quả": (a["answer"] or "(trống — từ chối)")[:160], "Thời gian": ""})
-        elif ev == "number_check_failed":
-            rows.append({"Tool": "🔢 kiểm tra số (code, không phải LLM)", "Tham số": f"số không có trong passage: {e['numbers']}",
-                         "Kết quả": "trả lại model để sửa" if e["retry"] else "chuyển thành từ chối", "Thời gian": ""})
-        elif ev == "invalid_or_missing_citations":
-            rows.append({"Tool": "⚠️ kiểm tra citation", "Tham số": str(e.get("citations")),
-                         "Kết quả": "citation không hợp lệ → từ chối", "Thời gian": ""})
-        elif ev == "search_limit":
-            rows.append({"Tool": "⛔ hết lượt search", "Tham số": "tối đa 3", "Kết quả": "buộc trả lời / từ chối",
-                         "Thời gian": ""})
-    df = pd.DataFrame(rows)
-    df.index = range(1, len(df) + 1)
-    return df
+            lines.append("🏁 `final_answer(" + ("abstain=true" if a["abstain"] else f"citations={a['citations']}") + ")`")
+    return "  \n".join(f"{i}. {l}" for i, l in enumerate(lines, 1)) or "_Không gọi tool nào._"
 
 
 STATUS = {"answered": "✅ trả lời", "abstain": "🛑 từ chối", "error": "⚠️ lỗi"}
@@ -168,18 +149,25 @@ RETRIEVAL_MODES = {
 }
 
 
-def chunk_rows(r: dict) -> list[dict]:
-    """Every chunk the agent showed the model, in order, with how it got there and whether it was cited."""
-    rows, cited = [], set(r.get("citations", []))
+def chunk_rows(r: dict) -> tuple[list[dict], list[dict]]:
+    """(retrieved, neighbours): chunks the retriever returned (top-k per search) and extra neighbour chunks."""
+    retrieved, neighbours, seen, cited = [], [], set(), set(r.get("citations", []))
     for n, e in enumerate([e for e in r.get("events", []) if e["event"] == "search"], 1):
-        ranks = {x["id"]: x for x in e.get("results", [])}
         labels = {v: k for k, v in e.get("labels", {}).items()}
+        for x in e.get("results", []):
+            if x["id"] not in seen:
+                seen.add(x["id"])
+                shown = x["id"] in e.get("added_ids", []) or x["id"] in labels
+                retrieved.append({"id": x["id"], "label": labels.get(x["id"], "—"), "search": n, "query": e["query"],
+                                  "how": f"hạng {x['rank']} · score {x['score']}"
+                                         + ("" if shown else " · ⚠️ không vào context (hết budget hoặc đã có)"),
+                                  "cited": x["id"] in cited})
         for cid in e.get("added_ids", []):
-            hit = ranks.get(cid)
-            rows.append({"id": cid, "label": labels.get(cid, ""), "search": n, "query": e["query"],
-                         "how": f"hạng {hit['rank']} · score {hit['score']}" if hit else "neighbour (chunk liền kề)",
-                         "cited": cid in cited})
-    return sorted(rows, key=lambda x: not x["cited"])
+            if cid not in seen:
+                seen.add(cid)
+                neighbours.append({"id": cid, "label": labels.get(cid, ""), "search": n, "query": e["query"],
+                                   "how": "chunk liền kề", "cited": cid in cited})
+    return sorted(retrieved, key=lambda x: not x["cited"]), neighbours
 
 
 with tab_ask:
@@ -189,8 +177,9 @@ with tab_ask:
         st.markdown("#### ⚙️ Cách retrieval")
         mode_name = st.selectbox("Retriever cho câu hỏi tiếp theo", list(RETRIEVAL_MODES), label_visibility="collapsed")
         mode = RETRIEVAL_MODES[mode_name]
-        st.caption(f"{mode['desc']} · top-5 · budget {mode['per_search_budget']} ký tự/lượt"
+        st.caption(f"{mode['desc']} · budget {mode['per_search_budget']} ký tự/lượt"
                    + (" · có neighbour" if mode["neighbors"] else ""))
+        top_k = st.select_slider("Số chunk lấy mỗi lần search (top-k)", options=[3, 4, 5], value=5)
         o1, o2 = st.columns(2)
         prompt_v = o1.selectbox("Prompt", ["v2", "v1"], help="v2: từ chối chặt khi thiếu evidence (đã chọn); v1: baseline")
         use_filter = o2.selectbox("Filter chương", ["(không)", "Chapter I", "Chapter II", "Chapter III", "Chapter IV",
@@ -226,13 +215,9 @@ with tab_ask:
                         st.warning(r["answer"])
                     else:
                         st.error(r.get("error"))
-                    n_search = sum(e["event"] == "search" for e in r.get("events", []))
-                    st.caption(f"{STATUS[r['status']]} · 🔎 {msg['mode']} · prompt {msg['prompt']} · {n_search} search · "
-                               f"{r.get('n_llm_calls', 0)} lượt LLM · {r.get('elapsed_ms', 0) / 1000:.1f} s · "
-                               f"${r.get('cost_usd', 0):.5f}")
-                    with st.expander("🧰 Tool đã dùng", expanded=(i == len(chat) - 1)):
-                        tc = tool_calls(r)
-                        st.dataframe(tc, width="stretch") if len(tc) else st.caption("Không có tool call.")
+                    st.markdown("**Tool agent đã gọi:**  \n" + main_tools_md(r))
+                    st.caption(f"{STATUS[r['status']]} · {msg['mode']} · top-{msg.get('top_k', 5)} · prompt {msg['prompt']} · "
+                               f"{r.get('elapsed_ms', 0) / 1000:.1f} s · ${r.get('cost_usd', 0):.5f}")
 
         q = st.chat_input("Hỏi về Manifesto (tiếng Anh)…")
         if q:
@@ -241,14 +226,14 @@ with tab_ask:
             chat.append({"role": "user", "content": q})
             try:
                 retriever = get_retriever(mode["method"], mode.get("dedup", False))
-                agent = Agent(retriever, LLM(ledger=ledger), top_k=5, max_searches=3,
+                agent = Agent(retriever, LLM(ledger=ledger), top_k=top_k, max_searches=3,
                               budget_chars=mode["budget_chars"], per_search_budget=mode["per_search_budget"],
                               neighbors=mode["neighbors"], prompt=prompt_v, verify_numbers=verify)
                 with box, st.chat_message("assistant"), st.spinner("Đang tìm bằng chứng trong tài liệu…"):
                     r = agent.run(q, filters=None if use_filter == "(không)" else {"chapter": use_filter})
             except Exception as e:  # DB / Ollama down, missing API key, network ...
                 r = {"status": "error", "error": f"{type(e).__name__}: {e}", "events": [], "citations": []}
-            chat.append({"role": "assistant", "result": r, "mode": mode_name, "prompt": prompt_v})
+            chat.append({"role": "assistant", "result": r, "mode": mode_name, "prompt": prompt_v, "top_k": top_k})
             st.rerun()
 
     with side_col:
@@ -260,9 +245,9 @@ with tab_ask:
             idx = st.selectbox("Của câu hỏi", [i for i, _ in answers][::-1],
                                format_func=lambda i: chat[i - 1]["content"][:70])
             r = chat[idx]["result"]
-            rows = chunk_rows(r)
-            st.caption(f"{len(rows)} chunk được đưa vào context · ⭐ = được cite trong câu trả lời · "
-                       f"retriever: {chat[idx]['mode']}")
+            rows, extra = chunk_rows(r)
+            st.caption(f"{len(rows)} chunk do retriever chọn ({chat[idx]['mode']}, top-{chat[idx].get('top_k', 5)} "
+                       "mỗi lần search) · ⭐ = được trích dẫn")
             for row in rows:
                 c = load_chunks()[row["id"]]
                 head = (f"{'⭐ ' if row['cited'] else ''}{row['label']} · trang {c['page']} · "
@@ -270,6 +255,12 @@ with tab_ask:
                 with st.expander(head, expanded=row["cited"]):
                     st.write(chunk_text(row["id"]))
                     st.caption(f"search #{row['search']}: \"{row['query']}\" · `{row['id']}`")
+            if extra:
+                with st.expander(f"＋ {len(extra)} chunk liền kề được thêm vào context (neighbour)"):
+                    for row in extra:
+                        c = load_chunks()[row["id"]]
+                        st.markdown(f"**{'⭐ ' if row['cited'] else ''}{row['label']} · trang {c['page']}** — "
+                                    f"{chunk_text(row['id'])[:300]}…")
 
 # =========================================================================== 2. retrieval comparison ($0)
 with tab_ret:
@@ -394,5 +385,5 @@ with tab_res:
                     if not t:
                         continue
                     st.markdown(pretty_answer(t["answer"]))
-                    st.dataframe(tool_calls(t), width="stretch")
+                    st.markdown(main_tools_md(t))
                     st.caption(f"Chấm tay: {rv.get('reason', '')}")
