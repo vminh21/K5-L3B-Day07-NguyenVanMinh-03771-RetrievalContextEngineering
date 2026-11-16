@@ -174,7 +174,7 @@ Hai câu t06 cho thấy vì sao tôi không coi t06 là đã sửa. Lần chạy
 | A4 / test v3 | $0.0188 | 3.9 s/câu | 74k |
 | Retrieval dense / hybrid / BM25 / rerank | $0 | 40–50 / 37–48 / 0.1 / 107–118 ms | — |
 | **Toàn dự án (benchmark)** | **$0.2226** (816 lần gọi; 839 999 token input + 45 493 token output) | | |
-| Demo (kiểm tra app) | $0.00049 (1 câu, sổ chi phí riêng `demo/demo_cost_ledger.jsonl`) | 5.6 s | — |
+| Demo (kiểm tra app và dùng thử) | ghi riêng trong `demo/demo_cost_ledger.jsonl` | 3.9–12.6 s/câu | — |
 
 **Kết quả trước/sau, ví dụ lỗi, đánh đổi và giới hạn.** Bảng dưới tóm tắt số phận của từng thay đổi đã thử:
 
@@ -206,11 +206,13 @@ Báo cáo này còn một số giới hạn cần nói rõ:
 
 | Tab | Chức năng | Cần gì | Chi phí |
 |---|---|---|---|
-| 💬 Hỏi agent | Chạy **agent thật** với A2, A0 hoặc A4; hiện câu trả lời, citation (bấm để đọc đoạn gốc), từng lượt search, lần kiểm tra số và context gửi model | Postgres Day 6, Ollama, `OPENAI_API_KEY` | ~$0.0005–0.002 / câu |
-| 🔎 So sánh retrieval | Top-5 của dense, BM25 và hybrid đặt cạnh nhau | Postgres Day 6, Ollama | $0 |
-| 📊 Kết quả benchmark | Bảng metric và từng câu đã chấm của dev, dev_hard, test v3 | Không cần, đọc từ `results/` | $0 |
+| 💬 Hỏi agent | Chạy **agent thật** trên một hoặc nhiều cấu hình (A0, A2, A4) **cạnh nhau** cho cùng câu hỏi. Mỗi cấu hình có bảng **tool đã dùng** theo thứ tự (tool, tham số, kết quả, thời gian), câu trả lời, citation (bấm để đọc đoạn gốc) và context gửi model. Có bảng so sánh nhanh: chuỗi tool, số search, lượt gọi LLM, token, thời gian, chi phí | Postgres Day 6, Ollama, `OPENAI_API_KEY` | ~$0.0005–0.002 / câu / cấu hình |
+| 🔎 So sánh retrieval | Top-5 của dense, BM25 và hybrid đặt cạnh nhau; đánh dấu chunk cả ba cùng tìm thấy | Postgres Day 6, Ollama | $0 |
+| 📊 So sánh cấu hình trên benchmark | So sánh mọi cấu hình (A0–A4r) trên mọi bộ câu hỏi, kèm biểu đồ % đạt và chi phí; so sánh các phương pháp retrieval (Hit@1, Context Evidence Rate); bảng đối chiếu từng câu × từng cấu hình và tool call của từng câu | Không cần, đọc từ `results/` | $0 |
 
-Chi phí của demo được ghi vào sổ riêng `demo/demo_cost_ledger.jsonl`, để không làm sai số liệu benchmark. Tuy vậy, trần `MAX_COST_USD` vẫn tính trên tổng chi phí benchmark cộng demo. Tôi đã kiểm tra demo bằng công cụ test của Streamlit (AppTest): cả ba tab chạy không lỗi. Một câu hỏi thật về Chương II được trả lời đúng, có citation trang 21, 1 lượt search, mất 5.6 giây và $0.00049.
+Phần đầu tab "Hỏi agent" liệt kê các tool của agent (lấy trực tiếp từ schema trong `src/agent.py`) và bảng khác biệt giữa các cấu hình. Cả ba cấu hình dùng **cùng LLM** `gpt-5.6-luna`; chúng chỉ khác nhau ở retriever, prompt và cách đưa context vào model. Vì vậy demo so sánh **cấu hình**, không so sánh các LLM khác nhau.
+
+Chi phí của demo được ghi vào sổ riêng `demo/demo_cost_ledger.jsonl`, để không làm sai số liệu benchmark. Tuy vậy, trần `MAX_COST_USD` vẫn tính trên tổng chi phí benchmark cộng demo. Tôi đã kiểm tra demo bằng công cụ test của Streamlit (AppTest): mọi tab và mọi bộ câu hỏi đều chạy không lỗi. Khi so sánh A0 và A2 trên câu "Who made the first English translation…", cả hai đều gọi `search → final_answer` một lần và trả lời đúng, citation trang 36. A0 mất 12.6 s và $0.00043; A2 mất 3.9 s và $0.00050, vì neighbour đưa nhiều chunk hơn vào context (7 so với 3).
 
 ## Cách chạy
 
