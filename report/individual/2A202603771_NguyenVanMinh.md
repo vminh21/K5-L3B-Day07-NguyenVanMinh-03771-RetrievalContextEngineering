@@ -4,7 +4,9 @@
 
 Báo cáo này trình bày quá trình xây một agent RAG trả lời câu hỏi về *Manifesto of the Communist Party*, dùng lại vector store của Day 6. Mọi con số đều lấy từ các file kết quả trong `results/` (`summary.json`, `traces.json`, `reviews.json`, `agent_metrics.json`) và sổ chi phí `results/cost_ledger.jsonl`. Bảng chi tiết hơn nằm ở [`dev_experiments.md`](../../results/dev_experiments.md), [`test_results.md`](../../results/test_results.md), [`test_v2_results.md`](../../results/test_v2_results.md) và [`test_v3_results.md`](../../results/test_v3_results.md). Cách chạy lại nằm ở mục [Cách chạy](#cách-chạy) cuối báo cáo. Có một demo Streamlit (`streamlit run demo/app.py`).
 
-**Tóm tắt.** Cấu hình được chọn là **A2**: hybrid RRF (dense + BM25), thêm chunk liền kề (neighbour), lấy top-5, context tối đa 4500 ký tự mỗi lượt search, và prompt v2 với luật từ chối chặt. Trên bộ test độc lập lớn nhất (test v3, 26 câu), A2 đạt **26/26**. Tuy vậy, baseline dense cũng đạt 26/26, và ở bước retrieval dense còn nhỉnh hơn. Hai cải tiến có tác dụng rõ là prompt v2 (tỉ lệ từ chối đúng 1/3 → 3/3) và neighbour chunk (Context Evidence Rate trên dev 19 → 22/22). Hai lỗi vẫn chưa sửa được: model tự tính năm ở câu t06, và neighbour có thể đẩy kết quả hạng 3–5 ra khỏi context. Toàn bộ dự án tốn **$0.2226** trên trần $1.
+**Tóm tắt.** Cấu hình được chọn là **A2**: hybrid RRF (dense + BM25), thêm chunk liền kề (neighbour), lấy top-5, context tối đa 4500 ký tự mỗi lượt search, và prompt v2 với luật từ chối chặt. Trên bộ test độc lập lớn nhất (test v3, 26 câu), A2 đạt **26/26**. Tuy vậy, baseline dense cũng đạt 26/26, và ở bước retrieval dense còn nhỉnh hơn. Hai cải tiến có tác dụng rõ là prompt v2 (tỉ lệ từ chối đúng 1/3 → 3/3) và neighbour chunk (Context Evidence Rate trên dev 19 → 22/22). Hai lỗi vẫn chưa sửa được: model tự tính năm ở câu t06, và neighbour có thể đẩy kết quả hạng 3–5 ra khỏi context. Phần cơ bản tốn **$0.2226** trên trần $1.
+
+**Thử thách nâng cao** (mục [cuối báo cáo](#thử-thách-nâng-cao-nếu-thực-hiện)): agent đa phương thức trên *NASA FY 2024 Agency Financial Report* (127 trang), dùng hybrid + rerank, có tool `search(query, kind)`, `view_page` và `final_answer`. Kết quả test chấm tay đạt **29/30 (96,67%)**, vượt ngưỡng 27/30. Cả dự án tốn $0.519.
 
 ## Dữ liệu và benchmark
 
@@ -202,12 +204,13 @@ Báo cáo này còn một số giới hạn cần nói rõ:
 
 ## Demo (Streamlit)
 
-Để người xem tự kiểm tra agent, tôi làm một demo Streamlit trong `demo/app.py`. Chạy `streamlit run demo/app.py` rồi mở http://localhost:8501. Demo có ba tab:
+Để người xem tự kiểm tra agent, tôi làm một demo Streamlit trong `demo/app.py`. Chạy `streamlit run demo/app.py` rồi mở http://localhost:8501. Demo có bốn tab:
 
 | Tab | Chức năng | Cần gì | Chi phí |
 |---|---|---|---|
 | 💬 Chat với agent | Giao diện **chat**, có **câu hỏi gợi ý bấm được** (lúc mở và trong nút "💡 Câu hỏi gợi ý"); mỗi câu trả lời kèm danh sách gọn các **tool agent đã gọi** (`search("…")` → số chunk, trang; `final_answer(citations=…)`) và dòng thông tin (retriever, top-k, prompt, thời gian, chi phí). Khung bên phải cho **chọn cách retrieval** (Hybrid RRF, Dense, BM25, Rerank), **số chunk top-k 3–5 (mặc định 3)**, bật/tắt neighbour (**mặc định tắt**, nên mặc định chỉ có 3 chunk), prompt, filter, kiểm tra số, và **hiện các chunk retriever đã chọn** (⭐ = được cite; hạng, score); khi bật neighbour, chunk liền kề được gom riêng một dòng | Postgres Day 6, Ollama, `OPENAI_API_KEY` | ~$0.0005–0.002 / câu |
 | 🔎 So sánh retrieval | Top-5 của dense, BM25 và hybrid đặt cạnh nhau; đánh dấu chunk cả ba cùng tìm thấy | Postgres Day 6, Ollama | $0 |
+| 🚀 Nâng cao: NASA AFR | **Chat với agent đa phương thức** trên báo cáo NASA. Mỗi câu trả lời hiện các tool đã gọi (`search(query, kind)` kèm trang và loại của từng kết quả, `view_page(page, focus)`, `final_answer`), trang được trích, **ảnh crop của bảng/biểu đồ được cite** và bản chép tương ứng. Có thể chọn retriever (rerank ★ / hybrid / dense / BM25), top-k và bật/tắt `view_page`, `kind`. Tab con *Index & đối chiếu bản gốc* đặt ảnh trang gốc cạnh các phần tử đã trích (crop, nội dung, text layer). Tab con *Kết quả* hiện test 29/30 theo nhóm, nhãn từng câu, so sánh cấu hình trên dev và retrieval | Postgres, Ollama, `OPENAI_API_KEY`, file PDF đã tải | ~$0.001–0.003 / câu |
 | 📊 So sánh cấu hình trên benchmark | So sánh mọi cấu hình (A0–A4r) trên mọi bộ câu hỏi, kèm biểu đồ % đạt và chi phí; so sánh các phương pháp retrieval (Hit@1, Context Evidence Rate); bảng đối chiếu từng câu × từng cấu hình và tool call của từng câu | Không cần, đọc từ `results/` | $0 |
 
 Thiết lập mặc định của demo (top-3, không neighbour) gọn hơn cấu hình đã chốt cho benchmark (A2: top-5, có neighbour); muốn chạy đúng A2 thì chọn top-5 và bật neighbour. Mọi lựa chọn trong demo dùng **cùng LLM** `gpt-5.6-luna`; chúng chỉ khác nhau ở retriever, prompt và cách đưa context vào model. Vì vậy demo so sánh **cấu hình**, không so sánh các LLM khác nhau. Mỗi câu hỏi được agent xử lý độc lập (không dùng lịch sử chat làm ngữ cảnh), giống cách chạy benchmark.
@@ -229,6 +232,10 @@ Cần chạy trước Postgres và Ollama của Day 6, sau đó cài môi trư�
 | Baseline A0 | `python -m src.run_agent … --method dense --prompt v1 --per-search-budget 3000 --budget 6000 --config A0_dense_baseline` |
 | Tổng hợp nhãn | `python starter/agent_metrics.py --cases <cases.json> --traces <traces.json> --reviews <reviews.json> --split test --output <agent_metrics.json>` |
 | Chấm lại retrieval từ trace | `python -m src.rescore_retrieval results/retrieval/<cfg>/<split> <questions.json>` |
+| Nâng cao: tài liệu | `curl -L -o data/advanced/raw/nasa_afr_fy2024.pdf https://www.nasa.gov/wp-content/uploads/2023/11/nasa-fy-2024-afr.pdf` (kiểm SHA-256 trong `data/advanced/SOURCE.md`) |
+| Nâng cao: benchmark | `python -m src.mm.build_benchmark` (tự kiểm quote, câu thiếu evidence, dev/test không trùng) |
+| Nâng cao: trích xuất, index | `python -m src.mm.extract` (vision, cache theo trang, ~$0.13) · `python -m src.mm.index` (608 chunk vào pgvector `strategy='MM'`) |
+| Nâng cao: dev, test | `python -m src.mm.eval_retrieval --split dev` · `python -m src.mm.run --split dev --config mmC_rerank_k5_kind_view --method rerank` · `python -m src.mm.run --split test --config mmC_rerank_k5_kind_view --method rerank` |
 | Demo | `.venv/bin/streamlit run demo/app.py` |
 
 Tham số đầy đủ của từng cấu hình nằm trong `configs/selected.json`, `selected_v2.json` và `selected_v3.json`.
@@ -237,4 +244,85 @@ Ghi chú về commit hash: lịch sử git đã được viết lại một lầ
 
 ## Thử thách nâng cao (nếu thực hiện)
 
-Tôi chưa làm phần này. Corpus hiện tại chỉ có 43 trang text, không đáp ứng yêu cầu tài liệu từ 100 trang trở lên có bảng, ảnh và biểu đồ. Kế hoạch thực hiện (dùng một index riêng `mm_chunks`) nằm ở Bước 11 trong `PLAN.md`.
+**Kết quả: 29/30 câu test đạt (96,67%)** theo chấm tay, vượt ngưỡng 27/30. Cấu hình được chốt trên dev và chỉ chạy test **một lần**, không có lỗi hệ thống. Test tốn $0.0324, trung vị 4,5 s mỗi câu.
+
+### Tài liệu
+
+- **Tài liệu:** *NASA Fiscal Year 2024 Agency Financial Report*, bản PDF phát hành tháng 11/2024, **127 trang** (số trang in = số trang PDF − 1). Nguồn: <https://www.nasa.gov/wp-content/uploads/2023/11/nasa-fy-2024-afr.pdf>. SHA-256 và lệnh tải nằm trong `data/advanced/SOURCE.md`.
+- **Quyền sử dụng:** đây là tác phẩm của chính phủ Mỹ nên thuộc public domain (17 U.S.C. §105). Dù vậy, file PDF vẫn **không** được commit (`data/advanced/raw/` bị ignore); người chấm tải lại theo URL và kiểm tra bằng SHA-256.
+- **Lý do chọn:** tài liệu có đủ các loại nội dung mà đề yêu cầu. Theo `find_tables`, có 56 bảng trên 32 trang. Ngoài ra có 11 biểu đồ (cột chồng, donut, cột ngang), sơ đồ tổ chức, bản đồ các trung tâm, các hình quy trình FMFIA/ERM (một số là ảnh raster, không có text layer) và infographic ngân sách, nhân sự.
+- **Hai tài liệu đã loại:** WDR 2024 (chỉ có 5 bảng) và một sách Packt (bản quyền "All rights reserved", chỉ có 2 bảng). Ghi chú ở `SOURCE.md`.
+
+### Pipeline đa phương thức (`src/mm/`)
+
+| Bước | Cách làm | Kết quả |
+|---|---|---|
+| Text | Text layer của PyMuPDF, cắt theo đoạn/câu thành chunk ≤ 1000 ký tự | 462 chunk |
+| Bảng, biểu đồ, sơ đồ, bản đồ, infographic, ảnh | Render **từng trang** ở 150 dpi rồi gửi cho model vision `gpt-5.6-luna` (Responses API, `input_image`). Model chép mọi phần tử: bảng thành markdown đủ hàng/cột/đơn vị; biểu đồ thành chú giải màu → series rồi từng dòng `series \| năm \| giá trị`; sơ đồ/bản đồ thành mọi nhãn và quan hệ (nét đứt, mũi tên, "managed by"); kèm `bbox` 0–1000 để cắt crop (`extract.py`) | 146 chunk hình (56 bảng, 11 biểu đồ, 8 sơ đồ, 1 bản đồ, 18 infographic, 52 ảnh) |
+| Index | Mỗi chunk giữ `page`, `printed_page`, `kind`, `chapter` (theo mục lục PDF), `bbox` và đường dẫn crop. Embed bằng embeddinggemma 768 chiều vào pgvector của Day 6, phân vùng `strategy='MM'` riêng; BM25 dựng trên cùng các chunk đó (`index.py`) | **608 chunk, phủ 127/127 trang** |
+| Agent | `MMAgent` với 3 tool: `search(query, kind)` dùng hybrid RRF (dense + BM25) với pool 30 rồi **rerank bằng cross-encoder** `ms-marco-MiniLM-L-6-v2`, top-5, `kind` lọc text/table/chart/diagram/map/…; `view_page(page, focus)` gửi **ảnh trang gốc** cho model vision (chỉ cho xem trang mà search đã trả về); `final_answer(answer, citations, abstain)`. Citation `[S#]` trỏ tới chunk, `[V#]` trỏ tới ảnh trang (`agent.py`) | Prompt `SYSTEM_MM` (dựa trên v2), bổ sung luật về đơn vị/năm/chú giải |
+
+Lý do không dùng `find_tables` cho bảng: trên báo cáo này, hàm này gộp cả cột vào một ô (trang 63, 83, 114, 115), nên bản chép bằng vision đúng cấu trúc hơn. Bản đồ trang 12 và hình trang 39–40 là ảnh raster, không có text layer, nên chỉ vision mới đọc được. Tổng chi phí trích xuất 127 trang là **$0.130**; kết quả được cache theo từng trang trong `data/advanced/extract/p*.json`.
+
+**Đối chiếu nội dung trích xuất với bản gốc:**
+1. *Tự động:* toàn bộ **1.345/1.345 con số** trong phần chép bảng/biểu đồ/sơ đồ/infographic đều có trong text layer của **đúng trang đó** (100%).
+2. *Bằng mắt (đặt ảnh gốc cạnh bản chép):* biểu đồ trang 22, 29, 30, 31, 33, 34 (kiểm việc gán **năm theo màu**, vì text layer trang 33 liệt kê 2023 trước 2024); bảng trang 63, 83, 114 (chính là các bảng `find_tables` làm hỏng); sơ đồ trang 11, 15, 38, 39, 40 và bản đồ trang 12. Tất cả khớp, trừ một lỗi: **tiêu đề cột bảng trang 114 bị chép thành "UND بحURSED"** thay vì "UNDISBURSED". Số liệu trong bảng vẫn đúng, và text layer của trang cũng được index nên không mất thông tin.
+3. *Độ đầy đủ:* bảng từ viết tắt (trang 123–125) và bảng tóm tắt kiểm toán (trang 96) không thiếu mục nào, chỉ thiếu tiêu đề trang.
+
+**Phần chưa xử lý hoặc giới hạn:** 40 trang chỉ có văn xuôi nên không có chunk hình (ví dụ 41–45, 85–94 là báo cáo kiểm toán, 98–109 là phần OIG), nhưng text của các trang này đều đã được index. Ảnh chụp chỉ được mô tả bằng một câu kèm chú thích. Các trang tiếng Tây Ban Nha (118–120) được index nguyên văn. Mục lục trang 3 bị gộp thành một bảng. Không dùng multimodal embedding: hình được tìm qua bản chép bằng chữ.
+
+### Benchmark (`data/advanced/benchmark/`)
+
+Benchmark được viết bằng cách **đọc trang gốc** (render 100–110 dpi), sau đó **commit trước mọi thí nghiệm** (`732d1b2`). Script `src/mm/build_benchmark.py` tự kiểm tra ba điều:
+- mỗi `quote` có trong text layer của đúng trang;
+- evidence chỉ có trong hình được đánh dấu `visual_only` kèm `locator`;
+- mẫu regex của câu thiếu evidence không xuất hiện ở bất kỳ trang nào trong 127 trang.
+
+Schema của mỗi câu gồm `id`, `group`, `question`, `expected_answer`, `evidence[{page, printed_page, kind, locator, quote, visual_only}]` và `reason`. Câu thiếu evidence có thêm `absence_reason` và `grep_checked`.
+
+| Split | Bảng | Ảnh/sơ đồ | Biểu đồ | Multi-hop | Text | Thiếu evidence | Tổng |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| test | 6 | 5 | 5 | 4 | 4 | 6 | **30** |
+| dev v1 | 3 | 3 | 4 | 2 | 3 | 3 | 18 |
+| dev v2 | 0 | 2 | 2 | 2 | 2 | 2 | 10 |
+
+Dev v2 (`9346dd0`) được **thêm sau khi dev v1 bão hòa** (18/18 với mọi cấu hình) và **trước khi chạy test**. Các câu dev v2 có dạng khó giống test (chỉ đọc được từ hình; bản đồ raster → infographic; biểu đồ → biểu đồ) nhưng dùng phần tử và đáp án khác. `test.json` không thay đổi.
+
+Trước khi chạy test, tôi ghi thêm quy tắc chấm vào `benchmark/README.md`: chấp nhận **evidence thay thế** nếu trang được trích có trong bản gốc và hỗ trợ đủ câu trả lời (phát hiện ở D2-MH2: net cost theo goal có cả ở biểu đồ trang 32 lẫn bảng trang 51).
+
+### Chọn cấu hình trên dev
+
+| Cấu hình | Retrieval / tool | Dev (chấm tay) | Chi phí dev 28 câu |
+|---|---|---:|---:|
+| A `mmA_hybrid_k5` | hybrid RRF, `search(query)` | 28/28 | $0.0216 |
+| B `mmB_rerank_k5_kind` | hybrid + rerank, `search(query, kind)` | 28/28 | $0.0269 |
+| **C `mmC_rerank_k5_kind_view` ★** | B + `view_page` | 28/28 | $0.0303 |
+
+Ở tầng retrieval (`results/advanced/retrieval_dev.json`, dùng câu hỏi gốc làm query, đo trang evidence có trong top-k): dense, hybrid và rerank đều đạt **hit@3 = 1.0**, MRR khoảng 0.97–0.98; BM25 có MRR 0.95. Như vậy **dev không phân biệt được các cấu hình, và rerank không cho cải thiện đo được**. Tôi chọn C vì nó hòa với A và B về độ chính xác, đồng thời có thêm `view_page` để dự phòng cho hình raster và các câu cần đọc màu (`results/advanced/CHOSEN.md`, commit `19003e0` trước khi chạy test).
+
+Một lưu ý về dev: ở lần chạy đầu, script shell truyền sai tham số nên cả 3 cấu hình đều chạy giống nhau, và mạng tới API đứt một lần (10 lỗi kết nối, không tốn tiền). Tôi đã xóa các kết quả đó rồi chạy lại.
+
+### Kết quả test (cấu hình C, chạy một lần, commit `dc3f48c`)
+
+| Nhóm test | Đạt / tổng | Tỷ lệ | Lỗi / nhận xét |
+|---|---|---|---|
+| Bảng | 6/6 | 100% | TB1 và TB6 tự tính hiệu từ các ô, kết quả đúng |
+| Ảnh, sơ đồ | 5/5 | 100% | Nét đứt (trang 11), nhãn trong ảnh raster (trang 12, 39, 40) đều đọc được nhờ bản chép vision |
+| Biểu đồ | 5/5 | 100% | Gán đúng năm theo màu ở cả 5 câu |
+| Multi-hop | 3/4 | 75% | **T-MH3 không đạt:** phần Michoud → MSFC đúng, nhưng chi phí SLS FY 2024 trả **$2,555 triệu (đó là số của FY 2023)**, đúng phải là $2,719 triệu |
+| Text | 4/4 | 100% | |
+| Thiếu bằng chứng | 6/6 | 100% | Cả 6 câu từ chối bằng `abstain=true` sau 2–4 lần search, không kèm khẳng định nào |
+| **Toàn bộ** | **29/30** | **96,67%** | 0 lỗi hệ thống |
+
+- **Trace, nhãn và evidence:**
+  - `results/advanced/mmC_rerank_k5_kind_view/test/traces.json` lưu cho từng câu: các lần search (query, `kind`, kết quả trả về kèm trang/hạng/score), context, câu trả lời, citation (chunk id và trang), thời gian, token, chi phí và lỗi.
+  - `labels.json` ghi nhãn **chấm tay từng câu** kèm lý do và trang gốc đã đối chiếu.
+  - Auto-check (số trong đáp án mẫu có trong câu trả lời + trang được trích trùng trang evidence) chỉ cho 22/30 và **sai 7 câu**, do dấu chấm cuối câu và các chi tiết đề không hỏi. Vì vậy nó chỉ dùng làm gợi ý, không dùng làm điểm.
+- **Thời gian và chi phí test:** trung vị 4,5 s, p95 7,7 s; 75 lần gọi LLM, tổng **$0.0324**; 0 lỗi. Toàn bộ phần nâng cao (trích xuất $0.130, các lần chạy dev, test) cộng với phần cơ bản là **$0.519 trên trần $1** (`results/cost_ledger.jsonl`).
+- **Phân tích lỗi T-MH3:** search trả về cả chunk biểu đồ `p033_v0` (có gắn năm) lẫn chunk text `p033_t2`. Chunk text là text layer của biểu đồ, liệt kê "$2,555 $2,719" theo thứ tự 2023 rồi 2024 mà không ghi năm. Model đã trích chunk text và lấy nhầm số đầu tiên. `view_page` **không được gọi một lần nào** trong cả dev lẫn test, vì bản chép đã đủ cho các câu khác. Gọi thử thủ công sau khi chấm, `view_page(33, …)` đọc đúng $2,719 (cam = 2024). Tôi **không chạy lại test** vì làm vậy là dùng test để chỉnh. Hướng sửa cho vòng sau, cần dev và test mới: không đưa text layer của vùng biểu đồ vào index khi đã có bản chép vision (vì nó không có nhãn năm), hoặc bắt buộc gọi `view_page` khi các số trong passage không gắn năm.
+- **Giới hạn:**
+  - Một người viết benchmark và chấm; người chấm có thể kiểm lại vì mọi evidence đều ghi trang, quote hoặc vị trí trên trang.
+  - Test chỉ có 30 câu, nên mỗi câu bằng 3,3 điểm phần trăm.
+  - Dev bão hòa nên chưa chứng minh được giá trị của rerank và `view_page`.
+  - Bản chép bằng vision không tự bảo đảm đúng: tôi đã kiểm 100% các con số và kiểm bằng mắt các hình trong benchmark, nhưng chưa kiểm bằng mắt từng ảnh chụp.
+- **Tái lập:** xem các dòng "Nâng cao" trong phần *Cách chạy* ở trên. Demo có tab "🚀 Nâng cao: NASA AFR" (xem phần *Demo*).

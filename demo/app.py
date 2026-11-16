@@ -7,6 +7,7 @@ Tabs:
                          side by side; shows every tool call (tool, arguments, result, time), answer, citations.
   2. So sánh retrieval — dense / BM25 / hybrid top-5 side by side (local, $0).
   3. Kết quả benchmark — compares all stored configurations across all splits (no DB, no API needed).
+  4. Nâng cao       — multimodal agent on the NASA FY 2024 AFR (demo/advanced_tab.py).
 Demo API calls are logged to demo/demo_cost_ledger.jsonl (the benchmark ledger is not touched),
 but the cap is checked against benchmark + demo spending together.
 """
@@ -132,7 +133,8 @@ st.title("📜 Agentic RAG — *Manifesto of the Communist Party*")
 st.caption("Day 7 · 2A202603771 Nguyễn Văn Minh · pgvector Day 6 (embeddinggemma 768-d) + BM25 · "
            f"LLM `{config.LLM_MODEL}` (OpenAI Responses API)")
 
-tab_ask, tab_ret, tab_res = st.tabs(["💬 Chat với agent", "🔎 So sánh retrieval", "📊 So sánh cấu hình trên benchmark"])
+tab_ask, tab_ret, tab_res, tab_adv = st.tabs(["💬 Chat với agent", "🔎 So sánh retrieval", "📊 So sánh cấu hình trên benchmark",
+                                               "🚀 Nâng cao: NASA AFR (đa phương thức)"])
 
 # =========================================================================== 1. live agent (chat)
 RETRIEVAL_MODES = {
@@ -395,3 +397,9 @@ with tab_res:
                     st.markdown(pretty_answer(t["answer"]))
                     st.markdown(main_tools_md(t))
                     st.caption(f"Chấm tay: {rv.get('reason', '')}")
+
+# =========================================================================== 4. advanced challenge (multimodal)
+with tab_adv:
+    sys.path.insert(0, str(ROOT / "demo"))
+    import advanced_tab  # noqa: E402
+    advanced_tab.render(DemoLedger)
