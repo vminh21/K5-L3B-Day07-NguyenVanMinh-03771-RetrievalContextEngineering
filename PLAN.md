@@ -400,13 +400,13 @@ Mẫu bảng (đưa thẳng vào báo cáo):
 5. Tạo repo cá nhân theo `SUBMISSION.md` (remote `upstream` = repo đề, `origin` = repo cá nhân), push, cấp quyền xem cho người chấm.
 
 **Checklist nộp bài (copy từ SUBMISSION.md)**
-- [ ] Code agent + ≥3 phương pháp retrieval (có dense), test, hướng dẫn chạy.
-- [ ] Embedding model, vector store, cách kết nối, dữ liệu/cách tái tạo.
-- [ ] Benchmark ≥20 câu có evidence + ≥4 câu thiếu evidence, đã chia dev/test.
-- [ ] Kết quả từng query + tool call; context, câu trả lời, citation, lỗi, thời gian, chi phí.
-- [ ] ≥2 cấu hình cải thiện; bảng benchmark, nhãn, phân tích lỗi, lý do chọn.
-- [ ] Báo cáo `2A202603771_NguyenVanMinh.md` đầy đủ.
-- [ ] Không có `.env`, API key, token, dữ liệu mật trong repo (`git log -p | grep -i -E "api_key|sk-|token"` để kiểm tra).
+- [x] Code agent + ≥3 phương pháp retrieval (có dense), test, hướng dẫn chạy.
+- [x] Embedding model, vector store, cách kết nối, dữ liệu/cách tái tạo.
+- [x] Benchmark ≥20 câu có evidence + ≥4 câu thiếu evidence, đã chia dev/test.
+- [x] Kết quả từng query + tool call; context, câu trả lời, citation, lỗi, thời gian, chi phí.
+- [x] ≥2 cấu hình cải thiện; bảng benchmark, nhãn, phân tích lỗi, lý do chọn.
+- [x] Báo cáo `2A202603771_NguyenVanMinh.md` đầy đủ.
+- [x] Không có `.env`, API key, token, dữ liệu mật trong repo (`git log -p | grep -i -E "api_key|sk-|token"` để kiểm tra). (2026-11-16: 0 key `sk-`, `.env` chưa từng commit)
 - [ ] Không push vào repo đề bài.
 
 ---
