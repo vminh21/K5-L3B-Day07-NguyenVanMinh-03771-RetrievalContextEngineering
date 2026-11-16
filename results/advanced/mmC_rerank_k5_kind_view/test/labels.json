@@ -1,0 +1,344 @@
+{
+ "graded_by": "hand (Nguyễn Văn Minh), opening original PDF pages; auto_check only a hint",
+ "pass": 29,
+ "total": 30,
+ "pass_rate": "29/30 = 96.67%",
+ "threshold": "27/30",
+ "by_group": {
+  "table": "6/6",
+  "image": "5/5",
+  "chart": "5/5",
+  "multihop": "3/4",
+  "text": "4/4",
+  "no_evidence": "6/6"
+ },
+ "errors": 0,
+ "cost_usd": 0.0324,
+ "median_s": 4.5,
+ "p95_s": 7.7,
+ "labels": [
+  {
+   "id": "T-CH1",
+   "group": "chart",
+   "label": "pass",
+   "status": "answered",
+   "cited_pages": [
+    22
+   ],
+   "reason": "Goal 3: 7 (FY23), 10 (FY24) phần xanh lá — đối chiếu biểu đồ p22 gốc.",
+   "auto_check_agreed": true
+  },
+  {
+   "id": "T-CH2",
+   "group": "chart",
+   "label": "pass",
+   "status": "answered",
+   "cited_pages": [
+    30
+   ],
+   "reason": "Other $106 (FY23) / $987 (FY24) — biểu đồ p30, đúng màu tím 'Other'. Auto-check trượt vì '2024.'.",
+   "auto_check_agreed": false
+  },
+  {
+   "id": "T-CH3",
+   "group": "chart",
+   "label": "pass",
+   "status": "answered",
+   "cited_pages": [
+    31
+   ],
+   "reason": "$288 (FY23) / $348 (FY24) — biểu đồ p31, màu cam. Auto-check trượt vì '2024.'.",
+   "auto_check_agreed": false
+  },
+  {
+   "id": "T-CH4",
+   "group": "chart",
+   "label": "pass",
+   "status": "answered",
+   "cited_pages": [
+    33
+   ],
+   "reason": "HLS 1,144 (2024) / 1,463 (2023), giảm 319 — đúng chú giải màu cam=2024 trên biểu đồ p33.",
+   "auto_check_agreed": true
+  },
+  {
+   "id": "T-CH5",
+   "group": "chart",
+   "label": "pass",
+   "status": "answered",
+   "cited_pages": [
+    34
+   ],
+   "reason": "Spending Authority 2,108 (FY23) / 1,840 (FY24) — biểu đồ p34.",
+   "auto_check_agreed": true
+  },
+  {
+   "id": "T-IM1",
+   "group": "image",
+   "label": "pass",
+   "status": "answered",
+   "cited_pages": [
+    11
+   ],
+   "reason": "NAC & ASAP + Inspector General, nét đứt = cơ quan tư vấn/giám sát độc lập — đúng sơ đồ p11.",
+   "auto_check_agreed": true
+  },
+  {
+   "id": "T-IM2",
+   "group": "image",
+   "label": "pass",
+   "status": "answered",
+   "cited_pages": [
+    12
+   ],
+   "reason": "GSFC; Katherine Johnson IV&V Facility và Goddard Institute for Space Studies — đúng nhãn bản đồ raster p12.",
+   "auto_check_agreed": true
+  },
+  {
+   "id": "T-IM3",
+   "group": "image",
+   "label": "pass",
+   "status": "answered",
+   "cited_pages": [
+    15
+   ],
+   "reason": "Performance Goals 2–5 năm, Priority Questions 4 năm, Evidence Act (xanh dương) — sơ đồ p15.",
+   "auto_check_agreed": true
+  },
+  {
+   "id": "T-IM4",
+   "group": "image",
+   "label": "pass",
+   "status": "answered",
+   "cited_pages": [
+    39
+   ],
+   "reason": "Đủ 5 loại rủi ro, đúng tên — hình raster p39.",
+   "auto_check_agreed": true
+  },
+  {
+   "id": "T-IM5",
+   "group": "image",
+   "label": "pass",
+   "status": "answered",
+   "cited_pages": [
+    40
+   ],
+   "reason": "Audits and Assessments — hình raster p40 (vòng trên-trái).",
+   "auto_check_agreed": true
+  },
+  {
+   "id": "T-MH1",
+   "group": "multihop",
+   "label": "pass",
+   "status": "answered",
+   "cited_pages": [
+    22,
+    32
+   ],
+   "reason": "Goal 2, $10,920 triệu (p32) + 8 xanh lá FY24 (p22). Cite cả hai trang. '44%' không được hỏi.",
+   "auto_check_agreed": false
+  },
+  {
+   "id": "T-MH2",
+   "group": "multihop",
+   "label": "pass",
+   "status": "answered",
+   "cited_pages": [
+    12,
+    13
+   ],
+   "reason": "3,229 (p13) + White Sands Test Facility (bản đồ p12). Cite cả hai. '18%' không được hỏi.",
+   "auto_check_agreed": false
+  },
+  {
+   "id": "T-MH3",
+   "group": "multihop",
+   "label": "fail",
+   "status": "answered",
+   "cited_pages": [
+    12,
+    33
+   ],
+   "reason": "KHÔNG ĐẠT: phần MSFC/Michoud đúng (p12) nhưng SLS FY 2024 trả $2,555 triệu — đó là giá trị FY 2023; đúng là $2,719 triệu (biểu đồ p33, cột cam 2024). Agent dùng chunk text p033_t2 (text layer liệt kê 2023 trước 2024) thay vì bản chép biểu đồ p033_v0 có gắn năm.",
+   "auto_check_agreed": true
+  },
+  {
+   "id": "T-MH4",
+   "group": "multihop",
+   "label": "pass",
+   "status": "answered",
+   "cited_pages": [
+    17,
+    23
+   ],
+   "reason": "OP $102 triệu (p17) + 84.1% so với mục tiêu ≥88%, Red (p23). Requested $112 không được hỏi.",
+   "auto_check_agreed": false
+  },
+  {
+   "id": "T-NE1",
+   "group": "no_evidence",
+   "label": "pass",
+   "status": "abstain",
+   "cited_pages": [],
+   "reason": "Từ chối (abstain=true), không thêm khẳng định; các truy vấn tìm đúng chủ đề nhưng tài liệu không có (đã grep toàn bộ 127 trang, xem grep_checked).",
+   "auto_check_agreed": true
+  },
+  {
+   "id": "T-NE2",
+   "group": "no_evidence",
+   "label": "pass",
+   "status": "abstain",
+   "cited_pages": [],
+   "reason": "Từ chối (abstain=true), không thêm khẳng định; các truy vấn tìm đúng chủ đề nhưng tài liệu không có (đã grep toàn bộ 127 trang, xem grep_checked).",
+   "auto_check_agreed": true
+  },
+  {
+   "id": "T-NE3",
+   "group": "no_evidence",
+   "label": "pass",
+   "status": "abstain",
+   "cited_pages": [],
+   "reason": "Từ chối (abstain=true), không thêm khẳng định; các truy vấn tìm đúng chủ đề nhưng tài liệu không có (đã grep toàn bộ 127 trang, xem grep_checked).",
+   "auto_check_agreed": true
+  },
+  {
+   "id": "T-NE4",
+   "group": "no_evidence",
+   "label": "pass",
+   "status": "abstain",
+   "cited_pages": [],
+   "reason": "Từ chối (abstain=true), không thêm khẳng định; các truy vấn tìm đúng chủ đề nhưng tài liệu không có (đã grep toàn bộ 127 trang, xem grep_checked).",
+   "auto_check_agreed": true
+  },
+  {
+   "id": "T-NE5",
+   "group": "no_evidence",
+   "label": "pass",
+   "status": "abstain",
+   "cited_pages": [],
+   "reason": "Từ chối (abstain=true), không thêm khẳng định; các truy vấn tìm đúng chủ đề nhưng tài liệu không có (đã grep toàn bộ 127 trang, xem grep_checked).",
+   "auto_check_agreed": true
+  },
+  {
+   "id": "T-NE6",
+   "group": "no_evidence",
+   "label": "pass",
+   "status": "abstain",
+   "cited_pages": [],
+   "reason": "Từ chối (abstain=true), không thêm khẳng định; các truy vấn tìm đúng chủ đề nhưng tài liệu không có (đã grep toàn bộ 127 trang, xem grep_checked).",
+   "auto_check_agreed": true
+  },
+  {
+   "id": "T-TB1",
+   "group": "table",
+   "label": "pass",
+   "status": "answered",
+   "cited_pages": [
+    17
+   ],
+   "reason": "7,971 / 7,648 khớp hàng 2.1 bảng p17; hiệu 323 tính đúng. Cite p017_v0 (bảng p17).",
+   "auto_check_agreed": true
+  },
+  {
+   "id": "T-TB2",
+   "group": "table",
+   "label": "pass",
+   "status": "answered",
+   "cited_pages": [
+    17
+   ],
+   "reason": "OP nhỏ nhất = 102 (4.1), requested 112 — đúng bảng p17 (đã soát cả cột OP). Cite p017_v0_1.",
+   "auto_check_agreed": true
+  },
+  {
+   "id": "T-TB3",
+   "group": "table",
+   "label": "pass",
+   "status": "answered",
+   "cited_pages": [
+    63
+   ],
+   "reason": "9→8 NASA Locations, tổng 12→11 khớp bảng p63 (ảnh crop đã đối chiếu). Auto-check trượt chỉ vì '11.' có dấu chấm.",
+   "auto_check_agreed": false
+  },
+  {
+   "id": "T-TB4",
+   "group": "table",
+   "label": "pass",
+   "status": "answered",
+   "cited_pages": [
+    83
+   ],
+   "reason": "101,198 và 135,315 acres, hàng End of Current Year p83. Đúng đơn vị acre.",
+   "auto_check_agreed": true
+  },
+  {
+   "id": "T-TB5",
+   "group": "table",
+   "label": "pass",
+   "status": "answered",
+   "cited_pages": [
+    110
+   ],
+   "reason": "FFP 31% lớn nhất, CPAF 28% — bảng p110.",
+   "auto_check_agreed": true
+  },
+  {
+   "id": "T-TB6",
+   "group": "table",
+   "label": "pass",
+   "status": "answered",
+   "cited_pages": [
+    114
+   ],
+   "reason": "975 / $12,936 nghìn (2024), 663 / $8,126 nghìn (2023) — bảng p114, đúng đơn vị nghìn USD; phần chênh lệch tự tính (312; $4,810 nghìn) đúng. Auto-check trượt vì '2023' bị gắn 'FY'.",
+   "auto_check_agreed": false
+  },
+  {
+   "id": "T-TX1",
+   "group": "text",
+   "label": "pass",
+   "status": "answered",
+   "cited_pages": [
+    6,
+    85
+   ],
+   "reason": "14 năm liên tiếp (p6) + một material weakness về financial reporting oversight (p85).",
+   "auto_check_agreed": true
+  },
+  {
+   "id": "T-TX2",
+   "group": "text",
+   "label": "pass",
+   "status": "answered",
+   "cited_pages": [
+    34
+   ],
+   "reason": "$27B trong $30B; $3B còn lại có thể obligate tới khi hết thời hạn khả dụng — p34.",
+   "auto_check_agreed": true
+  },
+  {
+   "id": "T-TX3",
+   "group": "text",
+   "label": "pass",
+   "status": "answered",
+   "cited_pages": [
+    25
+   ],
+   "reason": "Booster segments giao tới KSC; CM/SM Vacuum Performance Testing xong 7/2024 — p25.",
+   "auto_check_agreed": true
+  },
+  {
+   "id": "T-TX4",
+   "group": "text",
+   "label": "pass",
+   "status": "answered",
+   "cited_pages": [
+    31
+   ],
+   "reason": "+$744 triệu, lên ~$1B, do áp dụng SFFAS 54 (leases) — p31.",
+   "auto_check_agreed": true
+  }
+ ]
+}
