@@ -40,7 +40,14 @@ _RULE4_V2 = ("4. If the passages do not directly answer the question exactly as 
              "something, and never answer a different, nearby question instead: abstain=true is the only correct "
              "way to report missing evidence.")
 SYSTEM_V2 = re.sub(r"4\. If the passages.*?not enough\.", _RULE4_V2, SYSTEM, flags=re.S)
-PROMPTS = {"v1": SYSTEM, "v2": SYSTEM_V2}
+# v3 (round 2, I2): forbid numbers/dates that are not written in a passage (t06 on test v1: the model
+# computed "1873" from "lived only nine years"), and require a re-search when only part is answered.
+_RULE7_V3 = ("7. Numbers, years and dates in your answer must be written in a cited passage exactly. Never "
+             "compute or infer them (e.g. adding durations to a year).\n"
+             "8. If the passages answer only part of the question, search again with different wording "
+             "(other key phrases, names, synonyms). If after searching any part is still not supported, abstain.")
+SYSTEM_V3 = SYSTEM_V2 + "\n" + _RULE7_V3
+PROMPTS = {"v1": SYSTEM, "v2": SYSTEM_V2, "v3": SYSTEM_V3}
 assert SYSTEM_V2 != SYSTEM and "abstain=true is the only correct" in SYSTEM_V2
 
 TOOLS = [

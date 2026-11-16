@@ -1,0 +1,86 @@
+{
+  "scale": "0 = no evidence; 1 = evidence but missing condition or source; 2 = full evidence + source header (chunk id, page, chapter)",
+  "reviewed_by": "manual reading of traces.json context_text against the PDF text in chunks",
+  "baseline": {
+    "config": "dense_k5_b3000 (M1, top-5, 3000 chars)",
+    "labels": [
+      {
+        "query_id": "t01",
+        "context_score": 2,
+        "reason": "p39/p33 passage 'held political power for two whole months' in context (rank 3), header present."
+      },
+      {
+        "query_id": "t02",
+        "context_score": 2,
+        "reason": "p24 Sismondi sentence at rank 1."
+      },
+      {
+        "query_id": "t03",
+        "context_score": 2,
+        "reason": "p16 full sentence (both powers) at rank 1."
+      },
+      {
+        "query_id": "t04",
+        "context_score": 2,
+        "reason": "p40 chunk with year, city and reason at rank 2."
+      },
+      {
+        "query_id": "t05",
+        "context_score": 2,
+        "reason": "p23 'holy water' sentence at rank 1."
+      },
+      {
+        "query_id": "t06",
+        "context_score": 2,
+        "reason": "p37 '1874 … quite different men … 1864' at rank 4, inside budget."
+      }
+    ],
+    "counts": {
+      "0": 0,
+      "1": 0,
+      "2": 6
+    },
+    "mean": 2.0
+  },
+  "selected": {
+    "config": "hybrid_k5_b4500_nb (hybrid RRF + neighbours, 4500 chars)",
+    "labels": [
+      {
+        "query_id": "t01",
+        "context_score": 2,
+        "reason": "Rank 1."
+      },
+      {
+        "query_id": "t02",
+        "context_score": 2,
+        "reason": "Rank 1."
+      },
+      {
+        "query_id": "t03",
+        "context_score": 2,
+        "reason": "Rank 1."
+      },
+      {
+        "query_id": "t04",
+        "context_score": 2,
+        "reason": "Rank 2, full sentence."
+      },
+      {
+        "query_id": "t05",
+        "context_score": 2,
+        "reason": "Rank 1."
+      },
+      {
+        "query_id": "t06",
+        "context_score": 0,
+        "reason": "Gold chunk at hybrid rank 10 (outside top-5); context pages 36,37,41,42,44 contain neither the p37 sentence nor the p41 'altogether different from that of 1864' sentence. Neighbours did not reach it."
+      }
+    ],
+    "counts": {
+      "0": 1,
+      "1": 0,
+      "2": 5
+    },
+    "mean": 1.67
+  }
+}

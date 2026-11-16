@@ -37,3 +37,31 @@
 1. Pass dev: A1 = A2 = 25/25 > A0 = 23/25 → loại A0.
 2. Context Evidence Rate: A2 (hybrid + neighbours, 4500) 21/22 > A1 (hybrid, 3000) 19/22 → **chọn A2**.
 Ràng buộc: false abstention 0/22 (không tăng); median 3.6 s ≤ 10 s; $0.00062/câu ≤ $0.002; 0 lỗi hệ thống.
+
+## Vòng 2 (sau khi test v1 bị dùng để chẩn đoán t06) — chỉ chỉnh trên dev, tiêu chí `configs/selected_criteria_v2.md` (commit b97e76a), đánh giá độc lập bằng test v2 (commit b62fa16)
+
+### Retrieval dev
+
+| Cấu hình | Hit@1 | Hit@3 | Context Evidence Rate | Median ms |
+|---|---|---|---|---|
+| A2 retriever: hybrid k5 + neighbours, 4500 | 18/22 | 19/22 | 21/22 (95.5%) | 44.1 |
+| + I1 dedup text | 18/22 | 19/22 | 21/22 (95.5%) | 41.2 |
+| + I3 top-k 8, 6000 | 18/22 | 19/22 | 22/22 (100.0%) | 43.0 |
+| + I1 + I3 | 18/22 | 19/22 | 22/22 (100.0%) | 45.9 |
+
+### Agent dev (tất cả cấu hình)
+
+| Cấu hình | Pass | Grade 2 | Abstention đúng | False abstention | Citation hỗ trợ | Search TB | Median s | Token in/out | Chi phí (tổng / câu) |
+|---|---|---|---|---|---|---|---|---|---|
+| A0_hybrid_k5_s3 | 23/25 | 22/22 | 1/3 | 0/22 | 34/34 | 1.36 | 3.9 | 48727/3535 | $0.0140 / $0.00056 |
+| A1_hybrid_v2 | 25/25 | 22/22 | 3/3 | 0/22 | 28/28 | 1.28 | 3.5 | 48069/3057 | $0.0133 / $0.00053 |
+| A2_hybrid_v2_nb | 25/25 | 22/22 | 3/3 | 0/22 | 28/28 | 1.24 | 3.6 | 57600/3249 | $0.0154 / $0.00062 |
+| A3_hybrid_v3_k8_nb_dd | 24/25 | 22/22 | 2/3 | 0/22 | 32/32 | 1.28 | 3.2 | 75840/3465 | $0.0193 / $0.00077 |
+| A3b_hybrid_v2_k8_nb_dd | 25/25 | 22/22 | 3/3 | 0/22 | 29/29 | 1.2 | 3.7 | 66057/3150 | $0.0170 / $0.00068 |
+
+### Kết luận vòng 2
+- **I1 (gộp chunk trùng text)**: Day 6 có 7 đoạn bị lưu 2 lần (167 chunk, 7 bản sao). Không đổi chỉ số dev (không câu dev nào dính chunk trùng) → giữ vì lý do tổng quát (giải phóng chỗ trong top-k), không làm giảm chỉ số nào.
+- **I3 (top-k 8)**: Context Evidence Rate dev 21/22 → **22/22** (q06 lần đầu vào context); agent: q06/q11/q12 vẫn 1 search. Chi phí +~10%/câu.
+- **I2 (prompt v3: cấm tự tính số/ngày + bắt search lại)**: **làm xấu đi** — qn03 quay lại soft abstention ('closest formulation is…'), abstention 3/3 → 2/3. Giả thuyết: luật 8 ('search again… if any part still not supported, abstain') khiến model tìm 'phần gần nhất' và trả lời. → **Loại**. Lỗi suy luận số (t06 test v1) vẫn chưa có cách sửa được kiểm chứng; ghi vào giới hạn.
+- Model reasoning không đặt temperature → kết quả có dao động giữa các lần chạy (qn03 với prompt v2: abstain ở A1, A2, A3b).
+- **Chọn A3b** (theo tiêu chí v2): pass 25/25 = A2 (không thấp hơn), Context Evidence Rate 22/22 > 21/22. Ràng buộc: false abstention 0/22, chi phí ≤ $0.002/câu, 0 lỗi.

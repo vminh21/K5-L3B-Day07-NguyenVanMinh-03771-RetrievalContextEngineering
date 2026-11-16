@@ -105,5 +105,19 @@ class TestFilter(unittest.TestCase):
         self.assertFalse(matches(CHUNKS[0], {"chapter": "Chapter II"}))
 
 
+
+class TestHybridDedup(unittest.TestCase):
+    def test_identical_text_counted_once(self):
+        dup = dict(CHUNKS[0], id="c1b")  # same text as c1, different ID (Day 6 duplicate)
+        chunks = CHUNKS + [dup]
+        dense = DenseRetriever(embedder=FakeEmbedder(), chunks=chunks,
+                               store=FakeStore([{"chunk_id": "c1b", "score": 0.9}, {"chunk_id": "c1", "score": 0.9},
+                                                {"chunk_id": "c3", "score": 0.5}]))
+        h = HybridRRFRetriever(dense=dense, lexical=BM25Retriever(chunks=chunks), dedup_text=True, pool=5)
+        ids = [x["id"] for x in h.search("history class struggles", top_k=5)]
+        self.assertEqual(ids.count("c1") + ids.count("c1b"), 1)
+        self.assertIn("c1", ids)  # canonical = smallest ID
+
+
 if __name__ == "__main__":
     unittest.main()

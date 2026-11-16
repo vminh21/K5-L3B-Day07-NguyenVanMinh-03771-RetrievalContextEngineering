@@ -55,17 +55,19 @@ def main() -> int:
     ap.add_argument("--use-filter", action="store_true")
     ap.add_argument("--neighbors", action="store_true")
     ap.add_argument("--overflow", default="skip", choices=["skip", "truncate"])
+    ap.add_argument("--dedup-text", action="store_true", help="hybrid only: merge identical-text chunks")
+    ap.add_argument("--questions", type=Path, default=QUESTIONS)
     ap.add_argument("--config", help="results folder name (default derived from options)")
     a = ap.parse_args()
 
-    questions = [q for q in json.loads(QUESTIONS.read_text(encoding="utf-8")) if q["split"] == a.split]
+    questions = [q for q in json.loads(a.questions.read_text(encoding="utf-8")) if q["split"] == a.split]
     questions = [q for q in questions if q.get("gold")]  # answerable only
     name = a.config or f"{a.method}_k{a.top_k}_b{a.budget}" + ("_filter" if a.use_filter else "") + \
-        ("_nb" if a.neighbors else "") + ("_trunc" if a.overflow == "truncate" else "")
+        ("_nb" if a.neighbors else "") + ("_trunc" if a.overflow == "truncate" else "") + ("_dd" if a.dedup_text else "")
     out_dir = Path("results/retrieval") / name / a.split
 
     t0 = time.perf_counter()
-    retriever = build(a.method)
+    retriever = build(a.method, **({"dedup_text": True} if a.dedup_text else {}))
     init_s = time.perf_counter() - t0
     packer = ContextPacker(budget_chars=a.budget, neighbors=a.neighbors, overflow=a.overflow)
     depth = max(10, a.top_k)  # rank list for Hit@1/3 and MRR@10
@@ -117,7 +119,7 @@ def main() -> int:
         "median_latency_ms": round(statistics.median(lat), 1) if lat else None,
         "init_seconds": round(init_s, 2), "bm25_index_seconds": round(getattr(getattr(retriever, "lexical", retriever), "index_seconds", 0) or 0, 4),
         "cost_usd": 0.0, "cost_note": "local only: Ollama embeddinggemma + Postgres; no API calls",
-        "timestamp": time.strftime("%Y-%m-%dT%H:%M:%S"),
+        "questions_file": str(a.questions), "timestamp": time.strftime("%Y-%m-%dT%H:%M:%S"),
     }
     out_dir.mkdir(parents=True, exist_ok=True)
     (out_dir / "summary.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

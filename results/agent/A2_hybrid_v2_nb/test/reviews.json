@@ -1,0 +1,63 @@
+[
+  {
+    "query_id": "t01",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "'two whole months' — p39 chunk contains it. Correct and complete; cited chunk contains the gold evidence (checked against chunk text)."
+  },
+  {
+    "query_id": "t02",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Sismondi, France and England — p24. Correct and complete; cited chunk contains the gold evidence (checked against chunk text)."
+  },
+  {
+    "query_id": "t03",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Both parts answered; p16. Extra 'monopolised social power' paraphrase is in the same chunk."
+  },
+  {
+    "query_id": "t04",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "1887, Constantinople, publisher lacked courage, translator refused to present it as his own — all in p40 chunk."
+  },
+  {
+    "query_id": "t05",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "'the holy water' used by the priest to consecrate the aristocrat's grievances — p23 gold chunk."
+  },
+  {
+    "query_id": "t06",
+    "answer_grade": 1,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "PARTIAL. Correct: began 1864 (Sept 28, 1864) and the 'eternal union … still alive' claim, both in p41 chunks …4c2ec7/…2d6d9b (identical duplicate chunks from Day 6 ingestion). Wrong/missing: end year given as '(1873)' — model arithmetic from 'lived only nine years'; the document says dissolution in 1874 (p37, p41). The asked change ('quite different / altogether different' workers) is missing. Retrieved context contained neither valid evidence passage (gold at hybrid rank 10); agent should have abstained or searched better."
+  },
+  {
+    "query_id": "tn01",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Abstained after 2 searches."
+  },
+  {
+    "query_id": "tn02",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Abstained after 3 searches."
+  }
+]

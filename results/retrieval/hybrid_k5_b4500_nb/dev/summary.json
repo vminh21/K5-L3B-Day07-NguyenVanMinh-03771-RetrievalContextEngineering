@@ -8,7 +8,8 @@
     "components": [
       "dense",
       "bm25"
-    ]
+    ],
+    "dedup_text": false
   },
   "top_k_context": 5,
   "context": {
@@ -41,10 +42,11 @@
   },
   "mrr@10": 0.852,
   "errors": 0,
-  "median_latency_ms": 39.9,
-  "init_seconds": 0.16,
-  "bm25_index_seconds": 0.0056,
+  "median_latency_ms": 44.1,
+  "init_seconds": 1.23,
+  "bm25_index_seconds": 0.0103,
   "cost_usd": 0.0,
   "cost_note": "local only: Ollama embeddinggemma + Postgres; no API calls",
-  "timestamp": "2026-11-16T11:16:03"
+  "questions_file": "data/day7/questions.json",
+  "timestamp": "2026-11-16T11:38:10"
 }

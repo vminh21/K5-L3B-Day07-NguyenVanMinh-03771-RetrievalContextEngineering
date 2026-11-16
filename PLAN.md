@@ -100,14 +100,20 @@
    docker compose -p day6_student_starter up -d --wait
    ollama list    # phải thấy embeddinggemma
    ```
-2. Tạo venv Python 3.11+ cho Day 7, cài: `psycopg[binary]`, `python-dotenv`, `rank-bm25` (hoặc tự viết BM25), `sentence-transformers` (nếu dùng cross-encoder rerank), SDK của LLM bạn chọn.
+2. Tạo venv Python 3.12 cho Day 7 (`.venv`), cài: `psycopg[binary]`, `python-dotenv`, `rank-bm25`, `openai` (SDK cho model API đã chọn — xem `requirements.txt`).
 3. Tạo `.env` (đã nằm trong `.gitignore`) + `.env.example` (không có giá trị thật):
    ```
    DATABASE_URL=postgresql://day6:...@127.0.0.1:55433/day6_lab
-   OLLAMA_BASE_URL=http://localhost:11434
+   DAY6_STRATEGY=B
+   OLLAMA_BASE_URL=http://localhost:11434     # chỉ dùng cho embedding (embeddinggemma), không dùng cho LLM
    EMBEDDING_MODEL=embeddinggemma
-   LLM_PROVIDER=ollama|openai|gemini|anthropic
-   LLM_MODEL=...
+   LLM_PROVIDER=openai                        # ĐÃ CHỌN: model API, không dùng LLM local
+   LLM_MODEL=gpt-5.6-luna
+   OPENAI_API_KEY=...                         # chỉ trong .env, không commit
+   MAX_COST_USD=1.0                           # trần chi phí API (cộng dồn mọi lần chạy)
+   LLM_PRICE_IN_PER_M=0.20                    # $/1M token input (giá tham khảo bên thứ ba, cần đối chiếu trang giá OpenAI)
+   LLM_PRICE_OUT_PER_M=1.20                   # $/1M token output (gồm reasoning token)
+   LLM_REASONING_EFFORT=low
    ```
 4. Copy `store.py` và `embeddings.py` từ Day 6 sang `src/` (hoặc import qua path).
 5. Chạy `python3 -m unittest discover -s tests -v` → tất cả pass.
@@ -271,12 +277,15 @@ Mẫu bảng (đưa thẳng vào báo cáo):
 
 **Mục tiêu:** Model thật quyết định gọi tool, số lượt, khi nào dừng; trả lời có citation hoặc từ chối.
 
-**Chọn model** (ghi tên + phiên bản + provider vào báo cáo):
-- Local: `qwen3:1.7b` đang có nhưng **yếu cho tool calling** → khuyến nghị `ollama pull qwen3:8b` (hoặc `llama3.1:8b`).
-- API (nếu có key, có thể miễn phí/rẻ): Gemini Flash, GPT-4o-mini, Claude Haiku… Ghi chi phí token.
+**Model đã chọn: API `gpt-5.6-luna` (OpenAI)** — ghi tên + provider + giá vào báo cáo.
+- Lý do: rẻ nhất dòng GPT-5.6 (~$0.20 / $1.20 mỗi 1M token input/output theo nguồn bên thứ ba — đối chiếu trang giá OpenAI), hỗ trợ tool calling; corpus chỉ ~30k token tiếng Anh nên model nhỏ là đủ. Đã cân nhắc và **không dùng**: `qwen3:1.7b` local (yếu tool calling), GPT-4o mini (cũ, có tin sẽ ngừng API 14/01/2027).
+- ⚠️ `gpt-5.6-luna` **chỉ nhận function tools qua Responses API** (`client.responses.create`); `/v1/chat/completions` trả lỗi 400.
+- Cấu hình gọi: `reasoning.effort = low`, `max_output_tokens = 1500`, `tool_choice = required`, không đặt `temperature` (model reasoning).
+- Kiểm soát chi phí: mọi lần gọi ghi vào `results/cost_ledger.jsonl`; trước mỗi lần gọi kiểm tra tổng đã tiêu với `MAX_COST_USD` (mặc định $1) → vượt trần thì dừng với `status: "error"`.
+- Kiểm tra key + model + 1 tool call: `python -m src.check_llm`.
 
-**Thiết kế agent** (`src/llm.py` + `src/run_agent.py`, dựa trên `starter/agentic.py`)
-1. Tool(s): `search(query: str, top_k?: int)` gọi retriever của cấu hình đang chạy. (Có thể thêm `keyword_search`, `get_neighbor_chunk`, `filter_by_chapter`.)
+**Thiết kế agent** (`src/llm.py` + `src/agent.py` + `src/run_agent.py`, dựa trên `starter/agentic.py`)
+1. Tool(s): `search(query)` gọi retriever của cấu hình đang chạy (filter = filter người dùng nếu có) và `final_answer(answer, citations, abstain)` để kết thúc. Chunk được đưa cho model với nhãn ngắn `[S1]`, `[S2]`… rồi đổi lại thành chunk ID thật trong trace.
 2. System prompt bắt buộc có:
    - Chỉ trả lời dựa trên context; mỗi khẳng định phải có `[chunk-id]`.
    - Nếu không đủ bằng chứng → trả lời "Không đủ bằng chứng" (abstain).
@@ -285,7 +294,7 @@ Mẫu bảng (đưa thẳng vào báo cáo):
 4. Điều kiện dừng: model trả answer, hoặc đạt `max_searches` (vd. 3–4; ghi lý do chọn), hoặc citation không hợp lệ → abstain.
 5. Trace mỗi câu (format tương thích `agent_metrics.py`):
    ```json
-   {"query_id":"d01","config":"hybrid_rrf","model":"qwen3:8b","status":"answered|abstain|error",
+   {"query_id":"q01","config":"A2_hybrid_v2_nb","model":"gpt-5.6-luna","status":"answered|abstain|error",
     "events":[{"event":"search","tool":"hybrid","query":"...","filter":null,"results":[...],"context_ids":[...],"elapsed_ms":...}],
     "context":"...","answer":"...","citations":["..."],"n_llm_calls":3,"tokens_in":...,"tokens_out":...,
     "elapsed_ms":...,"cost_usd":0,"error":null}
@@ -301,7 +310,7 @@ Mẫu bảng (đưa thẳng vào báo cáo):
 - ❌ `run_agent.py` chỉ nhận `id`, `question`, `filter` (do người dùng cung cấp). **Tuyệt đối không truyền** `gold` / `expected_answer`.
 - ❌ Không dùng mock controller để báo kết quả benchmark.
 - ⚠️ Không có giới hạn lượt gọi bắt buộc, nhưng phải ghi lý do chọn và đo tác động đến chất lượng/thời gian/chi phí.
-- ⚠️ Lưu `temperature` (nên = 0) và seed nếu có, để tái lập.
+- ⚠️ Để tái lập: lưu model, `reasoning.effort`, `max_output_tokens`, phiên bản prompt (`v1`/`v2`) trong `summary.json`. `gpt-5.6-luna` là model reasoning nên không đặt `temperature`/seed → kết quả có thể dao động giữa các lần chạy; ghi điều này trong phần giới hạn.
 
 ---
 
@@ -340,7 +349,7 @@ Mẫu bảng (đưa thẳng vào báo cáo):
 
 ## BƯỚC 9 — Đánh giá TEST (≈ 3:30–3:50)
 
-**Mục tiêu:** Chạy **baseline (dense) và cấu hình đã chọn** trên cùng test, một lần.
+**Mục tiêu:** Chạy **baseline và cấu hình đã chọn** trên cùng test, một lần — retrieval: M1 dense vs hybrid + neighbours; agent (gpt-5.6-luna): A0 vs A2 (theo `configs/selected.json`).
 
 **Việc cần làm**
 1. Retrieval test: `eval_retrieval.py --split test` cho baseline + selected → Hit@1, Hit@3, Context Evidence Rate.
@@ -364,9 +373,9 @@ Mẫu bảng (đưa thẳng vào báo cáo):
    (lặp lại cho baseline)
 
 **Checkpoint 9 — xong khi:**
-- [ ] Có metrics test cho **cả baseline và selected**: Tool use, số lượt gọi (phân bố), Grounded 0/1/2 + trung bình /2, Citation hợp lệ `n/N`, câu có citation, Abstention đúng, Từ chối nhầm.
-- [ ] Đã đọc ≥5 câu có đáp án + ≥2 câu thiếu evidence, mỗi câu có nhãn + lý do.
-- [ ] Lỗi provider/vector store báo riêng.
+- [x] Có metrics test cho **cả baseline và selected**: Tool use, số lượt gọi (phân bố), Grounded 0/1/2 + trung bình /2, Citation hợp lệ `n/N`, câu có citation, Abstention đúng, Từ chối nhầm. (`results/test_results.md`)
+- [x] Đã đọc ≥5 câu có đáp án + ≥2 câu thiếu evidence, mỗi câu có nhãn + lý do. (6+2 cho cả A0, A2; context 6 câu × 2 cấu hình)
+- [x] Lỗi provider/vector store báo riêng. (A2 lần 1: DNS/APIConnectionError, giữ trace)
 
 **Rules / lưu ý**
 - ❌ Không chạy test nhiều lần rồi chọn lần tốt nhất.

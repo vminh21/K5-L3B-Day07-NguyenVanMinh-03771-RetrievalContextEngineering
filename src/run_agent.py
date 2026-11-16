@@ -20,9 +20,9 @@ from src.retrievers import RetrievalError, build
 CASES = Path("data/day7/cases.json")
 
 
-def load_inputs(split: str) -> list[dict]:
+def load_inputs(split: str, cases_path: Path = CASES) -> list[dict]:
     """Strip everything except what a real user would send: id, question, filter."""
-    rows = [c for c in json.loads(CASES.read_text(encoding="utf-8")) if c["split"] == split]
+    rows = [c for c in json.loads(cases_path.read_text(encoding="utf-8")) if c["split"] == split]
     return [{"id": c["id"], "question": c["question"], "filter": c.get("filter")} for c in rows]
 
 
@@ -37,22 +37,25 @@ def main() -> int:
     ap.add_argument("--budget", type=int, default=6000)
     ap.add_argument("--per-search-budget", type=int, default=3000)
     ap.add_argument("--neighbors", action="store_true")
-    ap.add_argument("--prompt", default="v1", choices=["v1", "v2"])
+    ap.add_argument("--prompt", default="v1", choices=["v1", "v2", "v3"])
+    ap.add_argument("--dedup-text", action="store_true")
+    ap.add_argument("--cases", type=Path, default=CASES)
+    ap.add_argument("--out-split", help="results subfolder name (default = split), e.g. test_v2")
     ap.add_argument("--no-filter", action="store_true", help="ignore the user-supplied filter")
     a = ap.parse_args()
 
-    cases = load_inputs(a.split)
+    cases = load_inputs(a.split, a.cases)
     if a.ids:
         want = set(a.ids.split(","))
         cases = [c for c in cases if c["id"] in want]
     name = a.config or f"agent_{a.method}_k{a.top_k}_s{a.max_searches}"
-    out_dir = Path("results/agent") / name / a.split
+    out_dir = Path("results/agent") / name / (a.out_split or a.split)
     out_dir.mkdir(parents=True, exist_ok=True)
 
     ledger = CostLedger()
     print(f"spent so far ${ledger.spent():.4f} / cap ${ledger.cap:.2f}")
     try:
-        retriever = build(a.method)
+        retriever = build(a.method, **({"dedup_text": True} if a.dedup_text else {}))
         agent = Agent(retriever, LLM(ledger=ledger), top_k=a.top_k, max_searches=a.max_searches,
                       budget_chars=a.budget, per_search_budget=a.per_search_budget, neighbors=a.neighbors,
                       prompt=a.prompt)
@@ -78,7 +81,7 @@ def main() -> int:
     tr = list(traces.values())
     ok = [t for t in tr if t["status"] != "error"]
     summary = {
-        "config": name, "split": a.split, "agent": agent.params if agent else None, "n_cases": len(tr),
+        "config": name, "split": a.split, "cases_file": str(a.cases), "agent": agent.params if agent else None, "n_cases": len(tr),
         "status": {s: sum(t["status"] == s for t in tr) for s in ("answered", "abstain", "error")},
         "tool_use": f"{sum(any(e['event']=='search' for e in t['events']) for t in ok)}/{len(ok)}",
         "avg_searches": round(statistics.mean(sum(e['event'] == 'search' for e in t['events']) for t in ok), 2) if ok else None,

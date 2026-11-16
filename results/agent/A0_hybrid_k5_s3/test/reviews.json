@@ -1,0 +1,63 @@
+[
+  {
+    "query_id": "t01",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "'two whole months' — p39 chunk contains it. Correct and complete; cited chunk contains the gold evidence (checked against chunk text)."
+  },
+  {
+    "query_id": "t02",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Sismondi, France and England — p24. Correct and complete; cited chunk contains the gold evidence (checked against chunk text)."
+  },
+  {
+    "query_id": "t03",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Both parts answered; p16. Extra 'monopolised social power' paraphrase is in the same chunk."
+  },
+  {
+    "query_id": "t04",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "1887, Constantinople, publisher lacked courage, translator declined — all in p40 chunk."
+  },
+  {
+    "query_id": "t05",
+    "answer_grade": 2,
+    "citation_support": [
+      true
+    ],
+    "reason": "Gives the 'holy water … heart-burnings of the aristocrat' description plus surrounding p23 description (same chunk)."
+  },
+  {
+    "query_id": "t06",
+    "answer_grade": 2,
+    "citation_support": [
+      true,
+      true
+    ],
+    "reason": "1864 → 1874, workers 'quite different'. p37 = gold. p41 …b1a3da ('The working class of 1874, at the dissolution of the International, was altogether different from that of 1864') is valid alternative evidence from the 1890 preface that the frozen gold did not list — not added to gold after seeing test; noted as benchmark limitation."
+  },
+  {
+    "query_id": "tn01",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Abstained after 3 searches; no suffrage/vote/franchise anywhere (absence_reason)."
+  },
+  {
+    "query_id": "tn02",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Abstained after 2 searches; no print-run figure in the document."
+  }
+]

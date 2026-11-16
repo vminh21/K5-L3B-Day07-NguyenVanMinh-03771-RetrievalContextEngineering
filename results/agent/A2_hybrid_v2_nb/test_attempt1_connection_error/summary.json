@@ -1,0 +1,81 @@
+{
+  "config": "A2_hybrid_v2_nb",
+  "split": "test",
+  "agent": {
+    "retriever": "hybrid_rrf",
+    "retriever_params": {
+      "rrf_k": 60,
+      "candidate_pool": 20,
+      "components": [
+        "dense",
+        "bm25"
+      ]
+    },
+    "top_k": 5,
+    "max_searches": 3,
+    "budget_chars": 9000,
+    "per_search_budget_chars": 4500,
+    "neighbors": true,
+    "prompt": "v2",
+    "llm": {
+      "provider": "openai (Responses API)",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "low",
+      "max_output_tokens": 1500,
+      "temperature": "not set (reasoning model)",
+      "price_per_1M": [
+        0.2,
+        1.2
+      ],
+      "max_cost_usd": 1.0
+    }
+  },
+  "n_cases": 8,
+  "status": {
+    "answered": 0,
+    "abstain": 0,
+    "error": 8
+  },
+  "tool_use": "0/0",
+  "avg_searches": null,
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "cost_usd": 0.0,
+  "median_latency_ms": null,
+  "errors": [
+    {
+      "query_id": "t01",
+      "error": "APIConnectionError: Connection error."
+    },
+    {
+      "query_id": "t02",
+      "error": "APIConnectionError: Connection error."
+    },
+    {
+      "query_id": "t03",
+      "error": "APIConnectionError: Connection error."
+    },
+    {
+      "query_id": "t04",
+      "error": "APIConnectionError: Connection error."
+    },
+    {
+      "query_id": "t05",
+      "error": "APIConnectionError: Connection error."
+    },
+    {
+      "query_id": "t06",
+      "error": "APIConnectionError: Connection error."
+    },
+    {
+      "query_id": "tn01",
+      "error": "APIConnectionError: Connection error."
+    },
+    {
+      "query_id": "tn02",
+      "error": "APIConnectionError: Connection error."
+    }
+  ],
+  "note": "answer quality / citation support / abstention correctness are labelled manually in reviews.json",
+  "timestamp": "2026-11-16T11:24:53"
+}

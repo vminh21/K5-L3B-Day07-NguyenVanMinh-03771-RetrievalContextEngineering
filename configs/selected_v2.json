@@ -1,0 +1,51 @@
+{
+  "selected": "A3b_hybrid_v2_k8_nb_dd",
+  "round": 2,
+  "chosen_on": "dev only",
+  "criteria": "configs/selected_criteria_v2.md (commit b97e76a)",
+  "evaluated_on": "test v2 (data/day7/test_v2, commit b62fa16) — test v1 no longer independent for this config",
+  "retrieval": {
+    "method": "hybrid_rrf",
+    "components": [
+      "dense pgvector Day 6 (strategy B, embeddinggemma 768-d, cosine)",
+      "bm25 (k1=1.5,b=0.75)"
+    ],
+    "rrf_k": 60,
+    "candidate_pool": 20,
+    "top_k": 8,
+    "dedup_text": true,
+    "filter": "user-supplied question filter if present",
+    "reranker": null
+  },
+  "context": {
+    "neighbors": true,
+    "per_search_budget_chars": 6000,
+    "total_budget_chars": 12000,
+    "dedup": "chunk id + identical text",
+    "overflow": "skip"
+  },
+  "agent": {
+    "max_searches": 3,
+    "prompt": "v2",
+    "llm": {
+      "provider": "openai (Responses API)",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "low",
+      "max_output_tokens": 1500,
+      "temperature": "not set (reasoning model)",
+      "price_per_1M": [
+        0.2,
+        1.2
+      ],
+      "max_cost_usd": 1.0
+    }
+  },
+  "run_command": "python -m src.run_agent --split test --cases data/day7/test_v2/cases.json --out-split test_v2 --method hybrid --prompt v2 --neighbors --dedup-text --top-k 8 --per-search-budget 6000 --budget 12000 --config A3b_hybrid_v2_k8_nb_dd",
+  "also_run_on_test_v2": {
+    "A0_hybrid_k5_s3": "python -m src.run_agent --split test --cases data/day7/test_v2/cases.json --out-split test_v2 --method hybrid --config A0_hybrid_k5_s3",
+    "A2_hybrid_v2_nb": "python -m src.run_agent --split test --cases data/day7/test_v2/cases.json --out-split test_v2 --method hybrid --prompt v2 --neighbors --per-search-budget 4500 --budget 9000 --config A2_hybrid_v2_nb"
+  },
+  "rejected": {
+    "A3_hybrid_v3_k8_nb_dd": "prompt v3 regressed abstention on dev (2/3)"
+  }
+}
